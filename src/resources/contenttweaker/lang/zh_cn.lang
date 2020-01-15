@@ -24,6 +24,11 @@ item.contenttweaker.ember_diode.name=灰烬能量二极管
 item.contenttweaker.ember_triode.name=灰烬能量三极管
 item.contenttweaker.advanced_alchemy_knowledge.name=高阶炼金学知识
 item.contenttweaker.apple_seed.name=苹果籽
+item.contenttweaker.stamp_pickaxe.name=镐头模具
+item.contenttweaker.stamp_axe.name=斧头模具
+item.contenttweaker.stamp_sword.name=剑刃模具
+item.contenttweaker.stamp_shovel.name=铲头模具
+item.contenttweaker.stamp_hoe.name=锄头模具
 
 fluid.aquae_cinere=灰烬水
 fluid.corrosive_liquid=腐蚀性液体

@@ -63,6 +63,18 @@ function initToolRecipes(){
     }
 }
 
+function initStampRecipes(){
+    for part in partTypes{
+        DawnstoneAnvil.add([itemUtils.getItem("contenttweaker:stamp_"+part)],<embers:stamp_flat>,oreDict[part+"PartIron"]);
+    }
+}
+
+function initPlateRecipes(){
+    for i, mats in plateMaterialArray{
+        DawnstoneAnvil.add([plateArray[i]], mats, null);
+    }
+}
+
 
 /*
 function initToolRecipes(){
@@ -75,8 +87,7 @@ function initToolRecipes(){
 }
 */
 function init(){
-    for i, mats in plateMaterialArray{
-        DawnstoneAnvil.add([plateArray[i]], mats, null);
-    }
+    initPlateRecipes();
     initToolRecipes();
+    initStampRecipes();
 }

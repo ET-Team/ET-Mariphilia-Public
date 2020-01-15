@@ -3,7 +3,7 @@ import mods.ItemStages.addItemStage;
 static stagedMods as string[][string] = {
     "one" : ["aquaculture","betterbuilderswands","fastfurnace","fastbench","inspirations","jaff","morecauldrons","waterstrainer","wopper"],
     "two" : ["chisel","mekanism","modularmachinery","modulardiversity","openblocks","stevescarts"],
-    "three" : ["appliedenergistics2","bigreactors"],
+    "three" : ["appliedenergistics2","bigreactors","woot"],
     "four" : ["avaritia","fishaxe"]
 };
 
