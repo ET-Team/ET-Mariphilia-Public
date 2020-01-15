@@ -1,0 +1,10 @@
+[
+    {
+      "maxheight" : 100,
+      "mob": ["minecraft:bat"],
+      "result": "deny"
+    },
+    {
+      "result": "default"
+    }
+  ]

@@ -1,0 +1,8 @@
+#priority -100
+import crafttweaker.item.IItemStack;
+
+<minecraft:bow> : [
+        [null,<ore:stickWood>,<ore:string>],
+        [<ore:stickWood>,null,<ore:string>],
+        [null,<ore:stickWood>,<ore:string>],
+    ]

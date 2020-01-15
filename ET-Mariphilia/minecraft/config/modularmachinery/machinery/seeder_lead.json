@@ -1,0 +1,38 @@
+{
+    "registryname": "seeder_lead",
+    "localizedname": "强化灰烬能量灌注器",
+    "color":"B4A889",
+    "parts": [
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "embers:seed_lead@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "embers:ember_injector@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "modulardiversity:blockemberinputhatch@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus@0"
+            ]
+        }
+    ]}

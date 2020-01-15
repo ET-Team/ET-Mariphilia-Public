@@ -1,0 +1,45 @@
+/*
+    这个文档为添加配方的标准模板，所有ETM修改原版配方脚本都应在此基础上编写
+*/
+
+#priority -700
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+val stageName as string = ""; //设立阶段名以供之后调用
+
+//仅添加
+
+//有序合成
+    val shapedRecipes as IIngredient[][][IItemStack] = {
+        
+    };
+
+//镜像合成
+    val mirroredRecipes as IIngredient[][][IItemStack] = {
+        
+    };
+
+//无序合成
+    val shapelessRecipes as IIngredient[][IItemStack] = {
+        
+    };
+
+//添加配方
+function initRegularRecipes(){
+    recipeUtil.addShapedRecipes(stageName, shapedRecipes);
+    recipeUtil.addMirroredRecipes(stageName, mirroredRecipes);
+    recipeUtil.addShapelessRecipes(stageName, shapelessRecipes);
+}
+
+//阶段特别配方
+function initStageRecipes(){
+    
+
+}
+
+function init(){
+    logUtil.logInfo("Initializing recipes for stage "+stageName);
+    initRegularRecipes();
+    initStageRecipes();
+}

@@ -1,0 +1,24 @@
+setSpawnStructure("initial_ship", 58)
+
+//Creates a new LayerGenerator and saves it as a variable
+layers = new LayerGenerator()
+
+//Adds a layer of bedrock in y 0
+layers.addLayer(0~0, <minecraft:bedrock>)
+
+layers.addLayer(1~3, <minecraft:sand>)
+
+//Adds a layer of water from y 1 to y 60
+layers.addLayer(4~60, <minecraft:water>)
+setSingleBiome("minecraft:ocean")
+sand = new ScatteredBlockGenerator(<minecraft:sand>, 5, 16)
+sand.addRequiredBlock(<minecraft:sand>)
+addGenerator(sand)
+
+
+sand2 = new ScatteredBlockGenerator(<minecraft:sand>, 5, 16)
+sand2.addRequiredBlock(<minecraft:sand>)
+addGenerator(sand2)
+
+//Adds the layer generator to the dimension
+addGenerator(layers)
