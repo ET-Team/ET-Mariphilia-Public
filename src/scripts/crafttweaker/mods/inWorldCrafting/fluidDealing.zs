@@ -7,7 +7,8 @@ import crafttweaker.liquid.ILiquidStack;
 static corrosive as ILiquidStack = <fluid:corrosive_liquid>;
 
 static generalRecipes as IIngredient[][IItemStack][ILiquidStack] = {
-    <fluid:aquae_cinere> : {<item:embers:blend_caminite>.withAmount(paramBlendedCaminiteAmountFromIWC) : [<item:minecraft:clay_ball>, <item:minecraft:dye:15>, <item:contenttweaker:handfulsand>]}
+    <fluid:aquae_cinere> : {<item:embers:blend_caminite>.withAmount(paramBlendedCaminiteAmountFromIWC) : [<item:minecraft:clay_ball>, <item:minecraft:dye:15>, <item:contenttweaker:handfulsand>]},
+    <fluid:corrosive_liquid> : {<item:embers:archaic_brick> : [<embers:brick_caminite>]}
 };
 
 static corrosingRecipes as IIngredient[][IItemStack] = {

@@ -28,29 +28,6 @@ function buildPlainItem(name as string){
 	buildItem(name, 64, "COMMON", false);
 }
 
-function buildToolParts(materialName as string){
-	val typeList as string[] = ["sword","axe","hoe","pickaxe","shovel"];
-	for partName in typeList{
-		buildPlainItem("part_"+partName+"_"+materialName);
-	}
-}
-
-static materials as string[] = [
-	"iron",
-	"copper",
-	"tin",
-	"lead",
-	"bronze",
-	"dawnstone", 
-	"gold",
-	"aluminum",
-	"nickel",
-	"silver",
-	"electrum",
-	"certus_quartz",
-	"nether_quartz"
-];
-
 static plainItemList as string[] = [
 	"solidified_ash",
 	"ash_string",
@@ -78,9 +55,16 @@ static plainItemList as string[] = [
 ];
 
 
+function buildStamps(){
+	val typeList as string[] = ["sword","axe","hoe","pickaxe","shovel"];
+	for partName in typeList{
+		buildPlainItem("stamp_"+partName);
+	}
+}
 
 function init(){
 	for item in plainItemList{
 		buildPlainItem(item);
 	}
+	buildStamps();
 }

@@ -18,6 +18,12 @@ global recipeBasicNet as IIngredient[][] = [
     [<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
 ];
 
+global recipeDawnstoneAnvil as IIngredient[][] = [
+    [<ore:plateDawnstone>,<ore:plateDawnstone>,<ore:plateDawnstone>],
+    [null,<ore:ingotDawnstone>,null],
+    [<embers:block_caminite_brick_slab>,<ore:blockDawnstone>,<embers:block_caminite_brick_slab>]
+];
+
 global paramPlankAmountFromLog as int = 5;
 global paramFiberAmountFromSeaweedBadSword as int = 2;
 global paramFiberAmountFromSeaweedGoodSword as int = 4;

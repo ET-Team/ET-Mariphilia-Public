@@ -12,7 +12,7 @@
   "manifestVersion": 1,
   "name": "ET Mariphilia",
   "version": "0.1.2a",
-  "author": "dong031001",
+  "author": "dong031001，Tuna5544，ChromaPIE",
   "files": [
     {
       "projectID": 285742,
@@ -480,5 +480,5 @@
       "required": true
     }
   ],
-  "overrides": "overrides"
+  "overrides": "src"
 }

@@ -220,19 +220,19 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<embers:block_caminite_brick_slab>,<ore:blockCopper>,<embers:block_caminite_brick_slab>]
     ],
     <embers:stamp_bar_raw> : [
+        [<embers:tinker_hammer>.reuse()],
+        [<contenttweaker:ash_ingot>],
+        [<embers:stamp_flat_raw>]
+    ],
+    <embers:stamp_plate_raw> : [
+        [<embers:tinker_hammer>.reuse()],
+        [<contenttweaker:compact_ash>],
+        [<embers:stamp_flat_raw>]
+    ],
+    <embers:stamp_flat_raw> : [
         [null,<embers:blend_caminite>,null],
         [<embers:blend_caminite>,null,<embers:blend_caminite>],
         [null,<embers:blend_caminite>,null]
-    ],
-    <embers:stamp_plate_raw> : [
-        [<embers:blend_caminite>,null,<embers:blend_caminite>],
-        [null,null,null],
-        [<embers:blend_caminite>,null,<embers:blend_caminite>]
-    ],
-    <embers:stamp_flat_raw> : [
-        [<embers:blend_caminite>,<embers:blend_caminite>,<embers:blend_caminite>],
-        [<embers:blend_caminite>,null,<embers:blend_caminite>],
-        [<embers:blend_caminite>,<embers:blend_caminite>,<embers:blend_caminite>]
     ],
     <embers:beam_cannon> : [
         [null,<embers:ember_pulser>,null],
@@ -329,11 +329,9 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:charcoal>],
         [<ore:stickWood>]
     ],
-    <embers:dawnstone_anvil> : [
-        [<ore:blockDawnstone>,<ore:blockDawnstone>,<ore:blockDawnstone>],
-        [null,<ore:ingotDawnstone>,null],
-        [<embers:block_caminite_brick_slab>,<embers:block_caminite_brick_slab>,<embers:block_caminite_brick_slab>]
-    ],
+
+    <embers:dawnstone_anvil> : recipeDawnstoneAnvil,
+
     <minecraft:glass_pane>*6 : [
         [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
         [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>]
@@ -387,9 +385,17 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<embers:wall_caminite_brick>,<embers:wall_caminite_brick>,<embers:wall_caminite_brick>],
         [<embers:wall_caminite_brick>,null,<embers:wall_caminite_brick>],
         [<embers:wall_caminite_brick>,<embers:wall_caminite_brick>,<embers:wall_caminite_brick>]
+    ],
+    <embers:charger> : [
+        [<ore:plateLead>,<ore:plateLead>,<ore:plateLead>],
+        [<ore:ingotCopper>,<item:embers:crystal_ember>,<ore:ingotCopper>],
+        [<ore:plateCopper>,<ore:plateCopper>,<ore:plateCopper>]
+    ],
+    <embers:ember_funnel> : [
+        [<ore:plateDawnstone>,<ore:blockBronze>,<ore:plateDawnstone>],
+        [<ore:plateDawnstone>,<embers:copper_cell>,<ore:plateDawnstone>],
+        [null,<item:minecraft:hopper>,null]
     ]
-
-
 };
 
 //镜像合成
@@ -462,9 +468,9 @@ static mirroredRecipes as IIngredient[][][IItemStack] = {
         [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
     ],
     <item:embers:codex> : [
-        [null,<item:embers:block_caminite_brick>,null],
-        [<item:embers:block_caminite_brick>,<item:contenttweaker:ash_ingot>,<item:embers:block_caminite_brick>],
-        [null,<item:embers:block_caminite_brick>,null]
+        [null,<embers:archaic_brick>,null],
+        [<embers:archaic_brick>,<item:contenttweaker:ash_ingot>,<embers:archaic_brick>],
+        [null,<embers:archaic_brick>,null]
     ],
     <item:minecraft:book> : [
         [<ore:etmString>,<item:embers:ashen_cloth>],
@@ -561,34 +567,37 @@ function initStageRecipes(){
             [nugget,nugget,nugget],
             [nugget,nugget,nugget]
         ]);
-        addShaped(stageName, oreDict.get("pickaxePart"+metal).firstItem.withAmount(paramToolPartAmount), [
-            [ingot,ingot,plate],
-            [null,null,ingot],
-            [null,null,ingot]
-        ]);
-        addShaped(stageName, oreDict.get("axePart"+metal).firstItem.withAmount(paramToolPartAmount), [
-            [null,ingot,plate],
-            [null,ingot,plate],
-            [null,ingot,null]
-        ]);
-        addShaped(stageName, oreDict.get("hoePart"+metal).firstItem.withAmount(paramToolPartAmount), [
-            [ingot,plate,ingot],
-            [null,null,ingot]
-        ]);
-        addShaped(stageName, oreDict.get("swordPart"+metal).firstItem.withAmount(paramToolPartAmount), [
-            [null,ingot,null],
-            [ingot,plate,ingot],
-            [ingot,plate,ingot]
-        ]);
-        addShaped(stageName, oreDict.get("shovelPart"+metal).firstItem.withAmount(paramToolPartAmount), [
-            [plate,plate],
-            [ingot,ingot]
-        ]);
+        if(metal=="Iron"){
+            addShaped(stageName, oreDict.get("pickaxePart"+metal).firstItem.withAmount(paramToolPartAmount), [
+                [ingot,ingot,plate],
+                [null,null,ingot],
+                [null,null,ingot]
+            ]);
+            addShaped(stageName, oreDict.get("axePart"+metal).firstItem.withAmount(paramToolPartAmount), [
+                [null,ingot,plate],
+                [null,ingot,plate],
+                [null,ingot,null]
+            ]);
+            addShaped(stageName, oreDict.get("hoePart"+metal).firstItem.withAmount(paramToolPartAmount), [
+                [ingot,plate,ingot],
+                [null,null,ingot]
+            ]);
+            addShaped(stageName, oreDict.get("swordPart"+metal).firstItem.withAmount(paramToolPartAmount), [
+                [null,ingot,null],
+                [ingot,plate,ingot],
+                [ingot,plate,ingot]
+            ]);
+            addShaped(stageName, oreDict.get("shovelPart"+metal).firstItem.withAmount(paramToolPartAmount), [
+                [plate,plate],
+                [ingot,ingot]
+            ]);
+        }
         addShaped(stageName, oreDict.get("block"+metal).firstItem, [
             [ingot,ingot,ingot],
             [ingot,ingot,ingot],
             [ingot,ingot,ingot]
         ]);
+        addShaped(stageName, oreDict.get("ingot"+metal).firstItem.withAmount(9), [[block]]);
     }
 
 
