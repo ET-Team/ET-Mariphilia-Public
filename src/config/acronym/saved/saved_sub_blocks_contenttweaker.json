@@ -1,3 +1,14 @@
 {
-  "savedSubBlockNames": {}
+  "savedSubBlockNames": {
+    "0": {
+      "0": "zero_ashen_metal_block",
+      "1": "mithril_block",
+      "2": "neutron_block",
+      "3": "ashen_metal_block",
+      "4": "compressed_ashen_metal_block",
+      "5": "superconductium_block",
+      "6": "biopolymer_material_block",
+      "7": "graphene_block"
+    }
+  }
 }

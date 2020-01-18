@@ -49,13 +49,13 @@ minecraft:sandstone:0, 砂岩
 minecraft:sandstone:1, 錾制砂岩
 minecraft:sandstone:2, 平滑砂岩
 minecraft:noteblock, 音符盒
-minecraft:golden_rail, 充能铁轨
-minecraft:detector_rail, 探测铁轨
+minecraft:golden_rail, 助推轨道
+minecraft:detector_rail, 检测轨道
 minecraft:sticky_piston, 粘性活塞
 minecraft:web, 蜘蛛网
 minecraft:tallgrass:1, 草
 minecraft:tallgrass:2, 蕨
-minecraft:deadbush, 枯死的灌木
+minecraft:deadbush, 枯死的草丛
 minecraft:piston, 活塞
 minecraft:wool:0, 白色羊毛
 minecraft:wool:1, 橙色羊毛
@@ -109,8 +109,8 @@ minecraft:crafting_table, 工作台
 minecraft:farmland, 耕地
 minecraft:furnace, 熔炉
 minecraft:ladder, 梯子
-minecraft:rail, 铁轨
-minecraft:stone_stairs, 圆石楼梯
+minecraft:rail, 轨道
+minecraft:stone_stairs, 石头楼梯
 minecraft:lever, 拉杆
 minecraft:stone_pressure_plate, 石质压力板
 minecraft:wooden_pressure_plate, 木质压力板
@@ -158,7 +158,7 @@ minecraft:stonebrick:2, 裂石砖
 minecraft:stonebrick:3, 錾制石砖
 minecraft:brown_mushroom_block, 蘑菇
 minecraft:red_mushroom_block, 蘑菇
-minecraft:iron_bars, 铁栏杆
+minecraft:iron_bars, 铁栅栏
 minecraft:glass_pane, 玻璃板
 minecraft:melon_block, 西瓜
 minecraft:vine, 藤蔓
@@ -208,7 +208,7 @@ minecraft:quartz_block:0, 石英块
 minecraft:quartz_block:1, 錾制石英块
 minecraft:quartz_block:2, 竖纹石英块
 minecraft:quartz_stairs, 石英楼梯
-minecraft:activator_rail, 激活铁轨
+minecraft:activator_rail, 激活轨道
 minecraft:dropper, 投掷器
 minecraft:stained_hardened_clay:0, 白色陶瓦
 minecraft:stained_hardened_clay:1, 橙色陶瓦
@@ -466,11 +466,11 @@ minecraft:reeds, 甘蔗
 minecraft:paper, 纸
 minecraft:book, 书
 minecraft:slime_ball, 粘液球
-minecraft:chest_minecart, 运输矿车
-minecraft:furnace_minecart, 动力矿车
+minecraft:chest_minecart, 箱子车
+minecraft:furnace_minecart, 熔炉车
 minecraft:egg, 鸡蛋
 minecraft:compass, 指南针
-minecraft:fishing_rod, 木制鱼竿
+minecraft:fishing_rod, 钓鱼竿
 minecraft:clock, 钟
 minecraft:glowstone_dust, 荧石粉
 minecraft:fish:0, 生鱼
@@ -570,8 +570,8 @@ minecraft:enchanted_book, 附魔书
 minecraft:comparator, 红石比较器
 minecraft:netherbrick, 地狱砖块
 minecraft:quartz, 下界石英
-minecraft:tnt_minecart, TNT矿车
-minecraft:hopper_minecart, 漏斗矿车
+minecraft:tnt_minecart, TNT车
+minecraft:hopper_minecart, 漏斗车
 minecraft:prismarine_shard, 海晶碎片
 minecraft:prismarine_crystals, 海晶砂粒
 minecraft:rabbit, 生兔肉
@@ -643,19 +643,19 @@ minecraft:record_strad, 音乐唱片
 minecraft:record_ward, 音乐唱片
 minecraft:record_11, 音乐唱片
 minecraft:record_wait, 音乐唱片
-aquaculture:fishing_rod, 木制鱼竿
+aquaculture:fishing_rod, 钓鱼竿
 aquaculture:iron_fishing_rod, 铁制鱼竿
 aquaculture:gold_fishing_rod, 黄金鱼竿
 aquaculture:diamond_fishing_rod, 钻石鱼竿
 aquaculture:admin_fishing_rod, 管理员鱼竿
 aquaculture:loot:0, 浮木
-aquaculture:loot:1, 海王锭
+aquaculture:loot:1, 镎锭
 aquaculture:loot:2, 锡罐
 aquaculture:loot:3, 漂流瓶
 aquaculture:loot:4, 盒子
 aquaculture:loot:5, 加锁盒
 aquaculture:loot:6, 财宝箱
-aquaculture:loot:7, 海王恩惠
+aquaculture:loot:7, 尼普顿恩惠
 aquaculture:food:0, 海草
 aquaculture:food:1, 海藻
 aquaculture:food:2, 生鲸鱼排
@@ -663,19 +663,19 @@ aquaculture:food:3, 生鱼排
 aquaculture:food:4, 熟鱼排
 aquaculture:food:5, 熟鲸鱼排
 aquaculture:food:6, 熟鲸鱼汉堡
-aquaculture:food:7, 蛙腿
+aquaculture:food:7, 青蛙腿
 aquaculture:food:8, 熟蛙腿
 aquaculture:food:9, 海龟汤
 aquaculture:food:10, 寿司
-aquaculture:neptunium_pickaxe, 海王镐
-aquaculture:neptunium_shovel, 海王铲
-aquaculture:neptunium_axe, 海王斧
-aquaculture:neptunium_hoe, 海王锄
-aquaculture:neptunium_sword, 海王剑
-aquaculture:neptunium_helmet, 海王盔
-aquaculture:neptunium_chestplate, 海王胸甲
-aquaculture:neptunium_leggings, 海王护腿
-aquaculture:neptunium_boots, 海王靴
+aquaculture:neptunium_pickaxe, 镎镐
+aquaculture:neptunium_shovel, 镎锹
+aquaculture:neptunium_axe, 镎斧
+aquaculture:neptunium_hoe, 镎锄
+aquaculture:neptunium_sword, 镎剑
+aquaculture:neptunium_helmet, 镎头盔
+aquaculture:neptunium_chestplate, 镎胸甲
+aquaculture:neptunium_leggings, 镎护腿
+aquaculture:neptunium_boots, 镎靴
 aquaculture:fish:0, 蓝鳃太阳鱼
 aquaculture:fish:1, 河鲈鱼
 aquaculture:fish:2, 雀鳝
@@ -692,7 +692,7 @@ aquaculture:fish:12, 旗鱼
 aquaculture:fish:13, 鲨鱼
 aquaculture:fish:14, 鲸鱼
 aquaculture:fish:15, 鱿鱼
-aquaculture:fish:16, Jellyfish
+aquaculture:fish:16, 水母
 aquaculture:fish:17, 青蛙
 aquaculture:fish:18, 海龟
 aquaculture:fish:19, 水蛭
@@ -718,8 +718,8 @@ aquaculture:fish:38, 鱼骨
 avaritia:resource:0, 钻石晶格
 avaritia:resource:1, 水晶矩阵锭
 avaritia:resource:2, 中子素尘埃
-avaritia:resource:3, 中子素颗粒
-avaritia:resource:4, 中子锭
+avaritia:resource:3, 中子素粒
+avaritia:resource:4, 中子素锭
 avaritia:resource:5, 无尽催化剂
 avaritia:resource:6, 无尽之锭
 avaritia:resource:7, 唱片碎片
@@ -735,7 +735,7 @@ avaritia:singularity:8, 奇点-银
 avaritia:singularity:9, 奇点-镍
 avaritia:singularity:10, 奇点-钻石
 avaritia:singularity:11, 奇点-绿宝石
-avaritia:singularity:12, 奇点-充能琥珀金
+avaritia:singularity:12, 奇点-红石琥珀金
 avaritia:singularity:13, 奇点-铂
 avaritia:singularity:14, 奇点-铱
 avaritia:infinity_sword, 寰宇支配之剑
@@ -756,26 +756,26 @@ avaritia:matter_cluster, 物质团
 avaritia:compressed_crafting_table, 压缩工作台
 avaritia:double_compressed_crafting_table, 二重压缩工作台
 avaritia:extreme_crafting_table, 终极工作台
-avaritia:block_resource:0, 中子态素块
-avaritia:block_resource:1, 无尽之块
+avaritia:block_resource:0, 中子素块
+avaritia:block_resource:1, 无尽块
 avaritia:block_resource:2, 水晶矩阵
-avaritia:neutron_collector, 中子态素收集器
-avaritia:neutronium_compressor, 中子态素压缩机
+avaritia:neutron_collector, 中子素收集器
+avaritia:neutronium_compressor, 中子素压缩机
 microblockcbe:saw_stone, 石手锯
 microblockcbe:saw_iron, 铁手锯
 microblockcbe:saw_diamond, 钻石手锯
 microblockcbe:stone_rod, 石棍
-jaff:tank, Fish Tank
-jaff:fish_bucket_cod, Bucket with Cod
-jaff:fish_bucket_salmon, Bucket with Salmon
-jaff:fish_bucket_clownfish, Bucket with Clownfish
-jaff:fish_bucket_pufferfish, Bucket with Pufferfish
-jaff:iron_hook, Iron Fish Hook
-jaff:fish_bones, Fish Bones
-jaff:wooden_fishing_rod, Wooden Fishing Rod
-jaff:iron_fishing_rod, Iron Fishing Rod
-jaff:golden_fishing_rod, Gold Fishing Rod
-jaff:diamond_fishing_rod, Diamond Fishing Rod
+jaff:tank, 液体储罐
+jaff:fish_bucket_cod, 桶装鳕鱼
+jaff:fish_bucket_salmon, 桶装鲑鱼
+jaff:fish_bucket_clownfish, 桶装小丑鱼
+jaff:fish_bucket_pufferfish, 桶装河豚
+jaff:iron_hook, 铁鱼钩
+jaff:fish_bones, 鱼骨
+jaff:wooden_fishing_rod, 木钓鱼竿
+jaff:iron_fishing_rod, 铁钓鱼竿
+jaff:golden_fishing_rod, 金钓鱼竿
+jaff:diamond_fishing_rod, 钻石钓鱼竿
 openblocks:ladder, 梯子活板门
 openblocks:guide, 建筑指导仪
 openblocks:builder_guide, 强化建筑指导仪
@@ -822,8 +822,8 @@ openblocks:sprinkler, 洒水器
 openblocks:cannon, 投掷加农炮
 openblocks:vacuum_hopper, 虚空漏斗
 openblocks:sponge, 海绵
-openblocks:big_button, 大型按钮
-openblocks:big_button_wood, Wooden Big Button
+openblocks:big_button, 石制大型按钮
+openblocks:big_button_wood, 木质大型按钮
 openblocks:imaginary:0, 魔法铅笔
 openblocks:imaginary:1, 魔法蜡笔
 openblocks:imaginary:1, 魔法蜡笔
@@ -856,7 +856,7 @@ openblocks:donation_station, 捐助站
 openblocks:paint_mixer, 调色器
 openblocks:canvas, 画布
 openblocks:paint_can, 颜料罐
-openblocks:canvas_glass, Canvas
+openblocks:canvas_glass, 画布
 openblocks:projector, 高度图投影仪
 openblocks:drawing_table, 绘图桌
 openblocks:sky:0, 天空方块
@@ -930,70 +930,70 @@ openblocks:sponge_on_a_stick, 海绵棒
 openblocks:pedometer, 计步器
 openblocks:epic_eraser, 史诗橡皮擦
 openblocks:wrench, 大金属棒
-openblocks:glyph:32, ' ' Glyph
-openblocks:glyph:48, '0' Glyph
-openblocks:glyph:49, '1' Glyph
-openblocks:glyph:50, '2' Glyph
-openblocks:glyph:51, '3' Glyph
-openblocks:glyph:52, '4' Glyph
-openblocks:glyph:53, '5' Glyph
-openblocks:glyph:54, '6' Glyph
-openblocks:glyph:55, '7' Glyph
-openblocks:glyph:56, '8' Glyph
-openblocks:glyph:57, '9' Glyph
-openblocks:glyph:65, 'A' Glyph
-openblocks:glyph:66, 'B' Glyph
-openblocks:glyph:67, 'C' Glyph
-openblocks:glyph:68, 'D' Glyph
-openblocks:glyph:69, 'E' Glyph
-openblocks:glyph:70, 'F' Glyph
-openblocks:glyph:71, 'G' Glyph
-openblocks:glyph:72, 'H' Glyph
-openblocks:glyph:73, 'I' Glyph
-openblocks:glyph:74, 'J' Glyph
-openblocks:glyph:75, 'K' Glyph
-openblocks:glyph:76, 'L' Glyph
-openblocks:glyph:77, 'M' Glyph
-openblocks:glyph:78, 'N' Glyph
-openblocks:glyph:79, 'O' Glyph
-openblocks:glyph:80, 'P' Glyph
-openblocks:glyph:81, 'Q' Glyph
-openblocks:glyph:82, 'R' Glyph
-openblocks:glyph:83, 'S' Glyph
-openblocks:glyph:84, 'T' Glyph
-openblocks:glyph:85, 'U' Glyph
-openblocks:glyph:86, 'V' Glyph
-openblocks:glyph:87, 'W' Glyph
-openblocks:glyph:88, 'X' Glyph
-openblocks:glyph:89, 'Y' Glyph
-openblocks:glyph:90, 'Z' Glyph
-openblocks:glyph:97, 'a' Glyph
-openblocks:glyph:98, 'b' Glyph
-openblocks:glyph:99, 'c' Glyph
-openblocks:glyph:100, 'd' Glyph
-openblocks:glyph:101, 'e' Glyph
-openblocks:glyph:102, 'f' Glyph
-openblocks:glyph:103, 'g' Glyph
-openblocks:glyph:104, 'h' Glyph
-openblocks:glyph:105, 'i' Glyph
-openblocks:glyph:106, 'j' Glyph
-openblocks:glyph:107, 'k' Glyph
-openblocks:glyph:108, 'l' Glyph
-openblocks:glyph:109, 'm' Glyph
-openblocks:glyph:110, 'n' Glyph
-openblocks:glyph:111, 'o' Glyph
-openblocks:glyph:112, 'p' Glyph
-openblocks:glyph:113, 'q' Glyph
-openblocks:glyph:114, 'r' Glyph
-openblocks:glyph:115, 's' Glyph
-openblocks:glyph:116, 't' Glyph
-openblocks:glyph:117, 'u' Glyph
-openblocks:glyph:118, 'v' Glyph
-openblocks:glyph:119, 'w' Glyph
-openblocks:glyph:120, 'x' Glyph
-openblocks:glyph:121, 'y' Glyph
-openblocks:glyph:122, 'z' Glyph
-wopper:wopper, Wooden Hopper
+openblocks:glyph:32, " " 雕文
+openblocks:glyph:48, "0" 雕文
+openblocks:glyph:49, "1" 雕文
+openblocks:glyph:50, "2" 雕文
+openblocks:glyph:51, "3" 雕文
+openblocks:glyph:52, "4" 雕文
+openblocks:glyph:53, "5" 雕文
+openblocks:glyph:54, "6" 雕文
+openblocks:glyph:55, "7" 雕文
+openblocks:glyph:56, "8" 雕文
+openblocks:glyph:57, "9" 雕文
+openblocks:glyph:65, "A" 雕文
+openblocks:glyph:66, "B" 雕文
+openblocks:glyph:67, "C" 雕文
+openblocks:glyph:68, "D" 雕文
+openblocks:glyph:69, "E" 雕文
+openblocks:glyph:70, "F" 雕文
+openblocks:glyph:71, "G" 雕文
+openblocks:glyph:72, "H" 雕文
+openblocks:glyph:73, "I" 雕文
+openblocks:glyph:74, "J" 雕文
+openblocks:glyph:75, "K" 雕文
+openblocks:glyph:76, "L" 雕文
+openblocks:glyph:77, "M" 雕文
+openblocks:glyph:78, "N" 雕文
+openblocks:glyph:79, "O" 雕文
+openblocks:glyph:80, "P" 雕文
+openblocks:glyph:81, "Q" 雕文
+openblocks:glyph:82, "R" 雕文
+openblocks:glyph:83, "S" 雕文
+openblocks:glyph:84, "T" 雕文
+openblocks:glyph:85, "U" 雕文
+openblocks:glyph:86, "V" 雕文
+openblocks:glyph:87, "W" 雕文
+openblocks:glyph:88, "X" 雕文
+openblocks:glyph:89, "Y" 雕文
+openblocks:glyph:90, "Z" 雕文
+openblocks:glyph:97, "a" 雕文
+openblocks:glyph:98, "b" 雕文
+openblocks:glyph:99, "c" 雕文
+openblocks:glyph:100, "d" 雕文
+openblocks:glyph:101, "e" 雕文
+openblocks:glyph:102, "f" 雕文
+openblocks:glyph:103, "g" 雕文
+openblocks:glyph:104, "h" 雕文
+openblocks:glyph:105, "i" 雕文
+openblocks:glyph:106, "j" 雕文
+openblocks:glyph:107, "k" 雕文
+openblocks:glyph:108, "l" 雕文
+openblocks:glyph:109, "m" 雕文
+openblocks:glyph:110, "n" 雕文
+openblocks:glyph:111, "o" 雕文
+openblocks:glyph:112, "p" 雕文
+openblocks:glyph:113, "q" 雕文
+openblocks:glyph:114, "r" 雕文
+openblocks:glyph:115, "s" 雕文
+openblocks:glyph:116, "t" 雕文
+openblocks:glyph:117, "u" 雕文
+openblocks:glyph:118, "v" 雕文
+openblocks:glyph:119, "w" 雕文
+openblocks:glyph:120, "x" 雕文
+openblocks:glyph:121, "y" 雕文
+openblocks:glyph:122, "z" 雕文
+wopper:wopper, 木漏斗
 chisel:blockaluminum:0, 铝块
 chisel:blockaluminum:1, 铝块
 chisel:blockaluminum:2, 铝块
@@ -3409,10 +3409,10 @@ appliedenergistics2:storage_cell_1k, 1k-ME存储元件
 appliedenergistics2:storage_cell_4k, 4k-ME存储元件
 appliedenergistics2:storage_cell_16k, 16k-ME存储元件
 appliedenergistics2:storage_cell_64k, 64k-ME存储元件
-appliedenergistics2:fluid_storage_cell_1k, 1k-ME流体储存元件
-appliedenergistics2:fluid_storage_cell_4k, 4k-ME流体储存元件
-appliedenergistics2:fluid_storage_cell_16k, 16k-ME流体储存元件
-appliedenergistics2:fluid_storage_cell_64k, 64k-ME流体储存元件
+appliedenergistics2:fluid_storage_cell_1k, 1k-ME流体存储元件
+appliedenergistics2:fluid_storage_cell_4k, 4k-ME流体存储元件
+appliedenergistics2:fluid_storage_cell_16k, 16k-ME流体存储元件
+appliedenergistics2:fluid_storage_cell_64k, 64k-ME流体存储元件
 appliedenergistics2:spatial_storage_cell_2_cubed, 2³-空间存储元件
 appliedenergistics2:spatial_storage_cell_16_cubed, 16³-空间存储元件
 appliedenergistics2:spatial_storage_cell_128_cubed, 128³-空间存储元件
@@ -3622,10 +3622,10 @@ appliedenergistics2:facade:0, 线缆伪装板 - 红色混凝土粉末
 appliedenergistics2:facade:0, 线缆伪装板 - 黑色混凝土粉末
 appliedenergistics2:facade:0, 线缆伪装板 - 压缩工作台
 appliedenergistics2:facade:0, 线缆伪装板 - 二重压缩工作台
-appliedenergistics2:facade:0, 线缆伪装板 - 中子态素块
-appliedenergistics2:facade:0, 线缆伪装板 - 无尽之块
+appliedenergistics2:facade:0, 线缆伪装板 - 中子素块
+appliedenergistics2:facade:0, 线缆伪装板 - 无尽块
 appliedenergistics2:facade:0, 线缆伪装板 - 水晶矩阵
-appliedenergistics2:facade:0, 线缆伪装板 - Fish Tank
+appliedenergistics2:facade:0, 线缆伪装板 - 液体储罐
 appliedenergistics2:facade:0, 线缆伪装板 - 电梯
 appliedenergistics2:facade:0, 线缆伪装板 - 海绵
 appliedenergistics2:facade:0, 线缆伪装板 - 脚手架
@@ -5618,6 +5618,8 @@ appliedenergistics2:facade:0, 线缆伪装板 - 橙色地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 橙色地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 地毯
 appliedenergistics2:facade:0, 线缆伪装板 - 地毯
+appliedenergistics2:facade:0, 线缆伪装板 - 紧实型压缩空间壁
+appliedenergistics2:facade:0, 线缆伪装板 - 压缩空间壁
 appliedenergistics2:facade:0, 线缆伪装板 - 黄铀矿
 appliedenergistics2:facade:0, 线缆伪装板 - 硫酸铅矿
 appliedenergistics2:facade:0, 线缆伪装板 - 蓝锥矿
@@ -5639,9 +5641,9 @@ appliedenergistics2:facade:0, 线缆伪装板 - 按钮砖块
 appliedenergistics2:facade:0, 线缆伪装板 - 按钮地狱砖
 appliedenergistics2:facade:0, 线缆伪装板 - 锇方块
 appliedenergistics2:facade:0, 线缆伪装板 - 青铜方块
-appliedenergistics2:facade:0, 线缆伪装板 - 强化黑曜石块
-appliedenergistics2:facade:0, 线缆伪装板 - 煤炭方块
-appliedenergistics2:facade:0, 线缆伪装板 - 强化荧石块
+appliedenergistics2:facade:0, 线缆伪装板 - 强化黑曜石
+appliedenergistics2:facade:0, 线缆伪装板 - 木炭块
+appliedenergistics2:facade:0, 线缆伪装板 - 强化荧石
 appliedenergistics2:facade:0, 线缆伪装板 - 钢方块
 appliedenergistics2:facade:0, 线缆伪装板 - 传送框架
 appliedenergistics2:facade:0, 线缆伪装板 - 钢质机壳
@@ -5651,7 +5653,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 动态阀门
 appliedenergistics2:facade:0, 线缆伪装板 - 铜块
 appliedenergistics2:facade:0, 线缆伪装板 - 锡块
 appliedenergistics2:facade:0, 线缆伪装板 - 热力蒸馏控制器
-appliedenergistics2:facade:0, 线缆伪装板 - =热力蒸馏阀门
+appliedenergistics2:facade:0, 线缆伪装板 - 热力蒸馏阀门
 appliedenergistics2:facade:0, 线缆伪装板 - 锇矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 铜矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 锡矿石
@@ -5666,7 +5668,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - §3青色 塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §7淡灰色 塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §8灰色 塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §d粉色 塑料方块
-appliedenergistics2:facade:0, 线缆伪装板 - §a亮绿色 塑料方块
+appliedenergistics2:facade:0, 线缆伪装板 - §a黄绿色 塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §e黄色 塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §9淡蓝色 塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §d品红色 塑料方块
@@ -5682,7 +5684,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - §3青色 光滑塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §7淡灰色 光滑塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §8灰色 光滑塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §d粉色 光滑塑料方块
-appliedenergistics2:facade:0, 线缆伪装板 - §a亮绿色 光滑塑料方块
+appliedenergistics2:facade:0, 线缆伪装板 - §a黄绿色 光滑塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §e黄色 光滑塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §9淡蓝色 光滑塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §d品红色 光滑塑料方块
@@ -5698,7 +5700,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - §3青色 塑料荧光方块
 appliedenergistics2:facade:0, 线缆伪装板 - §7淡灰色 塑料荧光方块
 appliedenergistics2:facade:0, 线缆伪装板 - §8灰色 塑料荧光方块
 appliedenergistics2:facade:0, 线缆伪装板 - §d粉色 塑料荧光方块
-appliedenergistics2:facade:0, 线缆伪装板 - §a亮绿色 塑料荧光方块
+appliedenergistics2:facade:0, 线缆伪装板 - §a黄绿色 塑料荧光方块
 appliedenergistics2:facade:0, 线缆伪装板 - §e黄色 塑料荧光方块
 appliedenergistics2:facade:0, 线缆伪装板 - §9淡蓝色 塑料荧光方块
 appliedenergistics2:facade:0, 线缆伪装板 - §d品红色 塑料荧光方块
@@ -5714,7 +5716,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - §3青色 强化塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §7淡灰色 强化塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §8灰色 强化塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §d粉色 强化塑料方块
-appliedenergistics2:facade:0, 线缆伪装板 - §a亮绿色 强化塑料方块
+appliedenergistics2:facade:0, 线缆伪装板 - §a黄绿色 强化塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §e黄色 强化塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §9淡蓝色 强化塑料方块
 appliedenergistics2:facade:0, 线缆伪装板 - §d品红色 强化塑料方块
@@ -5730,23 +5732,32 @@ appliedenergistics2:facade:0, 线缆伪装板 - §3青色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - §7淡灰色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - §8灰色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - §d粉色 塑料路
-appliedenergistics2:facade:0, 线缆伪装板 - §a亮绿色 塑料路
+appliedenergistics2:facade:0, 线缆伪装板 - §a黄绿色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - §e黄色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - §9淡蓝色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - §d品红色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - §6橙色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - §f白色 塑料路
 appliedenergistics2:facade:0, 线缆伪装板 - 盐块
-appliedenergistics2:facade:0, 线缆伪装板 - 加强金属块
+appliedenergistics2:facade:0, 线缆伪装板 - 强化金属块
 appliedenergistics2:facade:0, 线缆伪装板 - 灵魂石
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱铁块
 appliedenergistics2:facade:0, 线缆伪装板 - 地狱铁矿
+appliedenergistics2:facade:0, 线缆伪装板 - 滑滑石
+appliedenergistics2:facade:0, 线缆伪装板 - Missing
+appliedenergistics2:facade:0, 线缆伪装板 - Missing
+appliedenergistics2:facade:0, 线缆伪装板 - Missing
+appliedenergistics2:facade:0, 线缆伪装板 - Missing
+appliedenergistics2:facade:0, 线缆伪装板 - Missing
+appliedenergistics2:facade:0, 线缆伪装板 - Missing
+appliedenergistics2:facade:0, 线缆伪装板 - Missing
+appliedenergistics2:facade:0, 线缆伪装板 - Missing
 appliedenergistics2:facade:0, 线缆伪装板 - 铜块
 appliedenergistics2:facade:0, 线缆伪装板 - 铅块
 appliedenergistics2:facade:0, 线缆伪装板 - 银块
 appliedenergistics2:facade:0, 线缆伪装板 - 黎明石块
 appliedenergistics2:facade:0, 线缆伪装板 - 铜矿石
-appliedenergistics2:facade:0, 线缆伪装板 - 铅矿石
+appliedenergistics2:facade:0, 线缆伪装板 - 铅矿
 appliedenergistics2:facade:0, 线缆伪装板 - 银矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 方镁矾砖块
 appliedenergistics2:facade:0, 线缆伪装板 - 灰石
@@ -5756,7 +5767,7 @@ appliedenergistics2:facade:0, 线缆伪装板 - 古代砖
 appliedenergistics2:facade:0, 线缆伪装板 - 古代镶边砖
 appliedenergistics2:facade:0, 线缆伪装板 - 古代瓦块
 appliedenergistics2:facade:0, 线缆伪装板 - 古代灯笼
-appliedenergistics2:facade:0, 线缆伪装板 - 石英矿
+appliedenergistics2:facade:0, 线缆伪装板 - 石英矿石
 appliedenergistics2:facade:0, 线缆伪装板 - 密封板
 appliedenergistics2:facade:0, 线缆伪装板 - 加固密封板
 appliedenergistics2:facade:0, 线缆伪装板 - 铝块
@@ -5780,12 +5791,12 @@ appliedenergistics2:encoded_pattern, 编码样板
 appliedenergistics2:paint_ball:0, 染色球 - 白色
 appliedenergistics2:paint_ball:1, 染色球 - 橙色
 appliedenergistics2:paint_ball:2, 染色球 - 品红色
-appliedenergistics2:paint_ball:3, 染色球 - 浅蓝色
+appliedenergistics2:paint_ball:3, 染色球 - 淡蓝色
 appliedenergistics2:paint_ball:4, 染色球 - 黄色
-appliedenergistics2:paint_ball:5, 染色球 - 柠檬色
-appliedenergistics2:paint_ball:6, 染色球 - 粉色
+appliedenergistics2:paint_ball:5, 染色球 - 黄绿色
+appliedenergistics2:paint_ball:6, 染色球 - 粉红色
 appliedenergistics2:paint_ball:7, 染色球 - 灰色
-appliedenergistics2:paint_ball:8, 染色球 - 浅灰色
+appliedenergistics2:paint_ball:8, 染色球 - 淡灰色
 appliedenergistics2:paint_ball:9, 染色球 - 青色
 appliedenergistics2:paint_ball:10, 染色球 - 紫色
 appliedenergistics2:paint_ball:11, 染色球 - 蓝色
@@ -5796,12 +5807,12 @@ appliedenergistics2:paint_ball:15, 染色球 - 黑色
 appliedenergistics2:paint_ball:20, 染色球 - 光通 白色
 appliedenergistics2:paint_ball:21, 染色球 - 光通 橙色
 appliedenergistics2:paint_ball:22, 染色球 - 光通 品红色
-appliedenergistics2:paint_ball:23, 染色球 - 光通 浅蓝色
+appliedenergistics2:paint_ball:23, 染色球 - 光通 淡蓝色
 appliedenergistics2:paint_ball:24, 染色球 - 光通 黄色
-appliedenergistics2:paint_ball:25, 染色球 - 光通 柠檬色
-appliedenergistics2:paint_ball:26, 染色球 - 光通 粉色
+appliedenergistics2:paint_ball:25, 染色球 - 光通 黄绿色
+appliedenergistics2:paint_ball:26, 染色球 - 光通 粉红色
 appliedenergistics2:paint_ball:27, 染色球 - 光通 灰色
-appliedenergistics2:paint_ball:28, 染色球 - 光通 浅灰色
+appliedenergistics2:paint_ball:28, 染色球 - 光通 淡灰色
 appliedenergistics2:paint_ball:29, 染色球 - 光通 青色
 appliedenergistics2:paint_ball:30, 染色球 - 光通 紫色
 appliedenergistics2:paint_ball:31, 染色球 - 光通 蓝色
@@ -5871,12 +5882,12 @@ appliedenergistics2:part:120, 线缆锚
 appliedenergistics2:part:20, ME包层线缆 - 白色
 appliedenergistics2:part:21, ME包层线缆 - 橙色
 appliedenergistics2:part:22, ME包层线缆 - 品红色
-appliedenergistics2:part:23, ME包层线缆 - 浅蓝色
+appliedenergistics2:part:23, ME包层线缆 - 淡蓝色
 appliedenergistics2:part:24, ME包层线缆 - 黄色
-appliedenergistics2:part:25, ME包层线缆 - 柠檬色
-appliedenergistics2:part:26, ME包层线缆 - 粉色
+appliedenergistics2:part:25, ME包层线缆 - 黄绿色
+appliedenergistics2:part:26, ME包层线缆 - 粉红色
 appliedenergistics2:part:27, ME包层线缆 - 灰色
-appliedenergistics2:part:28, ME包层线缆 - 浅灰色
+appliedenergistics2:part:28, ME包层线缆 - 淡灰色
 appliedenergistics2:part:29, ME包层线缆 - 青色
 appliedenergistics2:part:30, ME包层线缆 - 紫色
 appliedenergistics2:part:31, ME包层线缆 - 蓝色
@@ -5884,16 +5895,16 @@ appliedenergistics2:part:32, ME包层线缆 - 棕色
 appliedenergistics2:part:33, ME包层线缆 - 绿色
 appliedenergistics2:part:34, ME包层线缆 - 红色
 appliedenergistics2:part:35, ME包层线缆 - 黑色
-appliedenergistics2:part:36, ME包层线缆 - Fluix默认色
+appliedenergistics2:part:36, ME包层线缆 - 福鲁伊克斯色
 appliedenergistics2:part:500, ME致密包层线缆 - 白色
 appliedenergistics2:part:501, ME致密包层线缆 - 橙色
 appliedenergistics2:part:502, ME致密包层线缆 - 品红色
-appliedenergistics2:part:503, ME致密包层线缆 - 浅蓝色
+appliedenergistics2:part:503, ME致密包层线缆 - 淡蓝色
 appliedenergistics2:part:504, ME致密包层线缆 - 黄色
-appliedenergistics2:part:505, ME致密包层线缆 - 柠檬色
-appliedenergistics2:part:506, ME致密包层线缆 - 粉色
+appliedenergistics2:part:505, ME致密包层线缆 - 黄绿色
+appliedenergistics2:part:506, ME致密包层线缆 - 粉红色
 appliedenergistics2:part:507, ME致密包层线缆 - 灰色
-appliedenergistics2:part:508, ME致密包层线缆 - 浅灰色
+appliedenergistics2:part:508, ME致密包层线缆 - 淡灰色
 appliedenergistics2:part:509, ME致密包层线缆 - 青色
 appliedenergistics2:part:510, ME致密包层线缆 - 紫色
 appliedenergistics2:part:511, ME致密包层线缆 - 蓝色
@@ -5901,16 +5912,16 @@ appliedenergistics2:part:512, ME致密包层线缆 - 棕色
 appliedenergistics2:part:513, ME致密包层线缆 - 绿色
 appliedenergistics2:part:514, ME致密包层线缆 - 红色
 appliedenergistics2:part:515, ME致密包层线缆 - 黑色
-appliedenergistics2:part:516, ME致密包层线缆 - Fluix默认色
+appliedenergistics2:part:516, ME致密包层线缆 - 福鲁伊克斯色
 appliedenergistics2:part:60, ME致密线缆 - 白色
 appliedenergistics2:part:61, ME致密线缆 - 橙色
 appliedenergistics2:part:62, ME致密线缆 - 品红色
-appliedenergistics2:part:63, ME致密线缆 - 浅蓝色
+appliedenergistics2:part:63, ME致密线缆 - 淡蓝色
 appliedenergistics2:part:64, ME致密线缆 - 黄色
-appliedenergistics2:part:65, ME致密线缆 - 柠檬色
-appliedenergistics2:part:66, ME致密线缆 - 粉色
+appliedenergistics2:part:65, ME致密线缆 - 黄绿色
+appliedenergistics2:part:66, ME致密线缆 - 粉红色
 appliedenergistics2:part:67, ME致密线缆 - 灰色
-appliedenergistics2:part:68, ME致密线缆 - 浅灰色
+appliedenergistics2:part:68, ME致密线缆 - 淡灰色
 appliedenergistics2:part:69, ME致密线缆 - 青色
 appliedenergistics2:part:70, ME致密线缆 - 紫色
 appliedenergistics2:part:71, ME致密线缆 - 蓝色
@@ -5918,16 +5929,16 @@ appliedenergistics2:part:72, ME致密线缆 - 棕色
 appliedenergistics2:part:73, ME致密线缆 - 绿色
 appliedenergistics2:part:74, ME致密线缆 - 红色
 appliedenergistics2:part:75, ME致密线缆 - 黑色
-appliedenergistics2:part:76, ME致密线缆 - Fluix默认色
+appliedenergistics2:part:76, ME致密线缆 - 福鲁伊克斯色
 appliedenergistics2:part:0, ME玻璃线缆 - 白色
 appliedenergistics2:part:1, ME玻璃线缆 - 橙色
 appliedenergistics2:part:2, ME玻璃线缆 - 品红色
-appliedenergistics2:part:3, ME玻璃线缆 - 浅蓝色
+appliedenergistics2:part:3, ME玻璃线缆 - 淡蓝色
 appliedenergistics2:part:4, ME玻璃线缆 - 黄色
-appliedenergistics2:part:5, ME玻璃线缆 - 柠檬色
-appliedenergistics2:part:6, ME玻璃线缆 - 粉色
+appliedenergistics2:part:5, ME玻璃线缆 - 黄绿色
+appliedenergistics2:part:6, ME玻璃线缆 - 粉红色
 appliedenergistics2:part:7, ME玻璃线缆 - 灰色
-appliedenergistics2:part:8, ME玻璃线缆 - 浅灰色
+appliedenergistics2:part:8, ME玻璃线缆 - 淡灰色
 appliedenergistics2:part:9, ME玻璃线缆 - 青色
 appliedenergistics2:part:10, ME玻璃线缆 - 紫色
 appliedenergistics2:part:11, ME玻璃线缆 - 蓝色
@@ -5935,16 +5946,16 @@ appliedenergistics2:part:12, ME玻璃线缆 - 棕色
 appliedenergistics2:part:13, ME玻璃线缆 - 绿色
 appliedenergistics2:part:14, ME玻璃线缆 - 红色
 appliedenergistics2:part:15, ME玻璃线缆 - 黑色
-appliedenergistics2:part:16, ME玻璃线缆 - Fluix默认色
+appliedenergistics2:part:16, ME玻璃线缆 - 福鲁伊克斯色
 appliedenergistics2:part:40, ME智能线缆 - 白色
 appliedenergistics2:part:41, ME智能线缆 - 橙色
 appliedenergistics2:part:42, ME智能线缆 - 品红色
-appliedenergistics2:part:43, ME智能线缆 - 浅蓝色
+appliedenergistics2:part:43, ME智能线缆 - 淡蓝色
 appliedenergistics2:part:44, ME智能线缆 - 黄色
-appliedenergistics2:part:45, ME智能线缆 - 柠檬色
-appliedenergistics2:part:46, ME智能线缆 - 粉色
+appliedenergistics2:part:45, ME智能线缆 - 黄绿色
+appliedenergistics2:part:46, ME智能线缆 - 粉红色
 appliedenergistics2:part:47, ME智能线缆 - 灰色
-appliedenergistics2:part:48, ME智能线缆 - 浅灰色
+appliedenergistics2:part:48, ME智能线缆 - 淡灰色
 appliedenergistics2:part:49, ME智能线缆 - 青色
 appliedenergistics2:part:50, ME智能线缆 - 紫色
 appliedenergistics2:part:51, ME智能线缆 - 蓝色
@@ -5952,7 +5963,7 @@ appliedenergistics2:part:52, ME智能线缆 - 棕色
 appliedenergistics2:part:53, ME智能线缆 - 绿色
 appliedenergistics2:part:54, ME智能线缆 - 红色
 appliedenergistics2:part:55, ME智能线缆 - 黑色
-appliedenergistics2:part:56, ME智能线缆 - Fluix默认色
+appliedenergistics2:part:56, ME智能线缆 - 福鲁伊克斯色
 appliedenergistics2:part:420, ME交换监控器
 appliedenergistics2:part:360, ME合成终端
 appliedenergistics2:part:200, 暗色照明面板
@@ -5963,7 +5974,7 @@ appliedenergistics2:part:321, ME流体成型面板
 appliedenergistics2:part:241, ME流体输入总线
 appliedenergistics2:part:441, ME流体接口
 appliedenergistics2:part:281, ME流体标准发信器
-appliedenergistics2:part:221, ME流体储存总线
+appliedenergistics2:part:221, ME流体存储总线
 appliedenergistics2:part:520, ME流体终端
 appliedenergistics2:part:320, ME成型面板
 appliedenergistics2:part:301, ME精准破坏面板
@@ -5986,27 +5997,41 @@ appliedenergistics2:part:220, ME存储总线
 appliedenergistics2:part:400, ME存储监控器
 appliedenergistics2:part:380, ME终端
 appliedenergistics2:part:80, ME触发总线
-bdsandm:upgrade:0, Upgrade: Capacity x64
-bdsandm:upgrade:1, Upgrade: Capacity x256
-bdsandm:upgrade:2, Upgrade: Capacity x1024
-bdsandm:upgrade:3, Upgrade: Capacity x4096
-bdsandm:upgrade:4, Upgrade: Capacity Creative
-bdsandm:upgrade:5, Upgrade: Ore Dictionary
-bdsandm:upgrade:6, Upgrade: Void Overflow
-bdsandm:upgrade:7, Uninstall Upgrades
-bdsandm:crate_key, Crate Key
-bdsandm:color_tool, Color Tool
-bdsandm:wood_crate, Wooden Crate
-bdsandm:wood_barrel, Wooden Barrel
-bdsandm:metal_crate, Metal Crate
-bdsandm:metal_barrel, Metal Drum
-bdsandm:shipping_container, Shipping Container
+bdsandm:upgrade:0, 升级：容量 x64
+bdsandm:upgrade:1, 升级：容量 x256
+bdsandm:upgrade:2, 升级：容量 x1024
+bdsandm:upgrade:3, 升级：容量 x4096
+bdsandm:upgrade:4, 升级：创造模式容量
+bdsandm:upgrade:5, 升级：矿物词典
+bdsandm:upgrade:6, 升级：溢出清除
+bdsandm:upgrade:7, 卸载升级
+bdsandm:crate_key, 板条箱钥匙
+bdsandm:color_tool, 上色工具
+bdsandm:wood_crate, 木制板条箱
+bdsandm:wood_barrel, 木桶
+bdsandm:metal_crate, 金属板条箱
+bdsandm:metal_barrel, 金属桶
+bdsandm:shipping_container, 集装箱
 chisel:auto_chisel, 自动雕凿机
 chisel:chisel_iron, 凿子
 chisel:chisel_diamond, 钻石凿子
 chisel:chisel_hitech, iChisel
 chisel:offsettool, 末影纹理平移手杖
-zerocore:debugtool, Debug Tool
+compactmachines3:tunnel, 接口
+compactmachines3:redstonetunnel, 红石接口
+compactmachines3:wall, 紧实型压缩空间壁
+compactmachines3:wallbreakable, 压缩空间壁
+compactmachines3:machine:0, 微型压缩空间机械
+compactmachines3:machine:1, 小型压缩空间机械
+compactmachines3:machine:2, 普通压缩空间机械
+compactmachines3:machine:3, 大型压缩空间机械
+compactmachines3:machine:4, 巨型压缩空间机械
+compactmachines3:machine:5, 超大型压缩空间机械
+compactmachines3:fieldprojector, 压缩空间机械制作器
+compactmachines3:psd, 传送器
+compactmachines3:tunneltool, 接口
+compactmachines3:redstonetunneltool, 红石接口
+zerocore:debugtool, 调试工具
 bigreactors:ingotyellorium, 黄铀锭
 bigreactors:ingotcyanite, 蓝晶锭
 bigreactors:ingotgraphite, 石墨棒
@@ -6058,17 +6083,17 @@ bigreactors:reactorglass, 反应堆玻璃(旧版)
 bigreactors:reactorcontrolrod, 反应堆控制杆 (旧版)
 bigreactors:reactorfuelrod, 反应堆燃料棒 (旧版)
 fishaxe:itemfishaxe, Fishaxe
-itemfilters:filter, Item Filter
+itemfilters:filter, 物品过滤器
 itemfilters:missing, 缺少物品
 ftbquests:screen, 任务显示器
 ftbquests:progress_detector, 任务进度检测器
-ftbquests:detector:0, Redstone Detector
-ftbquests:detector:1, Player Detector
+ftbquests:detector:0, 红石检测器
+ftbquests:detector:1, 玩家检测器
 ftbquests:progress_screen, 进度显示器
 ftbquests:chest, 任务箱子
-ftbquests:loot_crate_storage, Loot Crate Storage
-ftbquests:loot_crate_opener, Loot Crate Opener
-ftbquests:barrier, Quest Barrier
+ftbquests:loot_crate_storage, 奖励箱存储器
+ftbquests:loot_crate_opener, 奖励箱开箱器
+ftbquests:barrier, 任务屏障
 ftbquests:book, 任务书
 ftbquests:lootcrate, 奖励箱
 ftbquests:custom_icon, Custom Icon
@@ -6231,17 +6256,17 @@ mekanism:dust:6, 铅粉
 mekanism:ingot:0, 强化黑曜石锭
 mekanism:ingot:1, 锇锭
 mekanism:ingot:2, 青铜锭
-mekanism:ingot:3, 强化荧石锭
+mekanism:ingot:3, 荧石锭
 mekanism:ingot:4, 钢锭
 mekanism:ingot:5, 铜锭
 mekanism:ingot:6, 锡锭
-mekanism:nugget:0, 强化黑曜石颗粒
-mekanism:nugget:1, 锇颗粒
-mekanism:nugget:2, 青铜颗粒
-mekanism:nugget:3, 强化荧石颗粒
-mekanism:nugget:4, 钢颗粒
-mekanism:nugget:5, 铜颗粒
-mekanism:nugget:6, 锡颗粒
+mekanism:nugget:0, 强化黑曜石粒
+mekanism:nugget:1, 锇粒
+mekanism:nugget:2, 青铜块
+mekanism:nugget:3, 荧石粒
+mekanism:nugget:4, 钢粒
+mekanism:nugget:5, 铜粒
+mekanism:nugget:6, 锡粒
 mekanism:energytablet, 能量板
 mekanism:speedupgrade, 速度升级
 mekanism:energyupgrade, 能量升级
@@ -6285,7 +6310,7 @@ mekanism:networkreader, 网络读取器
 mekanism:walkietalkie, 步话机
 mekanism:jetpack, 喷射背包
 mekanism:dictionary, 辞典
-mekanism:gasmask, 燃气面具
+mekanism:gasmask, 潜水面具
 mekanism:scubatank, 潜水罐
 mekanism:balloon:0, §8黑色 气球
 mekanism:balloon:1, §c红色 气球
@@ -6297,7 +6322,7 @@ mekanism:balloon:6, §3青色 气球
 mekanism:balloon:7, §7淡灰色 气球
 mekanism:balloon:8, §8灰色 气球
 mekanism:balloon:9, §d粉色 气球
-mekanism:balloon:10, §a亮绿色 气球
+mekanism:balloon:10, §a黄绿色 气球
 mekanism:balloon:11, §e黄色 气球
 mekanism:balloon:12, §9淡蓝色 气球
 mekanism:balloon:13, §d品红色 气球
@@ -6326,9 +6351,9 @@ mekanism:configurationcard, 配置卡
 mekanism:craftingformula, 合成配方
 mekanism:seismicreader, 地震读取器
 mekanism:substrate, 基片
-mekanism:polyethene:0, 高密度聚乙烯颗粒
-mekanism:polyethene:1, 高密度聚乙烯棒
-mekanism:polyethene:2, 高密度聚乙烯纸
+mekanism:polyethene:0, HDPE弹
+mekanism:polyethene:1, HDPE棒
+mekanism:polyethene:2, HDPE纸
 mekanism:polyethene:3, 塑料棒
 mekanism:biofuel, 生物燃料
 mekanism:flamethrower, 喷火器
@@ -6345,9 +6370,9 @@ mekanism:otherdust:5, 强化黑曜石粉
 mekanism:otherdust:6, 黑曜石粉
 mekanism:basicblock:0, 锇方块
 mekanism:basicblock:1, 青铜方块
-mekanism:basicblock:2, 强化黑曜石块
-mekanism:basicblock:3, 煤炭方块
-mekanism:basicblock:4, 强化荧石块
+mekanism:basicblock:2, 强化黑曜石
+mekanism:basicblock:3, 木炭块
+mekanism:basicblock:4, 强化荧石
 mekanism:basicblock:5, 钢方块
 mekanism:basicblock:6, 基础箱柜
 mekanism:basicblock:6, 高级箱柜
@@ -6362,7 +6387,7 @@ mekanism:basicblock:11, 动态阀门
 mekanism:basicblock:12, 铜块
 mekanism:basicblock:13, 锡块
 mekanism:basicblock:14, 热力蒸馏控制器
-mekanism:basicblock:15, =热力蒸馏阀门
+mekanism:basicblock:15, 热力蒸馏阀门
 mekanism:basicblock2:0, 热力蒸馏方块
 mekanism:basicblock2:1, 输导套管
 mekanism:basicblock2:2, 输导端口
@@ -6392,7 +6417,7 @@ mekanism:machineblock:5, 基础 融合 工厂
 mekanism:machineblock:5, 基础 提纯 工厂
 mekanism:machineblock:5, 基础 压射 工厂
 mekanism:machineblock:5, 基础 灌注 工厂
-mekanism:machineblock:5, 基础 Sawing 工厂
+mekanism:machineblock:5, 基础 锯割 工厂
 mekanism:machineblock:6, 高级 熔炼 工厂
 mekanism:machineblock:6, 高级 富集 工厂
 mekanism:machineblock:6, 高级 粉碎 工厂
@@ -6401,7 +6426,7 @@ mekanism:machineblock:6, 高级 融合 工厂
 mekanism:machineblock:6, 高级 提纯 工厂
 mekanism:machineblock:6, 高级 压射 工厂
 mekanism:machineblock:6, 高级 灌注 工厂
-mekanism:machineblock:6, 高级 Sawing 工厂
+mekanism:machineblock:6, 高级 锯割 工厂
 mekanism:machineblock:7, 精英 熔炼 工厂
 mekanism:machineblock:7, 精英 富集 工厂
 mekanism:machineblock:7, 精英 粉碎 工厂
@@ -6410,7 +6435,7 @@ mekanism:machineblock:7, 精英 融合 工厂
 mekanism:machineblock:7, 精英 提纯 工厂
 mekanism:machineblock:7, 精英 压射 工厂
 mekanism:machineblock:7, 精英 灌注 工厂
-mekanism:machineblock:7, 精英 Sawing 工厂
+mekanism:machineblock:7, 精英 锯割 工厂
 mekanism:machineblock:8, 冶金灌注机
 mekanism:machineblock:9, 净化仓
 mekanism:machineblock:10, 充能冶炼炉
@@ -6482,43 +6507,43 @@ mekanism:transmitter:6, 精英热导线缆
 mekanism:transmitter:6, 终极热导线缆
 mekanism:obsidiantnt, 黑曜石TNT
 mekanism:boundingblock, 绑定方块
-mekanism:gastank:0, 基础燃气储罐
-mekanism:gastank:0, 高级燃气储罐
-mekanism:gastank:0, 精英燃气储罐
-mekanism:gastank:0, 终极燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
-mekanism:gastank:0, 创造燃气储罐
+mekanism:gastank:0, 基础气体储罐
+mekanism:gastank:0, 高级气体储罐
+mekanism:gastank:0, 精英气体储罐
+mekanism:gastank:0, 终极气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
+mekanism:gastank:0, 创造气体储罐
 mekanism:cardboardbox, 纸箱
-mekanism:glowpanel:0, §8黑色 荧光板
-mekanism:glowpanel:1, §c红色 荧光板
-mekanism:glowpanel:2, §2绿色 荧光板
-mekanism:glowpanel:3, §6棕色 荧光板
-mekanism:glowpanel:4, §1蓝色 荧光板
-mekanism:glowpanel:5, §5紫色 荧光板
-mekanism:glowpanel:6, §3青色 荧光板
-mekanism:glowpanel:7, §7淡灰色 荧光板
-mekanism:glowpanel:8, §8灰色 荧光板
-mekanism:glowpanel:9, §d粉色 荧光板
-mekanism:glowpanel:10, §a亮绿色 荧光板
-mekanism:glowpanel:11, §e黄色 荧光板
-mekanism:glowpanel:12, §9淡蓝色 荧光板
-mekanism:glowpanel:13, §d品红色 荧光板
-mekanism:glowpanel:14, §6橙色 荧光板
-mekanism:glowpanel:15, §f白色 荧光板
+mekanism:glowpanel:0, §8黑色 发光面板
+mekanism:glowpanel:1, §c红色 发光面板
+mekanism:glowpanel:2, §2绿色 发光面板
+mekanism:glowpanel:3, §6棕色 发光面板
+mekanism:glowpanel:4, §1蓝色 发光面板
+mekanism:glowpanel:5, §5紫色 发光面板
+mekanism:glowpanel:6, §3青色 发光面板
+mekanism:glowpanel:7, §7淡灰色 发光面板
+mekanism:glowpanel:8, §8灰色 发光面板
+mekanism:glowpanel:9, §d粉色 发光面板
+mekanism:glowpanel:10, §a黄绿色 发光面板
+mekanism:glowpanel:11, §e黄色 发光面板
+mekanism:glowpanel:12, §9淡蓝色 发光面板
+mekanism:glowpanel:13, §d品红色 发光面板
+mekanism:glowpanel:14, §6橙色 发光面板
+mekanism:glowpanel:15, §f白色 发光面板
 mekanism:plasticblock:0, §8黑色 塑料方块
 mekanism:plasticblock:1, §c红色 塑料方块
 mekanism:plasticblock:2, §2绿色 塑料方块
@@ -6529,7 +6554,7 @@ mekanism:plasticblock:6, §3青色 塑料方块
 mekanism:plasticblock:7, §7淡灰色 塑料方块
 mekanism:plasticblock:8, §8灰色 塑料方块
 mekanism:plasticblock:9, §d粉色 塑料方块
-mekanism:plasticblock:10, §a亮绿色 塑料方块
+mekanism:plasticblock:10, §a黄绿色 塑料方块
 mekanism:plasticblock:11, §e黄色 塑料方块
 mekanism:plasticblock:12, §9淡蓝色 塑料方块
 mekanism:plasticblock:13, §d品红色 塑料方块
@@ -6545,7 +6570,7 @@ mekanism:slickplasticblock:6, §3青色 光滑塑料方块
 mekanism:slickplasticblock:7, §7淡灰色 光滑塑料方块
 mekanism:slickplasticblock:8, §8灰色 光滑塑料方块
 mekanism:slickplasticblock:9, §d粉色 光滑塑料方块
-mekanism:slickplasticblock:10, §a亮绿色 光滑塑料方块
+mekanism:slickplasticblock:10, §a黄绿色 光滑塑料方块
 mekanism:slickplasticblock:11, §e黄色 光滑塑料方块
 mekanism:slickplasticblock:12, §9淡蓝色 光滑塑料方块
 mekanism:slickplasticblock:13, §d品红色 光滑塑料方块
@@ -6561,7 +6586,7 @@ mekanism:glowplasticblock:6, §3青色 塑料荧光方块
 mekanism:glowplasticblock:7, §7淡灰色 塑料荧光方块
 mekanism:glowplasticblock:8, §8灰色 塑料荧光方块
 mekanism:glowplasticblock:9, §d粉色 塑料荧光方块
-mekanism:glowplasticblock:10, §a亮绿色 塑料荧光方块
+mekanism:glowplasticblock:10, §a黄绿色 塑料荧光方块
 mekanism:glowplasticblock:11, §e黄色 塑料荧光方块
 mekanism:glowplasticblock:12, §9淡蓝色 塑料荧光方块
 mekanism:glowplasticblock:13, §d品红色 塑料荧光方块
@@ -6577,7 +6602,7 @@ mekanism:reinforcedplasticblock:6, §3青色 强化塑料方块
 mekanism:reinforcedplasticblock:7, §7淡灰色 强化塑料方块
 mekanism:reinforcedplasticblock:8, §8灰色 强化塑料方块
 mekanism:reinforcedplasticblock:9, §d粉色 强化塑料方块
-mekanism:reinforcedplasticblock:10, §a亮绿色 强化塑料方块
+mekanism:reinforcedplasticblock:10, §a黄绿色 强化塑料方块
 mekanism:reinforcedplasticblock:11, §e黄色 强化塑料方块
 mekanism:reinforcedplasticblock:12, §9淡蓝色 强化塑料方块
 mekanism:reinforcedplasticblock:13, §d品红色 强化塑料方块
@@ -6593,7 +6618,7 @@ mekanism:roadplasticblock:6, §3青色 塑料路
 mekanism:roadplasticblock:7, §7淡灰色 塑料路
 mekanism:roadplasticblock:8, §8灰色 塑料路
 mekanism:roadplasticblock:9, §d粉色 塑料路
-mekanism:roadplasticblock:10, §a亮绿色 塑料路
+mekanism:roadplasticblock:10, §a黄绿色 塑料路
 mekanism:roadplasticblock:11, §e黄色 塑料路
 mekanism:roadplasticblock:12, §9淡蓝色 塑料路
 mekanism:roadplasticblock:13, §d品红色 塑料路
@@ -6609,48 +6634,48 @@ mekanism:plasticfence:6, §3青色 塑料栅栏
 mekanism:plasticfence:7, §7淡灰色 塑料栅栏
 mekanism:plasticfence:8, §8灰色 塑料栅栏
 mekanism:plasticfence:9, §d粉色 塑料栅栏
-mekanism:plasticfence:10, §a亮绿色 塑料栅栏
+mekanism:plasticfence:10, §a黄绿色 塑料栅栏
 mekanism:plasticfence:11, §e黄色 塑料栅栏
 mekanism:plasticfence:12, §9淡蓝色 塑料栅栏
 mekanism:plasticfence:13, §d品红色 塑料栅栏
 mekanism:plasticfence:14, §6橙色 塑料栅栏
 mekanism:plasticfence:15, §f白色 塑料栅栏
 mekanism:saltblock, 盐块
-modulardiversity:blockemberinputhatch:0, Tiny Ember Input
-modulardiversity:blockemberinputhatch:1, Small Ember Input
-modulardiversity:blockemberinputhatch:2, Copper Cell Input
-modulardiversity:blockemberinputhatch:3, Reinforced Ember Input
-modulardiversity:blockemberinputhatch:4, Big Ember Input
-modulardiversity:blockemberinputhatch:5, Huge Ember Input
-modulardiversity:blockemberinputhatch:6, Ember Reactor Input
-modulardiversity:blockemberinputhatch:7, Crystal Cell Input
-modulardiversity:blockemberoutputhatch:0, Tiny Ember Output
-modulardiversity:blockemberoutputhatch:1, Small Ember Output
-modulardiversity:blockemberoutputhatch:2, Copper Cell Output
-modulardiversity:blockemberoutputhatch:3, Reinforced Ember Output
-modulardiversity:blockemberoutputhatch:4, Big Ember Output
-modulardiversity:blockemberoutputhatch:5, Huge Ember Output
-modulardiversity:blockemberoutputhatch:6, Ember Reactor Output
-modulardiversity:blockemberoutputhatch:7, Crystal Cell Output
-modulardiversity:blockmeklaseracceptor, Mekanism Laser Acceptor
-modulardiversity:blockmekheatinput, Mekanism Heat Input
-modulardiversity:blockmekheatoutput, Mekanism Heat Output
-modulardiversity:blockbiomedetector, Biome Detector
-modulardiversity:blockdaylightdetector, Time Detector
-modulardiversity:blockweatherdetector, Weather Detector
+modulardiversity:blockemberinputhatch:0, 微型余烬能量输入仓
+modulardiversity:blockemberinputhatch:1, 小型余烬能量输入仓
+modulardiversity:blockemberinputhatch:2, 中型余烬能量输入仓
+modulardiversity:blockemberinputhatch:3, 强化余烬能量输入仓
+modulardiversity:blockemberinputhatch:4, 大型余烬能量输入仓
+modulardiversity:blockemberinputhatch:5, 巨型余烬能量输入仓
+modulardiversity:blockemberinputhatch:6, 超级余烬能量输入仓
+modulardiversity:blockemberinputhatch:7, 终极余烬能量输入仓
+modulardiversity:blockemberoutputhatch:0, 微型余烬能量输出仓
+modulardiversity:blockemberoutputhatch:1, 小型余烬能量输出仓
+modulardiversity:blockemberoutputhatch:2, 中型余烬能量输出仓
+modulardiversity:blockemberoutputhatch:3, 强化余烬能量输出仓
+modulardiversity:blockemberoutputhatch:4, 大型余烬能量输出仓
+modulardiversity:blockemberoutputhatch:5, 巨型余烬能量输出仓
+modulardiversity:blockemberoutputhatch:6, 超级余烬能量输出仓
+modulardiversity:blockemberoutputhatch:7, 终极余烬能量输出仓
+modulardiversity:blockmeklaseracceptor, 通用机械激光接收器
+modulardiversity:blockmekheatinput, 通用机械热量输入
+modulardiversity:blockmekheatoutput, 通用机械热量输出
+modulardiversity:blockbiomedetector, 生物群系检测器
+modulardiversity:blockdaylightdetector, 时间检测器
+modulardiversity:blockweatherdetector, 天气检测器
 morecauldrons:acacia_cauldron, 金合欢木炼药锅
 morecauldrons:big_oak_cauldron, 深色橡木炼药锅
-morecauldrons:birch_cauldron, 白桦木炼药锅
+morecauldrons:birch_cauldron, 桦木炼药锅
 morecauldrons:jungle_cauldron, 丛林木炼药锅
 morecauldrons:oak_cauldron, 橡木炼药锅
 morecauldrons:spruce_cauldron, 云杉木炼药锅
-morecauldrons:gold_cauldron, Gold Cauldron
-morecauldrons:diamond_cauldron, Diamond Cauldron
+morecauldrons:gold_cauldron, 金炼药锅
+morecauldrons:diamond_cauldron, 钻石炼药锅
 morecauldrons:cobble_cauldron, 圆石炼药锅
-morecauldrons:glass_cauldron, Glass Cauldron
-morecauldrons:obsidian_cauldron, Obsidian Cauldron
-morecauldrons:brick_cauldron, Brick Cauldron
-morecauldrons:stone_cauldron, 石头炼药锅
+morecauldrons:glass_cauldron, 玻璃炼药锅
+morecauldrons:obsidian_cauldron, 黑曜石炼药锅
+morecauldrons:brick_cauldron, 砖块炼药锅
+morecauldrons:stone_cauldron, 石质炼药锅
 morecauldrons:granite_cauldron, 花岗岩炼药锅
 morecauldrons:smooth_granite_cauldron, 磨制花岗岩炼药锅
 morecauldrons:diorite_cauldron, 闪长岩炼药锅
@@ -6660,205 +6685,205 @@ morecauldrons:smooth_andesite_cauldron, 磨制安山岩炼药锅
 spiceoflife:bookfoodjournal, 膳食记录
 spiceoflife:lunchbox, 午餐盒
 spiceoflife:lunchbag, 午餐袋
-stevescarts:blockcartassembler, 矿车组装机
+stevescarts:blockcartassembler, 矿车装配机
 stevescarts:blockcargomanager, 货物管理器
-stevescarts:blockliquidmanager, 液体管理器
-stevescarts:blockdistributor, 外部管理器
-stevescarts:blockactivator, 模块开关管理器
-stevescarts:blockdetector:0, 检测管理器
-stevescarts:blockdetector:1, 检测器单元
-stevescarts:blockdetector:2, 检测站
-stevescarts:blockdetector:3, 检测连接点
-stevescarts:blockdetector:4, 红石单元探测器
-stevescarts:upgrade:0, 电池升级
-stevescarts:upgrade:1, 加强电池升级
-stevescarts:upgrade:2, 模块知识
-stevescarts:upgrade:3, 工业间谍
-stevescarts:upgrade:4, 经验丰富
-stevescarts:upgrade:5, 新时代
-stevescarts:upgrade:6, 节能
-stevescarts:upgrade:7, 燃料多元化
-stevescarts:upgrade:8, 模块投入端
-stevescarts:upgrade:9, 生产线
-stevescarts:upgrade:10, 矿车部署
-stevescarts:upgrade:11, 矿车修改
-stevescarts:upgrade:12, 起重机
-stevescarts:upgrade:13, 红石控制
-stevescarts:upgrade:14, 创造模式
-stevescarts:upgrade:15, 快速拆除
-stevescarts:upgrade:16, 熵
-stevescarts:upgrade:17, 桥梁
-stevescarts:upgrade:18, 地热引擎
-stevescarts:upgrade:19, 太阳能电池板
-stevescarts:blockjunction, 换轨轨道
-stevescarts:blockadvdetector, 进阶压力轨道
-stevescarts:blockmetalstorage:0, 加强金属块
-stevescarts:blockmetalstorage:1, 混合晶化方块
-stevescarts:blockmetalstorage:2, 加强的混合晶化方块
-stevescarts:modularcart:0, 矿车模块
-stevescarts:modulecomponents:0, 木质车轮
-stevescarts:modulecomponents:1, 铁质车轮
+stevescarts:blockliquidmanager, 流体管理器
+stevescarts:blockdistributor, 外部分配机
+stevescarts:blockactivator, 模块切换器
+stevescarts:blockdetector:0, 探测管理器
+stevescarts:blockdetector:1, 探测装置
+stevescarts:blockdetector:2, 探测站
+stevescarts:blockdetector:3, 探测结点
+stevescarts:blockdetector:4, 探测红石装置
+stevescarts:upgrade:0, 升级：电池
+stevescarts:upgrade:1, 升级：能量水晶
+stevescarts:upgrade:2, 升级：模块知识
+stevescarts:upgrade:3, 升级：工业间谍
+stevescarts:upgrade:4, 升级：熟练装配工
+stevescarts:upgrade:5, 升级：新纪元
+stevescarts:upgrade:6, 升级：环保
+stevescarts:upgrade:7, 升级：通用引擎
+stevescarts:upgrade:8, 升级：模块输出
+stevescarts:upgrade:9, 升级：生产线
+stevescarts:upgrade:10, 升级：矿车部署器
+stevescarts:upgrade:11, 升级：矿车调节器
+stevescarts:upgrade:12, 升级：吊车
+stevescarts:upgrade:13, 升级：红石控制
+stevescarts:upgrade:14, 升级：创造模式
+stevescarts:upgrade:15, 升级：快速拆卸器
+stevescarts:upgrade:16, 升级：熵
+stevescarts:upgrade:17, 升级：管理器桥梁
+stevescarts:upgrade:18, 热能引擎
+stevescarts:upgrade:19, 升级：太阳能板
+stevescarts:blockjunction, 交接轨道
+stevescarts:blockadvdetector, 高级探测轨道
+stevescarts:blockmetalstorage:0, 强化金属块
+stevescarts:blockmetalstorage:1, 混合晶化金属块
+stevescarts:blockmetalstorage:2, 强化混合晶化金属块
+stevescarts:modularcart:0, 组装矿车
+stevescarts:modulecomponents:0, 木轮
+stevescarts:modulecomponents:1, 铁轮
 stevescarts:modulecomponents:2, 红色颜料
 stevescarts:modulecomponents:3, 绿色颜料
 stevescarts:modulecomponents:4, 蓝色颜料
-stevescarts:modulecomponents:5, 单向玻璃
-stevescarts:modulecomponents:6, 爆炸物
-stevescarts:modulecomponents:9, 简易电路板
+stevescarts:modulecomponents:5, 魔法玻璃
+stevescarts:modulecomponents:6, 炸药
+stevescarts:modulecomponents:9, 简单印刷电路板
 stevescarts:modulecomponents:10, 图形界面
-stevescarts:modulecomponents:11, 原料处理
-stevescarts:modulecomponents:12, 精制处理
-stevescarts:modulecomponents:13, 处理速度
+stevescarts:modulecomponents:11, 未加工手柄
+stevescarts:modulecomponents:12, 强化手柄
+stevescarts:modulecomponents:13, 速度手柄
 stevescarts:modulecomponents:14, 车轮
-stevescarts:modulecomponents:15, 锯片
-stevescarts:modulecomponents:16, 高级电路板
-stevescarts:modulecomponents:17, 木材切割核心
-stevescarts:modulecomponents:18, 原硬化剂
-stevescarts:modulecomponents:19, 精制剂
-stevescarts:modulecomponents:20, 硬化网格
-stevescarts:modulecomponents:21, 稳定的金属
+stevescarts:modulecomponents:15, 锯齿
+stevescarts:modulecomponents:16, 高级印刷电路板
+stevescarts:modulecomponents:17, 伐木核心
+stevescarts:modulecomponents:18, 未加工硬化剂
+stevescarts:modulecomponents:19, 强化硬化剂
+stevescarts:modulecomponents:20, 硬化丝网
+stevescarts:modulecomponents:21, 稳定金属
 stevescarts:modulecomponents:22, 强化金属
-stevescarts:modulecomponents:23, 钢制轮子
+stevescarts:modulecomponents:23, 强化车轮
 stevescarts:modulecomponents:24, 管道
 stevescarts:modulecomponents:25, 发射站
-stevescarts:modulecomponents:26, 实体扫描仪
-stevescarts:modulecomponents:27, 实体分析仪
-stevescarts:modulecomponents:28, 空磁盘
-stevescarts:modulecomponents:29, 三氯乙烯火把
-stevescarts:modulecomponents:30, 箱子网格
-stevescarts:modulecomponents:31, 大型箱子网格
-stevescarts:modulecomponents:32, 巨型箱子网格
+stevescarts:modulecomponents:26, 实体扫描器
+stevescarts:modulecomponents:27, 实体分析器
+stevescarts:modulecomponents:28, 空白磁盘
+stevescarts:modulecomponents:29, 三重火把
+stevescarts:modulecomponents:30, 箱子面板
+stevescarts:modulecomponents:31, 大型箱子面板
+stevescarts:modulecomponents:32, 巨型箱子面板
 stevescarts:modulecomponents:33, 箱子锁
-stevescarts:modulecomponents:34, 铁网格
-stevescarts:modulecomponents:35, 大型铁网格
-stevescarts:modulecomponents:36, 巨型铁网格
-stevescarts:modulecomponents:37, 动态网格
-stevescarts:modulecomponents:38, 大型动态网格
-stevescarts:modulecomponents:39, 巨型动态网格
-stevescarts:modulecomponents:40, 吸附器
-stevescarts:modulecomponents:41, 吸附核心
-stevescarts:modulecomponents:42, 吸附管道
-stevescarts:modulecomponents:43, 雷管
-stevescarts:modulecomponents:44, Solar Panel
-stevescarts:modulecomponents:45, 晶化之眼
-stevescarts:modulecomponents:46, 晶化金属片
-stevescarts:modulecomponents:47, 晶化片金属
-stevescarts:modulecomponents:48, 大片晶化片金属
-stevescarts:modulecomponents:49, 加强晶化金属锭
-stevescarts:modulecomponents:58, 高级太阳能电池板
+stevescarts:modulecomponents:34, 铁制面板
+stevescarts:modulecomponents:35, 大型铁制面板
+stevescarts:modulecomponents:36, 巨型铁制面板
+stevescarts:modulecomponents:37, 动态面板
+stevescarts:modulecomponents:38, 大型动态面板
+stevescarts:modulecomponents:39, 巨型动态面板
+stevescarts:modulecomponents:40, 清理风扇
+stevescarts:modulecomponents:41, 清理核心
+stevescarts:modulecomponents:42, 清理管道
+stevescarts:modulecomponents:43, 引信
+stevescarts:modulecomponents:44, 太阳能电池板
+stevescarts:modulecomponents:45, 混合晶化眼
+stevescarts:modulecomponents:46, 混合晶化团
+stevescarts:modulecomponents:47, 混合晶化锭
+stevescarts:modulecomponents:48, 大型混合晶化块
+stevescarts:modulecomponents:49, 强化混合晶化金属锭
+stevescarts:modulecomponents:58, 高级太阳能板
 stevescarts:modulecomponents:59, 空白升级
-stevescarts:modulecomponents:60, Tank Valve
-stevescarts:modulecomponents:61, Tank Pane
-stevescarts:modulecomponents:62, Large Tank Pane
-stevescarts:modulecomponents:63, Huge Tank Pane
-stevescarts:modulecomponents:64, 液体吸取核心
-stevescarts:modulecomponents:65, 液体吸取管
+stevescarts:modulecomponents:60, 水箱阀
+stevescarts:modulecomponents:61, 水箱格
+stevescarts:modulecomponents:62, 大型水箱格
+stevescarts:modulecomponents:63, 巨型水箱格
+stevescarts:modulecomponents:64, 流体清理核心
+stevescarts:modulecomponents:65, 流体清理管道
 stevescarts:modulecomponents:80, 硬化锯片
-stevescarts:modulecomponents:81, 创造模式锯片
-stevescarts:modulecomponents:82, 创造模式车轮
-stevescarts:modulecomponents:83, 铁刃
-stevescarts:modulecomponents:84, 叶片臂
+stevescarts:modulecomponents:81, 混合晶化金属锯片
+stevescarts:modulecomponents:82, 混合晶化金属车轮
+stevescarts:modulecomponents:83, 铁制刀片
+stevescarts:modulecomponents:84, 刀片武器
 stevescarts:cartmodule:0, 煤炭引擎
 stevescarts:cartmodule:1, 太阳能引擎
-stevescarts:cartmodule:2, 侧挂储物箱
-stevescarts:cartmodule:3, 顶置储物箱
-stevescarts:cartmodule:4, 前挂储物箱
-stevescarts:cartmodule:5, 内部存储
-stevescarts:cartmodule:6, 提取储物箱
-stevescarts:cartmodule:7, 火把砂矿
-stevescarts:cartmodule:8, 基本钻头
-stevescarts:cartmodule:9, 高级钻头
-stevescarts:cartmodule:10, 轨道布置器
-stevescarts:cartmodule:11, 大型轨道布置器
-stevescarts:cartmodule:12, 桥梁建筑器
-stevescarts:cartmodule:13, 轨道卸载器
-stevescarts:cartmodule:14, 基本农具
-stevescarts:cartmodule:15, 基本斧具
-stevescarts:cartmodule:16, 洒水器
+stevescarts:cartmodule:2, 侧面箱子
+stevescarts:cartmodule:3, 顶部箱子
+stevescarts:cartmodule:4, 前部箱子
+stevescarts:cartmodule:5, 内置存储箱
+stevescarts:cartmodule:6, 提取箱子中
+stevescarts:cartmodule:7, 火把放置器
+stevescarts:cartmodule:8, 基础钻头
+stevescarts:cartmodule:9, 混合晶化金属钻头
+stevescarts:cartmodule:10, 铺轨器
+stevescarts:cartmodule:11, 大型铺轨器
+stevescarts:cartmodule:12, 架桥器
+stevescarts:cartmodule:13, 轨道拆除器
+stevescarts:cartmodule:14, 基础种植器
+stevescarts:cartmodule:15, 基础伐木器
+stevescarts:cartmodule:16, 水合器
 stevescarts:cartmodule:18, 施肥器
 stevescarts:cartmodule:19, 高度控制器
-stevescarts:cartmodule:20, 液体传感器
-stevescarts:cartmodule:21, 实体检测器: 动物
-stevescarts:cartmodule:22, 实体检测器: 玩家
-stevescarts:cartmodule:23, 实体检测器: 村民
-stevescarts:cartmodule:24, 实体检测器: 怪物
+stevescarts:cartmodule:20, 流体传感器
+stevescarts:cartmodule:21, 实体探测器：动物
+stevescarts:cartmodule:22, 实体探测器：玩家
+stevescarts:cartmodule:23, 实体探测器：村民
+stevescarts:cartmodule:24, 实体探测器：怪物
 stevescarts:cartmodule:25, 座位
-stevescarts:cartmodule:26, 制动拉杆
+stevescarts:cartmodule:26, 制动手柄
 stevescarts:cartmodule:27, 高级控制系统
-stevescarts:cartmodule:28, 射击器
-stevescarts:cartmodule:29, 高级射击器
-stevescarts:cartmodule:30, 吸附机
-stevescarts:cartmodule:31, 车载炸弹
-stevescarts:cartmodule:32, 圣盾
-stevescarts:cartmodule:33, 熔炉
-stevescarts:cartmodule:34, 顶级熔炉
-stevescarts:cartmodule:36, 内部核心
-stevescarts:cartmodule:37, 木制车壳
-stevescarts:cartmodule:38, 标准车壳
-stevescarts:cartmodule:39, 强化车壳
-stevescarts:cartmodule:40, 序列注释
-stevescarts:cartmodule:41, 图标美化
-stevescarts:cartmodule:42, 铁钻头
-stevescarts:cartmodule:43, 硬化钻头
+stevescarts:cartmodule:28, 发射器
+stevescarts:cartmodule:29, 高级发射器
+stevescarts:cartmodule:30, 清除器
+stevescarts:cartmodule:31, 炸药载运器
+stevescarts:cartmodule:32, 神圣护盾
+stevescarts:cartmodule:33, 熔化器
+stevescarts:cartmodule:34, 至尊熔化器
+stevescarts:cartmodule:36, 隐形核心
+stevescarts:cartmodule:37, 木制外壳
+stevescarts:cartmodule:38, 标准外壳
+stevescarts:cartmodule:39, 强化外壳
+stevescarts:cartmodule:40, 音符编曲器
+stevescarts:cartmodule:41, 着色器
+stevescarts:cartmodule:42, 铁制钻头
+stevescarts:cartmodule:43, 强化钻头
 stevescarts:cartmodule:44, 小型煤炭引擎
 stevescarts:cartmodule:45, 基础太阳能引擎
-stevescarts:cartmodule:49, 区块加载机
-stevescarts:cartmodule:51, 弹射物：药水
-stevescarts:cartmodule:53, 弹射物：鸡蛋
-stevescarts:cartmodule:56, 小型太阳能引擎
-stevescarts:cartmodule:57, 箱子
-stevescarts:cartmodule:58, 农作物：地狱疣
-stevescarts:cartmodule:59, 烟火
+stevescarts:cartmodule:49, 区块加载器
+stevescarts:cartmodule:51, 投掷物：药水
+stevescarts:cartmodule:53, 投掷物：鸡蛋
+stevescarts:cartmodule:56, 太阳能列阵引擎
+stevescarts:cartmodule:57, 兽笼
+stevescarts:cartmodule:58, 作物：地狱疣
+stevescarts:cartmodule:59, 烟花发射器
 stevescarts:cartmodule:61, 创造模式引擎
-stevescarts:cartmodule:62, 机械猪
-stevescarts:cartmodule:63, Internal Tank
-stevescarts:cartmodule:64, 侧挂流体罐
-stevescarts:cartmodule:65, Top Tank
-stevescarts:cartmodule:66, Advanced Tank
-stevescarts:cartmodule:67, Front Tank
-stevescarts:cartmodule:68, 焚烧炉
-stevescarts:cartmodule:69, 地热引擎
-stevescarts:cartmodule:70, 高级地热引擎
-stevescarts:cartmodule:71, 液体吸取机
-stevescarts:cartmodule:72, Creative Tank
-stevescarts:cartmodule:73, Open Tank
-stevescarts:cartmodule:75, 钻头情况
-stevescarts:cartmodule:76, 创造模式车壳
-stevescarts:cartmodule:77, 动力观测器
-stevescarts:cartmodule:78, 史蒂夫的拱廊
-stevescarts:cartmodule:79, 强化木材切割机
-stevescarts:cartmodule:80, 创造模式斧具
-stevescarts:cartmodule:81, 创造模式车壳
-stevescarts:cartmodule:82, 巫士
-stevescarts:cartmodule:83, 矿物提取机
-stevescarts:cartmodule:84, 创造模式农具
-stevescarts:cartmodule:85, 割草机
-stevescarts:cartmodule:86, 挤奶器
-stevescarts:cartmodule:87, 工匠
-stevescarts:cartmodule:89, 种植范围提升
+stevescarts:cartmodule:62, 机械猪车壳
+stevescarts:cartmodule:63, 内置水箱
+stevescarts:cartmodule:64, 侧面水槽
+stevescarts:cartmodule:65, 顶置水箱
+stevescarts:cartmodule:66, 高级水箱
+stevescarts:cartmodule:67, 前置水箱
+stevescarts:cartmodule:68, 焚化炉
+stevescarts:cartmodule:69, 热能引擎
+stevescarts:cartmodule:70, 高级热能引擎
+stevescarts:cartmodule:71, 流体清理器
+stevescarts:cartmodule:72, 创造模式水箱
+stevescarts:cartmodule:73, 开放式水箱
+stevescarts:cartmodule:75, 钻头智能
+stevescarts:cartmodule:76, 创造模式外壳
+stevescarts:cartmodule:77, 能量观测器
+stevescarts:cartmodule:78, 史蒂夫游乐场
+stevescarts:cartmodule:79, 硬化伐木器
+stevescarts:cartmodule:80, 混合晶化金属伐木器
+stevescarts:cartmodule:81, 混合晶化金属车壳
+stevescarts:cartmodule:82, 附魔器
+stevescarts:cartmodule:83, 矿物提取器
+stevescarts:cartmodule:84, 混合晶化金属种植器
+stevescarts:cartmodule:85, 割草器
+stevescarts:cartmodule:86, 混合器
+stevescarts:cartmodule:87, 合成器
+stevescarts:cartmodule:89, 种植范围拓展器
 stevescarts:cartmodule:91, 熔炉
-stevescarts:cartmodule:92, 高级工匠
+stevescarts:cartmodule:92, 高级合成器
 stevescarts:cartmodule:93, 高级熔炉
-stevescarts:cartmodule:94, 信息供应商
-stevescarts:cartmodule:95, 经验银行
-stevescarts:cartmodule:96, 创造模式焚烧炉
-stevescarts:cartmodule:97, 创造模式供给物
+stevescarts:cartmodule:94, 信息供应器
+stevescarts:cartmodule:95, 经验储库
+stevescarts:cartmodule:96, 创造模式焚化炉
+stevescarts:cartmodule:97, 创造模式供应
 stevescarts:cartmodule:99, 蛋糕服务器
-stevescarts:cartmodule:101, 颜色随机数发生器
-waterstrainer:net:0, Net
-waterstrainer:net:1, Dense Net
-waterstrainer:worm, Worm
-waterstrainer:super_worm, Super Worm
-waterstrainer:bait_pot, Bait Pot
-waterstrainer:garden_trowel, Garden Trowel
-waterstrainer:efficiency_meter, Efficiency Meter
-waterstrainer:strainer_survivalist, Survivalist's Strainer
-waterstrainer:strainer_survivalist_solid, Solid Survivalist's Strainer
-waterstrainer:strainer_survivalist_reinforced, Reinforced Survivalist's Strainer
-waterstrainer:strainer_survivalist_dense, Survivalist's Strainer (Dense)
-waterstrainer:strainer_survivalist_dense_solid, Solid Survivalist's Strainer (Dense)
-waterstrainer:strainer_survivalist_dense_reinforced, Reinforced Survivalist's Strainer (Dense)
-waterstrainer:strainer_fisherman, Fisherman's Strainer
-waterstrainer:strainer_base, Strainer Base
+stevescarts:cartmodule:101, 颜色定制组件
+waterstrainer:strainer_base, 滤网基座
+waterstrainer:net:0, 网
+waterstrainer:net:1, 致密网
+waterstrainer:worm, 蚯蚓
+waterstrainer:super_worm, 超级蚯蚓
+waterstrainer:bait_pot, 鱼饵罐
+waterstrainer:garden_trowel, 园林铲
+waterstrainer:efficiency_meter, 效率计
+waterstrainer:strainer_survivalist, 生存者滤网
+waterstrainer:strainer_survivalist_solid, 固态生存者滤网
+waterstrainer:strainer_survivalist_reinforced, 强化生存者滤网
+waterstrainer:strainer_survivalist_dense, 生存者滤网（致密）
+waterstrainer:strainer_survivalist_dense_solid, 固态生存者滤网（致密）
+waterstrainer:strainer_survivalist_dense_reinforced, 强化生存者滤网（致密）
+waterstrainer:strainer_fisherman, 渔夫滤网
 woot:die:0, 网状模具
 woot:die:1, 板状模具
 woot:die:2, 芯片模具
@@ -6881,13 +6906,13 @@ woot:shard:0, 钻石碎片
 woot:shard:1, 绿宝石碎片
 woot:shard:2, 石英碎片
 woot:shard:3, 下界之星碎片
-woot:shard:4, Tier II Shard
-woot:shard:5, Tier III Shard
-woot:shard:6, Tier IV Shard
+woot:shard:4, 二级碎片
+woot:shard:5, 三级碎片
+woot:shard:6, 四级碎片
 woot:yahhammer, Ya 锤子
-woot:xpshard, 经验碎片
-woot:fakemanual, Readme
-woot:builder, The Intern
+woot:xpshard, 经验碎片（16 点经验）
+woot:fakemanual, 自述
+woot:builder, 工厂搭建器
 woot:anvil, 地狱铁砧
 woot:layout, 工厂指导石
 woot:factory, 工厂核心
@@ -6928,23 +6953,28 @@ woot:upgrade:14, 斩首 Ⅲ 升级
 woot:upgradeb:0, 能效 Ⅰ 升级
 woot:upgradeb:1, 能效 Ⅱ 升级
 woot:upgradeb:2, 能效 Ⅲ 升级
-woot:upgradeb:3, Blood Magic Life Essence Tank I Upgrade
-woot:upgradeb:4, Blood Magic Life Essence Tank II Upgrade
-woot:upgradeb:5, Blood Magic Life Essence Tank III Upgrade
-woot:upgradeb:6, Blood Magic Life Essence Altar I Upgrade
-woot:upgradeb:7, Blood Magic Life Essence Altar II Upgrade
-woot:upgradeb:8, Blood Magic Life Essence Altar III Upgrade
-woot:upgradeb:9, EvilCraft Blood Tank I Upgrade
-woot:upgradeb:10, EvilCraft Blood Tank II Upgrade
-woot:upgradeb:11, EvilCraft Blood Tank III Upgrade
-woot:upgradeb:12, Blood Magic Crystal I Upgrade
-woot:upgradeb:13, Blood Magic Crystal II Upgrade
-woot:upgradeb:14, Blood Magic Crystal III Upgrade
+woot:upgradeb:3, 血魔法生命源质储罐 Ⅰ 升级
+woot:upgradeb:4, 血魔法生命源质储罐 Ⅱ 升级
+woot:upgradeb:5, 血魔法生命源质储罐 Ⅲ 升级
+woot:upgradeb:6, 血魔法生命源质祭坛 Ⅰ 升级
+woot:upgradeb:7, 血魔法生命源质祭坛 Ⅱ 升级
+woot:upgradeb:8, 血魔法生命源质祭坛 Ⅲ 升级
+woot:upgradeb:9, 邪恶工艺血液储罐 Ⅰ 升级
+woot:upgradeb:10, 邪恶工艺血液储罐 Ⅱ 升级
+woot:upgradeb:11, 邪恶工艺血液储罐 Ⅲ 升级
+woot:upgradeb:12, 血魔法晶体 Ⅰ 升级
+woot:upgradeb:13, 血魔法晶体 Ⅱ 升级
+woot:upgradeb:14, 血魔法晶体 Ⅲ 升级
+researchtable:table, 研究台
+trapexpansion:spike_trap, 钉刺陷阱
+trapexpansion:slippery_stone, 滑滑石
+trapexpansion:fan, 风扇
+trapexpansion:detector, 实体检测器
 base:wrench, 扳手
-betterbuilderswands:wandstone, Stone Wand
-betterbuilderswands:wandiron, Iron Wand
-betterbuilderswands:wanddiamond, Diamond Wand
-betterbuilderswands:wandunbreakable, Unbreakable Wand
+betterbuilderswands:wandstone, 石质手杖
+betterbuilderswands:wandiron, 铁质手杖
+betterbuilderswands:wanddiamond, 钻石手杖
+betterbuilderswands:wandunbreakable, 不毁手杖
 contenttweaker:material_part:0, 青铜剑刃
 contenttweaker:material_part:1, 青铜铲头
 contenttweaker:material_part:2, 青铜镐头
@@ -7000,11 +7030,61 @@ contenttweaker:material_part:61, 铜铲头
 contenttweaker:material_part:62, 铜镐头
 contenttweaker:material_part:63, 铜斧头
 contenttweaker:material_part:64, 铜锄头
+contenttweaker:material_part:65, BiopolymerMaterial粉
+contenttweaker:material_part:66, BiopolymerMaterial齿轮
+contenttweaker:material_part:67, BiopolymerMaterial板
+contenttweaker:material_part:68, BiopolymerMaterial粒
+contenttweaker:material_part:69, BiopolymerMaterial锭
+contenttweaker:material_part:70, BiopolymerMaterial棒
+contenttweaker:material_part:72, ZeroAshenMetal粉
+contenttweaker:material_part:73, ZeroAshenMetal齿轮
+contenttweaker:material_part:74, ZeroAshenMetal板
+contenttweaker:material_part:75, ZeroAshenMetal粒
+contenttweaker:material_part:76, ZeroAshenMetal锭
+contenttweaker:material_part:77, ZeroAshenMetal棒
+contenttweaker:material_part:79, Mithril粉
+contenttweaker:material_part:80, Mithril齿轮
+contenttweaker:material_part:81, Mithril板
+contenttweaker:material_part:82, Mithril粒
+contenttweaker:material_part:83, Mithril锭
+contenttweaker:material_part:84, Mithril棒
+contenttweaker:material_part:86, Graphene粉
+contenttweaker:material_part:87, Graphene齿轮
+contenttweaker:material_part:88, Graphene板
+contenttweaker:material_part:89, Graphene粒
+contenttweaker:material_part:90, Graphene锭
+contenttweaker:material_part:91, Graphene棒
+contenttweaker:material_part:93, CompressedAshenMetal粉
+contenttweaker:material_part:94, CompressedAshenMetal齿轮
+contenttweaker:material_part:95, CompressedAshenMetal板
+contenttweaker:material_part:96, CompressedAshenMetal粒
+contenttweaker:material_part:97, CompressedAshenMetal锭
+contenttweaker:material_part:98, CompressedAshenMetal棒
+contenttweaker:material_part:100, AshenMetal粉
+contenttweaker:material_part:101, AshenMetal齿轮
+contenttweaker:material_part:102, AshenMetal板
+contenttweaker:material_part:103, AshenMetal粒
+contenttweaker:material_part:104, AshenMetal锭
+contenttweaker:material_part:105, AshenMetal棒
+contenttweaker:material_part:107, Superconductium粉
+contenttweaker:material_part:108, Superconductium齿轮
+contenttweaker:material_part:109, Superconductium板
+contenttweaker:material_part:110, Superconductium粒
+contenttweaker:material_part:111, Superconductium锭
+contenttweaker:material_part:112, Superconductium棒
+contenttweaker:material_part:114, Neutron粉
+contenttweaker:material_part:115, Neutron齿轮
+contenttweaker:material_part:116, Neutron板
+contenttweaker:material_part:117, Neutron粒
+contenttweaker:material_part:118, Neutron锭
+contenttweaker:material_part:119, Neutron棒
+contenttweaker:stamp_sword, 剑刃模具
 contenttweaker:handfulsand, 小撮沙子
 contenttweaker:ember_triode, 灰烬能量三极管
 contenttweaker:pebble, 小石子
 contenttweaker:apple_seed, 苹果籽
 contenttweaker:fiber_string, 纤维绳
+contenttweaker:stamp_shovel, 铲头模具
 contenttweaker:obsolete_iron, 废铁
 contenttweaker:advanced_ember_capacitor, 高级灰烬能量电容
 contenttweaker:advanced_transmission, 高级传动装置
@@ -7014,15 +7094,18 @@ contenttweaker:solidified_ash, 凝实灰烬
 contenttweaker:advanced_sensor, 高级传感器
 contenttweaker:obsolete_can, 废弃的铜质罐头
 contenttweaker:basic_sensor, 基础传感器
+contenttweaker:stamp_hoe, 锄头模具
 contenttweaker:ash_string, 灰烬丝线
 contenttweaker:obsolete_battery, 报废电池
 contenttweaker:obsolete_circuit, 报废电路板
 contenttweaker:compact_ash, 致密灰烬
 contenttweaker:rekindled_ash, 复燃的灰烬
 contenttweaker:advanced_motor, 电动马达
+contenttweaker:stamp_pickaxe, 镐头模具
 contenttweaker:advanced_alchemy_knowledge, 高阶炼金学知识
 contenttweaker:bottled_ash, 瓶装灰烬
 contenttweaker:basic_transmission, 基础传动装置
+contenttweaker:stamp_axe, 斧头模具
 contenttweaker:basic_motor, 灰烬能量马达
 contenttweaker:basic_ember_capacitor, 基础灰烬能量电容
 contenttweaker:ash_ingot, 灰烬锭
@@ -7036,7 +7119,7 @@ embers:ingot_silver, 银锭
 embers:ingot_dawnstone, 黎明石锭
 embers:nugget_copper, 铜粒
 embers:nugget_lead, 铅粒
-embers:nugget_silver, 银粒
+embers:nugget_silver, 银Nugget
 embers:nugget_dawnstone, 黎明石粒
 embers:plate_copper, 铜板
 embers:plate_lead, 铅板
@@ -7063,10 +7146,10 @@ embers:shard_ember, 灰烬晶体碎片
 embers:crystal_ember, 灰烬晶体
 embers:pickaxe_copper, 铜镐
 embers:axe_copper, 铜斧
-embers:shovel_copper, 铜铲
+embers:shovel_copper, 铜锹
 embers:hoe_copper, 铜锄
-embers:sword_copper, 铜剑
-embers:pickaxe_silver, 银剑
+embers:sword_copper, 铜件
+embers:pickaxe_silver, 银镐
 embers:axe_silver, 银斧
 embers:shovel_silver, 银铲
 embers:hoe_silver, 银锄
@@ -7127,9 +7210,9 @@ embers:diffraction_barrel, 散射枪管
 embers:focal_lens, 聚焦镜片
 embers:tinker_lens, 工匠单片眼镜
 embers:anti_tinker_lens, 烟熏的工匠单片眼镜
-embers:shifting_scales, Shifting Scales
-embers:winding_gears, Winding Gears
-embers:creative_heat, Creative Heat Modifier
+embers:shifting_scales, 蠕动鳞片
+embers:winding_gears, 发条齿轮
+embers:creative_heat, 创造模式热力强化
 embers:ingot_aluminum, 铝锭
 embers:plate_aluminum, 铝板
 embers:nugget_aluminum, 铝粒
@@ -7143,7 +7226,7 @@ embers:plate_bronze, 青铜板
 embers:nugget_bronze, 青铜粒
 embers:pickaxe_bronze, 青铜镐
 embers:axe_bronze, 青铜斧
-embers:shovel_bronze, 青铜铲
+embers:shovel_bronze, 青铜锹
 embers:sword_bronze, 青铜剑
 embers:hoe_bronze, 青铜锄
 embers:ingot_electrum, 琥珀金锭
@@ -7175,15 +7258,15 @@ embers:block_lead, 铅块
 embers:block_silver, 银块
 embers:block_dawnstone, 黎明石块
 embers:ore_copper, 铜矿石
-embers:ore_lead, 铅矿石
+embers:ore_lead, 铅矿
 embers:ore_silver, 银矿石
 embers:block_caminite_brick, 方镁矾砖块
 embers:block_caminite_brick_slab_double, 方镁矾双层台阶
 embers:stairs_caminite_brick, 方镁矾砖楼梯
 embers:wall_caminite_brick, 方镁矾砖墙
-embers:block_tank, 流体容器
+embers:block_tank, 流体储罐
 embers:pipe, 流体管道
-embers:pump, 机械流体泵管道
+embers:pump, 流体泵
 embers:block_furnace, 熔炼炉
 embers:ember_receiver, 灰烬能量接收器
 embers:ember_emitter, 灰烬能量发射器
@@ -7191,15 +7274,15 @@ embers:copper_cell:0, 铜质灰烬能量单元
 embers:copper_cell:0, 铜质灰烬能量单元
 embers:item_pipe, 物品管道
 embers:item_pump, 物品提取泵管道
-embers:bin, 储物仓
+embers:bin, 垃圾桶
 embers:stamper, 压印锤
 embers:stamper_base, 压印基座
 embers:ember_bore, 灰烬晶体开采机
 embers:mech_accessor, 机械核心连接器
 embers:mech_core, 机械核心
-embers:ember_activator, 灰烬能量催化器
+embers:ember_activator, 灰烬能量激发器
 embers:stone_edge, 方镁矾圈墙
-embers:mixer, 混合离心器
+embers:mixer, 搅拌机[WIP]
 embers:heat_coil, 线圈炉
 embers:item_dropper, 物品投掷口
 embers:large_tank, 蓄水池
@@ -7209,7 +7292,7 @@ embers:block_lantern, 灰烬灯笼
 embers:beam_splitter, 灰烬能量分束器
 embers:ember_relay, 灰烬能量中继器
 embers:crystal_cell, 晶胞灰烬能量单元
-embers:charger, 铜质灰烬能量充能器
+embers:charger, 电池充电器
 embers:ashen_stone, 灰石
 embers:ashen_stone_slab_double, 灰石双层台阶
 embers:stairs_ashen_stone, 灰石楼梯
@@ -7233,13 +7316,13 @@ embers:archaic_tile, 古代瓦块
 embers:archaic_light, 古代灯笼
 embers:dawnstone_anvil, 黎明石砧
 embers:auto_hammer, 自动锤
-embers:ore_quartz, 石英矿
+embers:ore_quartz, 石英矿石
 embers:sealed_planks, 密封板
 embers:wrapped_sealed_planks, 加固密封板
 embers:vacuum, 虚空吸取器
 embers:breaker, 自动方块破坏器
 embers:ember_injector, 灰烬能量灌注器
-embers:boiler, 高压能量激发器
+embers:boiler, 锅炉
 embers:reactor, 高温催化反应器
 embers:combustor, 燃烧室
 embers:catalyzer, 催化室
@@ -7253,28 +7336,28 @@ embers:catalytic_plug, 催化剂插头
 embers:ember_funnel, 灰烬能量漏斗
 embers:mini_boiler, 微型锅炉
 embers:fluid_transfer, 流体传输过滤器
-embers:ember_siphon, Ember Siphon
-embers:stirling, Wildfire Stirling
-embers:clockwork_attenuator, Clockwork Attenuator
-embers:seed_iron, Iron Crystal Seed
-embers:seed_gold, Gold Crystal Seed
-embers:seed_copper, Copper Crystal Seed
-embers:seed_silver, Silver Crystal Seed
-embers:seed_lead, Lead Crystal Seed
-embers:seed_dawnstone, Dawnstone Crystal Seed
-embers:stone_valve, Caminite Valve
-embers:geo_separator, Geologic Separator
+embers:ember_siphon, 灰烬吸取器
+embers:stirling, 野火斯特林
+embers:clockwork_attenuator, 发条抑制器
+embers:seed_iron, 铁质结晶之种
+embers:seed_gold, 金质结晶之种
+embers:seed_copper, 铜质结晶之种
+embers:seed_silver, 银质结晶之种
+embers:seed_lead, 铅质结晶之种
+embers:seed_dawnstone, 黎明石质结晶之种
+embers:stone_valve, 方镁矾阀门圈墙
+embers:geo_separator, 地质分离器
 embers:block_aluminum, 铝块
 embers:ore_aluminum, 铝矿石
-embers:seed_aluminum, Aluminium Crystal Seed
+embers:seed_aluminum, 铝质结晶之种
 embers:block_bronze, 青铜块
 embers:block_electrum, 琥珀金块
 embers:block_nickel, 镍块
 embers:ore_nickel, 镍矿石
-embers:seed_nickel, Nickel Crystal Seed
+embers:seed_nickel, 镍质结晶之种
 embers:block_tin, 锡块
 embers:ore_tin, 锡矿石
-embers:seed_tin, Tin Crystal Seed
+embers:seed_tin, 锡质结晶之种
 modularmachinery:blockcontroller, 机械控制器
 modularmachinery:blockcasing:0, 机械外壳
 modularmachinery:blockcasing:1, 机械通风口

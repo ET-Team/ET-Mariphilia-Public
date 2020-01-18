@@ -235,7 +235,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [null,<embers:blend_caminite>,null]
     ],
     <embers:beam_cannon> : [
-        [null,<embers:ember_pulser>,null],
+        [null,<embers:ember_emitter>,null],
         [<embers:plate_dawnstone>,<embers:ember_cartridge>,<embers:plate_dawnstone>],
         [<ore:ingotBronze>,<embers:block_caminite_brick>,<ore:ingotBronze>]
     ],
@@ -395,6 +395,11 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plateDawnstone>,<ore:blockBronze>,<ore:plateDawnstone>],
         [<ore:plateDawnstone>,<embers:copper_cell>,<ore:plateDawnstone>],
         [null,<item:minecraft:hopper>,null]
+    ],
+    <researchtable:table> : [
+        [<embers:archaic_brick>,<embers:flame_barrier>,<embers:archaic_brick>],
+        [null,<embers:archaic_brick>,null],
+        [<embers:archaic_brick>,<ore:blockDawnstone>,<embers:archaic_brick>]
     ]
 };
 
@@ -494,6 +499,10 @@ static mirroredRecipes as IIngredient[][][IItemStack] = {
         [<minecraft:bread>],
         [<aquaculture:food:5>],
         [<minecraft:bread>]
+    ],
+    <minecraft:flint_and_steel> : [
+        [null,<ore:plateIron>],
+        [<minecraft:flint>,null]
     ]
 
 
@@ -519,13 +528,13 @@ static shapelessRecipes as IIngredient[][IItemStack] = {
 
     <item:contenttweaker:plant_fiber>*2 : [<ore:treeLeaves>,<ore:treeLeaves>,<ore:treeLeaves>,<ore:treeLeaves>,<ore:treeLeaves>,<ore:treeLeaves>,<ore:treeLeaves>,<ore:treeLeaves>,<ore:treeLeaves>],
 
-    <item:aquaculture:fishing_rod>.withTag({ench: [{lvl: 5 as short, id: 23 as short}]}) : [<item:aquaculture:fishing_rod>,<item:embers:tinker_hammer>.reuse()],
+    <item:aquaculture:fishing_rod>.withTag({ench: [{lvl: 5 as short, id: 24 as short}]}) : [<item:aquaculture:fishing_rod>,<item:embers:tinker_hammer>.reuse()],
     
-    <item:aquaculture:iron_fishing_rod>.withTag({ench: [{lvl: 5 as short, id: 23 as short}]}) : [<item:aquaculture:iron_fishing_rod>,<item:embers:tinker_hammer>.reuse()],
+    <item:aquaculture:iron_fishing_rod>.withTag({ench: [{lvl: 5 as short, id: 24 as short}]}) : [<item:aquaculture:iron_fishing_rod>,<item:embers:tinker_hammer>.reuse()],
 
     <contenttweaker:apple_seed> : [<minecraft:apple>],
 
-    <minecraft:dye:15> : [<aquaculture:fish:38>]
+    <minecraft:dye:15>*2 : [<aquaculture:fish:38>]
 };
 
 //添加配方
@@ -620,16 +629,33 @@ function initStageRecipes(){
         mods.recipestages.Recipes.addShapeless(stageName, <contenttweaker:plant_fiber>.withAmount(outputAmount),[<ore:etmSeaweed>, sword.anyDamage().transformDamage(4)]);
     }
 
-    for sword in <ore:etmListSwords>.items{
-        mods.recipestages.Recipes.addShapeless(stageName, <aquaculture:food:2>*2, [<aquaculture:fish:14>.transformReplace(<aquaculture:fish:38>),sword.anyDamage().transformDamage(10)]);
-        for i in 0 to 14{
-            for i in 20 to 38{
-                val fish as IIngredient = <aquaculture:fish>.definition.makeStack(i);
-                mods.recipestages.Recipes.addShapeless(stageName, <aquaculture:food:3>*2, [fish.transformReplace(<aquaculture:fish:38>),sword.anyDamage().transformDamage(4)]);
-            }
+     for i in 0 to 14{
+        for sword in <ore:etmListSwords>.items{
+            val fish as IIngredient = <aquaculture:fish>.definition.makeStack(i);
+            mods.recipestages.Recipes.addShapeless(stageName, <aquaculture:food:3>*2, [fish.transformReplace(<aquaculture:fish:38>),sword.anyDamage().transformDamage(4)]);
         }
     }
 
+    for i in 20 .. 38{
+        for sword in <ore:etmListSwords>.items{
+            val fish as IIngredient = <aquaculture:fish>.definition.makeStack(i);
+            mods.recipestages.Recipes.addShapeless(stageName, <aquaculture:food:3>*2, [fish.transformReplace(<aquaculture:fish:38>),sword.anyDamage().transformDamage(4)]);
+        }
+    }
+
+    for sword in <ore:etmListSwords>.items{
+        mods.recipestages.Recipes.addShapeless(stageName, <aquaculture:food:2>*2, [<aquaculture:fish:14>.transformReplace(<aquaculture:fish:38>),sword.anyDamage().transformDamage(10)]);
+    }
+
+
+
+    for i in 0 to 5{
+        val planks as IItemStack = <item:minecraft:planks>.definition.makeStack(i);
+        val slab as IItemStack = <minecraft:wooden_slab>.definition.makeStack(i);
+        mods.recipestages.Recipes.addShaped(stageName, slab.withAmount(6), [[planks,planks,planks]]);
+        mods.recipestages.Recipes.addShaped(stageName, planks.withAmount(1), [[slab],[slab]]);
+    }
+    
 }
 
 function init(){

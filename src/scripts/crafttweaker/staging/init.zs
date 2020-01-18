@@ -3,4 +3,5 @@ import scripts.crafttweaker.staging as this;
 function init(){
     this.item.init();
     this.mod.init();
+    this.research.init.init();
 }

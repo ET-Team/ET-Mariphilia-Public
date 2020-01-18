@@ -46,9 +46,20 @@ base.material.nickel=镍
 base.material.aluminum=铝
 base.material.certus_quartz=赛特斯石英
 base.material.nether_quartz=下界石英
+base.material.ashen_metal=灰烬金属
+base.material.mithril=秘银
+base.material.compressed_ashen_metal=压缩灰烬金属
+base.material.biopolymer_material=生物聚合材料
+base.material.superconductium=超导金属
+base.material.zero_ashen_metal=零点灰烬金属
+base.material.graphene=石墨烯
+base.material.neutron=中子材料
 
 contenttweaker.part.part_axe=%s斧头
 contenttweaker.part.part_pickaxe=%s镐头
 contenttweaker.part.part_hoe=%s锄头
 contenttweaker.part.part_sword=%s剑刃
 contenttweaker.part.part_shovel=%s铲头
+
+etm.research.ashenology.title=灰烬学
+etm.research.ashenology.description=从灰烬中衍生出的无尽奥妙，由灰烬能量支撑的工业体系...灰烬学中蕴含着无尽的可能。试着研究一些蕴含着大量灰烬能量的材料吧。

@@ -24,6 +24,15 @@ static partNames as string[] = [
 	"part_sword",
 	"part_hoe"
 ];
+static materialNames as string[] = [
+	"dust",
+	"gear",
+	"plate",
+	"nugget",
+	"ingot",
+	"rod"
+];
+
 static registeredToolMaterials as int[string] = {
 	Iron : 16777215,
 	Copper : 15966056,
@@ -38,6 +47,17 @@ static registeredToolMaterials as int[string] = {
 	Aluminum : 16768726
 };
 
+static materials as int[string] = {
+	AshenMetal : 0,
+	CompressedAshenMetal : 0,
+	Mithril : 0,
+	BiopolymerMaterial : 0,
+	Superconductium : 0,
+	ZeroAshenMetal : 0,
+	Graphene : 0,
+	Neutron : 0
+};
+
 function registerToolParts(){
 	for type, oredict in partTypes{
 		MaterialSystem.getPartBuilder().setName(type).setPartType(MaterialSystem.getPartType("item")).setOreDictName(oredict).build();
@@ -47,6 +67,23 @@ function registerToolParts(){
 	}
 }
 
+function registerMaterial(oreDictName as string, color as int){
+	var mat = MaterialSystem.getMaterialBuilder().setName(oreDictName).setColor(color).build();
+	mat.registerParts(materialNames);
+	var blockData = mat.registerPart("block").getData();
+	blockData.addDataValue("hardness", "5");
+	blockData.addDataValue("resistance", "30");
+	blockData.addDataValue("harvestTool", "pickaxe");
+	blockData.addDataValue("harvestLevel", "2");
+}
+
+function registerMaterialSystem(){
+	for materialName, color in materials{
+		registerMaterial(materialName, color);
+	}
+}
+
 function init(){
 	registerToolParts();
+	registerMaterialSystem();
 }

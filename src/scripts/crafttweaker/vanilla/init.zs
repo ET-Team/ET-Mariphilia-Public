@@ -7,4 +7,5 @@ function init(){
     vanilla.oreDict.init.init();
     vanilla.recipes.init.init();
     vanilla.furnace.init();
+    vanilla.tooltip_renaming.init();
 }

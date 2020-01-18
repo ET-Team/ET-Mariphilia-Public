@@ -38,5 +38,7 @@ function init(){
 	//腐蚀性液体
 	buildFluid("corrosive_liquid", "ac1a6d", 150, 2000, 2000, 10, false, false, false, false); 
 	//灰烬水
-	buildFluid("aquae_cinere", "363131", 120, 1200, 1200, 0, false, false, true, true); 
+	buildFluid("aquae_cinere", "363131", 120, 1200, 1200, 0, false, false, true, true);
+	//超流体
+	buildFluid("hyperfluid", "8871bf", 1000, 1200, 1200, 0, false, false, true, true); 
 }
