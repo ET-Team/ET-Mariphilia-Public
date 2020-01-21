@@ -159,7 +159,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<item:minecraft:brick>.reuse(),<ore:cobblestone>,<item:minecraft:brick>.reuse()],
         [<item:minecraft:brick>.reuse(),<item:contenttweaker:rekindled_ash>,<item:minecraft:brick>.reuse()]
     ],
-    <embers:plate_caminite_raw> : [
+    <embers:plate_caminite_raw>*2 : [
         [<embers:blend_caminite>, <embers:blend_caminite>],
         [<embers:blend_caminite>, <embers:blend_caminite>]
     ],
@@ -210,9 +210,9 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:ingotIron>,<contenttweaker:compact_ash>,<ore:ingotIron>]
     ],
     <embers:mech_core> : [
-        [<ore:ingotIron>,<embers:item_pipe>,<ore:ingotIron>],
+        [<ore:ingotIron>,<ore:plateIron>,<ore:ingotIron>],
         [<embers:pipe>,<contenttweaker:basic_transmission>,<embers:pipe>],
-        [<ore:ingotIron>,<embers:item_pipe>,<ore:ingotIron>]
+        [<ore:ingotIron>,<ore:plateIron>,<ore:ingotIron>]
     ],
     <embers:mixer> : [
         [<ore:plateIron>,<ore:plateIron>,<ore:plateIron>],
@@ -313,7 +313,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     ],
     <embers:copper_cell>.withTag({emberCapacity: 24000.0, ember: 0.0}) : [
         [<embers:block_caminite_brick>,<ore:plateCopper>,<embers:block_caminite_brick>],
-        [<ore:plateCopper>,<contenttweaker:basic_ember_capacitor>,<ore:plateCopper>],
+        [<ore:plateCopper>,<embers:ember_cartridge>,<ore:plateCopper>],
         [<embers:block_caminite_brick>,<ore:plateCopper>,<embers:block_caminite_brick>]
     ],
     <embers:beam_splitter> : [
@@ -335,11 +335,6 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     <minecraft:glass_pane>*6 : [
         [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
         [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>]
-    ],
-    <contenttweaker:basic_ember_capacitor>*2 : [
-        [<ore:ingotLead>,<ore:paneGlass>,<ore:ingotLead>],
-        [<ore:paneGlass>,<embers:crystal_ember>,<ore:paneGlass>],
-        [<ore:ingotLead>,<ore:paneGlass>,<ore:ingotLead>]
     ],
     <minecraft:flint> : [
         [<ore:gravel>],

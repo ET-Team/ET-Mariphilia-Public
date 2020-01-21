@@ -51,7 +51,23 @@ static plainItemList as string[] = [
 	"basic_ember_capacitor",
 	"advanced_ember_capacitor",
 	"ember_diode",
-	"ember_triode"
+	"ember_triode",
+	"pressure_meter",
+	//DATA
+	"data_container",
+	"pressure_data",
+	"electric_data",
+	"lightning_data",
+	"explosion_data",
+	"ember_data",
+	"jet_data",
+	"biodata_wheat",
+	"biodata_self",
+	"biodata_zombie",
+	"biodata_skeleton",
+	"biodata_creeper",
+	"biodata_golem",
+	"biodata_wither"
 ];
 
 
