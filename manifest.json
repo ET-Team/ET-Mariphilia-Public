@@ -495,5 +495,5 @@
       "required": true
     }
   ],
-  "overrides": "overrides"
+  "overrides": "src"
 }
