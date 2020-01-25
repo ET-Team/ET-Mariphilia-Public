@@ -5,7 +5,8 @@ import crafttweaker.liquid.ILiquidStack;
 
 static fluidRecipes as ILiquidStack[bool][int][IItemStack][IIngredient] = {
     <contenttweaker:obsolete_circuit> : {oreDictUtil.getNuggetFromOre("Gold", 3) : {1 : { false : <fluid:corrosive_liquid> }}},
-    <contenttweaker:obsolete_battery> : {oreDictUtil.getNuggetFromOre("Lead", 3) : {1 : { false : <fluid:corrosive_liquid> }}}
+    <contenttweaker:obsolete_battery> : {oreDictUtil.getNuggetFromOre("Lead", 3) : {1 : { false : <fluid:corrosive_liquid> }}},
+    <minecraft:wheat_seeds> : {<inspirations:cactus_seeds> : {3 : {false : <fluid:aquae_cinere>}}}
 };
 
 static transformationRecipes as ILiquidStack[bool][int][IIngredient][ILiquidStack] = {

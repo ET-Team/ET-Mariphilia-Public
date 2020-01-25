@@ -4,7 +4,14 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.item.IIngredient;
 
 static recipes as IIngredient[][IItemStack] = {
-
+    <minecraft:golden_carrot> : [<minecraft:carrot>, <ore:ingotGold>],
+    <minecraft:golden_apple> : [<minecraft:apple>, <ore:ingotGold>],
+    <minecraft:speckled_melon> : [<minecraft:melon>, <ore:ingotGold>],
+    <minecraft:sugar>*5 : [<minecraft:reeds>,<minecraft:reeds>],
+    <minecraft:dye:2>*3 : [<minecraft:cactus>,<minecraft:cactus>],
+    <embers:clockwork_attenuator> : [<embers:ember_gauge>,<ore:ingotDawnstone>],
+    <minecraft:pumpkin_seeds> : [<minecraft:pumpkin>,<contenttweaker:pebble>],
+    <minecraft:melon_seeds> : [<minecraft:melon>,<contenttweaker:pebble>]
 };
 
 static plateArray as IItemStack[] = [
@@ -75,6 +82,12 @@ function initPlateRecipes(){
     }
 }
 
+function initRecipes(){
+    for output, inputs in recipes{
+        DawnstoneAnvil.add([output], inputs[0], inputs[1]);
+    }
+}
+
 
 /*
 function initToolRecipes(){
@@ -90,4 +103,5 @@ function init(){
     initPlateRecipes();
     initToolRecipes();
     initStampRecipes();
+    initRecipes();
 }

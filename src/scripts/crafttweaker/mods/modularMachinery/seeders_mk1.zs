@@ -15,8 +15,8 @@ static metals as string[] = [
 function init(){
     for metal in metals{
         var machine_name as string = "seeder_"+metal.toLowerCase();
-        mods.modularmachinery.RecipeBuilder.newBuilder(machine_name+"_default", machine_name, 40)
-            .addEmberInput(400)
+        mods.modularmachinery.RecipeBuilder.newBuilder(machine_name+"_default", machine_name, 20)
+            .addEmberInput(100)
             .addItemOutput(oreDictUtil.getNuggetFromOre(metal, paramMetalNuggetAmountFromMMMK1))
             .build();
     }

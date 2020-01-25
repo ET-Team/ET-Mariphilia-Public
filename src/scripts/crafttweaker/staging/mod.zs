@@ -1,7 +1,8 @@
 #priority -800
 import mods.ItemStages.addItemStage;
 static stagedMods as string[][string] = {
-    "基础材料学" : ["modularmachinery","modulardiversity","openblocks"],
+    "灰烬学" : ["modularmachinery","modulardiversity"],
+    "基础材料学" : ["openblocks"],
     "物流信号学" : ["appliedenergistics2","stevescarts"],
     "基础电学" : ["mekanism"],
     "进阶怪物学" : ["woot"],

@@ -17,8 +17,15 @@ static recipes as IIngredient[IItemStack] = {
     <item:embers:crystal_ember> : <item:contenttweaker:solidified_ash>
 };
 
+static blockRecipes as IItemStack[IItemStack] = {
+    <item:minecraft:blaze_powder>*2 : <item:minecraft:soul_sand>
+};
+
 function init(){
     for output in recipes{
         explosion(output, recipes[output]);
+    }
+    for output, input in blockRecipes{
+        ExplosionCrafting.explodeBlockRecipe(output, input, 100);
     }
 }

@@ -6,4 +6,6 @@ function init(){
     item.rekindledAsh.init();
     item.stageItems.init();
     item.appleSeed.init();
+    item.grassSeeds.init();
+    item.dagger.init();
 }

@@ -48,14 +48,14 @@ static registeredToolMaterials as int[string] = {
 };
 
 static materials as int[string] = {
-	AshenMetal : 0,
-	CompressedAshenMetal : 0,
-	Mithril : 0,
-	BiopolymerMaterial : 0,
-	Superconductium : 0,
-	ZeroAshenMetal : 0,
-	Graphene : 0,
-	Neutron : 0
+	AshenMetal : 11776947,
+	CompressedAshMetal : 8421504,
+	Mithril : 32896,
+	BiopolymerMaterial : 10092492,
+	Superconductium : 10066176,
+	ZeroAshMetal : 4210752,
+	Graphene : 4210752,
+	Neutron : 128
 };
 
 function registerToolParts(){

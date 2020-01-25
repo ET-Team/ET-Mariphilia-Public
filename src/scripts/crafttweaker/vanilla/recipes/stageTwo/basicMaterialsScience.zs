@@ -7,38 +7,63 @@ static stageName as string = "基础材料学";
 
 
 //有序合成
-    static shapedRecipes as IIngredient[][][IItemStack] = {
-       
-        <embers:catalyzer> : [
-            [null,<ore:ingotAshenMetal>,null],
-            [<ore:plateAshenMetal>,<embers:ember_cluster>,<ore:plateAshenMetal>],
-            [<embers:block_caminite_brick_slab>,<embers:mech_core>,<embers:block_caminite_brick_slab>]
-        ],
-        <embers:combustor> : [
-            [null,<ore:ingotDawnstone>,null],
-            [<ore:plateDawnstone>,<embers:ember_cluster>,<ore:plateDawnstone>],
-            [<embers:block_caminite_brick_slab>,<embers:mech_core>,<embers:block_caminite_brick_slab>]
-        ],
-        <embers:reactor> : [
-            [<embers:ingot_dawnstone>,<embers:wildfire_core>,<embers:ingot_dawnstone>],
-            [<embers:ingot_dawnstone>,<contenttweaker:basic_ember_capacitor>,<embers:ingot_dawnstone>],
-            [<embers:block_caminite_brick>,<embers:mech_core>,<embers:block_caminite_brick>]
-        ]
-    };
+static shapedRecipes as IIngredient[][][IItemStack] = {
+    
+    <embers:catalyzer> : [
+        [null,<ore:ingotAshenMetal>,null],
+        [<ore:plateAshenMetal>,<embers:ember_cluster>,<ore:plateAshenMetal>],
+        [<embers:block_caminite_brick_slab>,<embers:mech_core>,<embers:block_caminite_brick_slab>]
+    ],
+    <embers:combustor> : [
+        [null,<ore:ingotDawnstone>,null],
+        [<ore:plateDawnstone>,<embers:ember_cluster>,<ore:plateDawnstone>],
+        [<embers:block_caminite_brick_slab>,<embers:mech_core>,<embers:block_caminite_brick_slab>]
+    ],
+    <embers:reactor> : [
+        [<embers:ingot_dawnstone>,<embers:wildfire_core>,<embers:ingot_dawnstone>],
+        [<embers:ingot_dawnstone>,<ore:ingotAshenMetal>,<embers:ingot_dawnstone>],
+        [<embers:block_caminite_brick>,<embers:mech_core>,<embers:block_caminite_brick>]
+    ],
+    <ore:nuggetAshenMetal>.firstItem*9 : [
+        [<ore:ingotAshenMetal>]
+    ],
+    <ore:ingotAshenMetal>.firstItem : [
+        [<ore:nuggetAshenMetal>,<ore:nuggetAshenMetal>,<ore:nuggetAshenMetal>],
+        [<ore:nuggetAshenMetal>,<ore:nuggetAshenMetal>,<ore:nuggetAshenMetal>],
+        [<ore:nuggetAshenMetal>,<ore:nuggetAshenMetal>,<ore:nuggetAshenMetal>]
+    ],
+    <ore:blockAshenMetal>.firstItem : [
+        [<ore:ingotAshenMetal>,<ore:ingotAshenMetal>,<ore:ingotAshenMetal>],
+        [<ore:ingotAshenMetal>,<ore:ingotAshenMetal>,<ore:ingotAshenMetal>],
+        [<ore:ingotAshenMetal>,<ore:ingotAshenMetal>,<ore:ingotAshenMetal>]
+    ],
+    <ore:ingotAshenMetal>.firstItem*9 : [
+        [<ore:blockAshenMetal>]
+    ],
+    <ore:glowstone>.firstItem : [
+        [<ore:dustGlowstone>,<ore:dustGlowstone>],
+        [<ore:dustGlowstone>,<ore:dustGlowstone>]
+    ],
+    <minecraft:anvil> : [
+        [<ore:blockAshenMetal>,<ore:blockAshenMetal>,<ore:blockAshenMetal>],
+        [null,<ore:ingotIron>,null],
+        [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]
+    ]
+};
 
 //镜像合成
-    static mirroredRecipes as IIngredient[][][IItemStack] = {
+static mirroredRecipes as IIngredient[][][IItemStack] = {
 
-        <chisel:chisel_iron> : [
-            [null,<ore:plateIron>],
-            [<ore:stickWood>,null]
-        ]
-    };
+    <chisel:chisel_iron> : [
+        [null,<ore:ingotAshenMetal>],
+        [<ore:stickWood>,null]
+    ]
+};
 
 //无序合成
-    static shapelessRecipes as IIngredient[][IItemStack] = {
-        
-    };
+static shapelessRecipes as IIngredient[][IItemStack] = {
+    
+};
 
 //添加配方
 function initRegularRecipes(){

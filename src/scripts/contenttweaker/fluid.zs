@@ -41,4 +41,12 @@ function init(){
 	buildFluid("aquae_cinere", "363131", 120, 1200, 1200, 0, false, false, true, true);
 	//超流体
 	buildFluid("hyperfluid", "8871bf", 1000, 1200, 1200, 0, false, false, true, true); 
+	//熔融模块化合金
+	buildFluid("modularium", "ff471a", 120, 1200, 1200, 0, false, false, false, false);
+	//熔融灰烬
+	buildFluid("ash", "333333", 120, 1200, 1200, 0, false, false, false, false);
+	//熔融灰烬金属
+	buildFluid("ashen_metal", "262626", 120, 1200, 1200, 0, false, false, false, false);
+	//熔融黑曜石
+	buildFluid("obsidian", "1f004d", 120, 1200, 1200, 0, false, false, false, false);
 }

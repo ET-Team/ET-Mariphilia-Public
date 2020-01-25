@@ -1,6 +1,45 @@
 #priority -700
 import mods.embers.Stamper;
 import crafttweaker.liquid.ILiquidStack;
+import crafttweaker.item.IIngredient;
+import crafttweaker.item.IItemStack;
+
+static recipes as IIngredient[IIngredient][ILiquidStack][IItemStack] = {
+    <item:modularmachinery:itemmodularium> : {
+        <fluid:modularium>*144 : {
+            <embers:stamp_bar> : null
+        }
+    },
+    <item:contenttweaker:ash_ingot> : {
+        <fluid:ash>*144 : {
+            <embers:stamp_bar> : null
+        }
+    },
+    <ore:ingotAshenMetal>.firstItem : {
+        <fluid:ashen_metal>*144 : {
+            <embers:stamp_bar> : null
+        }
+    },
+    <ore:plateAshenMetal>.firstItem : {
+        <fluid:ashen_metal>*144 : {
+            <embers:stamp_plate> : null
+        }
+    },
+    <embers:blend_caminite> : {
+        <fluid:ash>*24 : {
+            null : <minecraft:clay_ball>
+        }
+    },
+    <embers:plate_caminite> : {
+        <fluid:ash>*24 : {
+            <embers:stamp_plate> : <minecraft:clay_ball>
+        }
+    }
+};
+
+static removes as IItemStack[] = [
+
+];
 
 static partTypes as string[] = [
     "pickaxe",
@@ -24,10 +63,25 @@ static metalMap as ILiquidStack[string] = {
     Silver : <fluid:silver>
 };
 
-function init(){
+function buildParts(){
     for part in partTypes{
         for metal, liquid in metalMap{
             Stamper.add(oreDict.get(part+"Part"+metal).firstItem,liquid*288,itemUtils.getItem("contenttweaker:stamp_"+part),null);
         }
     }
+}
+
+function buildRecipes(){
+    for output, recipe in recipes{
+        for liquid, innerRecipe in recipe{
+            for stamp, inputItem in innerRecipe{
+                Stamper.add(output, liquid, stamp, inputItem);
+            }
+        }
+    }
+}
+
+function init(){
+    buildParts();
+    buildRecipes();
 }

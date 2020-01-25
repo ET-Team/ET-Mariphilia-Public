@@ -82,11 +82,6 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plankWood>],
         [<ore:plankWood>],
     ],
-    <minecraft:piston> : [
-        [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
-        [<ore:stone>,<ore:plateIron>,<ore:stone>],
-        [<ore:stone>,<minecraft:redstone>,<ore:stone>],
-    ],
     <minecraft:bucket> : [
        [<item:contenttweaker:ash_ingot>,null,<item:contenttweaker:ash_ingot>],
        [null,<item:contenttweaker:ash_ingot>,null],
@@ -96,16 +91,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
         [<ore:stickWood>,<ore:etmString>,<ore:stickWood>],
     ],
-    <minecraft:dispenser> : [
-        [<ore:stone>,<ore:stone>,<ore:stone>],
-        [<ore:stone>,<minecraft:bow>,<ore:stone>],
-        [<ore:stone>,<minecraft:redstone>,<ore:stone>],
-    ],
-    <minecraft:dropper> : [
-        [<ore:stone>,<ore:stone>,<ore:stone>],
-        [<ore:stone>,null,<ore:stone>],
-        [<ore:stone>,<minecraft:redstone>,<ore:stone>],
-    ],
+    
     <embers:caminite_lever> : [
         [<ore:rodStone>],
         [<embers:plate_caminite>],
@@ -116,40 +102,24 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     <minecraft:wooden_pressure_plate> : [
         [<ore:plankWood>,<ore:plankWood>],
     ],
-    <minecraft:redstone_torch> : [
-        [<minecraft:redstone>],
-        [<minecraft:stick>],
-    ],
     <minecraft:trapdoor> : [
         [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
         [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
     ],
-    <minecraft:tripwire_hook> : [
-        [<ore:ingotIron>],
-        [<ore:stickWood>],
-        [<ore:plankWood>],
-    ],
+    
     <minecraft:light_weighted_pressure_plate> : [
         [<ore:plateGold>,<ore:plateGold>],
     ],
     <minecraft:heavy_weighted_pressure_plate> : [
         [<ore:plateIron>,<ore:plateIron>],
     ],
-    <minecraft:daylight_detector> : [
-        [<ore:blockGlass>,<ore:blockGlass>,<ore:blockGlass>],
-        [<ore:gemQuartz>,<contenttweaker:basic_sensor>,<ore:gemQuartz>],
-        [<ore:slabWood>,<ore:slabWood>,<ore:slabWood>],
-    ],
+    
     <minecraft:redstone_block> : [
         [<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
         [<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
         [<minecraft:redstone>,<minecraft:redstone>,<minecraft:redstone>],
     ],
-    <minecraft:hopper> : [
-        [<ore:plateIron>,null,<ore:plateIron>],
-        [<ore:plateIron>,<ore:chest>,<ore:plateIron>],
-        [null,<ore:plateIron>,null],
-    ],
+    
     <minecraft:iron_trapdoor> : [
         [<ore:ingotIron>,<ore:ingotIron>],
         [<ore:ingotIron>,<ore:ingotIron>],
@@ -254,11 +224,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:blockGlass>,<embers:crystal_ember>,<ore:blockGlass>],
         [null,<ore:blockGlass>,null]
     ],
-    <embers:ember_pulser> : [
-        [null,<ore:ingotDawnstone>,null],
-        [<ore:plateBronze>,<embers:ember_emitter>,<ore:plateBronze>],
-        [<embers:plate_caminite>,<ore:blockIron>,<embers:plate_caminite>]
-    ],
+    
     <microblockcbe:stone_rod>*4 : [
         [<ore:stone>],
         [<ore:stone>]
@@ -286,16 +252,8 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     <item:minecraft:dye:15>*2 : [
         [<ore:bone>]
     ],
-    <item:embers:bin> : [
-        [<ore:plateIron>,<ore:ingotIron>,<ore:plateIron>],
-        [<ore:plateIron>,null,<ore:plateIron>],
-        [<ore:plateIron>,<ore:ingotIron>,<ore:plateIron>]
-    ],
-    <item:embers:vacuum> : [
-        [<ore:plateLead>,null,<ore:plateLead>],
-        [<ore:plateLead>,<item:embers:bin>,<ore:plateLead>],
-        [null,<item:minecraft:hopper>,null]
-    ],
+    
+    
     <item:wopper:wopper> : [
         [<ore:logWood>,null,<ore:logWood>],
         [<ore:logWood>,null,<ore:logWood>],
@@ -316,11 +274,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plateCopper>,<embers:ember_cartridge>,<ore:plateCopper>],
         [<embers:block_caminite_brick>,<ore:plateCopper>,<embers:block_caminite_brick>]
     ],
-    <embers:beam_splitter> : [
-        [null,<ore:ingotDawnstone>,null],
-        [<ore:ingotCopper>,<ore:plateIron>,<ore:ingotCopper>],
-        [null,<ore:ingotLead>,null]
-    ],
+    
     <minecraft:torch> : [
         [<contenttweaker:rekindled_ash>],
         [<minecraft:stick>]
@@ -340,11 +294,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:gravel>],
         [<waterstrainer:strainer_survivalist>.anyDamage().transformDamage(2)]
     ],
-    <embers:breaker> : [
-        [<ore:plateIron>,<ore:ingotIron>,<ore:plateIron>],
-        [<ore:ingotLead>,<contenttweaker:basic_transmission>,<ore:ingotLead>],
-        [<ore:ingotLead>,null,<ore:ingotLead>]
-    ],
+
     <item:minecraft:wooden_slab>*6 : [
         [<item:minecraft:planks>,<item:minecraft:planks>,<item:minecraft:planks>]
     ],
@@ -371,45 +321,29 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plateIron>,null,<ore:plateIron>],
         [<embers:brick_caminite>,<ore:ingotIron>,<embers:brick_caminite>]
     ],
-    <embers:large_tank> : [
-        [<embers:stairs_caminite_brick>,null,<embers:stairs_caminite_brick>],
-        [<ore:plateIron>,<embers:block_tank>,<ore:plateIron>],
-        [<embers:block_caminite_brick>,<embers:mech_core>,<embers:block_caminite_brick>]
-    ],
-    <embers:stone_edge> : [
-        [<embers:wall_caminite_brick>,<embers:wall_caminite_brick>,<embers:wall_caminite_brick>],
-        [<embers:wall_caminite_brick>,null,<embers:wall_caminite_brick>],
-        [<embers:wall_caminite_brick>,<embers:wall_caminite_brick>,<embers:wall_caminite_brick>]
-    ],
     <embers:charger> : [
         [<ore:plateLead>,<ore:plateLead>,<ore:plateLead>],
         [<ore:ingotCopper>,<item:embers:crystal_ember>,<ore:ingotCopper>],
         [<ore:plateCopper>,<ore:plateCopper>,<ore:plateCopper>]
     ],
-    <embers:ember_funnel> : [
-        [<ore:plateDawnstone>,<ore:blockBronze>,<ore:plateDawnstone>],
-        [<ore:plateDawnstone>,<embers:copper_cell>,<ore:plateDawnstone>],
-        [null,<item:minecraft:hopper>,null]
-    ],
     <researchtable:table> : [
         [<embers:archaic_brick>,<embers:flame_barrier>,<embers:archaic_brick>],
         [null,<embers:archaic_brick>,null],
         [<embers:archaic_brick>,<ore:blockDawnstone>,<embers:archaic_brick>]
+    ],
+    <embers:ember_jar>.withTag({emberCapacity: 2000.0, ember: 0.0}) : [
+        [<ore:ingotCopper>,<ore:plateIron>,<ore:ingotCopper>],
+        [<ore:paneGlass>,<embers:shard_ember>,<ore:paneGlass>],
+        [null,<ore:paneGlass>,null]
+    ],
+    <item:minecraft:brick_block> : [
+        [<minecraft:brick>,<minecraft:brick>],
+        [<minecraft:brick>,<minecraft:brick>]
     ]
 };
 
 //镜像合成
 static mirroredRecipes as IIngredient[][][IItemStack] = {
-    <minecraft:redstone_lamp> : [
-        [null,<minecraft:redstone>,null],
-        [<item:contenttweaker:basic_sensor>,<ore:glowstone>,<minecraft:redstone>],
-        [null,<minecraft:redstone>,null],
-    ],
-    <minecraft:observer> : [
-        [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
-        [<minecraft:redstone>,<contenttweaker:basic_sensor>,<ore:gemQuartz>],
-        [<ore:cobblestone>,<ore:cobblestone>,<ore:cobblestone>],
-    ],
     <minecraft:bow> : [
         [null,<ore:stickWood>,<ore:etmString>],
         [<ore:stickWood>,null,<ore:etmString>],
@@ -481,7 +415,7 @@ static mirroredRecipes as IIngredient[][][IItemStack] = {
         [<ore:blockLead>,<item:embers:focal_lens>,<ore:blockLead>],
         [<item:embers:block_caminite_brick_slab>,<item:embers:block_caminite_brick_slab>,<item:embers:block_caminite_brick_slab>]
     ],
-    <contenttweaker:basic_transmission>*4 : [
+    <contenttweaker:basic_transmission>*2 : [
         [<ore:plateIron>,<embers:archaic_brick>,<ore:plateIron>],
         [<embers:archaic_brick>,<embers:ancient_motive_core>,<embers:archaic_brick>],
         [<ore:plateIron>,<embers:archaic_brick>,<ore:plateIron>]
@@ -512,8 +446,6 @@ static shapelessRecipes as IIngredient[][IItemStack] = {
     <minecraft:planks>.withAmount(paramPlankAmountFromLog - 1) : [<aquaculture:loot>],
 
     <contenttweaker:rekindled_ash> : [<minecraft:gunpowder>,<contenttweaker:solidified_ash>],
-
-    <minecraft:sticky_piston> : [<ore:slimeball>,<minecraft:piston>],
 
     <minecraft:stone_button> : [<ore:stone>],
 

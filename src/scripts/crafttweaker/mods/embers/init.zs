@@ -5,4 +5,5 @@ function init(){
     this.dawnstoneAnvil.init();
     this.stamper.init();
     this.melter.init();
+    this.mixer.init();
 }

@@ -29,7 +29,10 @@ global stagedItemMap as IItemStack[][string] = {
         <embers:winding_gears>,
         <embers:grandhammer>,
         <embers:inferno_forge>,
-        <embers:ignition_cannon>
+        <embers:ignition_cannon>,
+        <contenttweaker:obsidian_ash>,
+        <contenttweaker:pressure_data>,
+        <contenttweaker:pressure_meter>
     ],
     "基础材料学" : [
         <embers:reactor>,
@@ -64,7 +67,8 @@ global stagedItemMap as IItemStack[][string] = {
         <embers:ember_gauge>,
         <embers:fluid_gauge>,
         <embers:ember_detector>,
-        <embers:field_chart>
+        <embers:field_chart>,
+        <embers:intelligent_apparatus>
     ],
     "基础物流学" : [
         <minecraft:rail>,
@@ -79,7 +83,9 @@ global stagedItemMap as IItemStack[][string] = {
         <item:bdsandm:upgrade>,
         <embers:bin>,
         <embers:item_dropper>,
-        <embers:vacuum>
+        <embers:vacuum>,
+        <stevescarts:modulecomponents:1>,
+        <stevescarts:modulecomponents>
     ],
     "进阶物流学" : [
         <embers:item_pipe>,
@@ -127,7 +133,9 @@ global stagedItemMap as IItemStack[][string] = {
         <embers:shifting_scales>,
         <embers:focal_lens>,
         <embers:isolated_materia>,
-        <openblocks:beartrap>
+        <openblocks:beartrap>,
+        <inspirations:cactus_seeds>,
+        <contenttweaker:grass_seeds>
     ],
     "植物学" : [
         <minecraft:beetroot_seeds>,
@@ -148,16 +156,25 @@ global stagedItemMap as IItemStack[][string] = {
         <minecraft:pumpkin_pie>,
         <minecraft:pumpkin_seeds>,
         <minecraft:nether_wart>,
-        <minecraft:nether_wart_block>
+        <minecraft:nether_wart_block>,
+        <inspirations:carrot_seeds>,
+        <inspirations:potato_seeds>,
+        <inspirations:sugar_cane_seeds>,
+        <minecraft:sugar>,
+        <minecraft:reeds>
     ],
     "动物学" : [
         <openblocks:generic>,
-        <openblocks:hang_glider>
+        <openblocks:hang_glider>,
+        <contenttweaker:dagger>,
+        <contenttweaker:life_essence>,
+        <contenttweaker:essencial_blood>
     ],
     "基础怪物学" : [
         <trapexpansion:spike_trap>,
         <trapexpansion:slippery_stone>,
-        <trapexpansion:fan>
+        <trapexpansion:fan>,
+        <minecraft:fermented_spider_eye>
     ],
     "进阶材料学" : [
         <item:aquaculture:loot:1>,
@@ -175,7 +192,14 @@ global stagedItemMap as IItemStack[][string] = {
         <aquaculture:loot:7>
     ],
     "物流信号学" : [
-
+        <contenttweaker:data_container>,
+        <item:contenttweaker:electric_data>,
+        <item:contenttweaker:ember_data>,
+        <item:contenttweaker:explosion_data>,
+        <item:contenttweaker:jet_data>,
+        <item:contenttweaker:lightning_data>,
+        <item:contenttweaker:thermal_data>,
+        <item:contenttweaker:toughness_data>
     ],
     "基础电学" : [
         <item:openblocks:elevator>,
@@ -250,16 +274,17 @@ global stagedItemMap as IItemStack[][string] = {
 
 global stagedOreDictMap as string[][string] = {
     "基础材料学" : [
-        "AshenMetal"
+        "AshenMetal",
+        "Lapis"
     ],
     "进阶材料学" : [
         "Mithril",
-        "CompressedAshenMetal",
+        "CompressedAshMetal",
         "BiopolymerMaterial"
     ],
     "分子材料学" : [
         "Superconductium",
-        "ZeroAshenMetal"
+        "ZeroAshMetal"
     ],
     "原子材料学" : [
         "Graphene",
@@ -288,7 +313,17 @@ function stageItems(){
             }
         }
 }
+
+function changeDefaultNames(){
+    for mod in loadedMods {
+        for item in mod.items {
+            mods.ItemStages.setUnfamiliarName("不熟悉的物品", item);
+        }
+    }
+}
+
 function init(){
     stageOreDict();
     stageItems();
+    changeDefaultNames();
 }
