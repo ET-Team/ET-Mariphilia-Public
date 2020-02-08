@@ -8,4 +8,5 @@ function init(){
     vanilla.recipes.init.init();
     vanilla.furnace.init();
     vanilla.tooltip_renaming.init();
+    vanilla.seed_drops.init();
 }

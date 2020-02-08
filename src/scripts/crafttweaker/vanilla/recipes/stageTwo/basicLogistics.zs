@@ -49,6 +49,11 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plateDawnstone>,<ore:blockBronze>,<ore:plateDawnstone>],
         [<ore:plateDawnstone>,<embers:copper_cell>,<ore:plateDawnstone>],
         [null,<item:minecraft:hopper>,null]
+    ],
+    <item:bdsandm:upgrade> : [
+        [<ore:logWood>,<ore:logWood>,<ore:logWood>],
+        [<ore:logWood>,<minecraft:chest>,<ore:logWood>],
+        [<ore:logWood>,<ore:logWood>,<ore:logWood>]
     ]
 };
 

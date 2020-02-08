@@ -5,4 +5,5 @@ function init(){
     this.fluid.init();
     this.mod.init();
     this.research.init.init();
+    this.dimension.init();
 }

@@ -67,8 +67,7 @@ global stagedItemMap as IItemStack[][string] = {
         <embers:ember_gauge>,
         <embers:fluid_gauge>,
         <embers:ember_detector>,
-        <embers:field_chart>,
-        <embers:intelligent_apparatus>
+        <embers:field_chart>
     ],
     "基础物流学" : [
         <minecraft:rail>,
@@ -124,7 +123,8 @@ global stagedItemMap as IItemStack[][string] = {
         <embers:clockwork_attenuator>,
         <embers:catalytic_plug>,
         <embers:archaic_circuit>,
-        <embers:jet_augment>
+        <embers:jet_augment>,
+        <embers:intelligent_apparatus>
     ],
     "生物学" : [
         <minecraft:wheat_seeds>,

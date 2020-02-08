@@ -81,6 +81,9 @@ static stageName as string = "基础信号学";
         [null,<embers:crystal_ember>,null],
         [<ore:nuggetAshenMetal>,<minecraft:compass>,<ore:nuggetAshenMetal>],
         [null,<contenttweaker:ember_diode>,null]
+    ],
+    <embers:ember_detector> : [
+        [<ore:ingotDawnstone>,<embers:ember_gauge>,<ore:ingotDawnstone>]
     ]
 };
 

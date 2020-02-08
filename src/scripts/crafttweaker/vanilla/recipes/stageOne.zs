@@ -253,7 +253,6 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:bone>]
     ],
     
-    
     <item:wopper:wopper> : [
         [<ore:logWood>,null,<ore:logWood>],
         [<ore:logWood>,null,<ore:logWood>],
@@ -339,6 +338,26 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     <item:minecraft:brick_block> : [
         [<minecraft:brick>,<minecraft:brick>],
         [<minecraft:brick>,<minecraft:brick>]
+    ],
+    <item:minecraft:stonebrick>*2 : [
+        [<ore:stone>,<ore:stone>],
+        [<ore:stone>,<ore:stone>]
+    ],
+    <item:minecraft:sandstone>*2 : [
+        [<minecraft:sand>,<minecraft:sand>],
+        [<minecraft:sand>,<minecraft:sand>]
+    ],
+    <item:minecraft:quartz_block> : [
+        [<ore:gemQuartz>,<ore:gemQuartz>,<ore:gemQuartz>],
+        [<ore:gemQuartz>,<ore:gemQuartz>,<ore:gemQuartz>],
+        [<ore:gemQuartz>,<ore:gemQuartz>,<ore:gemQuartz>]
+    ],
+    <item:minecraft:fence>*6 : [
+        [<item:minecraft:planks:0>,<ore:stickWood>,<item:minecraft:planks:0>],
+        [<item:minecraft:planks:0>,<ore:stickWood>,<item:minecraft:planks:0>]
+    ],
+    <item:minecraft:fence_gate> : [
+        [<item:minecraft:fence>,<ore:stickWood>,<item:minecraft:fence>]
     ]
 };
 
@@ -536,7 +555,57 @@ function initStageRecipes(){
         addShaped(stageName, oreDict.get("ingot"+metal).firstItem.withAmount(9), [[block]]);
     }
 
+    val buildingMat as IItemStack[][IItemStack] = {
+        <minecraft:stone> : [<item:minecraft:stone_slab>,<minecraft:deadbush>],
+        <minecraft:brick_block> : [<item:minecraft:stone_slab:4>,<item:minecraft:brick_stairs>],
+        <minecraft:cobblestone> : [<item:minecraft:stone_slab:3>,<item:minecraft:stone_stairs>],
+        <minecraft:stonebrick> : [<item:minecraft:stone_slab:5>,<item:minecraft:stone_brick_stairs>],
+        <minecraft:sandstone> : [<item:minecraft:stone_slab:1>,<item:minecraft:sandstone_stairs>],
+        <minecraft:netherbrick> : [<item:minecraft:stone_slab:6>,<item:minecraft:nether_brick_stairs>],
+        <minecraft:quartz_block> : [<item:minecraft:stone_slab:7>,<item:minecraft:quartz_stairs>],
+        <minecraft:planks:0> : [<minecraft:deadbush>,<item:minecraft:oak_stairs>],
+        <minecraft:planks:1> : [<minecraft:deadbush>,<item:minecraft:spruce_stairs>],
+        <minecraft:planks:2> : [<minecraft:deadbush>,<item:minecraft:birch_stairs>],
+        <minecraft:planks:3> : [<minecraft:deadbush>,<item:minecraft:jungle_stairs>],
+        <minecraft:planks:4> : [<minecraft:deadbush>,<item:minecraft:acacia_stairs>],
+        <minecraft:planks:5> : [<minecraft:deadbush>,<item:minecraft:dark_oak_stairs>]
+    };
 
+    val woodMap as IItemStack[string] = {
+        "spruce" : <item:minecraft:planks:1>,
+        "birch" : <item:minecraft:planks:2>,
+        "jungle" : <item:minecraft:planks:3>,
+        "dark_oak" : <item:minecraft:planks:5>,
+        "acacia" : <item:minecraft:planks:4>
+    };
+
+    for name, plank in woodMap{
+        var fence = itemUtils.getItem("minecraft:"+name+"_fence");
+        var fenceGate = itemUtils.getItem("minecraft:"+name+"_fence_gate");
+        val stick = <ore:stickWood>;
+        mods.recipestages.Recipes.addShaped(stageName, fence*6, [
+            [plank,stick,plank],
+            [plank,stick,plank]
+        ]);
+        mods.recipestages.Recipes.addShaped(stageName, fenceGate, [
+            [fence,stick,fence]
+        ]);
+    }
+
+    for mat, outputs in buildingMat{
+        var slab = outputs[0];
+        var stair = outputs[1];
+        if(!(slab has <minecraft:deadbush>)){
+            mods.recipestages.Recipes.addShaped(stageName, slab*6, [[mat,mat,mat]]);
+        }
+        if(!(stair has <minecraft:deadbush>)){    
+            mods.recipestages.Recipes.addShaped(stageName, stair*3, [
+                [mat,null,null],
+                [mat,mat,null],
+                [mat,mat,mat]
+            ]);
+        }
+    }
 
     for i in 0 to 4{
         val item as IIngredient = <minecraft:log>.definition.makeStack(i);

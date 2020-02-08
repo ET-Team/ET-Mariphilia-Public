@@ -20,8 +20,8 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plateIron>,<embers:mech_core>,<ore:plateIron>]
     ],
     <embers:crystal_cell> : [
-        [null,<embers:caster_orb>,null],
-        [<ore:plateDawnstone>,<contenttweaker:advanced_ember_capacitor>,<ore:plateDawnstone>],
+        [<contenttweaker:ash_ingot>,<embers:caster_orb>,<contenttweaker:ash_ingot>],
+        [<ore:plateDawnstone>,<embers:ember_cluster>,<ore:plateDawnstone>],
         [<embers:block_caminite_brick>,<embers:flame_barrier>,<embers:block_caminite_brick>]
     ],
     <embers:caster_orb> : [
@@ -40,7 +40,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [null,<ore:plateIron>,null]
     ],
     <embers:inferno_forge> : [
-        [<embers:inferno_forge>,<minecraft:iron_trapdoor>,<embers:inferno_forge>],
+        [<embers:dawnstone_anvil>,<minecraft:iron_trapdoor>,<embers:dawnstone_anvil>],
         [<ore:ingotCopper>,null,<ore:ingotCopper>],
         [<embers:block_caminite_brick>,<embers:wildfire_core>,<embers:block_caminite_brick>]
     ],
@@ -86,6 +86,21 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [null,<ore:ingotDawnstone>,null],
         [<ore:plateBronze>,<embers:ember_emitter>,<ore:plateBronze>],
         [<embers:plate_caminite>,<ore:blockIron>,<embers:plate_caminite>]
+    ],
+    <contenttweaker:pressure_meter> : [
+        [<ore:dustGlowstone>,<ore:blockGlassBlack>,<ore:dustGlowstone>],
+        [<ore:ingotAluminum>,<ore:ingotGold>,<ore:ingotAluminum>],
+        [<ore:ingotAluminum>,<ore:ingotGold>,<ore:ingotAluminum>]
+    ],
+    <item:modularmachinery:blockinputbus:1> : [
+        [<ore:ingotAluminum>,<item:wopper:wopper>,<ore:ingotAluminum>],
+        [<item:wopper:wopper>,<item:modularmachinery:blockinputbus:0>,<item:wopper:wopper>],
+        [<ore:ingotAluminum>,<item:modularmachinery:itemmodularium>,<ore:ingotAluminum>],
+    ],
+    <item:modularmachinery:blockoutputbus:1> : [
+        [<ore:ingotAluminum>,<item:modularmachinery:itemmodularium>,<ore:ingotAluminum>],
+        [<item:wopper:wopper>,<item:modularmachinery:blockoutputbus:0>,<item:wopper:wopper>],
+        [<ore:ingotAluminum>,<item:wopper:wopper>,<ore:ingotAluminum>],
     ]
 };
 

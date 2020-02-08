@@ -6,57 +6,41 @@
         {
             "x": -1,
             "y": 0,
-            "z": 0,
+            "z": 1,
             "elements": [
-                "minecraft:stone@0"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
             "x": -1,
             "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "minecraft:stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:stone@0"
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -64,7 +48,15 @@
             "y": 0,
             "z": 2,
             "elements": [
-                "minecraft:stone@0"
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:stonebrick@0"
             ]
         },
         {
@@ -72,15 +64,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "minecraft:stone@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
+                "minecraft:stonebrick@0"
             ]
         },
         {
@@ -94,9 +78,17 @@
         {
             "x": 1,
             "y": 0,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
             "z": 2,
             "elements": [
-                "minecraft:stone@0"
+                "minecraft:stonebrick@0"
             ]
         },
         {
@@ -104,7 +96,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "minecraft:iron_block@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -120,7 +112,23 @@
             "y": 1,
             "z": 1,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "modularmachinery:blockoutputbus@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -132,27 +140,11 @@
             ]
         },
         {
-            "x": 1,
-            "y": 1,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_block@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "minecraft:iron_block@0"
-            ]
-        },
-        {
             "x": 0,
             "y": 1,
             "z": 2,
             "elements": [
-                "modularmachinery:blockoutputbus@0"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -168,7 +160,7 @@
             "y": 1,
             "z": 2,
             "elements": [
-                "minecraft:iron_block@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -176,15 +168,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "minecraft:stone@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "modularmachinery:blockcasing@0"
+                "minecraft:stonebrick@0"
             ]
         },
         {
@@ -198,16 +182,9 @@
         {
             "x": -1,
             "y": 2,
-            "elements": [
-                "minecraft:stone@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
             "z": 1,
             "elements": [
-                "modulardiversity:blockemberinputhatch@1"
+                "modularmachinery:blockcasing@0"
             ]
         },
         {
@@ -215,7 +192,23 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "minecraft:stone@0"
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:stonebrick@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
             ]
         }
     ]}

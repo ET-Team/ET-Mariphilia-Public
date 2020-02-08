@@ -48,6 +48,11 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:blockAshenMetal>,<ore:blockAshenMetal>,<ore:blockAshenMetal>],
         [null,<ore:ingotIron>,null],
         [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]
+    ],
+    <item:embers:pickaxe_clockwork> : [
+        [<ore:plateAshenMetal>,<item:embers:winding_gears>,<ore:plateAshenMetal>],
+        [null,<ore:stickWood>,null],
+        [null,<ore:stickWood>,null]
     ]
 };
 
@@ -56,6 +61,11 @@ static mirroredRecipes as IIngredient[][][IItemStack] = {
 
     <chisel:chisel_iron> : [
         [null,<ore:ingotAshenMetal>],
+        [<ore:stickWood>,null]
+    ],
+    <embers:axe_clockwork> : [
+        [<item:embers:winding_gears>,<ore:plateAshenMetal>],
+        [<ore:stickWood>,<ore:plateAshenMetal>],
         [<ore:stickWood>,null]
     ]
 };

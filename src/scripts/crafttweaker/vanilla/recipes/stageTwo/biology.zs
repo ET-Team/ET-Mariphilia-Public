@@ -20,6 +20,22 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<item:minecraft:dye:2>,<item:minecraft:dye:15>,<item:minecraft:dye:2>],
         [<minecraft:dye:15>,<ore:wool>,<minecraft:dye:15>],
         [<item:minecraft:dye:2>,<item:minecraft:dye:15>,<item:minecraft:dye:2>]
+    ],
+    <minecraft:dye:5> : [[<minecraft:red_flower:2>]],
+    <minecraft:dye:6> : [[<minecraft:red_flower:1>]],
+    <minecraft:dye:7>*2 : [[<ore:dyeGray>,<ore:dyeWhite>]],
+    <minecraft:dye:8>*2 : [[<ore:dyeBlack>,<ore:dyeWhite>]],
+    <minecraft:dye:9> : [[<minecraft:red_flower:7>]],
+    <minecraft:dye:10>*2 : [[<ore:dyeGreen>,<ore:dyeYellow>]],
+    <minecraft:dye:11> : [[<minecraft:yellow_flower>]],
+    <minecraft:dye:12> : [[<ore:dyeWhite>,<ore:dyeBlue>]],
+    <minecraft:dye:13> : [[<minecraft:red_flower:4>]],
+    <minecraft:dye:14> : [[<minecraft:red_flower:5>]],
+    <minecraft:dye:1> : [[<minecraft:red_flower:0>]],
+    <minecraft:hay_block> : [
+        [<minecraft:wheat>,<minecraft:wheat>,<minecraft:wheat>],
+        [<minecraft:wheat>,<minecraft:wheat>,<minecraft:wheat>],
+        [<minecraft:wheat>,<minecraft:wheat>,<minecraft:wheat>]
     ]
 };
 

@@ -43,6 +43,11 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>],
         [<contenttweaker:solidified_ash>,<contenttweaker:basic_transmission>,<contenttweaker:ember_triode>],
         [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>]
+    ],
+    <embers:archaic_circuit> : [
+        [<embers:archaic_brick>,<embers:archaic_brick>,<embers:archaic_brick>],
+        [<embers:archaic_brick>,<contenttweaker:ember_triode>,<embers:archaic_brick>],
+        [<embers:archaic_brick>,<embers:archaic_brick>,<embers:archaic_brick>]
     ]
 };
 

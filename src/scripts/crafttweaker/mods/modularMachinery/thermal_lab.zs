@@ -6,7 +6,7 @@ function init(){
     mods.modularmachinery.RecipeBuilder.newBuilder(machine_name+"_default", machine_name, 200)
         .addEmberInput(800)
         .addItemInput(<embers:ignition_cannon>)
-        .addItemOutput(<contenttweaker:obsidian_ash>*4)
+        .addItemOutput(<contenttweaker:obsidian_ash>*6)
         .addItemOutput(<embers:ignition_cannon>)
         .build();
 }

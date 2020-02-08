@@ -87,6 +87,11 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<embers:wall_caminite_brick>,<embers:wall_caminite_brick>,<embers:wall_caminite_brick>],
         [<embers:wall_caminite_brick>,null,<embers:wall_caminite_brick>],
         [<embers:wall_caminite_brick>,<embers:pump>,<embers:wall_caminite_brick>]
+    ],
+    <embers:mechanical_pump> : [
+        [null,<ore:plateAshenMetal>,null],
+        [<embers:pump>,<ore:ingotAluminum>,<embers:pump>],
+        [<ore:blockIron>,null,<ore:blockIron>]
     ]
     
 };

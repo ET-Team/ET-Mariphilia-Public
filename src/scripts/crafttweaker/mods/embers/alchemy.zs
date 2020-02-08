@@ -40,22 +40,6 @@ function addRecipes(){
             "dawnstone" : 3 to 8
         });
 
-    Alchemy.add(<contenttweaker:advanced_alchemy_knowledge>,
-        [
-            <minecraft:book>,
-            <embers:focal_lens>,
-            <contenttweaker:ash_ingot>,
-            <embers:ember_cluster>,
-            <contenttweaker:ash_ingot>
-        ],
-        {
-            "iron" : 12 to 53,
-            "dawnstone" : 23 to 81,
-            "lead" : 21 to 44,
-            "silver" : 5 to 63,
-            "copper" : 32 to 80
-        });
-
     Alchemy.add(<item:embers:ingot_silver>*4,
         [
             <item:contenttweaker:ash_ingot>,

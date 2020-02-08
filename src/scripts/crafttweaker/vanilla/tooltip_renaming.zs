@@ -11,6 +11,7 @@ static toAdd as string[IIngredient] = {
     <modulardiversity:blockemberinputhatch:5> : "余烬能量缓存：32000",
     <modulardiversity:blockemberinputhatch:6> : "余烬能量缓存：64000",
     <modulardiversity:blockemberinputhatch:7> : "余烬能量缓存：144000",
+    <item:contenttweaker:pressure_meter> : "仅在海水深处工作"
 };
 
 static warning as string[IIngredient] = {

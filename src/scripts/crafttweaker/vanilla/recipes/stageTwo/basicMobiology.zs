@@ -36,6 +36,11 @@ static mirroredRecipes as IIngredient[][][IItemStack] = {
     <item:minecraft:fermented_spider_eye> : [
         [<item:minecraft:spider_eye>,<item:minecraft:sugar>],
         [<item:minecraft:sugar>,<item:minecraft:sugar>]
+    ],
+    <embers:resonating_bell> : [
+        [<ore:plateAshenMetal>,<ore:plateAshenMetal>,<ore:plateAshenMetal>],
+        [<ore:plateIron>,null,<ore:plateAshenMetal>],
+        [null,<ore:plateIron>,<ore:plateAshenMetal>]
     ]
 };
 
