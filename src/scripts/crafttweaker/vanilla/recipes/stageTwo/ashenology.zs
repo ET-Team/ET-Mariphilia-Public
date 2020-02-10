@@ -88,7 +88,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<embers:plate_caminite>,<ore:blockIron>,<embers:plate_caminite>]
     ],
     <contenttweaker:pressure_meter> : [
-        [<ore:dustGlowstone>,<ore:blockGlassBlack>,<ore:dustGlowstone>],
+        [<ore:dustGlowstone>,<ore:blockGlass>,<ore:dustGlowstone>],
         [<ore:ingotAluminum>,<ore:ingotGold>,<ore:ingotAluminum>],
         [<ore:ingotAluminum>,<ore:ingotGold>,<ore:ingotAluminum>]
     ],
@@ -101,6 +101,30 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:ingotAluminum>,<item:modularmachinery:itemmodularium>,<ore:ingotAluminum>],
         [<item:wopper:wopper>,<item:modularmachinery:blockoutputbus:0>,<item:wopper:wopper>],
         [<ore:ingotAluminum>,<item:wopper:wopper>,<ore:ingotAluminum>],
+    ],
+    <embers:mech_accessor> : [
+        [<item:contenttweaker:ash_ingot>,<ore:ingotLead>,<item:contenttweaker:ash_ingot>],
+        [<ore:ingotLead>,<contenttweaker:basic_transmission>,<ore:ingotLead>],
+        [<item:contenttweaker:ash_ingot>,<ore:ingotLead>,<item:contenttweaker:ash_ingot>]
+    ],
+    <embers:ashen_cloak_head> : [
+        [<ore:nuggetDawnstone>,<ore:nuggetDawnstone>,<ore:nuggetDawnstone>],
+        [<contenttweaker:ash_string>,<ore:paneGlass>,<contenttweaker:ash_string>],
+        [<ore:nuggetDawnstone>,<ore:nuggetDawnstone>,<ore:nuggetDawnstone>]
+    ],
+    <embers:ashen_cloak_legs> : [
+        [<embers:ashen_cloth>,<embers:ashen_cloth>,<embers:ashen_cloth>],
+        [<embers:ashen_cloth>,<embers:shard_ember>,<embers:ashen_cloth>],
+        [<embers:ashen_cloth>,null,<embers:ashen_cloth>]
+    ],
+    <embers:ashen_cloak_chest> : [
+        [<embers:ashen_cloth>,<embers:shard_ember>,<embers:ashen_cloth>],
+        [<embers:ashen_cloth>,<embers:ashen_cloth>,<embers:ashen_cloth>],
+        [<embers:ashen_cloth>,<embers:ashen_cloth>,<embers:ashen_cloth>]
+    ],
+    <embers:ashen_cloak_boots> : [
+        [<embers:ashen_cloth>,<contenttweaker:ash_string>,<embers:ashen_cloth>],
+        [<embers:ashen_cloth>,<contenttweaker:ash_string>,<embers:ashen_cloth>]
     ]
 };
 

@@ -53,6 +53,11 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<ore:plateAshenMetal>,<item:embers:winding_gears>,<ore:plateAshenMetal>],
         [null,<ore:stickWood>,null],
         [null,<ore:stickWood>,null]
+    ],
+    <item:chisel:laboratory>*4 : [
+        [<minecraft:dye:15>,<ore:ingotBrick>,<minecraft:dye:15>],
+        [<ore:ingotBrick>,<ore:stone>,<ore:ingotBrick>],
+        [<minecraft:dye:15>,<ore:ingotBrick>,<minecraft:dye:15>]
     ]
 };
 

@@ -358,6 +358,21 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     ],
     <item:minecraft:fence_gate> : [
         [<item:minecraft:fence>,<ore:stickWood>,<item:minecraft:fence>]
+    ],
+    <item:minecraft:wooden_door> : [
+        [<ore:plankWood>,<ore:plankWood>],
+        [<ore:plankWood>,<ore:plankWood>],
+        [<ore:plankWood>,<ore:plankWood>]
+    ],
+    <item:minecraft:sign>*3 : [
+        [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+        [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
+        [null,<ore:stickWood>,null]
+    ],
+    <item:minecraft:item_frame> : [
+        [<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
+        [<ore:stickWood>,<ore:blockGlass>,<ore:stickWood>],
+        [<ore:stickWood>,<ore:stickWood>,<ore:stickWood>],
     ]
 };
 

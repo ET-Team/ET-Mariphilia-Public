@@ -14,11 +14,11 @@ function explosion(output as IItemStack, input as IIngredient){
 static recipes as IIngredient[IItemStack] = {
     oreDictUtil.getNuggetFromOre("Iron", 3) : <contenttweaker:obsolete_iron>,
     oreDictUtil.getNuggetFromOre("Copper", 3) : <contenttweaker:obsolete_can>,
-    <item:embers:crystal_ember> : <item:contenttweaker:solidified_ash>
+    <item:embers:crystal_ember> : <item:contenttweaker:solidified_ash>,
+    <item:minecraft:blaze_powder>*3 : <item:minecraft:soul_sand>
 };
 
 static blockRecipes as IItemStack[IItemStack] = {
-    <item:minecraft:blaze_powder>*2 : <item:minecraft:soul_sand>
 };
 
 function init(){

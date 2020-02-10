@@ -24,7 +24,8 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -48,7 +49,8 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -88,7 +90,8 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -112,7 +115,8 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -128,7 +132,8 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -136,7 +141,8 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -160,7 +166,8 @@
             "y": -1,
             "z": 0,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -176,7 +183,8 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -200,7 +208,8 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -216,7 +225,8 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -256,7 +266,8 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -264,7 +275,8 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -288,7 +300,8 @@
             "y": -1,
             "z": 1,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -296,7 +309,8 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -304,7 +318,8 @@
             "y": -1,
             "z": 3,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -312,7 +327,8 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -352,7 +368,8 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -392,7 +409,8 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -424,7 +442,8 @@
             "y": 0,
             "z": 3,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -464,7 +483,8 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -544,7 +564,8 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -552,7 +573,8 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -560,7 +582,8 @@
             "y": -1,
             "z": 2,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
@@ -568,7 +591,8 @@
             "y": -1,
             "z": 4,
             "elements": [
-                "minecraft:stonebrick@0"
+                "minecraft:stonebrick@0",
+                "chisel:laboratory@2"
             ]
         },
         {
