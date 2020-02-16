@@ -36,7 +36,16 @@ function addToolTips(){
     }
 }
 
+function EmbersRename(){
+    game.setLocalization("tile.bin.name","储物仓");
+    game.setLocalization("tile.mixer.name","混合离心器");
+    game.setLocalization("tile.boiler.name","高压能量激发器");
+    game.setLocalization("tile.charger.name","铜质灰烬能量充能器");
+    game.setLocalization("tile.breaker.name","自动方块破坏器");
+}
+
 function init(){
     addToolTips();
-    game.setLocalization("item.betterbuilderswands.wandAdvanced.name","灰烬手杖");
+    EmbersRename();
+    game.setLocalization("item.betterbuilderswands:wandAdvanced.name","灰烬手杖");
 }
