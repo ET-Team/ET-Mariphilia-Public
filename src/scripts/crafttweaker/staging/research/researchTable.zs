@@ -38,7 +38,8 @@ function init(){
             <ore:ingotAluminum>.firstItem*8,
             <ore:ingotNickel>.firstItem*8,
             <ore:ingotIron>.firstItem*8,
-            <contenttweaker:obsidian_ash>*32
+            <contenttweaker:obsidian_ash>*32,
+            <contenttweaker:pressure_data>*4
             )
         .setRewardStages("基础材料学")
         .setRewardCommands(fireworks_big, title("基础材料学"), sound, fireworks_small)

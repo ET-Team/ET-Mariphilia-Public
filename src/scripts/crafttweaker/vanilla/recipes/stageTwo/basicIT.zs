@@ -90,6 +90,11 @@ static stageName as string = "基础信号学";
 //镜像合成
 static mirroredRecipes as IIngredient[][][IItemStack] = {
     
+    <embers:tinker_lens> : [
+        [<contenttweaker:ember_diode>,<ore:plateLead>,null],
+        [<contenttweaker:material_part:94>,<minecraft:glass_pane>,<ore:plateLead>],
+        [<contenttweaker:ember_diode>,<ore:plateLead>,null]
+    ]
 };
 
 //无序合成

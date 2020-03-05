@@ -16,7 +16,8 @@ static furnaceRecipes as IIngredient[IItemStack] = {
     <item:minecraft:coal:1> : <ore:logWood>,
     <minecraft:glass> : <ore:sand>,
     <aquaculture:food:4> : <aquaculture:food:3>,
-    <aquaculture:food:5> : <aquaculture:food:2>
+    <aquaculture:food:5> : <aquaculture:food:2>,
+    <embers:anti_tinker_lens> : <embers:tinker_lens>
 };
 
 function init(){

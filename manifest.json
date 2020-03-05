@@ -10,8 +10,8 @@
   },
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
-  "name": "ET Mariphilia",
-  "version": "0.2.2b",
+  "name": "ET-Mariphilia",
+  "version": "0.2.3b",
   "author": "dong031001",
   "files": [
     {
@@ -86,7 +86,7 @@
     },
     {
       "projectID": 237903,
-      "fileID": 2863475,
+      "fileID": 2894944,
       "required": true
     },
     {
@@ -136,7 +136,7 @@
     },
     {
       "projectID": 258587,
-      "fileID": 2825820,
+      "fileID": 2880222,
       "required": true
     },
     {
@@ -341,7 +341,7 @@
     },
     {
       "projectID": 220954,
-      "fileID": 2693544,
+      "fileID": 2881277,
       "required": true
     },
     {
@@ -401,7 +401,7 @@
     },
     {
       "projectID": 237167,
-      "fileID": 2832410,
+      "fileID": 2891572,
       "required": true
     },
     {
@@ -466,7 +466,7 @@
     },
     {
       "projectID": 32274,
-      "fileID": 2873185,
+      "fileID": 2888880,
       "required": true
     },
     {

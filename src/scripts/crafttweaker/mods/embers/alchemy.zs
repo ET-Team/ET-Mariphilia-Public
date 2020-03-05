@@ -201,6 +201,20 @@ function addRecipes(){
         {
             "silver" : 3 to 7
         });
+    Alchemy.add(<item:minecraft:fish:3>*4,
+        [
+            <item:trapexpansion:spike_trap>,
+            <item:minecraft:fish>,
+            <item:minecraft:fish>,
+            <item:minecraft:fish>,
+            <item:minecraft:fish>
+        ],
+        {
+            "silver" : 6 to 12,
+            "lead" : 10 to 18
+        }
+
+    );
         //}
     //}
 }

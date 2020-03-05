@@ -58,6 +58,11 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<minecraft:dye:15>,<ore:ingotBrick>,<minecraft:dye:15>],
         [<ore:ingotBrick>,<ore:stone>,<ore:ingotBrick>],
         [<minecraft:dye:15>,<ore:ingotBrick>,<minecraft:dye:15>]
+    ],
+    <item:betterbuilderswands:wanddiamond> : [
+        [<ore:ingotAshenMetal>,<ore:ingotAshenMetal>,<ore:ingotAshenMetal>],
+        [<ore:ingotSilver>,<betterbuilderswands:wandiron>.anyDamage(),<ore:ingotSilver>],
+        [<ore:ingotAshenMetal>,<ore:ingotAshenMetal>,<ore:ingotAshenMetal>]
     ]
 };
 

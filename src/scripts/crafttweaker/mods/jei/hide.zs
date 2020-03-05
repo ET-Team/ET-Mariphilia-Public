@@ -3,7 +3,6 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.liquid.ILiquidStack;
 import mods.jei.JEI.hide;
 static items as IItemStack[] = [
-    <item:betterbuilderswands:wanddiamond>,
     <item:betterbuilderswands:wandstone>,
     <item:betterbuilderswands:wandunbreakable>
 ];
