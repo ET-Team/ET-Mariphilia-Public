@@ -1,0 +1,20 @@
+{
+	title: "电磁实验装置",
+	x: 45.0d,
+	y: 7.5d,
+	shape: "square",
+	dependencies: [
+		"97613a89"
+	],
+	size: 2.0d,
+	tasks: [{
+		uid: "0f1f6519",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:electric_coil"
+			}
+		}]
+	}]
+}

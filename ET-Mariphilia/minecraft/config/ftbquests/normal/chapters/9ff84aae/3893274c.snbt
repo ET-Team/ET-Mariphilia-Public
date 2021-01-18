@@ -1,7 +1,11 @@
 {
+	icon: "embers:caster_orb",
 	x: -6.5d,
 	y: -5.5d,
 	shape: "pentagon",
+	dependencies: [
+		"fe676ce1"
+	],
 	tasks: [{
 		uid: "ca24cacb",
 		type: "gamestage",

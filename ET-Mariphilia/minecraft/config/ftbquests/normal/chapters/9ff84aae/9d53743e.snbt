@@ -1,6 +1,7 @@
 {
-	x: -6.5d,
-	y: 0.0d,
+	icon: "avaritia:resource 1 2",
+	x: 0.0d,
+	y: 5.0d,
 	shape: "pentagon",
 	dependencies: [
 		"37ec5943"

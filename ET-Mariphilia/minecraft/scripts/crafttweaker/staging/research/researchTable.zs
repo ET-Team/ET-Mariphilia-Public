@@ -422,7 +422,9 @@ function init(){
         .setTitle("etm.research.high_energy_physics.title")
         .setDescription("etm.research.high_energy_physics.description")
         .addCondition(
-            <item:minecraft:apple>
+            <ore:ingotYellorium>*32,
+            <ore:ingotSuperconductium>*32,
+            <ore:ingotZeroAshMetal>*64
         )
         .setRewardStages("高能物理学")
         .setRewardCommands(fireworks_big, title("高能物理学"), sound, fireworks_small)
@@ -435,7 +437,11 @@ function init(){
         .setTitle("etm.research.standard_ashenolgy.title")
         .setDescription("etm.research.standard_ashenolgy.description")
         .addCondition(
-            <item:minecraft:apple>
+            <item:minecraft:dragon_egg>,
+            <item:minecraft:chorus_fruit>*32,
+            <item:contenttweaker:solidified_ash>*128,
+            <item:embers:crystal_ember>*128,
+            <item:embers:ember_cluster>*4
         )
         .setRewardStages("标准灰烬学")
         .setRewardCommands(fireworks_big, title("标准灰烬学"), sound, fireworks_small)
@@ -448,7 +454,11 @@ function init(){
         .setTitle("etm.research.standard_mobiology.title")
         .setDescription("etm.research.standard_mobiology.description")
         .addCondition(
-            <item:minecraft:apple>
+            <item:minecraft:rotten_flesh>*128,
+            <item:minecraft:ender_eye>*64,
+            <item:minecraft:bone>*128,
+            <item:minecraft:dragon_breath>*16,
+            <ore:gemEmerald>*16
         )
         .setRewardStages("标准怪物学")
         .setRewardCommands(fireworks_big, title("标准怪物学"), sound, fireworks_small)

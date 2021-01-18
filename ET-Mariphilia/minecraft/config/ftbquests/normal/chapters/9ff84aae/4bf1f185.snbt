@@ -1,0 +1,19 @@
+{
+	title: "亚次元钻井",
+	x: -10.5d,
+	y: 5.0d,
+	dependencies: [
+		"410e4342",
+		"b9cceaaa"
+	],
+	tasks: [{
+		uid: "6c5a9181",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:subdimensional_well"
+			}
+		}]
+	}]
+}

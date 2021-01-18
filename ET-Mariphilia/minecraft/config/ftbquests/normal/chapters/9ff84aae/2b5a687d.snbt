@@ -1,14 +1,14 @@
 {
 	x: -8.5d,
-	y: -5.5d,
+	y: 5.0d,
 	dependencies: [
-		"513e47f6"
+		"4bf1f185"
 	],
 	tasks: [{
-		uid: "0d0ec9be",
+		uid: "2232071c",
 		type: "item",
 		items: [{
-			item: "minecraft:dragon_egg"
+			item: "bigreactors:ingotyellorium"
 		}]
 	}]
 }

@@ -1,7 +1,12 @@
 {
+	icon: "atum:eyes_of_atum",
 	x: -6.5d,
-	y: 4.5d,
+	y: 0.0d,
 	shape: "pentagon",
+	dependencies: [
+		"0cdd9847",
+		"56615857"
+	],
 	tasks: [{
 		uid: "2164993c",
 		type: "gamestage",

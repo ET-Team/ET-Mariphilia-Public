@@ -1,7 +1,11 @@
 {
-	x: -12.0d,
-	y: 0.0d,
+	icon: "bigreactors:mineralbenitoite",
+	x: -6.5d,
+	y: 5.0d,
 	shape: "pentagon",
+	dependencies: [
+		"2b5a687d"
+	],
 	tasks: [{
 		uid: "aaaae792",
 		type: "gamestage",

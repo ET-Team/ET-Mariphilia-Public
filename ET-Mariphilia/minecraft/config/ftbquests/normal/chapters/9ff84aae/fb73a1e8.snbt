@@ -1,4 +1,5 @@
 {
+	icon: "avaritia:resource 1 5",
 	x: 0.0d,
 	y: 0.0d,
 	shape: "pentagon",
