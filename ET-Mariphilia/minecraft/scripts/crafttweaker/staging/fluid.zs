@@ -9,7 +9,7 @@ static fluidList as ILiquidStack[][string] = {
         <liquid:ashen_metal>,
         <liquid:obsidian>
     ],
-    "原子材料学" : [
+    "夸克材料学" : [
         <liquid:hyperfluid>
     ]
 };

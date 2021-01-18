@@ -10,7 +10,7 @@ static recipes as IItemStack[][int][IItemStack] = {
     <ore:ingotCompressedAshMetal>.firstItem :{80 : [<item:minecraft:iron_ingot>*16,<ore:ingotAshenMetal>.firstItem*16,<ore:ingotDawnstone>.firstItem*16]},
     <ore:gemDiamond>.firstItem : {40 : [<item:contenttweaker:compact_ash>*16]},
     <minecraft:coal>*32 : {20 : [<item:embers:dust_ash>*64,<item:embers:dust_ash>*64]},
-    <ore:ingotDimensionalMetal>.firstItem*2 : {80 : [<ore:ingotPureNeptunium>.firstItem*4,<ore:ingotAshenMetal>.firstItem*8]},
+    <ore:ingotDimensionalMetal>.firstItem*8 : {80 : [<ore:ingotPureNeptunium>.firstItem*4,<ore:ingotAshenMetal>.firstItem*8]},
     <woot:stygianirondust>*3 : {80 : [<minecraft:netherrack>,<minecraft:soul_sand>,<mekanism:dirtydust>]}
 };
 

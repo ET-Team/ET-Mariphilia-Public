@@ -9,7 +9,7 @@ static stagedMods as string[][string] = {
     "空间学" : ["compactmachines3"],
     "分子材料学" : ["avaritia"],
     "高能物理学" : ["bigreactors"],
-    "哲学" : ["fishaxe"]
+    "哲学" : ["fishaxe", "atum"]
 };
 
 function init(){

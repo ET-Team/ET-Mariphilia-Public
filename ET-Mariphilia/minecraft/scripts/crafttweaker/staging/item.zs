@@ -263,7 +263,7 @@ global stagedItemMap as IItemStack[][string] = {
     "高能物理学" : [
         //TODO
     ],
-    "原子材料学" : [
+    "夸克材料学" : [
         //TODO
     ],
     "标准灰烬学" : [
@@ -293,7 +293,7 @@ global stagedOreDictMap as string[][string] = {
         "Superconductium",
         "ZeroAshMetal"
     ],
-    "原子材料学" : [
+    "夸克材料学" : [
         "Graphene",
         "Neutron"
     ]

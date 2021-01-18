@@ -394,4 +394,83 @@ function init(){
         .setRewardStages("进阶怪物学")
         .setRewardCommands(fireworks_big, title("进阶怪物学"), sound, fireworks_small)
         .build();
+
+    ResearchTable.builder("分子材料学", c)
+        .setRequiredResearches("空间学","进阶电学","进阶怪物学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:contenttweaker:material_part:101>)
+        .setTitle("etm.research.atomic_materials_science.title")
+        .setDescription("etm.research.atomic_materials_science.description")
+        .addCondition(
+
+        )
+        .setRewardStages("分子材料学")
+        .setRewardCommands(fireworks_big, title("分子材料学"), sound, fireworks_small)
+        .build();
+
+    ResearchTable.builder("高能物理学", c)
+        .setRequiredResearches("分子材料学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:bigreactors:ingotyellorium>)
+        .setTitle("etm.research.high_energy_physics.title")
+        .setDescription("etm.research.high_energy_physics.description")
+        .addCondition(
+
+        )
+        .setRewardStages("高能物理学")
+        .setRewardCommands(fireworks_big, title("高能物理学"), sound, fireworks_small)
+        .build();
+
+    ResearchTable.builder("标准灰烬学", c)
+        .setRequiredResearches("空间学","高能物理学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:embers:creative_ember_source>)
+        .setTitle("etm.research.standard_ashenolgy.title")
+        .setDescription("etm.research.standard_ashenolgy.description")
+        .addCondition(
+
+        )
+        .setRewardStages("标准灰烬学")
+        .setRewardCommands(fireworks_big, title("标准灰烬学"), sound, fireworks_small)
+        .build();
+
+    ResearchTable.builder("标准怪物学", c)
+        .setRequiredResearches("进阶怪物学","高能物理学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:minecraft:skull:5>)
+        .setTitle("etm.research.standard_mobiology.title")
+        .setDescription("etm.research.standard_mobiology.description")
+        .addCondition(
+
+        )
+        .setRewardStages("标准怪物学")
+        .setRewardCommands(fireworks_big, title("标准怪物学"), sound, fireworks_small)
+        .build();
+
+    ResearchTable.builder("夸克材料学", c)
+        .setRequiredResearches("高能物理学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:contenttweaker:material_part:105>)
+        .setTitle("etm.research.quark_materials_science.title")
+        .setDescription("etm.research.quark_materials_science.description")
+        .addCondition(
+
+        )
+        .setRewardStages("夸克材料学")
+        .setRewardCommands(fireworks_big, title("夸克材料学"), sound, fireworks_small)
+        .build();
+
+    ResearchTable.builder("哲学", c)
+        .setRequiredResearches("标准怪物学","标准灰烬学","高能物理学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:atum:eyes_of_atum>)
+        .setTitle("etm.research.philosphy.title")
+        .setDescription("etm.research.philosphy.description")
+        .addCondition(
+
+        )
+        .setRewardStages("哲学")
+        .setRewardCommands(fireworks_big, title("哲学"), sound, fireworks_small)
+        .build();
+
 }

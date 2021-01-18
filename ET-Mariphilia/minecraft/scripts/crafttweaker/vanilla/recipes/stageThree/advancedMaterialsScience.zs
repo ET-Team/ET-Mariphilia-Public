@@ -176,7 +176,7 @@ static materialNames as string[] = [
 
     //无序合成
     static shapelessRecipes as IIngredient[][IItemStack] = {
-        <ore:dustBiopolymerMaterial>.firstItem : [<ore:plateBiopolymerMaterial>,<embers:tinker_hammer>.reuse()]
+        <ore:dustBiopolymerMaterial>.firstItem*8 : [<ore:plateBiopolymerMaterial>,<embers:tinker_hammer>.reuse()]
     };
 //超频配方
     //有序合成
