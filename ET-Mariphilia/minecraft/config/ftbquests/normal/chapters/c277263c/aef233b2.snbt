@@ -1,0 +1,85 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	description: "余烬作物",
+	text: [
+		"制作不同种类的结晶之种。",
+		"",
+		"矿物种子！"
+	],
+	min_required_dependencies: 1,
+	dependencies: [
+		"d47d061c"
+	],
+	hide: true,
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "d7eb1d76",
+		type: "item",
+		items: [{
+			item: "embers:seed_iron"
+		}]
+	},
+	{
+		uid: "112e0fc3",
+		type: "item",
+		items: [{
+			item: "embers:seed_gold"
+		}]
+	},
+	{
+		uid: "30705405",
+		type: "item",
+		items: [{
+			item: "embers:seed_copper"
+		}]
+	},
+	{
+		uid: "7f330240",
+		type: "item",
+		items: [{
+			item: "embers:seed_silver"
+		}]
+	},
+	{
+		uid: "66bb8735",
+		type: "item",
+		items: [{
+			item: "embers:seed_lead"
+		}]
+	},
+	{
+		uid: "363c913c",
+		type: "item",
+		items: [{
+			item: "embers:seed_dawnstone"
+		}]
+	},
+	{
+		uid: "0416a696",
+		type: "item",
+		items: [{
+			item: "embers:seed_aluminum"
+		}]
+	},
+	{
+		uid: "92336f72",
+		type: "item",
+		items: [{
+			item: "embers:seed_nickel"
+		}]
+	},
+	{
+		uid: "e3e3b598",
+		type: "item",
+		items: [{
+			item: "embers:seed_tin"
+		}]
+	}],
+	rewards: [{
+		uid: "6def9e75",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 32
+	}]
+}

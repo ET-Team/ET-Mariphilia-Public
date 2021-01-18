@@ -1,0 +1,29 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	description: "灰烬祭坛",
+	text: [
+		"制作晶胞灰烬能量单元，来存储更多的能量。",
+		"",
+		"你可以向晶胞灰烬能量单元内部输入灰烬晶体，来增加其储能上限，最大为1 440 000。",
+		"",
+		"晶胞灰烬能量单元需配合机械核心使用，将机械核心放置在晶胞灰烬能量单元中间一格上方或下方，机械核心将拓展晶胞灰烬单元的交互面，即，你可以将机械核心的每一个面看做是晶胞灰烬能量单元的交互面。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ca88d49f",
+		type: "item",
+		items: [{
+			item: "embers:crystal_cell"
+		}]
+	}],
+	rewards: [{
+		uid: "fbde4b21",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 8
+	}]
+}

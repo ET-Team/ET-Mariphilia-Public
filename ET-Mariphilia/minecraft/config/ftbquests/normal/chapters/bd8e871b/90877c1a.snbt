@@ -1,0 +1,27 @@
+{
+	title: "建筑魔杖",
+	x: 12.0d,
+	y: 6.0d,
+	description: "颠倒黑白",
+	text: [
+		"制作一把建筑魔杖，手持魔杖右键方块即可快速搭建建筑物"
+	],
+	dependencies: [
+		"63e04a71"
+	],
+	hide: true,
+	tasks: [{
+		uid: "998e1c57",
+		type: "item",
+		items: [{
+			item: "betterbuilderswands:wandiron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "981adb44",
+		type: "xp",
+		xp: 100
+	}]
+}

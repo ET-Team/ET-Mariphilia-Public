@@ -1,0 +1,23 @@
+{
+	x: 50.5d,
+	y: -1.5d,
+	text: [
+		"该升级可以销毁存储超过上限的物品。"
+	],
+	dependencies: [
+		"ca37c477"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e420079",
+		type: "item",
+		items: [{
+			item: "bdsandm:upgrade 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "cf5b74d1",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	title: "求知欲是第一生产力",
+	icon: "minecraft:wheat_seeds",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "知识即力量",
+	dependencies: [
+		"bd8e871b"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "46582f9a",
+		type: "checkmark",
+		icon: "minecraft:sapling"
+	}]
+}

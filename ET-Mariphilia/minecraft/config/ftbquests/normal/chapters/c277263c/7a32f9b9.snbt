@@ -1,0 +1,23 @@
+{
+	x: 31.5d,
+	y: 13.5d,
+	text: [
+		"通过炼金，来获取南瓜种子。"
+	],
+	dependencies: [
+		"71ea3d8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "06cacf9d",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "915a302f",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

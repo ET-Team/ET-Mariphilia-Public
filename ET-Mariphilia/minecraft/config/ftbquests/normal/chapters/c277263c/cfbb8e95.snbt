@@ -1,0 +1,66 @@
+{
+	x: 28.0d,
+	y: 2.5d,
+	description: "桶，箱柜，抽屉...",
+	text: [
+		"制作木质板条箱，可以存储大量同类物品。",
+		"",
+		"左键以取出一个，左键双击以取出一组，右键以存入物品，右键双击以存入物品栏所有同类物品。",
+		"",
+		"注意：在服务器中，若物品栏满时取出物品，将导致错误，退出服务器，不会导致游戏崩溃。"
+	],
+	dependencies: [
+		"56fd1e48"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9eb9132a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					maxCap: 1024,
+					objColors: [I;
+						-1,
+						-1
+					],
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			},
+			id: "bdsandm:wood_crate",
+			tag: {
+				crateCap: {
+					maxCap: 1024,
+					objColors: [I;
+						-1,
+						-1
+					],
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "647e5634",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

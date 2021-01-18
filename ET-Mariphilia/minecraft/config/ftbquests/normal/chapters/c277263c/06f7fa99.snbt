@@ -1,0 +1,20 @@
+{
+	x: 43.5d,
+	y: -10.5d,
+	description: "方块破坏器",
+	text: [
+		"制作工具销毁器。",
+		"工具销毁器会破坏它所指向的方块。"
+	],
+	dependencies: [
+		"b7cf5f01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2f302135",
+		type: "item",
+		items: [{
+			item: "embers:breaker"
+		}]
+	}]
+}

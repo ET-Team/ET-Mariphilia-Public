@@ -1,0 +1,16 @@
+{
+	x: 47.5d,
+	y: 2.5d,
+	shape: "diamond",
+	dependencies: [
+		"bdde3ae3"
+	],
+	tasks: [{
+		uid: "5fc4f3c7",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock3"
+		}],
+		ignore_nbt: 1b
+	}]
+}

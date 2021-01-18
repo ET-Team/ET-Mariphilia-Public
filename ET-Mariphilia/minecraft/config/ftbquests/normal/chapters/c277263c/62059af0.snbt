@@ -1,0 +1,94 @@
+{
+	title: "热力实验室",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:thermal_lab"
+		}
+	},
+	x: 0.0d,
+	y: 6.0d,
+	shape: "gear",
+	description: "热能和机械",
+	text: [
+		"根据JEI的模型，建造热力实验室。",
+		"",
+		"为热力实验室提供灰烬能量和热力射线枪，每800灰烬能量将产出6个黑曜石粉尘，热力射线枪将出现在物品输出口。"
+	],
+	dependencies: [
+		"bd92ae9d"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "a17940d8",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9e689196",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 8L
+	},
+	{
+		uid: "6522ad5d",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	},
+	{
+		uid: "8922b16f",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}]
+	},
+	{
+		uid: "4de5572e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "922da863",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}],
+		count: 9L
+	},
+	{
+		uid: "e2465866",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "062088e4",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}]
+	},
+	{
+		uid: "0aaa4682",
+		type: "item",
+		items: [{
+			item: "modulardiversity:blockemberinputhatch 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "f7ed2987",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 30.0d,
+	y: -6.5d,
+	text: [
+		"制作能量波峰地形显示器，来更直观的查看大气中的灰烬能量浓度。"
+	],
+	dependencies: [
+		"a0579143"
+	],
+	hide: true,
+	tasks: [{
+		uid: "efa92af6",
+		type: "item",
+		items: [{
+			item: "embers:field_chart"
+		}]
+	}],
+	rewards: [{
+		uid: "3358c47b",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 5
+	}]
+}

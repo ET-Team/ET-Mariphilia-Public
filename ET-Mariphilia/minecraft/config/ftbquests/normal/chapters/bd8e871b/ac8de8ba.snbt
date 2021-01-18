@@ -1,0 +1,50 @@
+{
+	title: "海洋垃圾",
+	x: 0.0d,
+	y: 2.0d,
+	description: "Made in Marine",
+	text: [
+		"收集各类生存者滤网中采集到的材料来完成任务"
+	],
+	dependencies: [
+		"9abe9037"
+	],
+	hide: true,
+	tasks: [{
+		uid: "89b7f95a",
+		type: "item",
+		items: [{
+			item: "aquaculture:food 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "9c147ee0",
+		type: "item",
+		items: [{
+			item: "aquaculture:loot"
+		}],
+		count: 4L
+	},
+	{
+		uid: "61fdc824",
+		type: "item",
+		items: [{
+			item: "contenttweaker:handfulsand"
+		}],
+		count: 4L
+	},
+	{
+		uid: "59b9b5ad",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pebble"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "497eebc0",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

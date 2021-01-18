@@ -1,0 +1,29 @@
+{
+	x: 17.0d,
+	y: 37.5d,
+	description: "Winner winner, chicken dinner",
+	text: [
+		"炼成出鸡。"
+	],
+	dependencies: [
+		"e6c62527"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2dce4921",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:chicken"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "370a919d",
+		type: "item",
+		item: "minecraft:chicken"
+	}]
+}

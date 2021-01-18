@@ -1,0 +1,32 @@
+{
+	title: "灰烬学",
+	icon: "embers:dust_ash",
+	x: 28.0d,
+	y: 6.0d,
+	shape: "hexagon",
+	text: [
+		"你想要提升对世界的认知，则从最基本的物质和能量单元——灰烬研究起吧。建立最基本的学科，灰烬学！"
+	],
+	dependencies: [
+		"666a78e3"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "28dc8daa",
+		type: "gamestage",
+		icon: "embers:ember_cluster",
+		stage: "灰烬学"
+	}],
+	rewards: [{
+		uid: "73d53fd5",
+		type: "item",
+		item: "embers:pickaxe_clockwork"
+	},
+	{
+		uid: "f878d920",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 16
+	}]
+}

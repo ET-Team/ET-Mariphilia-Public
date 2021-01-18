@@ -1,0 +1,19 @@
+{
+	x: 11.0d,
+	y: 15.0d,
+	description: "好恶心",
+	text: [
+		"制作蠕动鳞片,作为合成材料或强化护甲。"
+	],
+	dependencies: [
+		"2873aac9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "40ba9aa1",
+		type: "item",
+		items: [{
+			item: "embers:shifting_scales"
+		}]
+	}]
+}

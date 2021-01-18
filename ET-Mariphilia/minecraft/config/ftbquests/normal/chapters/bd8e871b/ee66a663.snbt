@@ -1,0 +1,24 @@
+{
+	x: 18.0d,
+	y: 0.0d,
+	text: [
+		"往腐蚀性液体中丢入方镁矾砖，来获取古代砖"
+	],
+	dependencies: [
+		"48758185",
+		"82f9eee8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0debece0",
+		type: "item",
+		items: [{
+			item: "embers:archaic_brick"
+		}]
+	}],
+	rewards: [{
+		uid: "f2d3daf9",
+		type: "xp",
+		xp: 100
+	}]
+}

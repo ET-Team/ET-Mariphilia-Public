@@ -1,0 +1,92 @@
+{
+	title: "强化灰烬能量灌注器",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:thermal_lab"
+		}
+	},
+	x: 2.0d,
+	y: 5.0d,
+	shape: "gear",
+	description: "产能升级！",
+	text: [
+		"根据JEI中的模型，建造出强化灰烬能量灌注机。",
+		"",
+		"强化灰烬能量灌注机将消耗100单位的灰烬能量，产出6个对应的金属粒。",
+		"",
+		"你的矿物资源将不再缺乏！"
+	],
+	dependencies: [
+		"aef233b2",
+		"bd92ae9d"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "150a38ea",
+		type: "item",
+		items: [{
+			item: "modulardiversity:blockemberinputhatch"
+		}]
+	},
+	{
+		uid: "d6ade299",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "a9581bd3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "936de660",
+		type: "item",
+		items: [{
+			item: "embers:ember_injector"
+		}]
+	},
+	{
+		uid: "bb54afee",
+		type: "item",
+		title: "结晶之种",
+		items: [{
+			item: "embers:seed_iron"
+		},
+		{
+			item: "embers:seed_gold"
+		},
+		{
+			item: "embers:seed_copper"
+		},
+		{
+			item: "embers:seed_silver"
+		},
+		{
+			item: "embers:seed_lead"
+		},
+		{
+			item: "embers:seed_dawnstone"
+		},
+		{
+			item: "embers:seed_aluminum"
+		},
+		{
+			item: "embers:seed_nickel"
+		},
+		{
+			item: "embers:seed_tin"
+		}]
+	}],
+	rewards: [{
+		uid: "9baaa979",
+		type: "item",
+		item: "aquaculture:loot 1 6",
+		count: 2
+	}]
+}

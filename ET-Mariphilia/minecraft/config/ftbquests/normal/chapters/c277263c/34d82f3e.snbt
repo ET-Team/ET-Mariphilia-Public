@@ -1,0 +1,20 @@
+{
+	icon: "contenttweaker:material_part 1 59",
+	x: 45.0d,
+	y: 15.0d,
+	shape: "hexagon",
+	text: [
+		"解锁进阶材料学"
+	],
+	dependencies: [
+		"71ea3d8c",
+		"e9aeeffd"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "8de781e6",
+		type: "gamestage",
+		stage: "进阶材料学"
+	}]
+}

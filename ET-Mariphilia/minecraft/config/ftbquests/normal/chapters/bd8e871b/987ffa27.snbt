@@ -1,0 +1,32 @@
+{
+	x: 22.0d,
+	y: 4.0d,
+	description: "Duang",
+	text: [
+		"将压印锤放置在压印基座隔一格的上方。",
+		"将模具放置在压印锤下方，并给予一些能量。用桶将熔炼炉中的熔融金属倒入，便可以使压印基座内的熔融金属，变成与模具相应的物品。"
+	],
+	dependencies: [
+		"fdc7830e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8a99b808",
+		type: "item",
+		items: [{
+			item: "embers:stamper"
+		}]
+	},
+	{
+		uid: "930e1cc5",
+		type: "item",
+		items: [{
+			item: "embers:stamper_base"
+		}]
+	}],
+	rewards: [{
+		uid: "c38570e5",
+		type: "item",
+		item: "waterstrainer:strainer_survivalist_solid"
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	x: 17.0d,
+	y: 4.0d,
+	description: "是凿子！awsl",
+	text: [
+		"制作一把凿子。",
+		"",
+		"手持凿子右键打开GUI，然后把方块放进左上角的大格子里来改变材质。",
+		"",
+		"手持凿子左击方块将使方块按GUI内顺序切换材质，如果GUI内左上角含有对应的方块，左击方块将直接切换到对应的材质。"
+	],
+	dependencies: [
+		"51a573c8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a67238cb",
+		type: "item",
+		items: [{
+			item: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "973932e2",
+		type: "item",
+		item: "contenttweaker:material_part 1 94"
+	}]
+}

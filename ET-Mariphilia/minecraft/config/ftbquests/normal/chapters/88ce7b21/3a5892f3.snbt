@@ -1,0 +1,19 @@
+{
+	title: "灰烬能量真空压缩机",
+	x: 2.5d,
+	y: 7.5d,
+	dependencies: [
+		"c42a9c4d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f4409e99",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:compressor"
+			}
+		}]
+	}]
+}

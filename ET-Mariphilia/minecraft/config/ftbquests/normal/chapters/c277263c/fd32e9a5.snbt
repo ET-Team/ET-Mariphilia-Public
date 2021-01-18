@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: -2.0d,
+	description: "这是魔法！",
+	text: [
+		"制作法师法球，作为合成材料或工具强化。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2dc6de8a",
+		type: "item",
+		items: [{
+			item: "embers:caster_orb"
+		}]
+	}],
+	rewards: [{
+		uid: "2af947bc",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

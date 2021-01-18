@@ -1,0 +1,17 @@
+{
+	icon: "mekanism:machineblock3",
+	x: 45.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	dependencies: [
+		"9a3bd4fa",
+		"24e611bd"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "18c37625",
+		type: "gamestage",
+		stage: "空间学"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	icon: "contenttweaker:basic_sensor",
+	x: 45.0d,
+	y: -15.0d,
+	shape: "hexagon",
+	text: [
+		"解锁进阶信号学。"
+	],
+	dependencies: [
+		"5dfc546d"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "80cc55e7",
+		type: "gamestage",
+		stage: "进阶信号学"
+	}],
+	rewards: [{
+		uid: "7a8643b7",
+		type: "item",
+		item: "contenttweaker:material_part 1 94",
+		count: 4
+	}]
+}

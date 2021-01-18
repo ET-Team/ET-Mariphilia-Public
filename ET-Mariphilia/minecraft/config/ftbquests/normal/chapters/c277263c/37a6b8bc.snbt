@@ -1,0 +1,23 @@
+{
+	x: 32.0d,
+	y: 16.5d,
+	text: [
+		"通过炼金，来获取西瓜种子。"
+	],
+	dependencies: [
+		"71ea3d8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1f2b295",
+		type: "item",
+		items: [{
+			item: "minecraft:melon_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "32e9037d",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

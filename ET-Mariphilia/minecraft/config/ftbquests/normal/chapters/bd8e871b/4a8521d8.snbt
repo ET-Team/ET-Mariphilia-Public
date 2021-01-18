@@ -1,0 +1,38 @@
+{
+	title: "伊始",
+	icon: "minecraft:paper",
+	x: -10.0d,
+	y: 0.0d,
+	description: "一切的开端",
+	text: [
+		"你出生在一艘木筏上，这里只有一个灰烬炉，一个不知还有没有能量的铜质能量单元，和一个存放着拉杆的箱子。将箱子里的拉杆和铁匠锤拿出来以继续。"
+	],
+	tasks: [{
+		uid: "c228c45f",
+		type: "item",
+		items: [{
+			item: "embers:caminite_lever"
+		}]
+	},
+	{
+		uid: "83a731e0",
+		type: "item",
+		items: [{
+			item: "embers:tinker_hammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "107cbc20",
+		type: "gamestage",
+		auto: "enabled",
+		stage: "one"
+	},
+	{
+		uid: "5e8d0773",
+		type: "item",
+		auto: "enabled",
+		item: "ftbquests:book"
+	}]
+}

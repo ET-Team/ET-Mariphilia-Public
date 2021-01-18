@@ -1,0 +1,31 @@
+{
+	x: 14.0d,
+	y: 2.0d,
+	description: "好脏",
+	text: [
+		"往盛满水的炼药锅里丢一个灰烬，来使水变成灰烬水"
+	],
+	dependencies: [
+		"ee40c9d6",
+		"50c2f6dd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1c8cfcf",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "aquae_cinere",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "f2264803",
+		type: "xp",
+		xp: 100
+	}]
+}

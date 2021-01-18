@@ -1,0 +1,15 @@
+{
+	x: 30.0d,
+	y: -2.5d,
+	shape: "diamond",
+	dependencies: [
+		"9a3bd4fa"
+	],
+	tasks: [{
+		uid: "cdf3940d",
+		type: "item",
+		items: [{
+			item: "mekanism:controlcircuit 1 2"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 28.5d,
+	y: -8.0d,
+	description: "智 械 危 机",
+	text: [
+		"制作智械机关，来用于升级护甲。",
+		""
+	],
+	dependencies: [
+		"a0579143"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c3a50b59",
+		type: "item",
+		items: [{
+			item: "embers:intelligent_apparatus"
+		}]
+	}]
+}

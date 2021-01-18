@@ -1,0 +1,24 @@
+{
+	x: 16.5d,
+	y: 13.5d,
+	description: "高级马甲",
+	text: [
+		"往灰烬水里丢一颗种子，来获取仙人掌种子。"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	tasks: [{
+		uid: "684208d7",
+		type: "item",
+		items: [{
+			item: "inspirations:cactus_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "275aa422",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	description: "蒸汽朋克",
+	text: [
+		"发条战斧既可以作为工具使用，又能充当武器，实是居家旅行之必备。"
+	],
+	dependencies: [
+		"6cc211a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "20e0f747",
+		type: "item",
+		items: [{
+			item: "embers:axe_clockwork"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7de528ef",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

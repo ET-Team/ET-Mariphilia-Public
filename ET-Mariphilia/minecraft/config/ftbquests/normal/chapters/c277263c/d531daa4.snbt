@@ -1,0 +1,25 @@
+{
+	x: 15.5d,
+	y: 39.0d,
+	description: "咩~",
+	text: [
+		"炼成出羊。",
+		""
+	],
+	dependencies: [
+		"e6c62527"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9bd27eaf",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:sheep"
+				}
+			}
+		}]
+	}]
+}

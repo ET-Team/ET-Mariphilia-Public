@@ -1,0 +1,23 @@
+{
+	x: 17.5d,
+	y: 39.5d,
+	text: [
+		"通过击杀牛来获取皮革。"
+	],
+	dependencies: [
+		"41faad07"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c1cb624a",
+		type: "item",
+		items: [{
+			item: "minecraft:leather"
+		}]
+	}],
+	rewards: [{
+		uid: "2bf89d23",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

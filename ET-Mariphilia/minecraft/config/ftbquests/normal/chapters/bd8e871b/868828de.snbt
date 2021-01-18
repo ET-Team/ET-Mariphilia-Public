@@ -1,0 +1,41 @@
+{
+	x: 24.0d,
+	y: 4.0d,
+	shape: "octagon",
+	text: [
+		"将熔融铜和熔融金导入搅拌机，就会制作熔融黎明石。",
+		"再将熔融黎明石导入压印基座，并为压印锤安装锭模具，之后便可以制作出黎明石锭。"
+	],
+	dependencies: [
+		"987ffa27",
+		"3163dd26",
+		"a17c89c5"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "6cf5a33e",
+		type: "item",
+		items: [{
+			item: "embers:ingot_dawnstone"
+		}]
+	}],
+	rewards: [{
+		uid: "0c0bdd1c",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 4
+	},
+	{
+		uid: "ce5b5430",
+		type: "item",
+		item: "embers:ingot_copper",
+		count: 4
+	},
+	{
+		uid: "846874cf",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 8
+	}]
+}

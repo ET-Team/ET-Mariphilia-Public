@@ -1,0 +1,16 @@
+{
+	x: 27.5d,
+	y: 12.0d,
+	shape: "diamond",
+	dependencies: [
+		"0f0bd82d"
+	],
+	tasks: [{
+		uid: "839cd187",
+		type: "item",
+		items: [{
+			item: "mekanism:tierinstaller"
+		}],
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 32.5d,
+	y: 12.5d,
+	text: [
+		"种植出南瓜。"
+	],
+	dependencies: [
+		"7a32f9b9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "97d79574",
+		type: "item",
+		items: [{
+			item: "minecraft:pumpkin"
+		}]
+	}],
+	rewards: [{
+		uid: "3a07163d",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 30.5d,
+	y: 6.0d,
+	description: "自爆矿车",
+	text: [
+		"你非常小心的将tnt塞进了矿车里。"
+	],
+	dependencies: [
+		"abd90c0a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61ebfb02",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt_minecart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f7f6d77",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

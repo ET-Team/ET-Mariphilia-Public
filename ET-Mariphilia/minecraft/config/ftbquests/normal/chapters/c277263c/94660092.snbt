@@ -1,0 +1,24 @@
+{
+	x: 29.0d,
+	y: -9.0d,
+	text: [
+		"你可以制作红石比较器了。"
+	],
+	dependencies: [
+		"a0579143"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c2bff954",
+		type: "item",
+		items: [{
+			item: "minecraft:comparator"
+		}]
+	}],
+	rewards: [{
+		uid: "44b2be2f",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 8
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 17.0d,
+	y: 1.0d,
+	description: "不要把手伸进去",
+	text: [
+		"往沸腾的腐蚀性液体里丢一个圆石，来使腐蚀性液体变成熔岩"
+	],
+	dependencies: [
+		"4b1d890e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9d5573de",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 29.0d,
+	y: -7.0d,
+	text: [
+		"将它贴在容器或者机械上，当你指着表盘时，就会看到内部的流体缓存。"
+	],
+	dependencies: [
+		"a0579143"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1c3a8498",
+		type: "item",
+		items: [{
+			item: "embers:fluid_gauge"
+		}]
+	}],
+	rewards: [{
+		uid: "ca2633b8",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

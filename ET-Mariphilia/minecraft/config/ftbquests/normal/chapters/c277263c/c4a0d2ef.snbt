@@ -1,0 +1,25 @@
+{
+	x: 47.5d,
+	y: -11.5d,
+	description: "速度升级",
+	text: [
+		"制作催化剂插头。",
+		"将它连接至机械，再为其提供炼金红石浆液，便会增加所连接机械的运行速度。"
+	],
+	dependencies: [
+		"b7cf5f01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0c94c1c9",
+		type: "item",
+		items: [{
+			item: "embers:catalytic_plug"
+		}]
+	}],
+	rewards: [{
+		uid: "73c52a8a",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

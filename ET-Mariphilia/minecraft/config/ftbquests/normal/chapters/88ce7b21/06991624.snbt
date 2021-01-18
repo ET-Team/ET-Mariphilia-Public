@@ -1,0 +1,69 @@
+{
+	title: "一级怪物工厂",
+	x: 37.5d,
+	y: 11.5d,
+	dependencies: [
+		"0ad2c52b"
+	],
+	tasks: [{
+		uid: "7f682e6d",
+		type: "item",
+		items: [{
+			item: "woot:factory"
+		}]
+	},
+	{
+		uid: "e3559ae9",
+		type: "item",
+		items: [{
+			item: "woot:exporter"
+		}]
+	},
+	{
+		uid: "bbc67f1a",
+		type: "item",
+		items: [{
+			item: "woot:importer"
+		}]
+	},
+	{
+		uid: "923e5027",
+		type: "item",
+		items: [{
+			item: "woot:cell 1 1"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1e077e8a",
+		type: "item",
+		items: [{
+			item: "woot:structure 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "4235108a",
+		type: "item",
+		items: [{
+			item: "woot:structure"
+		}],
+		count: 10L
+	},
+	{
+		uid: "482102a4",
+		type: "item",
+		items: [{
+			item: "woot:structure 1 1"
+		}],
+		count: 14L
+	},
+	{
+		uid: "5adb3d81",
+		type: "item",
+		items: [{
+			item: "woot:structure 1 5"
+		}],
+		count: 2L
+	}]
+}

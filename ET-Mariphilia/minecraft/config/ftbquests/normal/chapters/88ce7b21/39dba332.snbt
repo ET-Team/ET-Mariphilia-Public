@@ -1,0 +1,14 @@
+{
+	x: 47.5d,
+	y: 15.0d,
+	dependencies: [
+		"e6aff39a"
+	],
+	tasks: [{
+		uid: "b4139460",
+		type: "item",
+		items: [{
+			item: "openblocks:auto_anvil"
+		}]
+	}]
+}

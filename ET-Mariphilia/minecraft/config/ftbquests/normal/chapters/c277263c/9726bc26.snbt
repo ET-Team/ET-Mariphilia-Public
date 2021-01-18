@@ -1,0 +1,23 @@
+{
+	x: 26.5d,
+	y: 19.0d,
+	text: [
+		"将金锭砸到胡萝卜里"
+	],
+	dependencies: [
+		"a4f40045"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ae687ad4",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_carrot"
+		}]
+	}],
+	rewards: [{
+		uid: "5bb97547",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

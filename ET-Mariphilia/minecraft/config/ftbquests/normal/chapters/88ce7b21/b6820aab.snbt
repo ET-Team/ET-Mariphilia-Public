@@ -1,0 +1,15 @@
+{
+	x: 27.5d,
+	y: 9.5d,
+	shape: "diamond",
+	dependencies: [
+		"0f0bd82d"
+	],
+	tasks: [{
+		uid: "420af417",
+		type: "item",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}]
+}

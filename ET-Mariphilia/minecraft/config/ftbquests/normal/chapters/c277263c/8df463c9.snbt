@@ -1,0 +1,25 @@
+{
+	x: 34.0d,
+	y: 2.5d,
+	description: "吸————————",
+	text: [
+		"制作虚空吸取器。",
+		"它会把附近的掉落物吸收到所相邻的容器内。"
+	],
+	dependencies: [
+		"0a2a8b55"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2a695a83",
+		type: "item",
+		items: [{
+			item: "embers:vacuum"
+		}]
+	}],
+	rewards: [{
+		uid: "7c35156e",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "医药实验室",
+	x: 5.0d,
+	y: 7.5d,
+	dependencies: [
+		"3a5892f3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3bb6c305",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:med_lab"
+			}
+		}]
+	}]
+}

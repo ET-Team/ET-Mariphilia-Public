@@ -1,0 +1,24 @@
+{
+	x: 27.5d,
+	y: 12.5d,
+	description: "有毒的GLaDOS",
+	text: [
+		"土豆有时候会变得有毒。"
+	],
+	dependencies: [
+		"4078860a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3e31d8d8",
+		type: "item",
+		items: [{
+			item: "minecraft:poisonous_potato"
+		}]
+	}],
+	rewards: [{
+		uid: "63967560",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

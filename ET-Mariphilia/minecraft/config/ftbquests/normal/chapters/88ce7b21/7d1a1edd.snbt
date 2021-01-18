@@ -1,0 +1,14 @@
+{
+	x: 47.5d,
+	y: 12.5d,
+	dependencies: [
+		"e6aff39a"
+	],
+	tasks: [{
+		uid: "f8072c50",
+		type: "item",
+		items: [{
+			item: "openblocks:auto_enchantment_table"
+		}]
+	}]
+}

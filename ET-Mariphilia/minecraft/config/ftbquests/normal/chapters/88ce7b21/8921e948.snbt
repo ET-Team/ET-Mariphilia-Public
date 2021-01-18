@@ -1,0 +1,16 @@
+{
+	icon: "mekanism:controlcircuit",
+	x: 15.0d,
+	y: 7.5d,
+	shape: "octagon",
+	dependencies: [
+		"2060c74a"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "a9a4b7bd",
+		type: "gamestage",
+		stage: "基础电学"
+	}]
+}

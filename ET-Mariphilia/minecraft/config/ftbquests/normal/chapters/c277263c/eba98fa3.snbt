@@ -1,0 +1,23 @@
+{
+	x: 28.5d,
+	y: 17.5d,
+	text: [
+		"通过炼金，来获取甘蔗种子"
+	],
+	dependencies: [
+		"71ea3d8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3859144f",
+		type: "item",
+		items: [{
+			item: "inspirations:sugar_cane_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "1edcdb18",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

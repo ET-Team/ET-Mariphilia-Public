@@ -1,0 +1,49 @@
+{
+	x: 0.0d,
+	y: 7.5d,
+	shape: "hexagon",
+	text: [
+		"知识增长的速度超乎你的想象，但，你也许不知道，随其而来的并不是更大的利好，而是来自地狱的恶魔..."
+	],
+	dependencies: [
+		"c277263c"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "6a07ada4",
+		type: "checkmark",
+		title: "恶魔的呓语",
+		icon: "openblocks:stencil"
+	}],
+	rewards: [{
+		uid: "7837656c",
+		type: "command",
+		auto: "invisible",
+		command: "/gamerule sendCommandFeedback false"
+	},
+	{
+		uid: "4e6074db",
+		type: "command",
+		auto: "invisible",
+		command: "/scoreboard objectives add residue dummy \"剩余药物使用次数\""
+	},
+	{
+		uid: "1408ea4b",
+		type: "command",
+		auto: "invisible",
+		command: "/scoreboard players set @p residue 100"
+	},
+	{
+		uid: "8cddea57",
+		type: "command",
+		auto: "invisible",
+		command: "/scoreboard objectives setdisplay sidebar residue"
+	},
+	{
+		uid: "de345c0e",
+		type: "gamestage",
+		icon: "contenttweaker:obsolete_circuit",
+		stage: "第三章"
+	}]
+}

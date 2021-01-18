@@ -1,0 +1,23 @@
+{
+	x: 22.0d,
+	y: 6.0d,
+	text: [
+		"制作锭模具"
+	],
+	dependencies: [
+		"db595b75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4e8e03c6",
+		type: "item",
+		items: [{
+			item: "embers:stamp_bar"
+		}]
+	}],
+	rewards: [{
+		uid: "ce8b3985",
+		type: "xp",
+		xp: 100
+	}]
+}

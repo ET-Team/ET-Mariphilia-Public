@@ -1,0 +1,29 @@
+{
+	title: "刷怪小屋",
+	icon: "minecraft:skull 1 4",
+	x: 8.0d,
+	y: 0.0d,
+	shape: "diamond",
+	description: "爱谴责人士表示强烈爬行者",
+	text: [
+		"在远离船的位置搭建一个小黑屋来刷怪，",
+		"并且击杀一只爬行者来获取它的火药。"
+	],
+	dependencies: [
+		"c7bcf8ec"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "d7afc161",
+		type: "item",
+		items: [{
+			item: "minecraft:gunpowder"
+		}]
+	}],
+	rewards: [{
+		uid: "56bd47a9",
+		type: "xp",
+		xp: 100
+	}]
+}

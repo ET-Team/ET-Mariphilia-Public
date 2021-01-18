@@ -1,0 +1,42 @@
+{
+	x: 43.5d,
+	y: 4.5d,
+	dependencies: [
+		"c0fae598"
+	],
+	tasks: [{
+		uid: "6cc26b4c",
+		type: "item",
+		items: [{
+			item: "contenttweaker:biodata_skeleton"
+		}]
+	},
+	{
+		uid: "7abfab18",
+		type: "item",
+		items: [{
+			item: "contenttweaker:biodata_golem"
+		}]
+	},
+	{
+		uid: "f936db90",
+		type: "item",
+		items: [{
+			item: "contenttweaker:biodata_self"
+		}]
+	},
+	{
+		uid: "a0151def",
+		type: "item",
+		items: [{
+			item: "contenttweaker:biodata_creeper"
+		}]
+	},
+	{
+		uid: "58d6a46a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:biodata_zombie"
+		}]
+	}]
+}

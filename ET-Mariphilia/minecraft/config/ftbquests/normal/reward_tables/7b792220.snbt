@@ -1,0 +1,13 @@
+{
+	title: "低等列表",
+	loot_size: 1,
+	rewards: [{
+		item: "minecraft:stone 1 3"
+	},
+	{
+		item: "minecraft:gold_ore"
+	},
+	{
+		item: "minecraft:sponge 1 1"
+	}]
+}

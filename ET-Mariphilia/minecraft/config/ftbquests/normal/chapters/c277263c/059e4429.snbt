@@ -1,0 +1,25 @@
+{
+	x: 30.0d,
+	y: 26.5d,
+	description: "Q弹可口",
+	text: [
+		"制作发酵蛛眼。"
+	],
+	dependencies: [
+		"e9aeeffd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8a07f7ac",
+		type: "item",
+		items: [{
+			item: "minecraft:fermented_spider_eye"
+		}]
+	}],
+	rewards: [{
+		uid: "c88b4c79",
+		type: "item",
+		item: "minecraft:spider_eye",
+		count: 8
+	}]
+}

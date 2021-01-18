@@ -1,0 +1,68 @@
+{
+	x: 16.0d,
+	y: 0.0d,
+	description: "金属大师",
+	text: [
+		"将废铁和铜罐头还有凝实的灰烬引爆，来获取相应的金属粒和灰烬晶体。",
+		"将废弃的电路板和废弃的电池丢到腐蚀性液体中，来获得金粒和铅粒。"
+	],
+	dependencies: [
+		"0399e96d",
+		"4b1d890e"
+	],
+	hide: true,
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "5288ba12",
+		type: "item",
+		items: [{
+			item: "embers:ingot_copper"
+		}]
+	},
+	{
+		uid: "5a2348bc",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "f28720c2",
+		type: "item",
+		items: [{
+			item: "embers:ingot_lead"
+		}]
+	},
+	{
+		uid: "6c04e6d3",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}]
+	},
+	{
+		uid: "ee31442f",
+		type: "item",
+		items: [{
+			item: "embers:ingot_tin"
+		}]
+	},
+	{
+		uid: "cd8cb7a9",
+		type: "item",
+		items: [{
+			item: "embers:crystal_ember"
+		}]
+	}],
+	rewards: [{
+		uid: "cb6beeef",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "a7360aac",
+		type: "item",
+		item: "embers:dust_ember",
+		count: 32
+	}]
+}

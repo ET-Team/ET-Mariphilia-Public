@@ -1,0 +1,25 @@
+{
+	x: 46.0d,
+	y: 6.0d,
+	description: "流体过滤",
+	text: [
+		"手持流体桶右键过滤器对其标记一个白名单，使它只允许该流体通过。",
+		"管道内的流体都会优先通过该设备。"
+	],
+	dependencies: [
+		"d994b04b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3582c781",
+		type: "item",
+		items: [{
+			item: "embers:fluid_transfer"
+		}]
+	}],
+	rewards: [{
+		uid: "09216dd2",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

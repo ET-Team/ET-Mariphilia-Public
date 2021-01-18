@@ -1,0 +1,23 @@
+{
+	x: 13.5d,
+	y: 13.5d,
+	text: [
+		"制作聚焦镜片，作为合成材料。"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15957627",
+		type: "item",
+		items: [{
+			item: "embers:focal_lens"
+		}]
+	}],
+	rewards: [{
+		uid: "78f06299",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

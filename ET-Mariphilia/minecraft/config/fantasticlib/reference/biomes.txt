@@ -61,3 +61,12 @@ minecraft:mutated_mesa
 minecraft:mutated_mesa_rock
 minecraft:mutated_mesa_clear_rock
 appliedenergistics2:storage_biome
+atum:dead_oasis
+atum:deadwood_forest
+atum:dried_river
+atum:limestone_crags
+atum:limestone_mountains
+atum:oasis
+atum:sand_dunes
+atum:sand_hills
+atum:sand_plains

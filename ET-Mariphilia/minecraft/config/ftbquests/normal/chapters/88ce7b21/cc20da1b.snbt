@@ -1,0 +1,14 @@
+{
+	x: 45.0d,
+	y: 12.5d,
+	dependencies: [
+		"e6aff39a"
+	],
+	tasks: [{
+		uid: "f3ff08dc",
+		type: "item",
+		items: [{
+			item: "chisel:auto_chisel"
+		}]
+	}]
+}

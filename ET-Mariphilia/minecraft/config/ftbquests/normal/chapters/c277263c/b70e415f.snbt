@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	description: "中继器",
+	text: [
+		"制作灰烬能量中继器，来进行远距离传输。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2bb3a65e",
+		type: "item",
+		items: [{
+			item: "embers:ember_relay"
+		}]
+	}],
+	rewards: [{
+		uid: "38f852db",
+		type: "item",
+		item: "embers:ember_relay"
+	}]
+}

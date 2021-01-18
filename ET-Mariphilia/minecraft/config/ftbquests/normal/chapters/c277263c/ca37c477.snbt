@@ -1,0 +1,63 @@
+{
+	x: 49.0d,
+	y: 0.0d,
+	description: "金属升级",
+	text: [
+		"制作金属板条箱。",
+		"金属板条箱可以插入更多的容量升级。"
+	],
+	dependencies: [
+		"40a449a0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "923808f5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					maxCap: 32768,
+					objColors: [I;
+						-1,
+						-1
+					],
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			},
+			id: "bdsandm:metal_crate",
+			tag: {
+				crateCap: {
+					maxCap: 32768,
+					objColors: [I;
+						-1,
+						-1
+					],
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e0073a2b",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

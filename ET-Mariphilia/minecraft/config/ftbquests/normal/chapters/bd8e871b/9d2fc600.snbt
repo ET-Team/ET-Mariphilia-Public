@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	description: "成为薪王",
+	text: [
+		"使用火药与灰烬合成出复燃的灰烬。",
+		"你可以手持一个复燃的灰烬，右键点燃一个方块。"
+	],
+	dependencies: [
+		"09947969"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1a92e526",
+		type: "item",
+		items: [{
+			item: "contenttweaker:rekindled_ash"
+		}]
+	}],
+	rewards: [{
+		uid: "6317b2ad",
+		type: "item",
+		item: "embers:dust_ash",
+		count: 32
+	}]
+}

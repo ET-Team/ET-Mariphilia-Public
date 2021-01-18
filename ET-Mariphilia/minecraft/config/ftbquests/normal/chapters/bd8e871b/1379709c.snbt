@@ -1,0 +1,18 @@
+{
+	x: 18.0d,
+	y: 4.0d,
+	text: [
+		"制作一个铜质灰烬能量充能器。为其提供灰烬能量，然后将需要充能的物品或装备放入其中即可为它们充能"
+	],
+	dependencies: [
+		"6b0e66e9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b7aa0617",
+		type: "item",
+		items: [{
+			item: "embers:charger"
+		}]
+	}]
+}

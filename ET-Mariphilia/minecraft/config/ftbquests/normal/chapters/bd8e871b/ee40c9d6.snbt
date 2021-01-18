@@ -1,0 +1,26 @@
+{
+	x: 12.0d,
+	y: 2.0d,
+	description: "请问你想成为女巫吗？",
+	text: [
+		"使用砖块制作一个炼药锅",
+		"",
+		"你可以往炼药锅下面点一把火，来使锅中的液体煮沸"
+	],
+	dependencies: [
+		"102ca21c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "76db31c3",
+		type: "item",
+		items: [{
+			item: "morecauldrons:brick_cauldron"
+		}]
+	}],
+	rewards: [{
+		uid: "afe45292",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

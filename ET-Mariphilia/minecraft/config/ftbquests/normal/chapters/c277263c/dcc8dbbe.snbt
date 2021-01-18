@@ -1,0 +1,78 @@
+{
+	title: "深海压力测量站",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:pressure_measuring_station"
+		}
+	},
+	x: -2.0d,
+	y: 5.0d,
+	shape: "gear",
+	description: "你有深海恐惧症吗?",
+	text: [
+		"根据JEI的模型，在高度小于10的地方建造深海压力测量站。"
+	],
+	dependencies: [
+		"bd92ae9d"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "4bbf38d0",
+		type: "item",
+		items: [{
+			item: "minecraft:stonebrick"
+		}],
+		count: 24L
+	},
+	{
+		uid: "56eb4c18",
+		type: "item",
+		items: [{
+			item: "embers:block_dawnstone"
+		}],
+		count: 9L
+	},
+	{
+		uid: "ba7371e9",
+		type: "item",
+		items: [{
+			item: "minecraft:glass"
+		}],
+		count: 36L
+	},
+	{
+		uid: "2c322f34",
+		type: "item",
+		items: [{
+			item: "modulardiversity:blockemberinputhatch 1 1"
+		}]
+	},
+	{
+		uid: "92694cbc",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "485da4ad",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus"
+		}]
+	},
+	{
+		uid: "6572a9b7",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	}],
+	rewards: [{
+		uid: "72a6853e",
+		type: "item",
+		item: "minecraft:sponge"
+	}]
+}

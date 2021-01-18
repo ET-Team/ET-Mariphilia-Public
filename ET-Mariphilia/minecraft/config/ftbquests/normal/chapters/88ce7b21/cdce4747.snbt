@@ -1,0 +1,15 @@
+{
+	x: 48.0d,
+	y: 5.5d,
+	shape: "diamond",
+	dependencies: [
+		"6e5c7bfb"
+	],
+	tasks: [{
+		uid: "0e0f538e",
+		type: "item",
+		items: [{
+			item: "compactmachines3:machine 1 4"
+		}]
+	}]
+}

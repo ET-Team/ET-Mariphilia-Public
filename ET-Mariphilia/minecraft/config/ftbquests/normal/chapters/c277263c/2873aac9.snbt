@@ -1,0 +1,25 @@
+{
+	x: 12.5d,
+	y: 15.0d,
+	description: "万用胶",
+	text: [
+		"制作万能修复要素。",
+		"它可以配合黎明石砧来修复任何装备。"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	tasks: [{
+		uid: "feb351f1",
+		type: "item",
+		items: [{
+			item: "embers:isolated_materia"
+		}]
+	}],
+	rewards: [{
+		uid: "3fd463d6",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

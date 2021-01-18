@@ -1,0 +1,14 @@
+{
+	x: 34.5d,
+	y: 14.0d,
+	dependencies: [
+		"7abc3399"
+	],
+	tasks: [{
+		uid: "0daf16a6",
+		type: "item",
+		items: [{
+			item: "woot:controller"
+		}]
+	}]
+}

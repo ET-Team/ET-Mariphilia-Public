@@ -1,0 +1,24 @@
+{
+	x: 46.5d,
+	y: -10.5d,
+	text: [
+		"发条阻尼器可以用来控制机械的运行速度（并不能加速）",
+		"你可以通过右键来设置速度。"
+	],
+	dependencies: [
+		"b7cf5f01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8f1484b0",
+		type: "item",
+		items: [{
+			item: "embers:clockwork_attenuator"
+		}]
+	}],
+	rewards: [{
+		uid: "328700a6",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

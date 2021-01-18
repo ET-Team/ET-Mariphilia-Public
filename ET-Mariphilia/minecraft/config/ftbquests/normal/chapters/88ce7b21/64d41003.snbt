@@ -1,0 +1,14 @@
+{
+	x: 45.0d,
+	y: 24.0d,
+	dependencies: [
+		"847b90c5"
+	],
+	tasks: [{
+		uid: "aa96f881",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:crafting_storage_16k"
+		}]
+	}]
+}

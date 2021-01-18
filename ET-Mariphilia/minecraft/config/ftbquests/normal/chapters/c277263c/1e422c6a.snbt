@@ -1,0 +1,36 @@
+{
+	icon: {
+		id: "minecraft:potion",
+		tag: {
+			Potion: "minecraft:invisibility"
+		}
+	},
+	x: 30.0d,
+	y: 22.5d,
+	shape: "rsquare",
+	dependencies: [
+		"38780658",
+		"9726bc26",
+		"ef90e85a",
+		"6274dc76",
+		"d039701e",
+		"059e4429"
+	],
+	hide: true,
+	size: 2.0d,
+	tasks: [{
+		uid: "cad503e5",
+		type: "checkmark",
+		title: "酿造"
+	}],
+	rewards: [{
+		uid: "1408871c",
+		type: "item",
+		item: {
+			id: "minecraft:potion",
+			tag: {
+				Potion: "minecraft:mundane"
+			}
+		}
+	}]
+}

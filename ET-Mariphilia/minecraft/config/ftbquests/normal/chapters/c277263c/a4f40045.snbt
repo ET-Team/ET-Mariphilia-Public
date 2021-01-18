@@ -1,0 +1,23 @@
+{
+	x: 26.5d,
+	y: 17.5d,
+	text: [
+		"种植出胡萝卜"
+	],
+	dependencies: [
+		"fd0cbc1f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d17f6135",
+		type: "item",
+		items: [{
+			item: "minecraft:carrot"
+		}]
+	}],
+	rewards: [{
+		uid: "9b8b814a",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

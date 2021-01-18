@@ -1,0 +1,17 @@
+{
+	icon: "appliedenergistics2:controller",
+	x: 30.0d,
+	y: 15.0d,
+	shape: "hexagon",
+	dependencies: [
+		"33e99291",
+		"8921e948"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "8d01f0ed",
+		type: "gamestage",
+		stage: "物流信号学"
+	}]
+}

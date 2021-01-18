@@ -1,0 +1,25 @@
+{
+	x: 19.0d,
+	y: 38.0d,
+	description: "黎明杀”鸡“",
+	text: [
+		"通过击杀鸡来获取羽毛。"
+	],
+	dependencies: [
+		"e1e656d3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ede15241",
+		type: "item",
+		items: [{
+			item: "minecraft:feather"
+		}]
+	}],
+	rewards: [{
+		uid: "12922388",
+		type: "item",
+		item: "minecraft:egg",
+		count: 3
+	}]
+}

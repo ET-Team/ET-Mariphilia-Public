@@ -1,0 +1,24 @@
+{
+	x: 30.0d,
+	y: 3.0d,
+	description: "幽灵轨迹",
+	text: [
+		"制作铁轨。"
+	],
+	dependencies: [
+		"56fd1e48"
+	],
+	hide: true,
+	tasks: [{
+		uid: "fcaa4fa9",
+		type: "item",
+		items: [{
+			item: "minecraft:rail"
+		}]
+	}],
+	rewards: [{
+		uid: "63a12dc0",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

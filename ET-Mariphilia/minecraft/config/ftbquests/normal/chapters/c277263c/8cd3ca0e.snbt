@@ -1,0 +1,19 @@
+{
+	x: 42.5d,
+	y: -11.5d,
+	description: "超古代智慧",
+	text: [
+		"制作太古电路，作为合成材料或装备强化。"
+	],
+	dependencies: [
+		"b7cf5f01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "55a97178",
+		type: "item",
+		items: [{
+			item: "embers:archaic_circuit"
+		}]
+	}]
+}

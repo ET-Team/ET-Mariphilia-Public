@@ -1,0 +1,19 @@
+{
+	x: 31.5d,
+	y: -8.0d,
+	description: "数据化",
+	text: [
+		"将它贴到机械上后，当你准星对准表盘时，就会在屏幕中央显示出机械内部的灰烬能量缓存。"
+	],
+	dependencies: [
+		"a0579143"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b6c29261",
+		type: "item",
+		items: [{
+			item: "embers:ember_gauge"
+		}]
+	}]
+}

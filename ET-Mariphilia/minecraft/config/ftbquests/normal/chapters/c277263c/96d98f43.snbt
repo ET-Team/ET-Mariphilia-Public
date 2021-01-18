@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "光球",
+	text: [
+		"微光水晶是一种廉价且可再生的光源。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff58d56a",
+		type: "item",
+		items: [{
+			item: "embers:glimmer_shard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b54d2ea",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 18.0d,
+	y: 2.0d,
+	description: "变硬",
+	text: [
+		"将方镁矾混合物烧制成方镁矾砖"
+	],
+	dependencies: [
+		"8af2b012"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e9bec72f",
+		type: "item",
+		items: [{
+			item: "embers:brick_caminite"
+		}]
+	}],
+	rewards: [{
+		uid: "9bc133a4",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

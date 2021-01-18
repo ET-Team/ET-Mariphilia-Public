@@ -1,0 +1,24 @@
+{
+	x: 28.5d,
+	y: -11.0d,
+	description: "活塞运动",
+	text: [
+		"你可以制作活塞了。"
+	],
+	dependencies: [
+		"5dfc546d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "94df715a",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	}],
+	rewards: [{
+		uid: "5bd83b4e",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

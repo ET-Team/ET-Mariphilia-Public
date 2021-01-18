@@ -1,0 +1,67 @@
+{
+	x: 51.0d,
+	y: 0.0d,
+	text: [
+		"制作金属桶，来存储更多的流体。"
+	],
+	dependencies: [
+		"ca37c477"
+	],
+	hide: true,
+	tasks: [{
+		uid: "aa6aff68",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					maxCap: 32768,
+					objColors: [I;
+						-1,
+						-1,
+						-1,
+						-1
+					],
+					refFluid: {},
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			},
+			id: "bdsandm:metal_barrel",
+			tag: {
+				barrelCap: {
+					maxCap: 32768,
+					objColors: [I;
+						-1,
+						-1,
+						-1,
+						-1
+					],
+					refFluid: {},
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "390ae003",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

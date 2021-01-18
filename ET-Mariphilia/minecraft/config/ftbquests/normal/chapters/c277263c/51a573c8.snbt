@@ -1,0 +1,30 @@
+{
+	x: 17.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "来更硬的",
+	text: [
+		"使用冶炼炉融化黑曜石粉末，然后使用混合离心器及冲压锤制造出灰烬金属锭。",
+		"",
+		"熔融灰烬金属的配方比例为：2熔融灰烬+1熔融青铜+1熔融黑曜石=4熔融灰烬金属。",
+		"",
+		"12个黑曜石粉末可以融成一个锭的量，所以实际上，配方比例为：1致密灰烬+1青铜锭+12黑曜石粉末=4灰烬金属锭。"
+	],
+	dependencies: [
+		"88768a95"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "dccb8bbc",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 94"
+		}]
+	}],
+	rewards: [{
+		uid: "5f747207",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

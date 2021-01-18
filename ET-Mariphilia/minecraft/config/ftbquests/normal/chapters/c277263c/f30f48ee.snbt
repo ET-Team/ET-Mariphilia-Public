@@ -1,0 +1,40 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	description: "加热",
+	text: [
+		"如果将高压能量激发器放置在金属块上方，并且周围有熔岩，则可以拥有更高的灰烬晶体利用率。"
+	],
+	dependencies: [
+		"88a87ad4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0e74495",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fa0a985f",
+		type: "item",
+		title: "铜块",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "blockCopper",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "c1915ec3",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

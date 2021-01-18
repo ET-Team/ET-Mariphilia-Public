@@ -1,0 +1,29 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	shape: "pentagon",
+	description: "意外的发现",
+	text: [
+		"将熔融黎明石与熔融灰烬按照1:2的比例使用混合离心器制造出熔融模块化合金，然后输出到压印基座使用压印锤和锭模具制造出模块化合金锭。",
+		"",
+		"提示：一块致密灰烬可以融化成两个锭的熔融灰烬。",
+		"所以实际上，模块化合金的配方是：1致密灰烬+1黎明石=3模块合金锭。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a11a40a3",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}]
+	}],
+	rewards: [{
+		uid: "5ea12cd1",
+		type: "item",
+		item: "modularmachinery:itemmodularium",
+		count: 4
+	}]
+}

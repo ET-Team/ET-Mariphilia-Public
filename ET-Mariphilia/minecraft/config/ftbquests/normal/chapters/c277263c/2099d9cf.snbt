@@ -1,0 +1,23 @@
+{
+	x: 48.0d,
+	y: 2.5d,
+	text: [
+		"制作蓄水池，来存储大量的流体。"
+	],
+	dependencies: [
+		"40a449a0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8aecd7b8",
+		type: "item",
+		items: [{
+			item: "embers:large_tank"
+		}]
+	}],
+	rewards: [{
+		uid: "4033bc78",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

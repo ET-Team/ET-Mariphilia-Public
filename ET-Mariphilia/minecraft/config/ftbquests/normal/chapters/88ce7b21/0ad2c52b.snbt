@@ -1,0 +1,26 @@
+{
+	x: 37.5d,
+	y: 14.0d,
+	dependencies: [
+		"588fe1ec"
+	],
+	tasks: [{
+		uid: "5b8e9537",
+		type: "item",
+		items: [{
+			item: "woot:layout"
+		}]
+	},
+	{
+		uid: "72a11f7f",
+		type: "item",
+		items: [{
+			id: "woot:builder",
+			tag: {
+				tier: 2
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

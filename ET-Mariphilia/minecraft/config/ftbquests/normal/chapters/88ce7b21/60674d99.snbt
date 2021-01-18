@@ -1,0 +1,31 @@
+{
+	title: "地狱铁砧",
+	x: 34.5d,
+	y: 7.5d,
+	dependencies: [
+		"ec573f7e"
+	],
+	tasks: [{
+		uid: "d230f54f",
+		type: "item",
+		items: [{
+			item: "woot:yahhammer"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5f814dc2",
+		type: "item",
+		items: [{
+			item: "woot:anvil"
+		}]
+	},
+	{
+		uid: "ecc9e0a1",
+		type: "item",
+		items: [{
+			item: "minecraft:magma"
+		}]
+	}]
+}

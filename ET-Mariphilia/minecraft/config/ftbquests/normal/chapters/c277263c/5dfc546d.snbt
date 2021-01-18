@@ -1,0 +1,25 @@
+{
+	icon: "minecraft:redstone_torch",
+	x: 30.0d,
+	y: -15.0d,
+	shape: "hexagon",
+	text: [
+		"解锁基础信号学"
+	],
+	dependencies: [
+		"88768a95"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "e346be58",
+		type: "gamestage",
+		stage: "基础信号学"
+	}],
+	rewards: [{
+		uid: "3fbf96f5",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 16
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 21.0d,
+	y: 2.0d,
+	description: "燃烧！热量！",
+	text: [
+		"燃烧室为高温催化反应器的组成部分，需要消耗燃料以工作。",
+		"",
+		"可接受的燃料及对应的燃烧系数如下：煤炭 2 ; 地狱砖 3 ; 烈焰粉 4"
+	],
+	dependencies: [
+		"1015d133"
+	],
+	hide: true,
+	tasks: [{
+		uid: "033d5180",
+		type: "item",
+		items: [{
+			item: "embers:catalyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "bf93c536",
+		type: "item",
+		item: "minecraft:blaze_powder",
+		count: 2
+	}]
+}

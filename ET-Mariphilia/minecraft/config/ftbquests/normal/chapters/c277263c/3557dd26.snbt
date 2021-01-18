@@ -1,0 +1,24 @@
+{
+	x: 49.0d,
+	y: 3.5d,
+	text: [
+		"制作方镁矾围墙。",
+		"将方镁矾围墙放置在蓄水池上方，来增加其容量。"
+	],
+	dependencies: [
+		"40a449a0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eaa8dc5a",
+		type: "item",
+		items: [{
+			item: "embers:stone_edge"
+		}]
+	}],
+	rewards: [{
+		uid: "e752a843",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

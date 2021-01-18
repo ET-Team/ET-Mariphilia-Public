@@ -1,0 +1,15 @@
+{
+	x: 25.5d,
+	y: 9.5d,
+	shape: "diamond",
+	dependencies: [
+		"e4f5df35"
+	],
+	tasks: [{
+		uid: "97cdef75",
+		type: "item",
+		items: [{
+			item: "contenttweaker:material_part 1 73"
+		}]
+	}]
+}

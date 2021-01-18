@@ -1,0 +1,25 @@
+{
+	x: 45.0d,
+	y: 2.0d,
+	shape: "circle",
+	description: "啊！是管道！",
+	text: [
+		"你研制出了物品管道。"
+	],
+	dependencies: [
+		"40a449a0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3f8bb2ad",
+		type: "item",
+		items: [{
+			item: "embers:item_pipe"
+		}]
+	}],
+	rewards: [{
+		uid: "f3f2c734",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

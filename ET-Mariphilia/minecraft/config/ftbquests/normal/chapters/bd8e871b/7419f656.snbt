@@ -1,0 +1,24 @@
+{
+	x: 24.0d,
+	y: 2.0d,
+	description: "砸铁的",
+	text: [
+		"要使用黎明石砧，惟需将合成材料按顺序放在石砧上手持铁匠锤右键不断地砸"
+	],
+	dependencies: [
+		"868828de"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df76c608",
+		type: "item",
+		items: [{
+			item: "embers:dawnstone_anvil"
+		}]
+	}],
+	rewards: [{
+		uid: "119cd3a3",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,32 @@
+{
+	title: "灰烬能量I/O",
+	x: 22.0d,
+	y: 0.0d,
+	description: "海尔兄弟",
+	text: [
+		"恭喜！在历尽苦难后，你终于可以亲手打造属于自己的灰烬能量传输装置了！"
+	],
+	dependencies: [
+		"27f38f86"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0a18f7f7",
+		type: "item",
+		items: [{
+			item: "embers:ember_receiver"
+		}]
+	},
+	{
+		uid: "2af0cbf3",
+		type: "item",
+		items: [{
+			item: "embers:ember_emitter"
+		}]
+	}],
+	rewards: [{
+		uid: "2a1b6bc3",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 14.0d,
+	y: 0.0d,
+	description: "BOOM",
+	text: [
+		"制作一个tnt (来炸掉你的船  ：D"
+	],
+	dependencies: [
+		"09947969"
+	],
+	hide: true,
+	tasks: [{
+		uid: "083bcda7",
+		type: "item",
+		items: [{
+			item: "minecraft:tnt"
+		}]
+	}]
+}

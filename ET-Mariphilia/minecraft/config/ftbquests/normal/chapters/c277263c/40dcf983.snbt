@@ -1,0 +1,38 @@
+{
+	x: 42.0d,
+	y: 2.5d,
+	description: "轨道升级",
+	text: [
+		"制作各种轨道。"
+	],
+	dependencies: [
+		"40a449a0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7e91a8ad",
+		type: "item",
+		items: [{
+			item: "minecraft:activator_rail"
+		}]
+	},
+	{
+		uid: "58cc3fe9",
+		type: "item",
+		items: [{
+			item: "minecraft:detector_rail"
+		}]
+	},
+	{
+		uid: "4456df82",
+		type: "item",
+		items: [{
+			item: "minecraft:golden_rail"
+		}]
+	}],
+	rewards: [{
+		uid: "ea668cfd",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

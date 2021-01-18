@@ -1,0 +1,24 @@
+{
+	x: 31.0d,
+	y: -9.0d,
+	text: [
+		"你可以制作红石中继器了。"
+	],
+	dependencies: [
+		"a0579143"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5dcee9c0",
+		type: "item",
+		items: [{
+			item: "minecraft:repeater"
+		}]
+	}],
+	rewards: [{
+		uid: "b24cc665",
+		type: "item",
+		item: "minecraft:redstone",
+		count: 8
+	}]
+}

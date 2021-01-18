@@ -1,0 +1,24 @@
+{
+	x: 33.0d,
+	y: 1.0d,
+	description: "投掷器",
+	text: [
+		"从上方输入物品，然后下方会以掉落物的方式将其丢出。"
+	],
+	dependencies: [
+		"56fd1e48"
+	],
+	hide: true,
+	tasks: [{
+		uid: "51f3f8b2",
+		type: "item",
+		items: [{
+			item: "embers:item_dropper"
+		}]
+	}],
+	rewards: [{
+		uid: "2cb7733f",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

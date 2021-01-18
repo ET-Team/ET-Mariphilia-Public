@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	description: "又“粗”又“大”",
+	text: [
+		"灰烬能量喷发器可以发出普通发射器十倍的灰烬能量。",
+		"",
+		"灰烬能量发射器每一束能量携带40单位，灰烬能量喷发器每一束能量携带400单位。"
+	],
+	dependencies: [
+		"07d6e0bc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "538a7a1f",
+		type: "item",
+		items: [{
+			item: "embers:ember_pulser"
+		}]
+	}],
+	rewards: [{
+		uid: "6c311104",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 23.5d,
+	y: 16.0d,
+	dependencies: [
+		"79f60cf8"
+	],
+	tasks: [{
+		uid: "a8ebd9d7",
+		type: "item",
+		items: [{
+			id: "stevescarts:cartmodule",
+			tag: {
+				Data: 100b
+			},
+			Damage: 79s
+		}]
+	}]
+}

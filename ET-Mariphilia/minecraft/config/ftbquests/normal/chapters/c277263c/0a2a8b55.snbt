@@ -1,0 +1,25 @@
+{
+	x: 32.0d,
+	y: 2.5d,
+	description: "更好的漏斗",
+	text: [
+		"是时候把木漏斗升级一下了。",
+		""
+	],
+	dependencies: [
+		"56fd1e48"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7ba1dc5f",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "1383de5c",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

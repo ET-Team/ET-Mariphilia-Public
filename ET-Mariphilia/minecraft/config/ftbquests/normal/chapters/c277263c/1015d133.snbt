@@ -1,0 +1,31 @@
+{
+	x: 19.0d,
+	y: 2.0d,
+	description: "更高的能效！",
+	text: [
+		"建造高温催化反应器，其拥有更高的灰烬晶体利用率。",
+		"",
+		"高压催化反应器是一个多方块结构：其分为三部分，反应器，燃烧室，催化室。",
+		"",
+		"将催化室和燃烧室相距一格放置在地面上，高温催化反应器放置在催化室和燃烧室上半部分中间，组成完整结构。",
+		"",
+		"高温催化反应器的能量产出为：基础产出X(1+燃烧系数+催化系数)"
+	],
+	dependencies: [
+		"51a573c8"
+	],
+	hide: true,
+	tasks: [{
+		uid: "017af454",
+		type: "item",
+		items: [{
+			item: "embers:reactor"
+		}]
+	}],
+	rewards: [{
+		uid: "9a342ea3",
+		type: "item",
+		item: "embers:ember_cluster",
+		count: 4
+	}]
+}

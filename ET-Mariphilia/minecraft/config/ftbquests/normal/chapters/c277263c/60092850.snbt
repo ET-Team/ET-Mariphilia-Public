@@ -1,0 +1,24 @@
+{
+	x: 15.0d,
+	y: 15.0d,
+	shape: "hexagon",
+	text: [
+		"你解锁了生物学。"
+	],
+	dependencies: [
+		"88768a95"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "c1285d77",
+		type: "gamestage",
+		icon: "minecraft:wheat",
+		stage: "生物学"
+	}],
+	rewards: [{
+		uid: "6bc4134a",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: -4.0d,
+	description: "均等分裂",
+	text: [
+		"制作灰烬能量分束器，可以将灰烬能量等分为两束。",
+		"灰烬能量分束器两个突起为两个输出口，其他面都为输入口。可以直接将输出口连接到接受器。",
+		"方便的布线（真的是这样吗）"
+	],
+	dependencies: [
+		"b70e415f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3a6ca0cd",
+		type: "item",
+		items: [{
+			item: "embers:beam_splitter"
+		}]
+	}],
+	rewards: [{
+		uid: "5cd06ec1",
+		type: "item",
+		item: "aquaculture:loot 1 4",
+		count: 2
+	}]
+}

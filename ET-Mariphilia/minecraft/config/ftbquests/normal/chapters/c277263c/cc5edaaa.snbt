@@ -1,0 +1,28 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	description: "bu bu bu",
+	text: [
+		"灼热射线枪可以通过消耗余烬能量，来发射出一段灼热的激光。",
+		"",
+		"蓄力的程度只影响射击精度，不影响伤害。"
+	],
+	dependencies: [
+		"6cc211a9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7fc3e88b",
+		type: "item",
+		items: [{
+			item: "embers:ignition_cannon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7105915e",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+	x: 32.5d,
+	y: 17.5d,
+	dependencies: [
+		"c85620d9"
+	],
+	tasks: [{
+		uid: "027fe8f5",
+		type: "item",
+		items: [{
+			id: "mekanism:transmitter",
+			tag: {
+				tier: 0
+			},
+			Damage: 3s
+		}]
+	}]
+}

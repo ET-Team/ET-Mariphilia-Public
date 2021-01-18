@@ -1,0 +1,24 @@
+{
+	icon: "minecraft:carrot",
+	x: 30.0d,
+	y: 15.0d,
+	shape: "hexagon",
+	text: [
+		"解锁植物学。"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "d11443b8",
+		type: "gamestage",
+		stage: "植物学"
+	}],
+	rewards: [{
+		uid: "82165c03",
+		type: "item",
+		item: "minecraft:wheat_seeds"
+	}]
+}

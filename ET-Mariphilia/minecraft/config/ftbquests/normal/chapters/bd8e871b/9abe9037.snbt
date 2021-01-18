@@ -1,0 +1,42 @@
+{
+	title: "滤网",
+	x: 0.0d,
+	y: 0.0d,
+	description: "解放双手",
+	text: [
+		"当有了充足的灰烬丝线或纤维绳后，你可以制作出一张生存者滤网来帮助你自动捕捞海中的一些物品",
+		"",
+		"制作出一个滤网基座和一张生存者滤网后，将滤网基座放置在一格水下，手持生存者滤网右键滤网基座即可安装滤网，开始自动收集海洋垃圾！"
+	],
+	dependencies: [
+		"b0999208"
+	],
+	hide: true,
+	tasks: [{
+		uid: "26b78ad0",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_survivalist"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "454f5b77",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_base"
+		}]
+	}],
+	rewards: [{
+		uid: "0996e2d0",
+		type: "xp",
+		xp: 100
+	},
+	{
+		uid: "8e89ba59",
+		type: "item",
+		item: "aquaculture:loot 1 5",
+		count: 2
+	}]
+}

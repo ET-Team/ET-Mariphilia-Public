@@ -1,0 +1,26 @@
+{
+	x: 27.5d,
+	y: 30.0d,
+	description: "玛丽莲梦露",
+	text: [
+		"制作风扇",
+		"",
+		"风扇接收到红石信号之后就会推动前方的生物"
+	],
+	dependencies: [
+		"e9aeeffd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c0620df3",
+		type: "item",
+		items: [{
+			item: "trapexpansion:fan"
+		}]
+	}],
+	rewards: [{
+		uid: "4cd04c21",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	icon: "minecraft:beef",
+	x: 15.0d,
+	y: 30.0d,
+	shape: "hexagon",
+	text: [
+		"解锁动物学。"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "37e80cb8",
+		type: "gamestage",
+		stage: "动物学"
+	}],
+	rewards: [{
+		uid: "fb020e68",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 19.0d,
+	y: 4.0d,
+	description: "催化！激活！",
+	text: [
+		"催化室为高温催化反应器的组成部分，需要消耗催化剂以工作。",
+		"",
+		"可接受的催化剂及催化系数如下：红石 2 ；火药 3 ；萤石粉 4"
+	],
+	dependencies: [
+		"1015d133"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb0db5b7",
+		type: "item",
+		items: [{
+			item: "embers:combustor"
+		}]
+	}],
+	rewards: [{
+		uid: "12f3b9f0",
+		type: "item",
+		item: "minecraft:glowstone_dust",
+		count: 2
+	}]
+}

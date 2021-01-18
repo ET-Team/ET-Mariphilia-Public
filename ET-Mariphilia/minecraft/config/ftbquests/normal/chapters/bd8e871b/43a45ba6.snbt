@@ -1,0 +1,53 @@
+{
+	title: "石器时代",
+	x: 10.0d,
+	y: 6.0d,
+	description: "不保证能用！",
+	text: [
+		"在当下，金属制品还非常遥远的时候，你只能制作一些石器来满足自身的需求",
+		"",
+		""
+	],
+	dependencies: [
+		"ef0a5390"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2d8a5f95",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "94ec671e",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "52901c94",
+		type: "item",
+		item: "minecraft:leather_helmet"
+	},
+	{
+		uid: "acac9db7",
+		type: "item",
+		item: "minecraft:leather_chestplate"
+	},
+	{
+		uid: "b6584495",
+		type: "item",
+		item: "minecraft:leather_leggings"
+	},
+	{
+		uid: "fbb872ea",
+		type: "item",
+		item: "minecraft:leather_boots"
+	}]
+}

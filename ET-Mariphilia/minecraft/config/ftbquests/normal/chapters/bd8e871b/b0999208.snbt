@@ -1,0 +1,31 @@
+{
+	title: "钓鱼竿",
+	x: -2.0d,
+	y: 0.0d,
+	description: "愿者上钩",
+	text: [
+		"接下来，你就需要制作前期最最最最最最重要（之一）的道具，钓鱼竿了",
+		"",
+		"还是像往常一样，在JEI中查询钓鱼竿的配方并在工作台中合成它！",
+		"",
+		"小提示：使用铁匠锤和钓鱼竿合成可以获得到意想不到的惊喜哦~"
+	],
+	dependencies: [
+		"1e6ec7af"
+	],
+	hide: true,
+	tasks: [{
+		uid: "444a93a5",
+		type: "item",
+		items: [{
+			item: "aquaculture:fishing_rod"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4f36bcf",
+		type: "xp",
+		xp: 40
+	}]
+}

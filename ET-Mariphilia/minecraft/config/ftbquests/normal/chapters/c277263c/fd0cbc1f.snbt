@@ -1,0 +1,23 @@
+{
+	x: 28.0d,
+	y: 16.5d,
+	text: [
+		"通过炼金，来获取胡萝卜种子"
+	],
+	dependencies: [
+		"71ea3d8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "46f952ae",
+		type: "item",
+		items: [{
+			item: "inspirations:carrot_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "28160d45",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

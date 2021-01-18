@@ -1,0 +1,27 @@
+{
+	x: 31.0d,
+	y: -7.0d,
+	description: "空气质量检测器",
+	text: [
+		"制作大气能量测量表，来查看你当前所在地的灰烬能量浓度。"
+	],
+	dependencies: [
+		"a0579143"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9e940d87",
+		type: "item",
+		items: [{
+			item: "embers:ember_detector"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "18376a63",
+		type: "item",
+		item: "embers:crystal_ember",
+		count: 5
+	}]
+}

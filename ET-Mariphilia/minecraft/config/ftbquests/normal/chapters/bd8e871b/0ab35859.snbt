@@ -1,0 +1,34 @@
+{
+	title: "海草",
+	x: -2.0d,
+	y: 2.0d,
+	description: "我是一根海草",
+	text: [
+		"在海里钓鱼时，可不要忘记了海中不止有鱼——许许多多其他奇奇怪怪七七八八的物品也在海中！",
+		"",
+		"从海中有一定几率钓出海草、浮木和各类宝盒"
+	],
+	dependencies: [
+		"b0999208"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8702be71",
+		type: "item",
+		title: "Any etmSeaweed",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "etmSeaweed",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "9fee511c",
+		type: "item",
+		item: "minecraft:stone_sword"
+	}]
+}

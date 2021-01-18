@@ -1,0 +1,24 @@
+{
+	x: 30.0d,
+	y: 34.5d,
+	description: "禁止攀爬",
+	text: [
+		"制作滑滑石，来防止蜘蛛攀爬",
+		""
+	],
+	dependencies: [
+		"a5b3df0c"
+	],
+	tasks: [{
+		uid: "9cd7a90b",
+		type: "item",
+		items: [{
+			item: "trapexpansion:slippery_stone"
+		}]
+	}],
+	rewards: [{
+		uid: "696e9bd7",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

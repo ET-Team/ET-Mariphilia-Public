@@ -1,0 +1,23 @@
+{
+	x: 33.5d,
+	y: 19.0d,
+	text: [
+		"将金锭砸到西瓜里"
+	],
+	dependencies: [
+		"b068674c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ef0da8bf",
+		type: "item",
+		items: [{
+			item: "minecraft:speckled_melon"
+		}]
+	}],
+	rewards: [{
+		uid: "59968201",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

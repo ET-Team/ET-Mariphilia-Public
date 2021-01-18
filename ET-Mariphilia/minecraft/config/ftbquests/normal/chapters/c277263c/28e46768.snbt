@@ -1,0 +1,24 @@
+{
+	x: 45.0d,
+	y: -2.5d,
+	text: [
+		"制作机械泵",
+		"为其提供灰烬能量之后便会抽取附近的液体。"
+	],
+	dependencies: [
+		"40a449a0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "87cd26b9",
+		type: "item",
+		items: [{
+			item: "embers:mechanical_pump"
+		}]
+	}],
+	rewards: [{
+		uid: "6db434e2",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

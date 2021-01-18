@@ -1,0 +1,25 @@
+{
+	x: 32.5d,
+	y: 30.0d,
+	description: "i wanna be the guy",
+	text: [
+		"制作钉刺陷阱,来击杀生物。",
+		"钉刺陷阱下方一定要放置漏斗，不然掉落物会直接消失。"
+	],
+	dependencies: [
+		"e9aeeffd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d9e0e35a",
+		type: "item",
+		items: [{
+			item: "trapexpansion:spike_trap"
+		}]
+	}],
+	rewards: [{
+		uid: "5ed8f39e",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

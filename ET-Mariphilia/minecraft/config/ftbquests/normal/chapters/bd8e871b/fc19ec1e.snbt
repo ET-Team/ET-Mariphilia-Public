@@ -1,0 +1,66 @@
+{
+	title: "工具部件模具",
+	x: 24.0d,
+	y: 0.0d,
+	description: "匠魂？不，是余烬之魂！",
+	text: [
+		"先将平模具放在黎明石砧上，然后将对应的铁质部件放上，用力地拿铁匠锤砸，就能制作出新的模具了"
+	],
+	dependencies: [
+		"7419f656"
+	],
+	hide: true,
+	tasks: [{
+		uid: "34c1b0a7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stamp_sword"
+		}]
+	},
+	{
+		uid: "85628ce1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stamp_pickaxe"
+		}]
+	},
+	{
+		uid: "87947445",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stamp_hoe"
+		}]
+	},
+	{
+		uid: "213ce6f1",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stamp_axe"
+		}]
+	},
+	{
+		uid: "316b45ba",
+		type: "item",
+		items: [{
+			item: "contenttweaker:stamp_shovel"
+		}]
+	}],
+	rewards: [{
+		uid: "af4493a5",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 8
+	},
+	{
+		uid: "a4b06571",
+		type: "item",
+		item: "embers:ingot_copper",
+		count: 8
+	},
+	{
+		uid: "9b586fda",
+		type: "item",
+		item: "minecraft:gold_ingot",
+		count: 4
+	}]
+}

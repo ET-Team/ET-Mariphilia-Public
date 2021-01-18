@@ -1,0 +1,24 @@
+{
+	x: 16.5d,
+	y: 38.5d,
+	description: "牛牛君",
+	text: [
+		"炼成出牛。"
+	],
+	dependencies: [
+		"e6c62527"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95d3a08c",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:cow"
+				}
+			}
+		}]
+	}]
+}

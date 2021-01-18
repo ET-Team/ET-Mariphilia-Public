@@ -1,0 +1,19 @@
+{
+	title: "装配机",
+	x: 25.5d,
+	y: 7.5d,
+	shape: "diamond",
+	dependencies: [
+		"dfb0ad29"
+	],
+	tasks: [{
+		uid: "bb0cedf1",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:assembler"
+			}
+		}]
+	}]
+}

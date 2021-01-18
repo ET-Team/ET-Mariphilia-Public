@@ -1,0 +1,30 @@
+{
+	x: 13.5d,
+	y: 38.5d,
+	description: "喵~",
+	text: [
+		"炼成出豹猫。"
+	],
+	dependencies: [
+		"e6c62527"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4b27a766",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:ocelot"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "6a5c47fd",
+		type: "item",
+		item: "minecraft:fish",
+		count: 8
+	}]
+}

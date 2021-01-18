@@ -1,0 +1,23 @@
+{
+	x: 48.0d,
+	y: 1.0d,
+	text: [
+		"制作板条箱钥匙，来锁住你的抽屉。"
+	],
+	dependencies: [
+		"ca37c477"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7b1fa5ab",
+		type: "item",
+		items: [{
+			item: "bdsandm:crate_key"
+		}]
+	}],
+	rewards: [{
+		uid: "bfeb32e4",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

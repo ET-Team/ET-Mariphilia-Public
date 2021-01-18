@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: 4.0d,
+	description: "比铁还硬",
+	text: [
+		"将致密灰烬熔炼成灰烬锭"
+	],
+	dependencies: [
+		"ef0a5390"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bfca3088",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ash_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "d36788db",
+		type: "item",
+		item: "embers:ashen_cloth",
+		count: 4
+	}]
+}

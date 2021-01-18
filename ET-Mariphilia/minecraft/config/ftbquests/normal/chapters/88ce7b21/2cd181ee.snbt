@@ -1,0 +1,16 @@
+{
+	icon: "contenttweaker:material_part 1 101",
+	x: 51.5d,
+	y: 7.5d,
+	shape: "hexagon",
+	dependencies: [
+		"ec573f7e"
+	],
+	hide: true,
+	size: 3.0d,
+	tasks: [{
+		uid: "9a13065c",
+		type: "gamestage",
+		stage: "分子材料学"
+	}]
+}

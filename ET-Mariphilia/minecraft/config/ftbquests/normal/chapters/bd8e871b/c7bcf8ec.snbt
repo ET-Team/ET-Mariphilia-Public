@@ -1,0 +1,33 @@
+{
+	title: "木产大亨",
+	x: 6.0d,
+	y: 2.0d,
+	description: "伍迪，恨，木头！",
+	text: [
+		"有了树苗后，你就可以获取无尽的原木了！",
+		"",
+		"如果你嫌树苗长得太慢，不妨试试在它身旁多按Shift蹲起或跑步，听说树苗看到玩家在旁跳舞会生长的更快呢！",
+		"",
+		"小提示：按住~键破坏方块可以连锁破坏相近的同种类方块，砍树必备"
+	],
+	dependencies: [
+		"fd725466",
+		"325a4087"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5dbd550b",
+		type: "item",
+		title: "Any logWood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 64L
+	}]
+}

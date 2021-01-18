@@ -1,0 +1,62 @@
+{
+	title: "树苗",
+	icon: "minecraft:sapling",
+	x: 4.0d,
+	y: 4.0d,
+	shape: "rsquare",
+	description: "拒绝红衫木入内",
+	text: [
+		"在开启海中钓上来的宝盒时，你有时会发现其中珍藏着已遗留百年的树种",
+		"",
+		"你也可以用从海中钓出的，不保证还能吃的苹果合成出苹果核。手持苹果核右键泥土即可种上新的苹果树了！"
+	],
+	hide_dependency_lines: true,
+	dependencies: [
+		"b0999208"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d1e5002",
+		type: "item",
+		title: "Any treeSapling",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "treeSapling",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}]
+	}],
+	rewards: [{
+		uid: "4c367610",
+		type: "item",
+		item: "minecraft:sapling"
+	},
+	{
+		uid: "a2569f30",
+		type: "item",
+		item: "minecraft:sapling 1 1"
+	},
+	{
+		uid: "7d19bf65",
+		type: "item",
+		item: "minecraft:sapling 1 2"
+	},
+	{
+		uid: "7bc62907",
+		type: "item",
+		item: "minecraft:sapling 1 3"
+	},
+	{
+		uid: "1e4f13d5",
+		type: "item",
+		item: "minecraft:sapling 1 4"
+	},
+	{
+		uid: "3afaccc3",
+		type: "item",
+		item: "minecraft:sapling 1 5"
+	}]
+}

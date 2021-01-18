@@ -1,0 +1,24 @@
+{
+	x: 28.5d,
+	y: 13.5d,
+	description: "GLaDOS",
+	text: [
+		"通过击杀僵尸，来获取马铃薯。"
+	],
+	dependencies: [
+		"71ea3d8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "af7b11dd",
+		type: "item",
+		items: [{
+			item: "minecraft:potato"
+		}]
+	}],
+	rewards: [{
+		uid: "eae4f07d",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

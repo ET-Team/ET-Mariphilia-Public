@@ -1,0 +1,24 @@
+{
+	x: 15.0d,
+	y: 35.0d,
+	description: "血魔法",
+	text: [
+		"将精血炼成生命精华"
+	],
+	dependencies: [
+		"fd176ce9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45ab466b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:life_essence"
+		}]
+	}],
+	rewards: [{
+		uid: "c605ae0f",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

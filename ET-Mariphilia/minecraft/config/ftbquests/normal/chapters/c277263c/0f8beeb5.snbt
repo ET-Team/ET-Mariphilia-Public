@@ -1,0 +1,24 @@
+{
+	x: 19.0d,
+	y: 16.5d,
+	description: "粒粒皆辛苦",
+	text: [
+		"通过破坏草丛，来获取种子。"
+	],
+	dependencies: [
+		"4025962f"
+	],
+	hide: true,
+	tasks: [{
+		uid: "df2b7e25",
+		type: "item",
+		items: [{
+			item: "minecraft:wheat_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "2c43505a",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,73 @@
+{
+	title: "生命炼成祭坛",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:life_altar"
+		}
+	},
+	x: 15.0d,
+	y: 37.0d,
+	shape: "gear",
+	description: "生命炼成",
+	text: [
+		"根据jei中的模型，搭建出生命炼成祭坛。",
+		"",
+		"通过消耗生命精华以及一些物品，来炼成出刷怪蛋。"
+	],
+	dependencies: [
+		"c5d34360"
+	],
+	hide: true,
+	size: 1.5d,
+	tasks: [{
+		uid: "334ee6a4",
+		type: "item",
+		items: [{
+			item: "minecraft:hay_block"
+		}],
+		count: 16L
+	},
+	{
+		uid: "e6d7330e",
+		type: "item",
+		items: [{
+			item: "modulardiversity:blockemberinputhatch 1 1"
+		}]
+	},
+	{
+		uid: "592f9106",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}]
+	},
+	{
+		uid: "f5bab80b",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		}]
+	},
+	{
+		uid: "effa9256",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}]
+	},
+	{
+		uid: "87bf5682",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "ae04bbad",
+		type: "item",
+		item: "contenttweaker:essencial_blood",
+		count: 5
+	}]
+}

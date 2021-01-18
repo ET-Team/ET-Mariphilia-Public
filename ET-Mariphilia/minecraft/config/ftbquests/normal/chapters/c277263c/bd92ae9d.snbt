@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	shape: "diamond",
+	description: "新材料->新科技",
+	text: [
+		"有了模块化合金锭，你就可以建造出模块化机械了。",
+		"",
+		"使用模块合金和铅锭制造出模块机械的基础物品--机械外壳。"
+	],
+	dependencies: [
+		"e9c91ebc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "e94136a0",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcasing"
+		}]
+	}],
+	rewards: [{
+		uid: "f5ec2730",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

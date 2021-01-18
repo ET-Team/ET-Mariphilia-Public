@@ -1,0 +1,27 @@
+{
+	x: 20.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "远古的传授",
+	text: [
+		"制作一块古代法典来了解一切关于余烬模组的知识，右键已阅章节的知识即可解锁新的知识"
+	],
+	dependencies: [
+		"ee66a663"
+	],
+	hide: true,
+	tasks: [{
+		uid: "96de05ea",
+		type: "item",
+		items: [{
+			item: "embers:codex"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c182ec41",
+		type: "xp",
+		xp: 100
+	}]
+}

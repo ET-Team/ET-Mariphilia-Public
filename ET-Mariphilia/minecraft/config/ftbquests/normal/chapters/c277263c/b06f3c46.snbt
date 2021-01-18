@@ -1,0 +1,68 @@
+{
+	x: 26.5d,
+	y: 4.0d,
+	description: "欢乐时光开始了！",
+	text: [
+		"制作木桶来存储流体。"
+	],
+	dependencies: [
+		"cfbb8e95"
+	],
+	hide: true,
+	tasks: [{
+		uid: "c9d2d350",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					maxCap: 1024,
+					objColors: [I;
+						-1,
+						-1,
+						-1,
+						-1
+					],
+					refFluid: {},
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			},
+			id: "bdsandm:wood_barrel",
+			tag: {
+				barrelCap: {
+					maxCap: 1024,
+					objColors: [I;
+						-1,
+						-1,
+						-1,
+						-1
+					],
+					refFluid: {},
+					oreDict: 0b,
+					overflow: 0b,
+					refStack: {
+						id: "minecraft:air",
+						Count: 1b,
+						Damage: 0s
+					},
+					count: 0,
+					locked: 0b,
+					stackCap: 64
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "40ad97eb",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

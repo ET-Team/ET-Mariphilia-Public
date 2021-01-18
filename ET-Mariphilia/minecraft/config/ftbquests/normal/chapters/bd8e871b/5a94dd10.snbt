@@ -1,0 +1,23 @@
+{
+	x: 21.0d,
+	y: 5.0d,
+	text: [
+		"制作板模具"
+	],
+	dependencies: [
+		"db595b75"
+	],
+	hide: true,
+	tasks: [{
+		uid: "466067c0",
+		type: "item",
+		items: [{
+			item: "embers:stamp_plate"
+		}]
+	}],
+	rewards: [{
+		uid: "5ffc33d3",
+		type: "xp",
+		xp: 100
+	}]
+}

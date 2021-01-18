@@ -1,0 +1,23 @@
+{
+	x: 30.0d,
+	y: -8.0d,
+	description: "下一步，做电视！",
+	text: [
+		"制作二极管。"
+	],
+	dependencies: [
+		"5dfc546d"
+	],
+	tasks: [{
+		uid: "14d07b1d",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ember_diode"
+		}]
+	}],
+	rewards: [{
+		uid: "1659cb36",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

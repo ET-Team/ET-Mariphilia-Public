@@ -1,0 +1,25 @@
+{
+	icon: "minecraft:iron_ingot",
+	x: 15.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "科学基础",
+	text: [
+		"解锁基础材料学。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "1f5fd6e0",
+		type: "gamestage",
+		stage: "基础材料学"
+	}],
+	rewards: [{
+		uid: "ea65125f",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

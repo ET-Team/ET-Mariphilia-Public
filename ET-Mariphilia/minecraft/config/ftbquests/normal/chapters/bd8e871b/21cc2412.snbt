@@ -1,0 +1,39 @@
+{
+	title: "坚如磐石",
+	x: 2.0d,
+	y: 2.0d,
+	description: "如豆腐般脆弱的石头？",
+	text: [
+		"使用海洋资源合成这些方块来完成任务"
+	],
+	dependencies: [
+		"ac8de8ba"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d06777a",
+		type: "item",
+		items: [{
+			item: "minecraft:sand"
+		}]
+	},
+	{
+		uid: "1558ca95",
+		type: "item",
+		items: [{
+			item: "minecraft:gravel"
+		}]
+	},
+	{
+		uid: "07ff6f3e",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	}],
+	rewards: [{
+		uid: "5379e4d8",
+		type: "item",
+		item: "minecraft:shears"
+	}]
+}

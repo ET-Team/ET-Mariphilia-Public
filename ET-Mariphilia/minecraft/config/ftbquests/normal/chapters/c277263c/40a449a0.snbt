@@ -1,0 +1,26 @@
+{
+	icon: "embers:pipe",
+	x: 45.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "进阶物流",
+	text: [
+		"解锁进阶物流学。"
+	],
+	dependencies: [
+		"5dfc546d",
+		"56fd1e48"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "b505f4f0",
+		type: "gamestage",
+		stage: "进阶物流学"
+	}],
+	rewards: [{
+		uid: "45e40ca3",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

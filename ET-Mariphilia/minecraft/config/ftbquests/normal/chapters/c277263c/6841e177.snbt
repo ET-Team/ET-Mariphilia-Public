@@ -1,0 +1,24 @@
+{
+	x: 43.0d,
+	y: 4.0d,
+	description: "共享能源",
+	text: [
+		"你可以把消耗能量的机械放置在灰烬能量虹吸器上方，之后机械内部的能量缓存便会与虹吸器连接，然后你就可以从虹吸器的侧面提取灰烬能量了."
+	],
+	dependencies: [
+		"d994b04b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "84badeb3",
+		type: "item",
+		items: [{
+			item: "embers:ember_siphon"
+		}]
+	}],
+	rewards: [{
+		uid: "f37a5e7b",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

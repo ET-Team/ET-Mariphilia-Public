@@ -1,0 +1,23 @@
+{
+	x: 50.0d,
+	y: 1.5d,
+	text: [
+		"你可以向内部存储各种容器，然后便可以在外部统一访问。"
+	],
+	dependencies: [
+		"ca37c477"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bb92e261",
+		type: "item",
+		items: [{
+			item: "bdsandm:shipping_container"
+		}]
+	}],
+	rewards: [{
+		uid: "22580fd9",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

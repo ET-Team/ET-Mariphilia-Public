@@ -1,0 +1,24 @@
+{
+	x: 0.0d,
+	y: 8.0d,
+	description: "\"hard\"的资源",
+	text: [
+		"当你拥有了足够的黑曜石粉末，使用研究台研究基础材料学来进入下一个阶段吧。"
+	],
+	dependencies: [
+		"62059af0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "512dbe64",
+		type: "item",
+		items: [{
+			item: "contenttweaker:obsidian_ash"
+		}]
+	}],
+	rewards: [{
+		uid: "6f039016",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 44.0d,
+	y: 6.0d,
+	description: "物品过滤",
+	text: [
+		"你可以手持物品右键标记过滤器对其设置一个白名单，使它只允许该物品通过。",
+		"管道内的物品会优先通过该设备。"
+	],
+	dependencies: [
+		"d994b04b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1ba1824f",
+		type: "item",
+		items: [{
+			item: "embers:item_transfer"
+		}]
+	}],
+	rewards: [{
+		uid: "2709c5a2",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

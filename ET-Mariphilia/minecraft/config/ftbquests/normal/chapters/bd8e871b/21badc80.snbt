@@ -1,0 +1,24 @@
+{
+	x: 16.0d,
+	y: 4.0d,
+	description: "控制杆杆",
+	text: [
+		"制作方镁矾拉杆（它会有用的"
+	],
+	dependencies: [
+		"8af2b012"
+	],
+	hide: true,
+	tasks: [{
+		uid: "34bee7a6",
+		type: "item",
+		items: [{
+			item: "embers:caminite_lever"
+		}]
+	}],
+	rewards: [{
+		uid: "ac061b67",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

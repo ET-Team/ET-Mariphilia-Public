@@ -1,0 +1,24 @@
+{
+	x: 31.5d,
+	y: -11.0d,
+	description: "我一个梦想",
+	text: [
+		"你可以制作红石灯了。"
+	],
+	dependencies: [
+		"5dfc546d"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41145e21",
+		type: "item",
+		items: [{
+			item: "minecraft:redstone_lamp"
+		}]
+	}],
+	rewards: [{
+		uid: "6e97d1a7",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

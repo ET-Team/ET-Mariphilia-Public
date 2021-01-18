@@ -1,0 +1,37 @@
+{
+	icon: "minecraft:rotten_flesh",
+	x: 30.0d,
+	y: 30.0d,
+	shape: "hexagon",
+	text: [
+		"解锁基础怪物学。"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "4fd1eb92",
+		type: "gamestage",
+		stage: "基础怪物学"
+	}],
+	rewards: [{
+		uid: "34adf5af",
+		type: "item",
+		item: "minecraft:rotten_flesh",
+		count: 4
+	},
+	{
+		uid: "7b35679b",
+		type: "item",
+		item: "minecraft:bone",
+		count: 8
+	},
+	{
+		uid: "f773fef5",
+		type: "item",
+		item: "minecraft:gunpowder",
+		count: 4
+	}]
+}

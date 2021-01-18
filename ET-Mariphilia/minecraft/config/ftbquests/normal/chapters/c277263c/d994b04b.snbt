@@ -1,0 +1,25 @@
+{
+	x: 45.0d,
+	y: 4.0d,
+	description: "高级漏斗",
+	text: [
+		"制作物品泵管道。",
+		"为其通入红石信号，便会抽取容器内的物品。"
+	],
+	dependencies: [
+		"2e8cc9e4"
+	],
+	hide: true,
+	tasks: [{
+		uid: "47524e5f",
+		type: "item",
+		items: [{
+			item: "embers:item_pump"
+		}]
+	}],
+	rewards: [{
+		uid: "129f7ae2",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

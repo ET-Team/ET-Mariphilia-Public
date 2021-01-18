@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: 6.0d,
+	text: [
+		"你成功测量出了深海压力。"
+	],
+	dependencies: [
+		"dcc8dbbe"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5053f11b",
+		type: "item",
+		items: [{
+			item: "contenttweaker:pressure_data"
+		}]
+	}],
+	rewards: [{
+		uid: "1970a5f1",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

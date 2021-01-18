@@ -1,0 +1,27 @@
+{
+	x: 32.0d,
+	y: 5.5d,
+	description: "物流新星",
+	text: [
+		"制作漏斗车，来进行远程物流以及制作一些简单的自动化。"
+	],
+	dependencies: [
+		"abd90c0a",
+		"0a2a8b55"
+	],
+	hide: true,
+	tasks: [{
+		uid: "12f174a9",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper_minecart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "00ac05d9",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,16 @@
+{
+	icon: "appliedenergistics2:encoded_pattern",
+	x: 45.0d,
+	y: 15.0d,
+	shape: "hexagon",
+	dependencies: [
+		"c85620d9"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "e078875e",
+		type: "gamestage",
+		stage: "自动化"
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "离心机",
+	x: 27.5d,
+	y: 5.5d,
+	shape: "diamond",
+	dependencies: [
+		"7bcebfdd"
+	],
+	tasks: [{
+		uid: "bc00e592",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:centrifuge"
+			}
+		}]
+	}]
+}

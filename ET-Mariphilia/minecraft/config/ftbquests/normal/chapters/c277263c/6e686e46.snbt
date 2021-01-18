@@ -1,0 +1,23 @@
+{
+	x: 30.0d,
+	y: 11.5d,
+	text: [
+		"种植出甜菜根。"
+	],
+	dependencies: [
+		"7b81be2c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "88059c2b",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot"
+		}]
+	}],
+	rewards: [{
+		uid: "497402ec",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

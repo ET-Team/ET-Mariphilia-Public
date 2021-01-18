@@ -1,0 +1,23 @@
+{
+	x: 28.5d,
+	y: 19.0d,
+	text: [
+		"将甘蔗砸成糖。"
+	],
+	dependencies: [
+		"eba98fa3"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ba9f5c2a",
+		type: "item",
+		items: [{
+			item: "minecraft:sugar"
+		}]
+	}],
+	rewards: [{
+		uid: "27c63349",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

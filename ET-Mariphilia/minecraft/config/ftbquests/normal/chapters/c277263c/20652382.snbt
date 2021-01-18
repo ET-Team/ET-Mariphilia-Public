@@ -1,0 +1,23 @@
+{
+	x: 47.0d,
+	y: -13.0d,
+	text: [
+		"制作煤渣喷气机，作为合成材料或装备强化。"
+	],
+	dependencies: [
+		"b7cf5f01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dbc17647",
+		type: "item",
+		items: [{
+			item: "embers:jet_augment"
+		}]
+	}],
+	rewards: [{
+		uid: "36770ba3",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 16.0d,
+	y: 17.5d,
+	description: "doc！！！",
+	text: [
+		"站在该方块上方即可快速回血。"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ffec2538",
+		type: "item",
+		items: [{
+			item: "openblocks:heal"
+		}]
+	}],
+	rewards: [{
+		uid: "6054efe3",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

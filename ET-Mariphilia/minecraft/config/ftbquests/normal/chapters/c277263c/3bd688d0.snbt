@@ -1,0 +1,25 @@
+{
+	x: 33.5d,
+	y: 4.0d,
+	description: "灰烬漏斗",
+	text: [
+		"制作灰烬能量漏斗。",
+		"灰烬能量漏斗可以连接多个能量发射器并非常快速的将其传输进连接的设备中。"
+	],
+	dependencies: [
+		"0a2a8b55"
+	],
+	hide: true,
+	tasks: [{
+		uid: "95f1447a",
+		type: "item",
+		items: [{
+			item: "embers:ember_funnel"
+		}]
+	}],
+	rewards: [{
+		uid: "f5c1d306",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

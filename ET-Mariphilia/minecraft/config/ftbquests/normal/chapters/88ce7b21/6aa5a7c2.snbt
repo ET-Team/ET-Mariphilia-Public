@@ -1,0 +1,21 @@
+{
+	x: 49.5d,
+	y: 2.5d,
+	dependencies: [
+		"b9e1b762"
+	],
+	tasks: [{
+		uid: "3ac477d4",
+		type: "item",
+		items: [{
+			id: "mekanism:portableteleporter",
+			tag: {
+				mekData: {
+					energyStored: 1000000.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

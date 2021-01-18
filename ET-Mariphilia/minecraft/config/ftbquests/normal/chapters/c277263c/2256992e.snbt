@@ -1,0 +1,24 @@
+{
+	x: 47.0d,
+	y: 4.0d,
+	description: "吸星大法",
+	text: [
+		"它会将附近的物品和经验吸入内部。"
+	],
+	dependencies: [
+		"d994b04b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "ff232a69",
+		type: "item",
+		items: [{
+			item: "openblocks:vacuum_hopper"
+		}]
+	}],
+	rewards: [{
+		uid: "f57278ff",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

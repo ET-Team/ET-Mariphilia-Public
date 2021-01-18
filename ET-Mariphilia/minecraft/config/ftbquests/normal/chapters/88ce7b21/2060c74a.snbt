@@ -1,0 +1,14 @@
+{
+	x: 10.0d,
+	y: 7.5d,
+	shape: "diamond",
+	dependencies: [
+		"ee2cc406"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5ee87af4",
+		type: "gamestage",
+		stage: "超频时间"
+	}]
+}

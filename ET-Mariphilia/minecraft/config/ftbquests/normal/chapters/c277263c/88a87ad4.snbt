@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	description: "更好的激发器",
+	text: [
+		"高压能量激发器拥有更高的灰烬晶体利用率，消耗相同数量的灰烬晶体能够产出比灰烬能量催化器更多的能量。",
+		"",
+		"向高压灰量激发器的下部输入水和灰烬晶体，享受更高能效为你带来的快乐吧。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9ca359b7",
+		type: "item",
+		items: [{
+			item: "embers:boiler"
+		}]
+	}],
+	rewards: [{
+		uid: "5c531d46",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

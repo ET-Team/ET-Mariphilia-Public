@@ -1,0 +1,17 @@
+{
+	icon: "woot:layout",
+	x: 37.5d,
+	y: 7.5d,
+	shape: "hexagon",
+	dependencies: [
+		"e6aff39a",
+		"32d3b68e"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "97613a89",
+		type: "gamestage",
+		stage: "进阶怪物学"
+	}]
+}

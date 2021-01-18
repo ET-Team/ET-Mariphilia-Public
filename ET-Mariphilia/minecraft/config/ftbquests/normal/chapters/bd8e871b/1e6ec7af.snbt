@@ -1,0 +1,28 @@
+{
+	title: "丝绸之路",
+	x: -4.0d,
+	y: 0.0d,
+	description: "原始的连接方式",
+	text: [
+		"接下来，你将会需要制作两根灰烬丝线，在JEI中搜索“灰烬丝线”或其全拼“huijinsixian”/拼音缩写“hjsx”即可，在工作台内查询配方后还可以点击配方右下角的“+”号来自动往工作台内填充材料！",
+		"",
+		"不要忘记，在配方内的材料也可以通过鼠标左键或“R”键查询到获取方式！"
+	],
+	dependencies: [
+		"b7d79457"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a71984d4",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ash_string"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "e0040d1d",
+		type: "item",
+		item: "aquaculture:loot 1 4"
+	}]
+}

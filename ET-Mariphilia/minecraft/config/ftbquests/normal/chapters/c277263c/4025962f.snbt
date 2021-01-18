@@ -1,0 +1,26 @@
+{
+	x: 17.5d,
+	y: 16.0d,
+	description: "草（植物）",
+	text: [
+		"获取草种。",
+		"你可以使用草种将泥土转变成草方块。"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2612582a",
+		type: "item",
+		items: [{
+			item: "contenttweaker:grass_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "ee9debe8",
+		type: "item",
+		item: "minecraft:tallgrass 1 1",
+		count: 16
+	}]
+}

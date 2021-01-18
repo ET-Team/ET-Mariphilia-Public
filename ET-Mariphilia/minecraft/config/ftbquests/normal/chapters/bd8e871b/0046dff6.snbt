@@ -1,0 +1,26 @@
+{
+	x: 26.0d,
+	y: 4.0d,
+	description: "maga光束炮",
+	text: [
+		"将大量的能量输入进光束炮中，并为其提供一个红石信号，之后便会射出一段灼热的能量光束。",
+		"",
+		"你可以使用铁匠锤Shift+右键目标方块，再右键光束炮来进行瞄准"
+	],
+	dependencies: [
+		"868828de"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0167c726",
+		type: "item",
+		items: [{
+			item: "embers:beam_cannon"
+		}]
+	}],
+	rewards: [{
+		uid: "d10858fc",
+		type: "item",
+		item: "aquaculture:loot 1 7"
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 7.5d,
+	y: 7.5d,
+	dependencies: [
+		"bdb96e8a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "bfeec086",
+		type: "item",
+		items: [{
+			item: "contenttweaker:drug"
+		}]
+	}]
+}

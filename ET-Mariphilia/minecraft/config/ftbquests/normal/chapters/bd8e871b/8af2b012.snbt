@@ -1,0 +1,25 @@
+{
+	x: 16.0d,
+	y: 2.0d,
+	description: "粘粘的",
+	text: [
+		"往灰烬水里分别丢入黏土 小搓沙子 骨粉，来获取方镁矾混合物"
+	],
+	dependencies: [
+		"5e8b9a25"
+	],
+	hide: true,
+	tasks: [{
+		uid: "380d8e31",
+		type: "item",
+		items: [{
+			item: "embers:blend_caminite"
+		}]
+	}],
+	rewards: [{
+		uid: "890541cd",
+		type: "item",
+		item: "minecraft:glass",
+		count: 8
+	}]
+}

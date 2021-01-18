@@ -1,0 +1,19 @@
+{
+	x: 47.5d,
+	y: -1.5d,
+	description: "卸载工具",
+	text: [
+		"手持卸载升级右键带有升级的板条箱，便会把其内部的升级取出。"
+	],
+	dependencies: [
+		"ca37c477"
+	],
+	hide: true,
+	tasks: [{
+		uid: "73f0241d",
+		type: "item",
+		items: [{
+			item: "bdsandm:upgrade 1 7"
+		}]
+	}]
+}

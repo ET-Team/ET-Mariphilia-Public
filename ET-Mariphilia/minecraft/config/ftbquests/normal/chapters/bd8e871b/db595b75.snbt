@@ -1,0 +1,26 @@
+{
+	x: 20.0d,
+	y: 6.0d,
+	description: "平的像45姐一样",
+	text: [
+		"制作平模具",
+		"",
+		"你可以将模具放置在压印锤上"
+	],
+	dependencies: [
+		"fdc7830e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85e648fb",
+		type: "item",
+		items: [{
+			item: "embers:stamp_flat"
+		}]
+	}],
+	rewards: [{
+		uid: "61f1d2cc",
+		type: "xp",
+		xp: 100
+	}]
+}

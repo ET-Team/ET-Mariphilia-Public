@@ -1,0 +1,25 @@
+{
+	title: "束发带",
+	x: -2.0d,
+	y: 4.0d,
+	description: "黏糊糊的",
+	text: [
+		"使用剑和海草合成就可以将其分割为植物纤维，使用植物纤维即可搓出粗制的绳索了。"
+	],
+	dependencies: [
+		"0ab35859"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9276b788",
+		type: "item",
+		items: [{
+			item: "contenttweaker:fiber_string"
+		}]
+	}],
+	rewards: [{
+		uid: "89f30045",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

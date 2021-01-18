@@ -1,0 +1,29 @@
+{
+	title: "更致密的滤网",
+	x: 2.0d,
+	y: 0.0d,
+	description: "Metaphilia",
+	text: [
+		"当你已有几张工作的生存者滤网后，十几二十根线应该对你来说小菜一碟！",
+		"",
+		"制作出一张致密生存者滤网，正式上任海洋环境清洁工！"
+	],
+	dependencies: [
+		"9abe9037"
+	],
+	hide: true,
+	tasks: [{
+		uid: "05f1ef47",
+		type: "item",
+		items: [{
+			item: "waterstrainer:strainer_survivalist_dense"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7d1bcd87",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

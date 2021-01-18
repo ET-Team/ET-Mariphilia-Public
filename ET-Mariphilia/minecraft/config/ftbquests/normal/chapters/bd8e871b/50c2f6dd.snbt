@@ -1,0 +1,25 @@
+{
+	x: 14.0d,
+	y: 4.0d,
+	description: "灰烬头盔",
+	text: [
+		"制作一个桶，来盛液体"
+	],
+	dependencies: [
+		"63e04a71"
+	],
+	hide: true,
+	tasks: [{
+		uid: "41c08cc8",
+		type: "item",
+		items: [{
+			item: "minecraft:bucket"
+		}]
+	}],
+	rewards: [{
+		uid: "3754ef82",
+		type: "item",
+		item: "contenttweaker:ash_ingot",
+		count: 3
+	}]
+}

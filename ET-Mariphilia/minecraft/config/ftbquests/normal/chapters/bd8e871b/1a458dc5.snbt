@@ -1,0 +1,23 @@
+{
+	x: 26.0d,
+	y: 0.0d,
+	text: [
+		"觉得用手锻造工具太辛苦？快来试试自动锤吧！将其放在黎明石砧之上，通上灰烬能源和开关，他就会以极快的速度锻造石砧上的材料！"
+	],
+	dependencies: [
+		"7419f656"
+	],
+	hide: true,
+	tasks: [{
+		uid: "61673383",
+		type: "item",
+		items: [{
+			item: "embers:auto_hammer"
+		}]
+	}],
+	rewards: [{
+		uid: "579eacfd",
+		type: "xp",
+		xp: 100
+	}]
+}

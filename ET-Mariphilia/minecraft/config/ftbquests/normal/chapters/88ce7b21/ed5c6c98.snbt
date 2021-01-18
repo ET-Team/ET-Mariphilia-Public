@@ -1,0 +1,16 @@
+{
+	x: 10.0d,
+	y: 5.0d,
+	text: [
+		"需要超频时间的配方都在任务系统中标注为菱形"
+	],
+	dependencies: [
+		"2060c74a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "370042d9",
+		type: "checkmark",
+		disable_toast: true
+	}]
+}

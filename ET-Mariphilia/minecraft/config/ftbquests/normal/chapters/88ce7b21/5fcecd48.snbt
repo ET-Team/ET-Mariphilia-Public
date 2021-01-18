@@ -1,0 +1,15 @@
+{
+	x: 30.0d,
+	y: -5.0d,
+	shape: "diamond",
+	dependencies: [
+		"9a3bd4fa"
+	],
+	tasks: [{
+		uid: "db268c3b",
+		type: "item",
+		items: [{
+			item: "mekanism:electrolyticcore"
+		}]
+	}]
+}

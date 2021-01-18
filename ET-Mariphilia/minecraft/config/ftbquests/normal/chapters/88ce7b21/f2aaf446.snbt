@@ -1,0 +1,15 @@
+{
+	x: 32.5d,
+	y: -2.5d,
+	shape: "diamond",
+	dependencies: [
+		"499e164e"
+	],
+	tasks: [{
+		uid: "aa577dc7",
+		type: "item",
+		items: [{
+			item: "mekanism:speedupgrade"
+		}]
+	}]
+}

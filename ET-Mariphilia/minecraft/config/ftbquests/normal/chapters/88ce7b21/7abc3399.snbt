@@ -1,0 +1,16 @@
+{
+	x: 34.5d,
+	y: 11.5d,
+	dependencies: [
+		"b6d85c9c"
+	],
+	tasks: [{
+		uid: "a9f91670",
+		type: "item",
+		items: [{
+			item: "woot:endershard"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

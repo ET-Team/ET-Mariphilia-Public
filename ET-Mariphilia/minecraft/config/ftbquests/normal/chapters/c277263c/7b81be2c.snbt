@@ -1,0 +1,23 @@
+{
+	x: 30.0d,
+	y: 13.0d,
+	text: [
+		"通过炼金，来获取甜菜种子"
+	],
+	dependencies: [
+		"71ea3d8c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2eebefee",
+		type: "item",
+		items: [{
+			item: "minecraft:beetroot_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "40cb075b",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

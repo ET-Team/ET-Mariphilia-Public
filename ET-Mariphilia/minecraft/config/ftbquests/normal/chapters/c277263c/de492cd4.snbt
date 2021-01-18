@@ -1,0 +1,30 @@
+{
+	x: 14.5d,
+	y: 39.0d,
+	description: "我是佩奇，这是我的弟........",
+	text: [
+		"炼成出猪。"
+	],
+	dependencies: [
+		"e6c62527"
+	],
+	hide: true,
+	tasks: [{
+		uid: "eef44836",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:pig"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "e80f84c0",
+		type: "item",
+		item: "minecraft:porkchop",
+		count: 4
+	}]
+}

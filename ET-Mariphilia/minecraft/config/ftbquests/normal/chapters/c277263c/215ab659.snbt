@@ -1,0 +1,23 @@
+{
+	x: 30.0d,
+	y: 18.5d,
+	text: [
+		"将灵魂沙炸成烈焰粉。"
+	],
+	dependencies: [
+		"8df7cd6b"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d9418ed8",
+		type: "item",
+		items: [{
+			item: "minecraft:blaze_powder"
+		}]
+	}],
+	rewards: [{
+		uid: "b171420e",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

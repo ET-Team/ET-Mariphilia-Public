@@ -1,0 +1,26 @@
+{
+	x: 18.0d,
+	y: 6.0d,
+	description: "大号电池",
+	text: [
+		"这个物品可以存储大量灰烬能量。将其装备在副手即可为背包内需要灰烬能量的装备充能。",
+		"",
+		"当然，它也可以用来制作一些需要非常多能量缓存的机器..."
+	],
+	dependencies: [
+		"1379709c"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8095b60f",
+		type: "item",
+		items: [{
+			id: "embers:ember_cartridge",
+			tag: {
+				emberCapacity: 6000.0d,
+				ember: 0.0d
+			}
+		}],
+		ignore_nbt: 1b
+	}]
+}

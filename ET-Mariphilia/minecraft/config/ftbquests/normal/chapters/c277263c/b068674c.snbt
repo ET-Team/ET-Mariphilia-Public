@@ -1,0 +1,23 @@
+{
+	x: 33.5d,
+	y: 17.5d,
+	text: [
+		"种植出西瓜。"
+	],
+	dependencies: [
+		"37a6b8bc"
+	],
+	hide: true,
+	tasks: [{
+		uid: "25239e0c",
+		type: "item",
+		items: [{
+			item: "minecraft:melon"
+		}]
+	}],
+	rewards: [{
+		uid: "c8209b9d",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

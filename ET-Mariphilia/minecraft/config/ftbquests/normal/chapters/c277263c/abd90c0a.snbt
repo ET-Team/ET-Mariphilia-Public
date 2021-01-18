@@ -1,0 +1,27 @@
+{
+	x: 30.0d,
+	y: 4.5d,
+	shape: "gear",
+	description: "矿车大逃亡",
+	text: [
+		"制作矿车。"
+	],
+	dependencies: [
+		"ad1c49c0"
+	],
+	hide: true,
+	tasks: [{
+		uid: "6d60397d",
+		type: "item",
+		items: [{
+			item: "minecraft:minecart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a8e10bb7",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

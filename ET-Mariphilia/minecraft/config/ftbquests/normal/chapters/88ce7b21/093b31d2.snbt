@@ -1,0 +1,15 @@
+{
+	x: 25.0d,
+	y: 27.5d,
+	shape: "diamond",
+	dependencies: [
+		"2d72fdb8"
+	],
+	tasks: [{
+		uid: "bd8b4fbf",
+		type: "item",
+		items: [{
+			item: "appliedenergistics2:part 1 220"
+		}]
+	}]
+}

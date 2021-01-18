@@ -1,0 +1,30 @@
+{
+	x: 15.0d,
+	y: 1.0d,
+	description: "小心衣服",
+	text: [
+		"往沸腾的灰烬水里丢一小撮沙子，来使灰烬水变成腐蚀性液体"
+	],
+	dependencies: [
+		"5e8b9a25"
+	],
+	hide: true,
+	tasks: [{
+		uid: "5d002534",
+		type: "item",
+		items: [{
+			id: "forge:bucketfilled",
+			tag: {
+				FluidName: "corrosive_liquid",
+				Amount: 1000
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "54de0218",
+		type: "xp",
+		xp: 100
+	}]
+}

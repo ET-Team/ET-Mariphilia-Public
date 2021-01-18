@@ -1,0 +1,20 @@
+{
+	title: "生命之源",
+	x: 4.0d,
+	y: 2.0d,
+	description: "记得多施肥！",
+	text: [
+		"使用海中的一些有机物，配上沙石中的矿物质，你可以合成出泥土来准备未来的耕种了！"
+	],
+	dependencies: [
+		"21cc2412"
+	],
+	hide: true,
+	tasks: [{
+		uid: "4b6019e1",
+		type: "item",
+		items: [{
+			item: "minecraft:dirt"
+		}]
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	description: "SOS",
+	text: [
+		"将微光水晶关在笼子里，就可以远距离放置光源啦。"
+	],
+	dependencies: [
+		"96d98f43"
+	],
+	hide: true,
+	tasks: [{
+		uid: "f304f399",
+		type: "item",
+		items: [{
+			item: "embers:glimmer_lamp"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0eb23a5c",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

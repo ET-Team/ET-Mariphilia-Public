@@ -1,0 +1,30 @@
+{
+	x: 13.0d,
+	y: 37.5d,
+	description: "比狗好",
+	text: [
+		"炼成出狼。"
+	],
+	dependencies: [
+		"e6c62527"
+	],
+	hide: true,
+	tasks: [{
+		uid: "09223aef",
+		type: "item",
+		items: [{
+			id: "minecraft:spawn_egg",
+			tag: {
+				EntityTag: {
+					id: "minecraft:wolf"
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "951326fa",
+		type: "item",
+		item: "minecraft:bone",
+		count: 8
+	}]
+}

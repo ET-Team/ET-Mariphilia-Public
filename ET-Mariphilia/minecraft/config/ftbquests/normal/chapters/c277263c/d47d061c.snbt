@@ -1,0 +1,29 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	description: "余烬耕地",
+	text: [
+		"制作灰烬能量灌注器。",
+		"",
+		"在灌注器开口处放置结晶之种，且输入大量的能量之后就会产出与结晶之种相对应的金属粒。",
+		"",
+		"提示：在ETM整合包中，此方式产矿效率低下而浪费能量，马上你就可以制造更强大的矿物来源。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	tasks: [{
+		uid: "028820f2",
+		type: "item",
+		items: [{
+			item: "embers:ember_injector"
+		}]
+	}],
+	rewards: [{
+		uid: "017ea9a7",
+		type: "item",
+		item: "embers:ember_cluster",
+		count: 2
+	}]
+}

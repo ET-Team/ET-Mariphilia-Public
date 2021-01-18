@@ -1,0 +1,25 @@
+{
+	x: 10.0d,
+	y: 2.0d,
+	description: "板砖！",
+	text: [
+		"制作七个红砖"
+	],
+	dependencies: [
+		"9d2fc600"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9b42b4d3",
+		type: "item",
+		items: [{
+			item: "minecraft:brick"
+		}],
+		count: 7L
+	}],
+	rewards: [{
+		uid: "7cfb2560",
+		type: "xp",
+		xp: 100
+	}]
+}

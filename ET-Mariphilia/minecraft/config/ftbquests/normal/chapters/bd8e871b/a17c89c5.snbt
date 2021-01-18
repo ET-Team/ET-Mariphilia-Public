@@ -1,0 +1,25 @@
+{
+	x: 22.0d,
+	y: 2.0d,
+	description: "搅一搅，拌一拌，舔一舔",
+	text: [
+		"向混合离心器的上半部分通入能量，并向下半部分的不同面导入可以制作合金的熔融金属，就能开始制作熔融合金并从上方导出。"
+	],
+	dependencies: [
+		"6b0e66e9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "72f3a175",
+		type: "item",
+		items: [{
+			item: "embers:mixer"
+		}]
+	}],
+	rewards: [{
+		uid: "a90615c0",
+		type: "item",
+		item: "minecraft:iron_ingot",
+		count: 4
+	}]
+}

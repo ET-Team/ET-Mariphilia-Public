@@ -1,0 +1,50 @@
+{
+	title: "废品回收站",
+	x: 4.0d,
+	y: 0.0d,
+	description: "真不环保！",
+	text: [
+		"收集各类金属制品来完成这个任务"
+	],
+	dependencies: [
+		"3eae4f80"
+	],
+	hide: true,
+	tasks: [{
+		uid: "76023627",
+		type: "item",
+		items: [{
+			item: "contenttweaker:obsolete_iron"
+		}],
+		count: 4L
+	},
+	{
+		uid: "5e966228",
+		type: "item",
+		items: [{
+			item: "contenttweaker:obsolete_circuit"
+		}],
+		count: 4L
+	},
+	{
+		uid: "72f96ceb",
+		type: "item",
+		items: [{
+			item: "contenttweaker:obsolete_battery"
+		}],
+		count: 4L
+	},
+	{
+		uid: "d1709a55",
+		type: "item",
+		items: [{
+			item: "contenttweaker:obsolete_can"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "68ead2b2",
+		type: "item",
+		item: "minecraft:iron_sword"
+	}]
+}

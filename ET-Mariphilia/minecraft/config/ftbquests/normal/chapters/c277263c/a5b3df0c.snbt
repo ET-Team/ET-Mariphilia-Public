@@ -1,0 +1,24 @@
+{
+	x: 30.0d,
+	y: 32.5d,
+	description: "小心滑倒",
+	text: [
+		"镐子附带共振即可精准采集冰"
+	],
+	dependencies: [
+		"e9aeeffd"
+	],
+	hide: true,
+	tasks: [{
+		uid: "d001ad91",
+		type: "item",
+		items: [{
+			item: "minecraft:ice"
+		}]
+	}],
+	rewards: [{
+		uid: "3fecf757",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

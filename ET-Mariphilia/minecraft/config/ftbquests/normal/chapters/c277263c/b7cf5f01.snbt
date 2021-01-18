@@ -1,0 +1,23 @@
+{
+	x: 45.0d,
+	y: -12.0d,
+	text: [
+		"制作灰烬三极管。"
+	],
+	dependencies: [
+		"4d169401"
+	],
+	hide: true,
+	tasks: [{
+		uid: "a51d855f",
+		type: "item",
+		items: [{
+			item: "contenttweaker:ember_triode"
+		}]
+	}],
+	rewards: [{
+		uid: "a74cb77e",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

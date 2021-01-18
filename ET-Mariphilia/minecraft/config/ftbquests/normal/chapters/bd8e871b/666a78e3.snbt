@@ -1,0 +1,36 @@
+{
+	title: "研究台",
+	x: 26.0d,
+	y: 6.0d,
+	shape: "diamond",
+	description: "科技进步",
+	text: [
+		"接下来你需要制作一个研究台，这个设备贯穿了整合包的主线，你只有通过它才能解锁新的知识和科技",
+		"",
+		"要使用它，你只需要简单地右击并开始一项研究即可。研究台支持外部和从玩家背包中输入物品等材料。当材料需求被满足，只需单击“完成”即可完成研究，解锁新的篇章！"
+	],
+	dependencies: [
+		"0046dff6",
+		"6de3661d"
+	],
+	hide: true,
+	size: 1.3d,
+	tasks: [{
+		uid: "2c6a7d43",
+		type: "item",
+		items: [{
+			item: "researchtable:table"
+		}]
+	}],
+	rewards: [{
+		uid: "9c9b64ca",
+		type: "item",
+		item: "embers:dust_ember",
+		count: 32
+	},
+	{
+		uid: "e9c65933",
+		type: "item",
+		item: "waterstrainer:strainer_survivalist_dense_solid"
+	}]
+}

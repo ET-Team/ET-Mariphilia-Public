@@ -1,0 +1,30 @@
+{
+	x: 43.0d,
+	y: -13.0d,
+	description: "量子建造",
+	text: [
+		"制作强化建筑指导仪，来帮助你快速建筑。",
+		"",
+		"指针对准其上的图案，点击右键以使用对应的按钮。输入一个红石信号激活，将启动其范围显示，并且手持方块对其右键以量子建造。",
+		"",
+		"上面：左右L形箭头为旋转方向，上下箭头为模式切换。",
+		"",
+		"侧面：加号减号为切换对应方向范围选择，4个向中箭头为对称到另一侧。"
+	],
+	dependencies: [
+		"b7cf5f01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "9456ac9c",
+		type: "item",
+		items: [{
+			item: "openblocks:builder_guide"
+		}]
+	}],
+	rewards: [{
+		uid: "4675cfd5",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

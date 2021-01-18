@@ -1,0 +1,40 @@
+{
+	title: "地狱模具",
+	x: 34.5d,
+	y: 9.5d,
+	dependencies: [
+		"60674d99"
+	],
+	tasks: [{
+		uid: "049f438b",
+		type: "item",
+		items: [{
+			item: "woot:die 1 2"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a7e96ed9",
+		type: "item",
+		items: [{
+			item: "woot:die 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e7bee55b",
+		type: "item",
+		items: [{
+			item: "woot:die"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "525c326c",
+		type: "item",
+		items: [{
+			item: "woot:die 1 1"
+		}],
+		ignore_nbt: 1b
+	}]
+}

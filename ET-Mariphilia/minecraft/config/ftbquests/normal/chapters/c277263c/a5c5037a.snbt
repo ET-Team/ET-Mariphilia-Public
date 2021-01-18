@@ -1,0 +1,25 @@
+{
+	x: 13.5d,
+	y: 16.5d,
+	description: "我抓到熊了吗？",
+	text: [
+		"制作捕兽夹，来固定生物"
+	],
+	dependencies: [
+		"60092850"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7f96cb8b",
+		type: "item",
+		items: [{
+			item: "openblocks:beartrap"
+		}]
+	}],
+	rewards: [{
+		uid: "00fcf194",
+		type: "item",
+		item: "minecraft:beef",
+		count: 8
+	}]
+}

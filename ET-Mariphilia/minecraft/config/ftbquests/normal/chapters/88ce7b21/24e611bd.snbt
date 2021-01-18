@@ -1,0 +1,16 @@
+{
+	x: 39.0d,
+	y: -7.5d,
+	shape: "diamond",
+	dependencies: [
+		"1d1ac066",
+		"9ac7049f"
+	],
+	tasks: [{
+		uid: "54fad5a2",
+		type: "item",
+		items: [{
+			item: "mekanism:teleportationcore"
+		}]
+	}]
+}

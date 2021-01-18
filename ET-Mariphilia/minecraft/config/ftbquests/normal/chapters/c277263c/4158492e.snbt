@@ -1,0 +1,27 @@
+{
+	x: 28.0d,
+	y: 5.5d,
+	description: "动力加速",
+	text: [
+		"你尝试将熔炉塞进了矿车里。"
+	],
+	dependencies: [
+		"abd90c0a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "7af5562d",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace_minecart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "45dd0f74",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16
+	}]
+}

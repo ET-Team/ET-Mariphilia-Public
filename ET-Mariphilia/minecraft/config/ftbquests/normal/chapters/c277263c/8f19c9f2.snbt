@@ -1,0 +1,30 @@
+{
+	x: 27.0d,
+	y: 1.0d,
+	description: "余烬箱子",
+	text: [
+		"制造储物桶，以帮助你自动化。",
+		"",
+		"储物桶可以与余烬很多机器联动。",
+		"",
+		"将储物桶放置于灰烬炉下方，灰烬炉产出灰烬将自动进入储物桶。",
+		"",
+		"将储物桶放置于自动方块破坏器后方，自动方块破坏器产物将自动输入储物桶。"
+	],
+	dependencies: [
+		"56fd1e48"
+	],
+	hide: true,
+	tasks: [{
+		uid: "45038df6",
+		type: "item",
+		items: [{
+			item: "embers:bin"
+		}]
+	}],
+	rewards: [{
+		uid: "4e5e7bf5",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

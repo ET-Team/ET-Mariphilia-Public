@@ -1,0 +1,25 @@
+{
+	icon: "wopper:wopper",
+	x: 30.0d,
+	y: 0.0d,
+	shape: "hexagon",
+	description: "基础物流",
+	text: [
+		"解锁基础物流学。"
+	],
+	dependencies: [
+		"88768a95"
+	],
+	hide: true,
+	size: 2.5d,
+	tasks: [{
+		uid: "765ded11",
+		type: "gamestage",
+		stage: "基础物流学"
+	}],
+	rewards: [{
+		uid: "1b871b46",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

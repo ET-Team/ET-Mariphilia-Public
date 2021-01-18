@@ -1,0 +1,25 @@
+{
+	x: 45.0d,
+	y: -8.0d,
+	description: "太阳能板（误）",
+	text: [
+		"在白天时阳光传感器便会发出红石信号。",
+		"你可以对它右键来将其改变成夜间模式。"
+	],
+	dependencies: [
+		"2a2a6b91"
+	],
+	hide: true,
+	tasks: [{
+		uid: "85d4c517",
+		type: "item",
+		items: [{
+			item: "minecraft:daylight_detector"
+		}]
+	}],
+	rewards: [{
+		uid: "239f9743",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

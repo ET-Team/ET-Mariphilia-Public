@@ -1,0 +1,26 @@
+{
+	x: 29.5d,
+	y: 6.0d,
+	description: "矿车物流",
+	text: [
+		"你尝试将箱子塞进了矿车里。"
+	],
+	dependencies: [
+		"abd90c0a"
+	],
+	hide: true,
+	tasks: [{
+		uid: "0d27c534",
+		type: "item",
+		items: [{
+			item: "minecraft:chest_minecart"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e0b14fde",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

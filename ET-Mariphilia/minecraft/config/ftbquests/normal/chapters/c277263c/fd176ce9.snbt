@@ -1,0 +1,24 @@
+{
+	x: 15.0d,
+	y: 33.5d,
+	description: "好疼！",
+	text: [
+		"使用匕首割自己一刀，来获取一滴精血。"
+	],
+	dependencies: [
+		"b54e4792"
+	],
+	hide: true,
+	tasks: [{
+		uid: "2bc49b14",
+		type: "item",
+		items: [{
+			item: "contenttweaker:essencial_blood"
+		}]
+	}],
+	rewards: [{
+		uid: "6035f9a8",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

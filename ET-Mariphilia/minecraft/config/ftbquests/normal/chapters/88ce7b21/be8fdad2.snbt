@@ -1,0 +1,18 @@
+{
+	x: 32.5d,
+	y: 22.5d,
+	shape: "diamond",
+	dependencies: [
+		"ad8204e4"
+	],
+	tasks: [{
+		uid: "ed28d85a",
+		type: "item",
+		items: [{
+			id: "appliedenergistics2:memory_card",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

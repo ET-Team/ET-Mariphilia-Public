@@ -1,0 +1,23 @@
+{
+	x: 45.0d,
+	y: -9.5d,
+	text: [
+		"制作基础传感器"
+	],
+	dependencies: [
+		"b7cf5f01"
+	],
+	hide: true,
+	tasks: [{
+		uid: "b2d6a1a7",
+		type: "item",
+		items: [{
+			item: "contenttweaker:basic_sensor"
+		}]
+	}],
+	rewards: [{
+		uid: "4f3b9b1f",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

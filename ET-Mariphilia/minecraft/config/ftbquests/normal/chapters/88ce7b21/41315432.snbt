@@ -1,0 +1,22 @@
+{
+	x: 23.5d,
+	y: 15.0d,
+	dependencies: [
+		"79f60cf8"
+	],
+	dependency_requirement: "one_started",
+	tasks: [{
+		uid: "882112cc",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockadvdetector"
+		}]
+	},
+	{
+		uid: "89d52e66",
+		type: "item",
+		items: [{
+			item: "stevescarts:blockcargomanager"
+		}]
+	}]
+}

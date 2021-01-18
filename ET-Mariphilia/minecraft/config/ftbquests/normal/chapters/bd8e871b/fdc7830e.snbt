@@ -1,0 +1,26 @@
+{
+	x: 20.0d,
+	y: 4.0d,
+	description: "余烬小型冶炼炉",
+	text: [
+		"制作熔炼炉。",
+		"",
+		"熔炼炉上方放入金属，下方输入能量，即可将金属熔炼成熔融金属。"
+	],
+	dependencies: [
+		"6b0e66e9"
+	],
+	hide: true,
+	tasks: [{
+		uid: "1d88fe3a",
+		type: "item",
+		items: [{
+			item: "embers:block_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "0f2db305",
+		type: "xp",
+		xp: 100
+	}]
+}

@@ -1,0 +1,63 @@
+{
+	title: "啊！是金属工具！",
+	x: 24.0d,
+	y: -2.0d,
+	text: [
+		"先将木棍放置在黎明石砧上，然后将对应的压印出的工具零件放置在木棍之上，使用铁匠锤将它们砸在一起就能制作出金属工具了！"
+	],
+	dependencies: [
+		"fc19ec1e"
+	],
+	hide: true,
+	tasks: [{
+		uid: "8d3a95ad",
+		type: "item",
+		items: [{
+			item: "embers:sword_dawnstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e8f725dc",
+		type: "item",
+		items: [{
+			item: "embers:pickaxe_dawnstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3888bb8c",
+		type: "item",
+		items: [{
+			item: "embers:axe_dawnstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d6263a0f",
+		type: "item",
+		items: [{
+			item: "embers:shovel_dawnstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "53e996f0",
+		type: "item",
+		items: [{
+			item: "embers:hoe_dawnstone"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "03903d68",
+		type: "item",
+		item: "embers:ingot_dawnstone",
+		count: 16
+	}]
+}

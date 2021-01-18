@@ -1,0 +1,19 @@
+{
+	title: "灰烬能量涡轮机",
+	x: 19.5d,
+	y: 7.5d,
+	shape: "diamond",
+	dependencies: [
+		"65c532d4"
+	],
+	tasks: [{
+		uid: "27fb314b",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:turbo"
+			}
+		}]
+	}]
+}

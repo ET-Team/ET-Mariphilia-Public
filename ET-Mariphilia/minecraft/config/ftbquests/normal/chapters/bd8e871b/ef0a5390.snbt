@@ -1,0 +1,33 @@
+{
+	x: 10.0d,
+	y: 4.0d,
+	shape: "gear",
+	description: "热门话题",
+	text: [
+		"制作一个熔炉，来烧制物品"
+	],
+	dependencies: [
+		"102ca21c"
+	],
+	hide: true,
+	size: 1.2d,
+	tasks: [{
+		uid: "9d7b91d1",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "2b6de494",
+		type: "item",
+		item: "aquaculture:loot 1 2",
+		count: 8
+	},
+	{
+		uid: "4a7b8d86",
+		type: "item",
+		item: "minecraft:string",
+		count: 8
+	}]
+}

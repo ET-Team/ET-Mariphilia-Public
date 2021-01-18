@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	description: "发条魔灵",
+	text: [
+		"制作发条齿轮，作为材料以及工具或护甲升级。"
+	],
+	dependencies: [
+		"49ed0132"
+	],
+	hide: true,
+	tasks: [{
+		uid: "dcbc8f35",
+		type: "item",
+		items: [{
+			item: "embers:winding_gears"
+		}]
+	}],
+	rewards: [{
+		uid: "611d0db7",
+		type: "item",
+		item: "aquaculture:loot 1 5"
+	}]
+}

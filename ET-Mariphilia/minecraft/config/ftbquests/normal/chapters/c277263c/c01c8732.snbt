@@ -1,0 +1,24 @@
+{
+	x: 26.0d,
+	y: 2.5d,
+	description: "升级！",
+	text: [
+		"制作容量升级，来增加储物桶的容量"
+	],
+	dependencies: [
+		"cfbb8e95"
+	],
+	hide: true,
+	tasks: [{
+		uid: "15a888a4",
+		type: "item",
+		items: [{
+			item: "bdsandm:upgrade"
+		}]
+	}],
+	rewards: [{
+		uid: "dbc8f1c7",
+		type: "item",
+		item: "aquaculture:loot 1 6"
+	}]
+}

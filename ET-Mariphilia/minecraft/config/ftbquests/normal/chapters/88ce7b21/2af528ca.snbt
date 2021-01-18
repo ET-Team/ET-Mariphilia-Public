@@ -1,0 +1,15 @@
+{
+	x: 35.5d,
+	y: -11.0d,
+	dependencies: [
+		"4a07350c"
+	],
+	hide_text_until_complete: true,
+	tasks: [{
+		uid: "4e68692b",
+		type: "item",
+		items: [{
+			item: "mekanism:otherdust 1 3"
+		}]
+	}]
+}
