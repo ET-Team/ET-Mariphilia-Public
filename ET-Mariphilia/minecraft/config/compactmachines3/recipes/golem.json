@@ -1,0 +1,46 @@
+{
+  "name": "compactmachines3:golem",
+
+  "target-item": "contenttweaker:biodata_golem",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 80,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:material_part",
+  "catalyst-meta": 121,
+
+  
+  
+  "input-types": {
+    "a": {
+      "id": "embers:archaic_light",
+      "meta": 0
+    },
+    "b": {
+      "id": "embers:ashen_brick",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a"
+      ]
+    ],
+    [
+      [
+        "b"
+      ]
+    ],
+    [
+      [
+        "b"
+      ]
+    ]
+  ]
+
+
+
+}

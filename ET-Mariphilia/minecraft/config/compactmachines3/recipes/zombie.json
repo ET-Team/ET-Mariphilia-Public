@@ -1,0 +1,49 @@
+{
+  "name": "compactmachines3:zombie",
+
+  "target-item": "contenttweaker:biodata_zombie",
+  "target-count": 1,
+  "target-meta": 0,
+
+  "duration": 80,
+  "symmetrical": true,
+
+  "catalyst": "contenttweaker:material_part",
+  "catalyst-meta": 121,
+
+  
+  
+  
+  "input-types": {
+    "a": {
+      "id": "minecraft:skull",
+      "meta": 1
+    },
+    "b": {
+      "id": "minecraft:soul_sand",
+      "meta": 0
+    }
+  },
+  "input-nbt": {
+    "a:A": {
+      "nbt": "{Rot:0b,id:\"minecraft:skull\",SkullType:2b}"
+    }
+  },
+  "shape": [
+    [
+      [
+        "a:A"
+      ]
+    ],
+    [
+      [
+        "b"
+      ]
+    ],
+    [
+      [
+        "b"
+      ]
+    ]
+  ]
+}
