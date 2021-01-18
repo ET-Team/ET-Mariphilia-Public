@@ -1,0 +1,82 @@
+{
+  "name": "compactmachines3:portal",
+
+  "target-block": "minecraft:end_portal_frame",
+  "target-count": 6,
+  "target-meta": 0,
+
+  "duration": 80,
+  "symmetrical": true,
+
+  "catalyst": "minecraft:diamond",
+  "catalyst-meta": 0,
+
+  "input-types": {
+    "a": {
+      "id": "contenttweaker:sub_block_holder_0",
+      "meta": 9
+    },
+    "b": {
+      "id": "minecraft:end_stone",
+      "meta": 0
+    },
+    "c": {
+      "id": "contenttweaker:obsidian",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      [
+        "a",
+        "a",
+        "a"
+      ],
+      [
+        "a",
+        "c",
+        "a"
+      ],
+      [
+        "a",
+        "a",
+        "a"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ],
+    [
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ],
+      [
+        "b",
+        "b",
+        "b"
+      ]
+    ]
+  ]
+
+}

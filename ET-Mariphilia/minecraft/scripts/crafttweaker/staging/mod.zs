@@ -5,11 +5,11 @@ static stagedMods as string[][string] = {
     "基础材料学" : ["openblocks"],
     "物流信号学" : ["appliedenergistics2","stevescarts"],
     "基础电学" : ["mekanism"],
-    "进阶怪物学" : ["woot"],
+    "进阶怪物学" : ["woot", "atum"],
     "空间学" : ["compactmachines3"],
     "分子材料学" : ["avaritia"],
     "高能物理学" : ["bigreactors"],
-    "哲学" : ["fishaxe", "atum"]
+    "哲学" : ["fishaxe"]
 };
 
 function init(){

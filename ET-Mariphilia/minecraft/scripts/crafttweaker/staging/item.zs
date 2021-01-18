@@ -258,7 +258,12 @@ global stagedItemMap as IItemStack[][string] = {
     "分子材料学" : [
         <item:bigreactors:ingotyellorium>,
         <item:bigreactors:blockyellorium>,
-        <item:bigreactors:dustyellorium>
+        <item:bigreactors:dustyellorium>,
+        <item:minecraft:end_stone>,
+        <item:minecraft:end_bricks>,
+        <item:chisel:endstone>,
+        <item:chisel:endstone1>,
+        <item:chisel:endstone2>
     ],
     "高能物理学" : [
         //TODO

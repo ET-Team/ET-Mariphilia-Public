@@ -239,6 +239,19 @@ function addRecipes(){
             "lead" : 10 to 60,
             "dawnstone" : 10 to 60
         });
+    Alchemy.add(<minecraft:end_stone>*2,
+        [
+            <ore:nuggetZeroAshMetal>,
+            <ore:stone>,
+            <ore:stone>,
+            <item:minecraft:ender_pearl>,
+            <item:minecraft:ender_pearl>
+        ],
+        {
+            "silver" : 3 to 8,
+            "lead" : 5 to 12,
+            "dawnstone" : 5 to 12
+        });
         //}
     //}
 }
