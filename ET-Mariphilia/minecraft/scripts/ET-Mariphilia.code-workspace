@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\config"
+		},
+		{
+			"path": "..\\patchouli_books"
+		},
+		{
+			"path": "..\\resources"
+		}
+	],
+	"settings": {}
+}

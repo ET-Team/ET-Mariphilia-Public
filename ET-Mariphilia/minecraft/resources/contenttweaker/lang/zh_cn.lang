@@ -131,25 +131,37 @@ etm.research.basic_mobiology.title=基础怪物学
 etm.research.basic_mobiology.description=手动刷怪塔的效率已经满足不了你了——你急需更有效率的处决怪物的方法；研究怪物遗骸也许可以洞悉它们的弱点。
 
 etm.research.basic_electricity.title=基础电学
+etm.research.basic_electricity.description=
 
 etm.research.turbo.title=机械-灰烬能量涡轮
+etm.research.turbo.description=
 
 etm.research.centrifuge.title=机械-大型离心机
+etm.research.centrifuge.description=
 
 etm.research.assembler.title=机械-装配机
+etm.research.assembler.description=
 
 etm.research.logistic_IT.title=物流信号学
+etm.research.logistic_IT.description=
 
 etm.research.med_lab.title=机械-医药实验室
+etm.research.med_lab.description=
 
 etm.research.compressor.title=机械-灰烬能量真空压缩机
+etm.research.compressor.description=
 
 etm.research.advanced_materials_science.title=进阶材料学
+etm.research.advanced_materials_science.description=
 
 etm.research.advanced_electricity.title=进阶电学
+etm.research.advanced_electricity.description=
 
 etm.research.advanced_mobiology.title=进阶怪物学
+etm.research.advanced_mobiology.description=
 
 etm.research.automation.title=自动化
+etm.research.automation.description=
 
 etm.research.spacialogy.title=空间学
+etm.research.spacialogy.description=

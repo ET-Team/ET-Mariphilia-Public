@@ -11,7 +11,8 @@ static materialNames as string[] = [
     "CompressedAshMetal",
     "BiopolymerMaterial",
     "PureNeptunium",
-    "DimensionalMetal"
+    "DimensionalMetal",
+    "Steel"
 ];
 
 //非超频配方
