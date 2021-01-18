@@ -1,0 +1,14 @@
+{
+	x: -6.5d,
+	y: 0.0d,
+	shape: "pentagon",
+	dependencies: [
+		"37ec5943"
+	],
+	tasks: [{
+		uid: "45e85cd3",
+		type: "gamestage",
+		title: "夸克材料学",
+		stage: "夸克材料学"
+	}]
+}

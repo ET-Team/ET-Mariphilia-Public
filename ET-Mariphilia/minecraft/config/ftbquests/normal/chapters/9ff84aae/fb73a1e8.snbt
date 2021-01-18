@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	dependencies: [
+		"0201dee5",
+		"9d53743e",
+		"3893274c"
+	],
+	tasks: [{
+		uid: "be173412",
+		type: "gamestage",
+		title: "哲学",
+		stage: "哲学"
+	}]
+}

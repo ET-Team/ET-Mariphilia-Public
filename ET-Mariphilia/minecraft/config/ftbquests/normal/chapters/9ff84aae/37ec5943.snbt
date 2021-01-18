@@ -1,0 +1,11 @@
+{
+	x: -12.0d,
+	y: 0.0d,
+	shape: "pentagon",
+	tasks: [{
+		uid: "aaaae792",
+		type: "gamestage",
+		title: "高能物理学",
+		stage: ""
+	}]
+}

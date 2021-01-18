@@ -402,7 +402,14 @@ function init(){
         .setTitle("etm.research.atomic_materials_science.title")
         .setDescription("etm.research.atomic_materials_science.description")
         .addCondition(
-
+            <ore:ingotCompressedAshMetal>*16,
+            <item:contenttweaker:electricity_data>*32,
+            <item:contenttweaker:pressure_data>*32,
+            <ore:ingotCopper>*256,
+            <ore:ingotSilver>*128,
+            <ore:ingotGold>*128,
+            <ore:ingotTin>*128,
+            <ore:ingotSteel>*64
         )
         .setRewardStages("分子材料学")
         .setRewardCommands(fireworks_big, title("分子材料学"), sound, fireworks_small)
@@ -415,7 +422,7 @@ function init(){
         .setTitle("etm.research.high_energy_physics.title")
         .setDescription("etm.research.high_energy_physics.description")
         .addCondition(
-
+            <item:minecraft:apple>
         )
         .setRewardStages("高能物理学")
         .setRewardCommands(fireworks_big, title("高能物理学"), sound, fireworks_small)
@@ -428,7 +435,7 @@ function init(){
         .setTitle("etm.research.standard_ashenolgy.title")
         .setDescription("etm.research.standard_ashenolgy.description")
         .addCondition(
-
+            <item:minecraft:apple>
         )
         .setRewardStages("标准灰烬学")
         .setRewardCommands(fireworks_big, title("标准灰烬学"), sound, fireworks_small)
@@ -441,7 +448,7 @@ function init(){
         .setTitle("etm.research.standard_mobiology.title")
         .setDescription("etm.research.standard_mobiology.description")
         .addCondition(
-
+            <item:minecraft:apple>
         )
         .setRewardStages("标准怪物学")
         .setRewardCommands(fireworks_big, title("标准怪物学"), sound, fireworks_small)
@@ -454,7 +461,7 @@ function init(){
         .setTitle("etm.research.quark_materials_science.title")
         .setDescription("etm.research.quark_materials_science.description")
         .addCondition(
-
+            <item:minecraft:apple>
         )
         .setRewardStages("夸克材料学")
         .setRewardCommands(fireworks_big, title("夸克材料学"), sound, fireworks_small)
@@ -467,7 +474,7 @@ function init(){
         .setTitle("etm.research.philosphy.title")
         .setDescription("etm.research.philosphy.description")
         .addCondition(
-
+            <item:minecraft:apple>
         )
         .setRewardStages("哲学")
         .setRewardCommands(fireworks_big, title("哲学"), sound, fireworks_small)

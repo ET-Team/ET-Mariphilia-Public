@@ -1,0 +1,11 @@
+{
+	x: -6.5d,
+	y: -5.5d,
+	shape: "pentagon",
+	tasks: [{
+		uid: "ca24cacb",
+		type: "gamestage",
+		title: "标准灰烬学",
+		stage: "标准灰烬学"
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	x: -9.0d,
+	y: -5.5d,
+	tasks: [{
+		uid: "0d0ec9be",
+		type: "item",
+		items: [{
+			item: "minecraft:dragon_egg"
+		}]
+	}]
+}

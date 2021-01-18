@@ -1,15 +1,21 @@
 {
-    "registryname": "centrifuge",
-    "localizedname": "大型离心机",
-    "color" : "737373",
-    "requires-blueprint": true,
+    "registryname": "subdimensional_well",
+    "localizedname": "亚次元钻井",
     "parts": [
         {
+            "x": -4,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
             "x": -1,
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:quartz_block@2"
+                "modularmachinery:blockoutputbus"
             ]
         },
         {
@@ -17,7 +23,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "chisel:glasspane@9"
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
@@ -25,7 +31,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:ashen_metal@0"
             ]
         },
         {
@@ -33,7 +39,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:purpur_block@0"
             ]
         },
         {
@@ -41,7 +47,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "contenttweaker:sub_block_holder_0@6"
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
@@ -49,7 +55,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:quartz_block@2"
+                "modularmachinery:blockinputbus"
             ]
         },
         {
@@ -57,7 +63,7 @@
             "y": 0,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:purpur_block@0"
             ]
         },
         {
@@ -65,7 +71,15 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -73,7 +87,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:quartz_block@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
@@ -81,7 +95,15 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "chisel:glasspane@9"
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -89,7 +111,7 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:quartz_block@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
@@ -97,15 +119,15 @@
             "y": 0,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:purpur_block@0"
             ]
         },
         {
-            "x": -2,
-            "y": 5,
-            "z": 2,
+            "x": 4,
+            "y": 0,
+            "z": 4,
             "elements": [
-                "contenttweaker:sub_block_holder_0@3"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -113,7 +135,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "minecraft:quartz_block@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
@@ -122,14 +144,6 @@
             "z": 2,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "chisel:blocksteel@2"
             ]
         },
         {
@@ -137,7 +151,7 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:purpur_block@0"
             ]
         },
         {
@@ -145,7 +159,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
@@ -153,23 +167,7 @@
             "y": 5,
             "z": 2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@9"
             ]
         },
         {
@@ -185,7 +183,7 @@
             "y": 3,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:sub_block_holder_0@0"
             ]
         },
         {
@@ -193,372 +191,604 @@
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockoutputbus@1"
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
             "x": 2,
-            "y": 5,
-            "z": 2,
+            "y": 3,
+            "z": 1,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
             "x": 1,
-            "y": 3,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
             "y": 1,
             "z": 0,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@1"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 0,
-            "elements": [
-                "chisel:blocksteel@2"
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
             "x": -2,
-            "y": -1,
-            "z": 0,
+            "y": 1,
+            "z": 4,
             "elements": [
-                "chisel:blocksteel@2"
+                "minecraft:purpur_block@0"
             ]
         },
         {
             "x": 2,
-            "y": 3,
-            "z": 1,
+            "y": 1,
+            "z": 0,
             "elements": [
-                "minecraft:quartz_block@2"
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
             "x": 1,
             "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": 7,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
             "z": 0,
             "elements": [
-                "modularmachinery:blockinputbus@1"
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neptunium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@9"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neptunium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "contenttweaker:neptunium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@9"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 2,
+            "z": 4,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": 6,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 4,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
             ]
         },
         {
             "x": -3,
             "y": -1,
-            "z": 3,
+            "z": 6,
             "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
             "x": 2,
             "y": 1,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
             "z": 3,
             "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 3,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
             "x": 1,
             "y": -1,
-            "z": 3,
+            "z": 2,
             "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": 2,
+            "x": -4,
             "y": -1,
-            "z": 3,
+            "z": -3,
             "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
             "x": 3,
             "y": -1,
-            "z": 3,
+            "z": 6,
             "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": -2,
-            "y": 4,
-            "z": 1,
+            "x": 4,
+            "y": -1,
+            "z": 6,
             "elements": [
-                "minecraft:quartz_block@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": -2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@6"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "chisel:blocksilver@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 1,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@6"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@6"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "chisel:blocksilver@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@6"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 2,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 3,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 1,
+            "x": 5,
+            "y": -1,
+            "z": 6,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
             "x": -2,
-            "y": 3,
+            "y": 4,
             "z": 0,
             "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@3"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 0,
-            "elements": [
-                "minecraft:quartz_block@2"
+                "minecraft:purpur_block@0"
             ]
         },
         {
             "x": 0,
-            "y": 5,
-            "z": 1,
+            "y": 8,
+            "z": 2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@3"
+                "modulardiversity:blockemberinputhatch"
             ]
         },
         {
-            "x": 1,
-            "y": 5,
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
             "z": 1,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
@@ -566,306 +796,170 @@
         },
         {
             "x": 0,
-            "y": 3,
+            "y": 4,
             "z": 0,
             "elements": [
-                "chisel:glasspane@9"
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
             "x": 2,
-            "y": 5,
-            "z": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 4,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": 1,
-            "y": 3,
-            "z": 0,
+            "x": -1,
+            "y": 2,
+            "z": 3,
             "elements": [
-                "minecraft:quartz_block@2"
+                "contenttweaker:ashen_metal@0"
             ]
         },
         {
-            "x": -2,
-            "y": 3,
+            "x": 1,
+            "y": 4,
             "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@0"
             ]
         },
         {
             "x": 2,
-            "y": 3,
-            "z": 0,
+            "y": 4,
+            "z": 4,
             "elements": [
-                "minecraft:iron_bars@0"
+                "minecraft:purpur_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
             ]
         },
         {
             "x": -3,
-            "y": -1,
-            "z": 2,
+            "y": 0,
+            "z": 6,
             "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 3,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 3,
-            "y": -1,
-            "z": 2,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "chisel:glasspane@9"
+                "minecraft:quartz_block@0"
             ]
         },
         {
             "x": -2,
             "y": 0,
-            "z": 2,
+            "z": -2,
             "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "minecraft:water@9"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@5"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 4,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 2,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -873,343 +967,303 @@
             "y": 2,
             "z": 3,
             "elements": [
-                "contenttweaker:sub_block_holder_0@6"
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
             "x": 1,
             "y": 0,
             "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 0,
-            "z": 2,
-            "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@3"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@3"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@3"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 0,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 5,
-            "z": 4,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
             "x": -3,
-            "y": -1,
-            "z": 1,
+            "y": 0,
+            "z": -2,
             "elements": [
-                "chisel:blocksteel@2"
+                "minecraft:quartz_block@0"
             ]
         },
         {
-            "x": -2,
-            "y": 1,
+            "x": 2,
+            "y": 0,
             "z": 2,
-            "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 4,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": 1,
-            "y": 5,
-            "z": 4,
+            "x": -2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 6,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 5,
+            "y": -1,
+            "z": -2,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": -2,
+            "x": 4,
             "y": -1,
-            "z": 1,
+            "z": -2,
             "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "minecraft:water@9"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 5,
-            "z": 4,
-            "elements": [
-                "minecraft:iron_bars@0"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 3,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 2,
-            "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 1,
-            "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
             "x": 3,
             "y": -1,
-            "z": 1,
+            "z": -2,
             "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
             "x": -1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -4,
             "y": -1,
             "z": 5,
             "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": 0,
+            "x": 2,
+            "y": 3,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -5,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 4,
             "y": -1,
             "z": 5,
             "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neptunium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neptunium@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
             ]
         },
         {
             "x": 1,
-            "y": -1,
+            "y": 4,
+            "z": 3,
+            "elements": [
+                "contenttweaker:neptunium@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
             "z": 5,
             "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "chisel:blocksilver@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "minecraft:water@9"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 4,
-            "z": 3,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 2,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@5"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 0,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
+                "minecraft:quartz_block@0"
             ]
         },
         {
@@ -1217,7 +1271,7 @@
             "y": 4,
             "z": 3,
             "elements": [
-                "minecraft:quartz_block@2"
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
@@ -1225,7 +1279,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:ashen_metal@0"
             ]
         },
         {
@@ -1233,7 +1287,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "chisel:blocksilver@2"
+                "chisel:glasspanedyedblack@4"
             ]
         },
         {
@@ -1241,7 +1295,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
@@ -1249,71 +1303,71 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 5,
-            "z": 3,
-            "elements": [
                 "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": -2,
-            "y": 3,
-            "z": 2,
+            "x": -4,
+            "y": 0,
+            "z": -1,
             "elements": [
-                "chisel:glasspane@9"
+                "minecraft:quartz_block@0"
             ]
         },
         {
-            "x": -1,
-            "y": 5,
-            "z": 3,
+            "x": 4,
+            "y": 0,
+            "z": 5,
             "elements": [
-                "contenttweaker:sub_block_holder_0@3"
+                "minecraft:quartz_block@0"
             ]
         },
         {
-            "x": -2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:water@9"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 5,
-            "z": 3,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@3"
-            ]
-        },
-        {
-            "x": 1,
+            "x": 4,
             "y": -1,
             "z": -1,
             "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 3,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
             ]
         },
         {
             "x": 0,
-            "y": -1,
-            "z": -1,
+            "y": 5,
+            "z": 3,
             "elements": [
-                "chisel:blocksteel@2"
+                "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
@@ -1325,147 +1379,99 @@
             ]
         },
         {
-            "x": 0,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@5"
-            ]
-        },
-        {
             "x": -1,
             "y": 1,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:ashen_metal@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
             ]
         },
         {
             "x": 2,
-            "y": 5,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "contenttweaker:ashen_metal@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -4,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "contenttweaker:sub_block_holder_0@3"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:glasspanedyedblack@4"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "contenttweaker:neptunium@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
             "z": 3,
             "elements": [
                 "contenttweaker:sub_block_holder_0@3"
             ]
         },
         {
-            "x": 1,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 0,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": -1,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 3,
-            "z": 2,
-            "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": 1,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:water@0"
-            ]
-        },
-        {
-            "x": 2,
-            "y": 1,
-            "z": 1,
-            "elements": [
-                "minecraft:quartz_block@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 0,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 1,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": 2,
-            "y": -1,
-            "z": 4,
-            "elements": [
-                "chisel:blocksteel@2"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "chisel:glasspane@9"
-            ]
-        },
-        {
-            "x": -2,
-            "y": 2,
-            "z": 1,
-            "elements": [
-                "contenttweaker:sub_block_holder_0@6"
-            ]
-        },
-        {
-            "x": -1,
-            "y": 4,
-            "z": 2,
-            "elements": [
-                "minecraft:water@1"
-            ]
-        },
-        {
             "x": 0,
             "y": 4,
             "z": 2,
             "elements": [
-                "contenttweaker:sub_block_holder_0@5"
+                "contenttweaker:sub_block_holder_0@9"
             ]
         },
         {
@@ -1473,7 +1479,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:ashen_metal@0"
             ]
         },
         {
@@ -1481,7 +1487,7 @@
             "y": 4,
             "z": 2,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:neptunium@0"
             ]
         },
         {
@@ -1489,7 +1495,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "minecraft:water@0"
+                "contenttweaker:ashen_metal@0"
             ]
         }
     ]}

@@ -8,8 +8,4 @@ function init(){
         .addFluidInput(<fluid:ash>*1000)
         .addFluidOutput(<fluid:neptunium>*1000)
         .build();
-
-
-
-    
 }

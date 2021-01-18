@@ -12,4 +12,5 @@ function init(){
     this.deep_sea_mass_aggregator.init();
     this.turbo.init();
     this.centrifuge.init();
+    this.electric_coil.init();
 }

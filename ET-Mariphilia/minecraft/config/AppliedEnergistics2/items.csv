@@ -7500,7 +7500,6 @@ stevescarts:cartmodule:96, 创造模式焚化炉
 stevescarts:cartmodule:97, 创造模式供应
 stevescarts:cartmodule:99, 蛋糕服务器
 stevescarts:cartmodule:101, 颜色定制组件
-waterstrainer:strainer_base, 滤网基座
 waterstrainer:net:0, 网
 waterstrainer:net:1, 致密网
 waterstrainer:worm, 蚯蚓
@@ -7515,6 +7514,7 @@ waterstrainer:strainer_survivalist_dense, 生存者滤网（致密）
 waterstrainer:strainer_survivalist_dense_solid, 固态生存者滤网（致密）
 waterstrainer:strainer_survivalist_dense_reinforced, 强化生存者滤网（致密）
 waterstrainer:strainer_fisherman, 渔夫滤网
+waterstrainer:strainer_base, 滤网基座
 woot:die:0, 网状模具
 woot:die:1, 板状模具
 woot:die:2, 芯片模具

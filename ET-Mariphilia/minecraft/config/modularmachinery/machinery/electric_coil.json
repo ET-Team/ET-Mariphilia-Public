@@ -1,0 +1,1078 @@
+{
+    "registryname": "electric_coil",
+    "localizedname": "电磁实验装置",
+    "color" : "B1CBFF",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockoutputbus"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockinputbus"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 3,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -3,
+            "z": 0,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 3,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 1,
+            "z": -2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockenergyinputhatch"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 2,
+            "z": 3,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 2,
+            "z": -1,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": -1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": -2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@2"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@2"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksteel@2"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 4,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 5,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 6,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 8,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": -1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "modularmachinery:blockcasing@0"
+            ]
+        },
+        {
+            "x": 2,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": 3,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocklead@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": -1,
+            "z": -1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": 7,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "chisel:blocksilver@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -1,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": 9,
+            "y": -2,
+            "z": -1,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -7,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "chisel:blockbronze@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": 0,
+            "z": 4,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        },
+        {
+            "x": -9,
+            "y": -2,
+            "z": 3,
+            "elements": [
+                "chisel:blockcopper@2"
+            ]
+        }
+    ]}

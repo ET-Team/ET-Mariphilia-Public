@@ -28,17 +28,19 @@ function init(){
     drug.itemRightClick = function(stack, world, player, hand) {
         Commands.call("gamestage clear @p[score_residue=0]", player, world, false, true);
 
-        Commands.call("title @p[score_residue=0] subtitle {\"text\":\"你达成了灰烬之舟BE, 释放出的恶魔终噬其主\",\"color\":\"gray\",\"italic\":true}", player, world, false, true);
+        Commands.call("title @p[score_residue=0] subtitle {\"text\":\"你达成了灰烬之舟Bad End, 释放出的恶魔终噬其主\",\"color\":\"gray\",\"italic\":true}", player, world, false, true);
 
         Commands.call("title @p[score_residue=0] actionbar {\"text\":\"在游戏根目录backup文件夹内存有往期存档备份以供回档,感谢游玩\"}", player, world, false, true);
 
         Commands.call("title @p[score_residue=0] title {\"text\":\"游戏结束\",\"bold\":true}", player, world, false, true);
 
+        if(player.hasGameStage("超频时间")) return "PASS";
+
         Commands.call("gamestage silentadd @p[score_residue_min=1] 超频时间", player, world, false, true);
 
         Commands.call("tellraw @p[score_residue_min=1] {\"text\":\"超频时间已开启\",\"color\":\"aqua\"}", player, world, false, true);
 
-        if(player.hasGameStage("超频时间")) return "PASS";
+        
 
         for stage in advanceStages{
             if(player.hasGameStage(stage)){

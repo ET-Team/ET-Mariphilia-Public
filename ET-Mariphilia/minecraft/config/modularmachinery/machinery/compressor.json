@@ -3,6 +3,21 @@
     "localizedname": "灰烬能量真空压缩机",
     "color" : "737373",
     "requires-blueprint": true,
+    "modifiers": [
+        {
+            "elements": "contenttweaker:sub_block_holder_0@4",
+            "x": 0,
+            "y": 3,
+            "z": 3,
+            "description": "使用超导金属块替代黎明石块放在\n灰烬能量输入口中央可以极大地提高\n机器的运作效率",
+            "modifier": {
+                "io": "output",
+                "target": "item",
+                "operation": 1,
+                "multiplier": 8.0
+            }
+        }
+    ],
     "parts": [
         {
             "x": -1,

@@ -58,6 +58,11 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [null,<ore:alloyElite>,null],
             [<ore:alloyElite>,<ore:circuitAdvanced>,<ore:alloyElite>],
             [null,<ore:alloyElite>,null]
+        ],
+        <item:contenttweaker:electricity_meter> : [
+            [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>],
+            [<ore:nuggetSilver>,<ore:circuitAdvanced>,<ore:nuggetSilver>],
+            [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>]
         ]
     };
 

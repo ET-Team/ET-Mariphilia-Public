@@ -12,7 +12,7 @@ import crafttweaker.item.IIngredient;
  */
 
 static recipes as IIngredient[int][string][IItemStack] = {
-    <mekanism:controlcircuit> : {
+    <mekanism:controlcircuit>*2 : {
         ("REDSTONE") : {
             20 : <ore:ingotOsmium>
         }

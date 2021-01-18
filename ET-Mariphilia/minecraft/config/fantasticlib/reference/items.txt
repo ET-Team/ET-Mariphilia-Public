@@ -1649,7 +1649,6 @@ stevescarts:blockmetalstorage
 stevescarts:modularcart
 stevescarts:modulecomponents
 stevescarts:cartmodule
-waterstrainer:strainer_base
 waterstrainer:net
 waterstrainer:worm
 waterstrainer:super_worm
@@ -1663,6 +1662,7 @@ waterstrainer:strainer_survivalist_dense
 waterstrainer:strainer_survivalist_dense_solid
 waterstrainer:strainer_survivalist_dense_reinforced
 waterstrainer:strainer_fisherman
+waterstrainer:strainer_base
 woot:die
 woot:factorycore
 woot:factorybase

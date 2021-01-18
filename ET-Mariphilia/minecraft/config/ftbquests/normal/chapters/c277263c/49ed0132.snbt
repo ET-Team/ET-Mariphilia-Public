@@ -6,7 +6,7 @@
 	shape: "hexagon",
 	description: "知识即力量",
 	dependencies: [
-		"bd8e871b"
+		"63915f20"
 	],
 	hide: true,
 	size: 2.0d,
