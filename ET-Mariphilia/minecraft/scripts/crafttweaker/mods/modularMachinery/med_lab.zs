@@ -11,7 +11,13 @@ static recipes as IItemStack[][IItemStack] = {
         <minecraft:potion>.withTag({Potion: "inspirations:strong_haste"}),
         <minecraft:potion>.withTag({Potion: "minecraft:strong_harming"}),
         (<ore:dustBiopolymerMaterial>.firstItem)*2
-        ]
+    ],
+    <item:contenttweaker:medicine> : [
+        <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"}),
+        <minecraft:potion>.withTag({Potion: "inspirations:strong_haste"}),
+        (<ore:dustBiopolymerMaterial>.firstItem)*4,
+        <minecraft:chorus_fruit>*4
+    ]
 };
 
 function init(){

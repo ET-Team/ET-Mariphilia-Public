@@ -9,4 +9,5 @@ function init(){
     item.grassSeeds.init();
     item.dagger.init();
     item.drug.init();
+    item.medicine.init();
 }

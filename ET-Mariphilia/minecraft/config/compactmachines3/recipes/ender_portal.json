@@ -8,7 +8,7 @@
   "duration": 80,
   "symmetrical": true,
 
-  "catalyst": "minecraft:diamond",
+  "catalyst": "minecraft:ender_eye",
   "catalyst-meta": 0,
 
   "input-types": {
