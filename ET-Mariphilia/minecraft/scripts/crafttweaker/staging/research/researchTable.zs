@@ -354,6 +354,7 @@ function init(){
             <ore:ingotDimensionalMetal>*64
         )
         .setRewardStages("空间学")
+        .addEnergyCondition(200000)
         .setRewardCommands(fireworks_big, title("空间学"), sound, fireworks_small)
         .build();
 
@@ -371,6 +372,7 @@ function init(){
             <appliedenergistics2:material:35>*16
         )
         .setRewardStages("自动化")
+        .addEnergyCondition(200000)
         .setRewardCommands(fireworks_big, title("自动化"), sound, fireworks_small)
         .build();
 
@@ -412,6 +414,7 @@ function init(){
             <ore:ingotSteel>*64
         )
         .setRewardStages("分子材料学")
+        .addEnergyCondition(500000)
         .setRewardCommands(fireworks_big, title("分子材料学"), sound, fireworks_small)
         .build();
 
@@ -427,6 +430,7 @@ function init(){
             <ore:ingotZeroAshMetal>*64
         )
         .setRewardStages("高能物理学")
+        .addEnergyCondition(1000000)
         .setRewardCommands(fireworks_big, title("高能物理学"), sound, fireworks_small)
         .build();
 
@@ -444,6 +448,7 @@ function init(){
             <item:embers:ember_cluster>*4
         )
         .setRewardStages("标准灰烬学")
+        .addEnergyCondition(10000000)
         .setRewardCommands(fireworks_big, title("标准灰烬学"), sound, fireworks_small)
         .build();
 
@@ -461,6 +466,7 @@ function init(){
             <ore:gemEmerald>*16
         )
         .setRewardStages("标准怪物学")
+        .addEnergyCondition(10000000)
         .setRewardCommands(fireworks_big, title("标准怪物学"), sound, fireworks_small)
         .build();
 
@@ -471,9 +477,11 @@ function init(){
         .setTitle("etm.research.quark_materials_science.title")
         .setDescription("etm.research.quark_materials_science.description")
         .addCondition(
-            <item:minecraft:apple>
+            <item:contenttweaker:electricity_data>*64,
+            <item:bigreactors:ingotblutonium>*64
         )
         .setRewardStages("夸克材料学")
+        .addEnergyCondition(10000000)
         .setRewardCommands(fireworks_big, title("夸克材料学"), sound, fireworks_small)
         .build();
 
@@ -484,9 +492,10 @@ function init(){
         .setTitle("etm.research.philosphy.title")
         .setDescription("etm.research.philosphy.description")
         .addCondition(
-            <item:minecraft:apple>
+            <item:atum:eyes_of_atum>
         )
         .setRewardStages("哲学")
+        .addEnergyCondition(30000000)
         .setRewardCommands(fireworks_big, title("哲学"), sound, fireworks_small)
         .build();
 
