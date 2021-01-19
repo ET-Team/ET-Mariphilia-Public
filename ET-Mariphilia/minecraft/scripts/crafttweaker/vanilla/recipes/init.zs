@@ -7,5 +7,6 @@ function init(){
     recipes.stageOne.init();
     recipes.stageTwo.init.init();
     recipes.stageThree.init.init();
+    recipes.stageFour.init.init();
     
 }
