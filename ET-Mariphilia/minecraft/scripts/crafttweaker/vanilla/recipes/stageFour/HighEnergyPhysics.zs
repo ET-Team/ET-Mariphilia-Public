@@ -13,12 +13,22 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<ore:ingotZeroAshMetal>,null,<ore:ingotZeroAshMetal>],
             [null,<ore:ingotUranium>,null],
             [<ore:ingotZeroAshMetal>,null,<ore:ingotZeroAshMetal>]
+        ],
+        <bigreactors:turbinerotorshaft>*2 : [
+            [<contenttweaker:material_part:78>,<contenttweaker:material_part:101>,<contenttweaker:material_part:78>],
+            [<contenttweaker:material_part:78>,<contenttweaker:material_part:101>,<contenttweaker:material_part:78>],
+            [<contenttweaker:material_part:78>,<contenttweaker:material_part:101>,<contenttweaker:material_part:78>]
         ]
 
     };
 
     //镜像合成
     static mirroredRecipes as IIngredient[][][IItemStack] = {
+        <bigreactors:turbinerotorblade>*2 : [
+            [<contenttweaker:material_part:78>,<contenttweaker:material_part:78>],
+            [<contenttweaker:material_part:78>,<contenttweaker:material_part:78>],
+            [<contenttweaker:material_part:78>,<contenttweaker:material_part:78>]
+        ]
 
     };
 

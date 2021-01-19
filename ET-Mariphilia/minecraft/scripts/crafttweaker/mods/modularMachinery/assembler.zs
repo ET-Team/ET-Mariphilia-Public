@@ -485,7 +485,7 @@ static recipes as IItemStack[][int][int][IItemStack] = {
     },
     <bigreactors:reactorglass>*2 : {
         200 : {
-            60 : [<bigreactors:reactorcasingcores>*4,<appliedenergistics2:quartz_glass>]
+            60 : [<bigreactors:reactorcasingcores>*4,<contenttweaker:material_part:99>*4,<appliedenergistics2:quartz_glass>]
         }
     },
     <bigreactors:reactorpowertaprf> : {
@@ -496,6 +496,51 @@ static recipes as IItemStack[][int][int][IItemStack] = {
     <bigreactors:reactoraccessport> : {
         200 : {
             100 : [<bigreactors:reactorcasing>*4,<appliedenergistics2:interface>,<mekanism:controlcircuit:3>,<contenttweaker:material_part:101>*2]
+        }
+    },
+    <bigreactors:reactorredstoneport> : {
+        100 : {
+            60 : [<bigreactors:reactorcasing>,<mekanism:controlcircuit>]
+        }
+    },
+    <bigreactors:reactorcoolantport> : {
+        100 : {
+            60 : [<mekanism:controlcircuit:3>*2,<contenttweaker:advanced_transmission>,<bigreactors:reactorcasing>*4,<mekanism:transmitter:2>*4,<bigreactors:ingotcyanite>*2]
+        }
+    },
+    <bigreactors:turbinehousing> : {
+        200 : {
+            100 : [<bigreactors:turbinehousingcores>*2,<contenttweaker:material_part:78>*6]
+        }
+    },
+    <bigreactors:turbineglass> : {
+        200 : {
+            100 : [<bigreactors:turbinehousingcores>*2,<contenttweaker:material_part:78>*6,<appliedenergistics2:quartz_glass>*4]
+        }
+    },
+    <bigreactors:turbinehousingcores>*4 : {
+        100 : {
+            60 : [<contenttweaker:material_part:78>*6,<contenttweaker:material_part:99>*2,<bigreactors:ingotcyanite>*4]
+        }
+    },
+    <bigreactors:turbinebearing> : {
+        600 : {
+            300 : [<contenttweaker:advanced_transmission>*2,<mekanism:controlcircuit:3>*2,<bigreactors:turbinerotorshaft>*3,<bigreactors:turbinehousing>*4]
+        }
+    },
+    <bigreactors:turbinecontroller> : {
+        600 : {
+            300 : [<appliedenergistics2:part:180>,<bigreactors:turbinehousing>*4,<mekanism:controlcircuit:3>*6,<bigreactors:ingotcyanite>*4,<contenttweaker:basic_sensor>*6]
+        }
+    },
+    <bigreactors:turbinepowertaprf> : {
+        600 : {
+            300 : [<bigreactors:turbinehousing>*4,<mekanism:energycube>,<mekanism:controlcircuit:3>*2]
+        }
+    },
+    <bigreactors:turbinefluidport> : {
+        600 : {
+            300 : [<bigreactors:turbinehousing>*4,<contenttweaker:advanced_transmission>,<mekanism:transmitter:2>*4,<contenttweaker:basic_sensor>*12]
         }
     }
 
