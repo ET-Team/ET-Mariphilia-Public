@@ -462,7 +462,44 @@ static recipes as IItemStack[][int][int][IItemStack] = {
         60 : {
             100 : [<appliedenergistics2:quartz_glass>*4,<mekanism:controlcircuit:3>,<contenttweaker:material_part:57>*4,<contenttweaker:basic_sensor>*4]
         }
+    },
+    <bigreactors:reactorcasing>*2 : {
+        200 : {
+            60 : [<bigreactors:reactorcasingcores>*4]
+        }
+    },
+    <bigreactors:reactorcontroller> : {
+        300 : {
+            100 : [<bigreactors:reactorcasing>*4,<mekanism:controlcircuit:3>,<appliedenergistics2:part:180>,<contenttweaker:material_part:101>*4]
+        }
+    },
+    <bigreactors:reactorfuelrod>*2 : {
+        200 : {
+            60 : [<bigreactors:reactorcasing>*2,<appliedenergistics2:quartz_glass>,<bigreactors:ingotyellorium>*3]
+        }
+    },
+    <bigreactors:reactorcontrolrod> : {
+        300 : {
+            100 : [<bigreactors:reactorcasing>*4,<contenttweaker:advanced_transmission>,<mekanism:controlcircuit:3>*2,<contenttweaker:material_part:101>*4]
+        }
+    },
+    <bigreactors:reactorglass>*2 : {
+        200 : {
+            60 : [<bigreactors:reactorcasingcores>*4,<appliedenergistics2:quartz_glass>]
+        }
+    },
+    <bigreactors:reactorpowertaprf> : {
+        200 : {
+            100 : [<bigreactors:reactorcasing>*4,<mekanism:energycube>,<mekanism:controlcircuit:3>*2]
+        }
+    },
+    <bigreactors:reactoraccessport> : {
+        200 : {
+            100 : [<bigreactors:reactorcasing>*4,<appliedenergistics2:interface>,<mekanism:controlcircuit:3>,<contenttweaker:material_part:101>*2]
+        }
     }
+
+    
 
 };
 
