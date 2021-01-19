@@ -17,7 +17,9 @@ static recipes as IIngredient[][IItemStack] = {
     <contenttweaker:material_part:113> : [<contenttweaker:material_part:115>,null],
     <woot:stygianironplate> : [<woot:stygianironingot>,null],
     <contenttweaker:material_part:120> : [<contenttweaker:material_part:122>,null],
-    <ore:plateAshenMetal>.firstItem : [<ore:ingotAshenMetal>, null]
+    <ore:plateAshenMetal>.firstItem : [<ore:ingotAshenMetal>, null],
+    <contenttweaker:material_part:78> : [<contenttweaker:material_part:80>,null],
+    <contenttweaker:material_part:99> : [<contenttweaker:material_part:101>,null]
 };
 
 static breakDownRecipeRemoval as IIngredient[] = [

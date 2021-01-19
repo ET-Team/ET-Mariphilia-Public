@@ -465,7 +465,7 @@ static recipes as IItemStack[][int][int][IItemStack] = {
     },
     <bigreactors:reactorcasing>*2 : {
         200 : {
-            60 : [<bigreactors:reactorcasingcores>*4]
+            60 : [<bigreactors:reactorcasingcores>*4,<contenttweaker:material_part:99>*4]
         }
     },
     <bigreactors:reactorcontroller> : {
