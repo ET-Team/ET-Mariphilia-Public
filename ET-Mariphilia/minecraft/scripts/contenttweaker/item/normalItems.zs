@@ -74,7 +74,8 @@ static plainItemList as string[] = [
 	"biodata_creeper",
 	"biodata_golem",
 	"biodata_wither",
-	"electricity_meter"
+	"electricity_meter",
+	"heart_of_atum"
 ];
 
 

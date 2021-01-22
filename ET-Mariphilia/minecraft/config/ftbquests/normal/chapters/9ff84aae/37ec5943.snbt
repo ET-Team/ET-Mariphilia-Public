@@ -6,6 +6,7 @@
 	dependencies: [
 		"2b5a687d"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "aaaae792",
 		type: "gamestage",

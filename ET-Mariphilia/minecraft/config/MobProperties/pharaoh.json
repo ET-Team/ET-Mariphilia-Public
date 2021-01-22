@@ -1,6 +1,12 @@
 {
   "_name": "pharaoh",
-  "drops": [],
+  "drops": [
+    {
+      "function": "add",
+      "id": "contenttweaker:heart_of_atum",
+      "count": 1
+    }
+  ],
   "pre_stats": [],
   "stats": [
     {

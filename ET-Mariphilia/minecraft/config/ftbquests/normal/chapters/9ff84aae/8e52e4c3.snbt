@@ -1,0 +1,14 @@
+{
+	x: 2.5d,
+	y: 0.0d,
+	dependencies: [
+		"fb73a1e8"
+	],
+	tasks: [{
+		uid: "6605d546",
+		type: "item",
+		items: [{
+			item: "avaritia:resource 1 1"
+		}]
+	}]
+}

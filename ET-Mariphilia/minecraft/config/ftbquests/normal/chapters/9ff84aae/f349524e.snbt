@@ -1,0 +1,15 @@
+{
+	x: 0.0d,
+	y: 7.0d,
+	shape: "diamond",
+	dependencies: [
+		"9d53743e"
+	],
+	tasks: [{
+		uid: "0cb00b54",
+		type: "item",
+		items: [{
+			item: "avaritia:neutron_collector"
+		}]
+	}]
+}

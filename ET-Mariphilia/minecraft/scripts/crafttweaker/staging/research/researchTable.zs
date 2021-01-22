@@ -341,6 +341,38 @@ function init(){
         .setRewardCommands(fireworks_big, title("空间学"), sound, fireworks_small)
         .build();
 
+    ResearchTable.builder("机械-深海物质聚集器", c)
+        .setRequiredResearches("进阶电学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:modularmachinery:itemblueprint>)
+        .setTitle("etm.research.aggregator.title")
+        .setDescription("etm.research.aggregator.description")
+        .addCondition(
+            <item:contenttweaker:ember_diode>*16,
+            <item:contenttweaker:basic_transmission>*32,
+            <item:embers:pipe>*32,
+            <item:aquaculture:loot:1>*4
+        )
+        .setNoMaxCount()
+        .setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:deep_sea_mass_aggregator"}))
+        .build();
+
+    ResearchTable.builder("机械-电磁实验装置", c)
+        .setRequiredResearches("进阶电学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:modularmachinery:itemblueprint>)
+        .setTitle("etm.research.electric_coil.title")
+        .setDescription("etm.research.electric_coil.description")
+        .addCondition(
+            <item:contenttweaker:ember_diode>*64,
+            <ore:ingotGold>*64,
+            <ore:ingotCopper>*196
+        )
+        .addEnergyCondition(200000)
+        .setNoMaxCount()
+        .setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:electric_coil"}))
+        .build();
+
     ResearchTable.builder("空间学", c)
         .setRequiredResearches("进阶电学")
         .setRequiredStages("超频时间")
@@ -418,6 +450,24 @@ function init(){
         .setRewardCommands(fireworks_big, title("分子材料学"), sound, fireworks_small)
         .build();
 
+    ResearchTable.builder("机械-亚次元钻井", c)
+        .setRequiredResearches("进阶电学")
+        .setRequiredStages("超频时间")
+        .setIcons(<item:modularmachinery:itemblueprint>)
+        .setTitle("etm.research.subdimensional_well.title")
+        .setDescription("etm.research.subdimensional_well.description")
+        .addCondition(
+            <item:contenttweaker:ember_diode>*64,
+            <ore:ingotGold>*64,
+            <ore:gemDiamond>*32,
+            <ore:gemQuartz>*16,
+            <ore:ingotOsmium>*16
+        )
+        .addEnergyCondition(200000)
+        .setNoMaxCount()
+        .setRewardItems(<modularmachinery:itemblueprint>.withTag({dynamicmachine: "modularmachinery:subdimensional_well"}))
+        .build();
+
     ResearchTable.builder("高能物理学", c)
         .setRequiredResearches("分子材料学")
         .setRequiredStages("超频时间")
@@ -466,7 +516,7 @@ function init(){
             <ore:gemEmerald>*16
         )
         .setRewardStages("标准怪物学")
-        .addEnergyCondition(10000000)
+        .addEnergyCondition(100000000)
         .setRewardCommands(fireworks_big, title("标准怪物学"), sound, fireworks_small)
         .build();
 
@@ -481,7 +531,7 @@ function init(){
             <item:bigreactors:ingotblutonium>*64
         )
         .setRewardStages("夸克材料学")
-        .addEnergyCondition(10000000)
+        .addEnergyCondition(100000000)
         .setRewardCommands(fireworks_big, title("夸克材料学"), sound, fireworks_small)
         .build();
 
@@ -492,10 +542,11 @@ function init(){
         .setTitle("etm.research.philosphy.title")
         .setDescription("etm.research.philosphy.description")
         .addCondition(
-            <item:atum:eyes_of_atum>
+            <contenttweaker:heart_of_atum>,
+            <ore:ingotNeutron>*32
         )
         .setRewardStages("哲学")
-        .addEnergyCondition(30000000)
+        .addEnergyCondition(300000000)
         .setRewardCommands(fireworks_big, title("哲学"), sound, fireworks_small)
         .build();
 

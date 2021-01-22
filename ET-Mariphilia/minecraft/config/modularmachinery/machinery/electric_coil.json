@@ -2,6 +2,7 @@
     "registryname": "electric_coil",
     "localizedname": "电磁实验装置",
     "color" : "B1CBFF",
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

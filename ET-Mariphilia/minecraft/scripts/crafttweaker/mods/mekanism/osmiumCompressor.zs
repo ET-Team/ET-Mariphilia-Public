@@ -18,6 +18,9 @@ static recipes as IIngredient[int][IItemStack] = {
     },
     <mekanism:ingot:3> : {
         200 : <minecraft:glowstone_dust>
+    },
+    <ore:ingotNeutron> : {
+        200 : <avaritia:resource:2>
     }
 };
 

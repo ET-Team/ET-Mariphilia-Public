@@ -1,6 +1,7 @@
 {
     "registryname": "subdimensional_well",
     "localizedname": "亚次元钻井",
+    "requires-blueprint": true,
     "parts": [
         {
             "x": -4,

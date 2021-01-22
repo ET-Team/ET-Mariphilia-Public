@@ -6,6 +6,7 @@
 	dependencies: [
 		"fe676ce1"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "ca24cacb",
 		type: "gamestage",
