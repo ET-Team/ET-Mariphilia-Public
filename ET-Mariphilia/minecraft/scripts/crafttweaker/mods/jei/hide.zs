@@ -4,7 +4,13 @@ import crafttweaker.liquid.ILiquidStack;
 import mods.jei.JEI.hide;
 static items as IItemStack[] = [
     <item:betterbuilderswands:wandstone>,
-    <item:betterbuilderswands:wandunbreakable>
+    <item:betterbuilderswands:wandunbreakable>,
+    <woot:upgrade:5>,
+    <woot:upgrade:8>,
+    <woot:upgrade:11>,
+    <woot:upgrade:14>,
+    <woot:upgradeb:2>,
+    <woot:upgrade:2>
 ];
 
 static liquids as ILiquidStack[] = [
