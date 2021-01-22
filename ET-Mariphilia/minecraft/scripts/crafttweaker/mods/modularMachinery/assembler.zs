@@ -345,7 +345,7 @@ static recipes as IItemStack[][int][int][IItemStack] = {
     },
     <woot:upgradeb:1> : {
         40 : {
-            200 : [<woot:factorybase>,<mekanism:controlcircuit:3>,<mekanism:energytablet>,<contenttweaker:material_part:120>*8,<embers:plate_iron>*4,<appliedenergistics2:material:9>*2,<woot:shard:4>*4]
+            200 : [<woot:factorybase>,<mekanism:controlcircuit:3>,<mekanism:energytablet>,<contenttweaker:material_part:120>*8,<embers:plate_gold>*4,<appliedenergistics2:material:9>*2,<woot:shard:4>*4]
         }
     },
     <appliedenergistics2:condenser> : {
@@ -542,10 +542,29 @@ static recipes as IItemStack[][int][int][IItemStack] = {
         600 : {
             300 : [<bigreactors:turbinehousing>*4,<contenttweaker:advanced_transmission>,<mekanism:transmitter:2>*4,<contenttweaker:basic_sensor>*12]
         }
+    },
+    <woot:upgrade:12> : {
+        80 : {
+            200 : [<woot:factorybase>,<minecraft:skull:4>,<contenttweaker:material_part:120>*6,<embers:plate_iron>*4,<contenttweaker:basic_sensor>*2]
+        }
+    },
+    <woot:upgrade:13> : {
+        80 : {
+            200 : [<woot:factorybase>,<minecraft:skull:4>*2,<contenttweaker:material_part:120>*6,<embers:plate_gold>*4,<contenttweaker:basic_sensor>*2,<woot:shard:4>*6]
+        }
+    },
+    <woot:upgrade:9> : {
+        80 : {
+            200 : [<woot:shard:4>*6,<mekanism:controlcircuit:2>*2,<contenttweaker:basic_sensor>*2,<contenttweaker:material_part:120>*6,<embers:plate_iron>*4,<mekanism:teleportationcore>]
+        }
+    },
+    <woot:upgrade:10> : {
+        160 : {
+            500 : [<woot:shard:5>*6,<mekanism:controlcircuit:3>*2,<contenttweaker:basic_sensor>*2,<contenttweaker:material_part:120>*6,<embers:plate_gold>*4,<mekanism:teleportationcore>]
+        }
     }
 
     
-
 };
 
 function buildUltimateCircuitRecipe(){

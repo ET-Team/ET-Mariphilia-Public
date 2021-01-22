@@ -13,6 +13,11 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<mekanism:ingot:4>,<mekanism:enrichedalloy>,<mekanism:ingot:4>],
             [<mekanism:ingot:4>,null,<mekanism:ingot:4>],
             [<mekanism:ingot:4>,<mekanism:ingot:4>,<mekanism:ingot:4>]
+        ],
+        <mekanismgenerators:generator:3> : [
+            [<mekanism:gastank>,null,<mekanism:gastank>],
+            [<mekanism:transmitter:2>,<mekanism:energytablet>,<mekanism:transmitter:2>],
+            [<mekanism:controlcircuit:2>,<mekanism:basicblock:8>,<mekanism:controlcircuit:2>]
         ]
 
     };
