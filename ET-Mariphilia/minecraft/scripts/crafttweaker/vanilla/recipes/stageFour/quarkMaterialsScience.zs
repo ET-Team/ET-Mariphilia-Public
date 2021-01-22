@@ -3,7 +3,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import mods.recipestages.Recipes.addShaped;
 
-static stageName as string = "分子材料学";
+static stageName as string = "夸克材料学";
 static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName);
 
 //非超频配方
@@ -24,7 +24,11 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
 //超频配方
     //有序合成
     static shapedRecipesOverclocked as IIngredient[][][IItemStack] = {
-
+        <avaritia:neutron_collector>*4 : [
+            [<mekanism:basicblock:8>,<ore:circuitUltimate>,<mekanism:basicblock:8>],
+            [<ore:ingotZeroAshMetal>,<ore:ingotZeroAshMetal>,<ore:ingotZeroAshMetal>],
+            [<mekanism:basicblock:8>,<ore:circuitUltimate>,<mekanism:basicblock:8>]
+        ]
     };
 
     //镜像合成

@@ -2,7 +2,6 @@
     "registryname": "big_mixer",
     "localizedname": "大型混合器",
     "color" : "BB9A15",
-    "requires-blueprint": true,
     "parts": [
         {
             "x": -2,

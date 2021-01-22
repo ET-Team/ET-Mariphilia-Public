@@ -2,6 +2,7 @@
     "registryname": "deep_sea_mass_aggregator",
     "localizedname": "深海物质聚集器",
     "color" : "ffd700",
+    "requires-blueprint": true,
     "parts": [
         {
             "x": 1,

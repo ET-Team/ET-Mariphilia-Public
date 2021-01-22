@@ -279,6 +279,9 @@ global stagedItemMap as IItemStack[][string] = {
     ],
     "哲学" : [
         //TODO
+    ],
+    "已移除" : [
+        <avaritia:extreme_crafting_table>
     ]
 };
 

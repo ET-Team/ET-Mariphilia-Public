@@ -2,7 +2,6 @@
     "registryname": "big_melter",
     "localizedname": "大型熔炼炉",
     "color" : "BB9A15",
-    "requires-blueprint": true,
     "parts": [
         {
             "x": -1,

@@ -239,9 +239,9 @@ function addRecipes(){
             "lead" : 10 to 60,
             "dawnstone" : 10 to 60
         });
-    Alchemy.add(<minecraft:end_stone>*2,
+    Alchemy.add(<minecraft:end_stone>*8,
         [
-            <ore:nuggetZeroAshMetal>,
+            <ore:ingotZeroAshMetal>,
             <ore:stone>,
             <ore:stone>,
             <item:minecraft:ender_pearl>,
@@ -251,6 +251,21 @@ function addRecipes(){
             "silver" : 3 to 8,
             "lead" : 5 to 12,
             "dawnstone" : 5 to 12
+        });
+    Alchemy.add(<atum:scarab>,
+        [
+            <ore:plateBiopolymerMaterial>,
+            <ore:ingotGold>,
+            <ore:ingotGold>,
+            <ore:gemEmerald>,
+            <ore:gemEmerald>
+        ],
+        {
+            "silver" : 12 to 84,
+            "lead" : 52 to 96,
+            "dawnstone" : 63 to 96,
+            "gold" : 65 to 78,
+            "iron" : 18 to 42
         });
         //}
     //}

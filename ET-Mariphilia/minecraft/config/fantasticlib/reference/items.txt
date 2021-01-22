@@ -1750,6 +1750,7 @@ contenttweaker:thermal_data
 contenttweaker:electricity_data
 contenttweaker:compact_ash
 contenttweaker:electricity_meter
+contenttweaker:heart_of_atum
 contenttweaker:advanced_motor
 contenttweaker:basic_transmission
 contenttweaker:biodata_zombie
