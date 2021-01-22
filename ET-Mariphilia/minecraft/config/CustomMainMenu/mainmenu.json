@@ -4,10 +4,12 @@
         "title":
         {
             "image" : "etm:minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "posX" : -180,
+            "posY" : 20,
+            "width" : 384,
+            "height" : 86,
+            "imageWidth": "1024",
+            "imageHeight": "256",
             "alignment" : "top_center"
         }
     },

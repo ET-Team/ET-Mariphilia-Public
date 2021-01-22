@@ -9,3 +9,6 @@ setAsDefaultWorldType()
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
 layerGeneratorExample = registerPreset("灰烬之舟", "images/ship", "天降一叶扁舟于斯人，君当何处？")
 layerGeneratorExample.registerDimension(0, "examples/Layer_Generator")
+
+layerGeneratorExample = registerPreset("Ship Of The Ashes", "images/ship", "天降一叶扁舟于斯人，君当何处？")
+layerGeneratorExample.registerDimension(0, "examples/Layer_Generator")
