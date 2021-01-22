@@ -1,0 +1,24 @@
+{
+  "_name": "pharaoh",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+    {
+      "function" : "all",
+      "functions" : [
+        {
+          "function": "modifier",
+          "attribute": "generic.maxHealth",
+          "value": 8.0,
+          "operator": 1
+        },
+        {
+          "function": "modifier",
+          "attribute": "generic.attack_damage",
+          "value": 1.0,
+          "operator": 1
+        }
+      ]
+    }
+  ]
+}

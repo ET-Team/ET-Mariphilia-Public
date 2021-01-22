@@ -13,4 +13,5 @@ function init(){
     this.turbo.init();
     this.centrifuge.init();
     this.electric_coil.init();
+    this.subdimensional_well.init();
 }

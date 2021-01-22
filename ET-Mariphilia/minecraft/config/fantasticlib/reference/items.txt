@@ -1743,6 +1743,7 @@ contenttweaker:advanced_sensor
 contenttweaker:obsolete_can
 contenttweaker:biodata_wheat
 contenttweaker:pressure_meter
+contenttweaker:medicine
 contenttweaker:obsolete_battery
 contenttweaker:jet_data
 contenttweaker:thermal_data

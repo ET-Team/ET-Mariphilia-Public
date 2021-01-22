@@ -1,0 +1,235 @@
+{
+  "_name": "barbarian",
+  "drops": [],
+  "pre_stats": [],
+  "stats": [
+        {
+                  "_comment": "Ò°ÂùÈË???",
+                  "function": "choose",
+                  "functions": [
+                        {
+                                "_comment": "Lv.1Ò°ÂùÈË 50%",
+                                "function": "all",
+                                "weight": 5000,
+                                "functions": [
+                                {
+                                        "_comment": "Ò°ÂùÈË???",
+                                        "function": "name",
+                                        "value": "¡ìfLv.1Ò°ÂùÈË"
+                                },
+                                {
+                                        "_comment": "é‡Žè›®äººé‡Žè›?äº????",
+                                        "function": "nbt",
+                                        "tags": [
+                                        {
+                                                "function": "byte",
+                                                "name": "CustomNameVisible",
+                                                "value": 1
+                                        }
+                                                        ]
+                                }
+                                        ]
+                    },
+                        {
+                                "_comment": "Lv.2Ò°ÂùÈË 30%",
+                                "function": "all",
+                                "weight": 3000,
+                                "functions": [
+                                {
+                                        "_comment": "?????",
+                                        "function": "potion",
+                                        "id": "potion.damageBoost",
+                                        "amplifier": 0,
+                                        "ambient": false
+                                },
+                                {
+                                        "_comment": "Ò°ÂùÈË???",
+                                        "function": "name",
+                                        "value": "¡ìfLv.2Ò°ÂùÈË"
+                                },
+                                {
+                                        "_comment": "????20%?????",
+                                        "function": "modifier",
+                                        "attribute": "generic.maxHealth",
+                                        "value": 1.0,
+                                        "operator": 1
+                                },
+                                {
+                                        "_comment": "é‡Žè›®äººé‡Žè›?äº????",
+                                        "function": "nbt",
+                                        "tags": [
+                                        {
+                                                "function": "byte",
+                                                "name": "CustomNameVisible",
+                                                "value": 1
+                                        }
+                                                        ]
+                                }
+                                        ]
+                    },
+                        {
+                                "_comment": "Lv.3Ò°ÂùÈË 12%",
+                                "function": "all",
+                                "weight": 1200,
+                                "functions": [
+                                {
+                                        "_comment": "?????",
+                                        "function": "potion",
+                                        "id": "potion.damageBoost",
+                                        "amplifier": 0,
+                                        "ambient": false
+                                },
+                                {
+                                        "_comment": "????",
+                                        "function": "potion",
+                                        "id": "potion.moveSpeed",
+                                        "amplifier": 0,
+                                        "ambient": false
+                                },
+                                {
+                                        "_comment": "Ò°ÂùÈË???",
+                                        "function": "name",
+                                        "value": "¡ìfLv.3Ò°ÂùÈË"
+                                },
+                                {
+                                        "_comment": "????35%?????",
+                                        "function": "modifier",
+                                        "attribute": "generic.maxHealth",
+                                        "value": 2.0,
+                                        "operator": 1
+                                },
+                                {
+                                        "_comment": "é‡Žè›®äººé‡Žè›?äº????",
+                                        "function": "nbt",
+                                        "tags": [
+                                        {
+                                                "function": "byte",
+                                                "name": "CustomNameVisible",
+                                                "value": 1
+                                        }
+                                                        ]
+                                }
+                                        ]
+                    },
+                        {
+                                "_comment": "Lv.4Ò°ÂùÈË 5%",
+                                "function": "all",
+                                "weight": 500,
+                                "functions": [
+                                {
+                                        "_comment": "?????",
+                                        "function": "potion",
+                                        "id": "potion.damageBoost",
+                                        "amplifier": 0,
+                                        "ambient": false
+                                },
+                                {
+                                        "_comment": "????",
+                                        "function": "potion",
+                                        "id": "potion.moveSpeed",
+                                        "amplifier": 1,
+                                        "ambient": false
+                                },
+                                {
+                                        "_comment": "Ò°ÂùÈË???",
+                                        "function": "name",
+                                        "value": "¡ìfLv.4Ò°ÂùÈË"
+                                },
+                                {
+                                        "_comment": "????50%?????",
+                                        "function": "modifier",
+                                        "attribute": "generic.maxHealth",
+                                        "value": 3.0,
+                                        "operator": 1
+                                },
+                                {
+                                        "_comment": "é‡Žè›®äººé‡Žè›?äº????",
+                                        "function": "nbt",
+                                        "tags": [
+                                        {
+                                                "function": "byte",
+                                                "name": "CustomNameVisible",
+                                                "value": 1
+                                        }
+                                                        ]
+                                }
+                                        ]
+                    },
+                        {
+                                "_comment": "Lv.5Ò°ÂùÈË 3%",
+                                "function": "all",
+                                "weight": 300,
+                                "functions": [
+                                {
+                                        "_comment": "Ò°ÂùÈË",
+                                        "function": "equip",
+                                        "id": "minecraft:diamond_helmet",
+                                        "slot": 4
+                                },
+                                {
+                                        "_comment": "Ò°ÂùÈË",
+                                        "function": "equip",
+                                        "id": "minecraft:diamond_chestplate",
+                                        "slot": 3
+                                },
+                                {
+                                        "_comment": "Ò°ÂùÈË?",
+                                        "function": "equip",
+                                        "id": "minecraft:diamond_leggings",
+                                        "slot": 2
+                                },
+                                {
+                                        "_comment": "Ò°ÂùÈË",
+                                        "function": "equip",
+                                        "id": "minecraft:diamond_boots",
+                                        "slot": 1
+                                },
+                                {
+                                        "_comment": "?????",
+                                        "function": "equip",
+                                        "id": "minecraft:diamond_sword",
+                                        "slot": 0
+                                },
+                                {
+                                        "_comment": "Ò°ÂùÈË",
+                                        "function": "potion",
+                                        "id": "potion.damageBoost",
+                                        "amplifier": 1,
+                                        "ambient": false
+                                },
+                                {
+                                        "_comment": "????",
+                                        "function": "potion",
+                                        "id": "potion.moveSpeed",
+                                        "amplifier": 1,
+                                        "ambient": false
+                                },
+                                {
+                                        "_comment": "Ò°ÂùÈË???",
+                                        "function": "name",
+                                        "value": "¡ìfLv.5Ò°ÂùÈË"
+                                },
+                                {
+                                        "_comment": "????120%?????",
+                                        "function": "modifier",
+                                        "attribute": "generic.maxHealth",
+                                        "value": 4.0,
+                                        "operator": 1
+                                },
+                                {
+                                        "_comment": "é‡Žè›®äººé‡Žè›?äº????",
+                                        "function": "nbt",
+                                        "tags": [
+                                        {
+                                                "function": "byte",
+                                                "name": "CustomNameVisible",
+                                                "value": 1
+                                        }
+                                                        ]
+                                }
+                                        ]
+                    }
+                                ]
+                }
+                        ]
+}
