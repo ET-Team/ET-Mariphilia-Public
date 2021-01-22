@@ -12,7 +12,7 @@ static recipes as IItemStack[][int][IItemStack] = {
     <minecraft:coal>*32 : {20 : [<item:embers:dust_ash>*64,<item:embers:dust_ash>*64]},
     <ore:ingotDimensionalMetal>.firstItem*8 : {80 : [<ore:ingotPureNeptunium>.firstItem*4,<ore:ingotAshenMetal>.firstItem*8]},
     <woot:stygianirondust>*3 : {80 : [<minecraft:netherrack>,<minecraft:soul_sand>,<mekanism:dirtydust>]},
-    <ore:ingotYellorium>.firstItem : {20 : [<ore:dustYellorium>]}
+    <ore:ingotYellorium>.firstItem : {20 : [<ore:dustYellorium>.firstItem]}
 };
 
 function init(){
