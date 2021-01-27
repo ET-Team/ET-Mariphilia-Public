@@ -16,7 +16,7 @@
 		type: "item",
 		items: [{
 			item: "embers:catalyzer"
-		}],
+		}]
 	}],
 	rewards: [{
 		uid: "12f3b9f0",
