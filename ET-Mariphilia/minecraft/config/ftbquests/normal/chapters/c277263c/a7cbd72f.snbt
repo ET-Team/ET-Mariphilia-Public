@@ -17,7 +17,6 @@
 		items: [{
 			item: "embers:catalyzer"
 		}],
-		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "12f3b9f0",
