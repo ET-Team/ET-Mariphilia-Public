@@ -15,8 +15,9 @@
 		uid: "bb0db5b7",
 		type: "item",
 		items: [{
-			item: "embers:combustor"
-		}]
+			item: "embers:catalyzer"
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "12f3b9f0",
