@@ -15,7 +15,7 @@
 		uid: "bb0db5b7",
 		type: "item",
 		items: [{
-			item: "embers:combustor"
+			item: "embers:catalyzer"
 		}]
 	}],
 	rewards: [{
