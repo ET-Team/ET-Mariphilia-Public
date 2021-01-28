@@ -33,5 +33,5 @@ global paramFishingRod as IItemStack = <minecraft:fishing_rod>.withTag({ench: [{
 global paramEnableRemedyRecipeForAsh as bool = false;
 global paramAlchemyPestalAmount as int = 1;
 global paramToolPartAmount as int = 1;
-//超频时间/每次用药
+// 超频时间/每次用药
 global paramOverclockTime as int = 240;
