@@ -179,7 +179,6 @@ function init(){
 
     ResearchTable.builder("进阶材料学", c)
         .setRequiredResearches("进阶物流学","基础怪物学")
-        .setRequiredStages("第三章")
         .setIcons(<ore:ingotCompressedAshMetal>.firstItem)
         .setTitle("etm.research.advanced_materials_science.title")
         .setDescription("etm.research.advanced_materials_science.description")
