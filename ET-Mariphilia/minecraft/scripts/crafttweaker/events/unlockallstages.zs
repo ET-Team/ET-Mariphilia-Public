@@ -1,3 +1,5 @@
+#priority -800
+
 import crafttweaker.events.IEventManager;
 import crafttweaker.event.CommandEvent;
 import crafttweaker.player.IPlayer;
@@ -29,17 +31,19 @@ static allStages as string[] = [
 	"哲学",
 ];
 
-events.onCommand(function(event as CommandEvent){
-    if (event.commandSender.world.remote && !event.commandSender instanceof IPlayer) {
-        return;
-    }
-    if (event.command.name == "gamestage" && (event.parameters in "add"||event.parameters in "silentadd") && (event.parameters in "allstages")) {
-        event.cancel() ;
-        var player as IPlayer = event.commandSender;
-        for stage in allStages{
-            player.addGameStage(stage);
-        }
-		player.executeCommand("title @s title {\"text\":\"已解锁全部阶段\",\"bold\":true}");
-		player.executeCommand("playsound minecraft:ui.toast.challenge_complete player @s");
-    }
-});
+function init(){
+	events.onCommand(function(event as CommandEvent){
+	    if (event.commandSender.world.remote && !event.commandSender instanceof IPlayer) {
+	        return;
+	    }
+	    if (event.command.name == "gamestage" && (event.parameters in "add"||event.parameters in "silentadd") && (event.parameters in "allstages")) {
+	        event.cancel() ;
+	        var player as IPlayer = event.commandSender;
+	        for stage in allStages{
+	            player.addGameStage(stage);
+	        }
+			player.executeCommand("title @s title {\"text\":\"已解锁全部阶段\",\"bold\":true}");
+			player.executeCommand("playsound minecraft:ui.toast.challenge_complete player @s");
+	    }
+	});
+}
