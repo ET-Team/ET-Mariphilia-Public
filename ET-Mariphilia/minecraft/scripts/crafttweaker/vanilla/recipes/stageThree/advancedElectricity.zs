@@ -71,7 +71,7 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
         ],
          <contenttweaker:advanced_transmission>*2 : [
             [<ore:plateBiopolymerMaterial>,<ore:ingotPureNeptunium>,<ore:plateBiopolymerMaterial>],
-            [<ore:ingotPureNeptunium>,<mekanism:compressedobsidian>,<ore:ingotPureNeptunium>],
+            [<ore:ingotPureNeptunium>,<mekanism:reinforcedalloy>,<ore:ingotPureNeptunium>],
             [<ore:plateBiopolymerMaterial>,<ore:ingotPureNeptunium>,<ore:plateBiopolymerMaterial>]
         ]
     };
