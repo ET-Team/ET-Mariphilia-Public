@@ -101,11 +101,6 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
         <appliedenergistics2:memory_card> : [
             [<appliedenergistics2:material:23>,<ore:ingotAshenMetal>,<ore:ingotAshenMetal>],
             [<ore:ingotGold>,<mekanism:enrichedalloy>,<ore:ingotGold>]
-        ],
-        <contenttweaker:advanced_transmission>*2 : [
-            [<ore:plateBiopolymerMaterial>,<ore:ingotPureNeptunium>,<ore:plateBiopolymerMaterial>],
-            [<ore:ingotPureNeptunium>,<ore:pearlFluix>,<ore:ingotPureNeptunium>],
-            [<ore:plateBiopolymerMaterial>,<ore:ingotPureNeptunium>,<ore:plateBiopolymerMaterial>]
         ]
 
     };

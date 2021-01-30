@@ -68,6 +68,11 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>],
             [<ore:nuggetSilver>,<ore:circuitAdvanced>,<ore:nuggetSilver>],
             [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>]
+        ],
+         <contenttweaker:advanced_transmission>*2 : [
+            [<ore:plateBiopolymerMaterial>,<ore:ingotPureNeptunium>,<ore:plateBiopolymerMaterial>],
+            [<ore:ingotPureNeptunium>,<mekanism:compressedobsidian>,<ore:ingotPureNeptunium>],
+            [<ore:plateBiopolymerMaterial>,<ore:ingotPureNeptunium>,<ore:plateBiopolymerMaterial>]
         ]
     };
 
