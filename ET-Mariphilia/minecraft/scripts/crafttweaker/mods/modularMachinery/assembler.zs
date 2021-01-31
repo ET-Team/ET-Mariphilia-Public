@@ -562,9 +562,28 @@ static recipes as IItemStack[][int][int][IItemStack] = {
         160 : {
             500 : [<woot:shard:5>*6,<mekanism:controlcircuit:3>*2,<contenttweaker:basic_sensor>*2,<contenttweaker:material_part:120>*6,<embers:plate_gold>*4,<mekanism:teleportationcore>]
         }
+    },
+    <mekanism:basicblock:14> : {
+        50 : {
+            1000 : [<mekanism:basicblock2>*4,<mekanism:controlcircuit:2>*2,<contenttweaker:ember_triode>*8,<minecraft:glass>*4,<mekanism:basicblock:8>,<contenttweaker:basic_sensor>*6]
+        }
+    },
+    <mekanism:basicblock:15> : {
+        50 : {
+            500 : [<mekanism:basicblock2>*4,<mekanism:controlcircuit:2>,<contenttweaker:advanced_transmission>]
+        }
+    },
+    <mekanismgenerators:generator:5> : {
+        60 : {
+            200 : [<mekanismgenerators:generator:1>*4,<mekanism:basicblock:8>,<mekanism:controlcircuit:1>*2,<mekanism:enrichedalloy>*6]
+        }
+    },
+    <mekanism:machineblock:12> : {
+        60 : {
+            200 : [<contenttweaker:basic_transmission>,<mekanism:basicblock:8>,<minecraft:bucket>,<mekanism:controlcircuit:1>*2,<aquaculture:loot:1>*4]
+        }
     }
 
-    
 };
 
 function buildUltimateCircuitRecipe(){

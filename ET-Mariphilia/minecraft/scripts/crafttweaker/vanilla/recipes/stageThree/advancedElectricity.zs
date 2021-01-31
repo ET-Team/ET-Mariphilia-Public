@@ -18,6 +18,11 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<mekanism:gastank>,null,<mekanism:gastank>],
             [<mekanism:transmitter:2>,<mekanism:energytablet>,<mekanism:transmitter:2>],
             [<mekanism:controlcircuit:2>,<mekanism:basicblock:8>,<mekanism:controlcircuit:2>]
+        ],
+        <mekanism:basicblock2>*2 : [
+            [null,<ore:plateBronze>,null],
+            [<ore:plateBronze>,null,<ore:plateBronze>],
+            [null,<ore:plateBronze>,null]
         ]
 
     };
@@ -68,11 +73,6 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>],
             [<ore:nuggetSilver>,<ore:circuitAdvanced>,<ore:nuggetSilver>],
             [<ore:plateBronze>,<ore:plateBronze>,<ore:plateBronze>]
-        ],
-         <contenttweaker:advanced_transmission>*2 : [
-            [<ore:plateBiopolymerMaterial>,<ore:ingotPureNeptunium>,<ore:plateBiopolymerMaterial>],
-            [<ore:ingotPureNeptunium>,<mekanism:reinforcedalloy>,<ore:ingotPureNeptunium>],
-            [<ore:plateBiopolymerMaterial>,<ore:ingotPureNeptunium>,<ore:plateBiopolymerMaterial>]
         ]
     };
 
