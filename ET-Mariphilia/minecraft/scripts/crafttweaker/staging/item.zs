@@ -209,7 +209,8 @@ global stagedItemMap as IItemStack[][string] = {
     ],
     "基础电学" : [
         <item:openblocks:elevator>,
-        <item:openblocks:elevator_rotating>
+        <item:openblocks:elevator_rotating>,
+        <appliedenergistics2:material>
     ],
     "自动化" : [
         <item:openblocks:auto_anvil>,
