@@ -40,7 +40,7 @@ function init(){
 		if (event.command.name == "gamestage" && (event.parameters in "add") && (event.parameters in "allstages")) {
 			if (!player.creative) {
 			event.cancel();
-			player.sendRichTextStatusMessage(format.red("非创造模式无法使用此指令!") , false);
+			player.sendMessage("非创造模式无法使用此指令!");
 			return;
 			}
 			event.cancel();
