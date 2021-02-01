@@ -25,7 +25,7 @@ static recipes as IItemStack[][int][int][IItemStack] = {
     },
     <appliedenergistics2:chest> : {
         50 : {
-            150 : [<appliedenergistics2:part:160>,<appliedenergistics2:quartz_glass>*2,<contenttweaker:material_part:66>*4,<appliedenergistics2:material:9>]
+            150 : [<appliedenergistics2:part:180>,<appliedenergistics2:quartz_glass>*2,<contenttweaker:material_part:66>*4,<appliedenergistics2:material:9>]
         }
     },
     <appliedenergistics2:part:140>*2 : {
