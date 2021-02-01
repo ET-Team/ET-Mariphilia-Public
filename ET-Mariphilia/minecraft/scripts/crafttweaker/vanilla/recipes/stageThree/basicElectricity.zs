@@ -43,6 +43,11 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [null,<ore:plateIron>,null],
             [<ore:plateIron>,<ore:ingotIron>,<ore:plateIron>],
             [null,<ore:plateIron>,null]
+        ],
+        <mekanism:basicblock:4> : [
+            [<mekanism:ingot:3>,<mekanism:ingot:3>,<mekanism:ingot:3>],
+            [<mekanism:ingot:3>,<mekanism:ingot:3>,<mekanism:ingot:3>],
+            [<mekanism:ingot:3>,<mekanism:ingot:3>,<mekanism:ingot:3>]
         ]
         
         
@@ -59,6 +64,7 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
 
     //无序合成
     static shapelessRecipes as IIngredient[][IItemStack] = {
+        <mekanism:ingot:3>*9 : [<mekanism:basicblock:4>]
         
     };
 //超频配方
