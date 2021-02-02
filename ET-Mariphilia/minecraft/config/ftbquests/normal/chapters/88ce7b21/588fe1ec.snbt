@@ -9,6 +9,7 @@
 		type: "item",
 		items: [{
 			item: "woot:controller"
-		}]
+		}],
+		ignore_nbt: 1b
 	}]
 }
