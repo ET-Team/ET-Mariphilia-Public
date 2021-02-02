@@ -286,7 +286,7 @@ global stagedItemMap as IItemStack[][string] = {
     ]
 };
 
-static allStages as string[] = [
+var allStages as string[] = [
 	"one",
 	"灰烬学",
 	"基础材料学",
@@ -310,7 +310,7 @@ static allStages as string[] = [
 	"标准灰烬学",
 	"标准怪物学",
 	"夸克材料学",
-	"哲学",
+	"哲学"
 ];
 
 global stagedOreDictMap as string[][string] = {
