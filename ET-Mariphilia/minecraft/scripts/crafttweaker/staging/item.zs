@@ -2,6 +2,8 @@
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDictEntry;
 import mods.ItemStages.addItemStage;
+import mods.recipestages.Recipes;
+
 global stagedItemMap as IItemStack[][string] = {
     "灰烬学" : [
         <embers:ember_funnel>,
