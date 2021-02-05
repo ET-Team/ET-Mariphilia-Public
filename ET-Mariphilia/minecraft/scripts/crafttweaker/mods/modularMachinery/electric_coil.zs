@@ -5,7 +5,7 @@ static machine_name as string = "electric_coil";
 function init(){
     mods.modularmachinery.RecipeBuilder.newBuilder(machine_name+"_data", machine_name, 100)
         .addEnergyPerTickInput(1000)
-        .addItemInput(<ore:ingotCompressedAshenMetal>.firstItem)
+        .addItemInput(<ore:ingotCompressedAshMetal>.firstItem)
         .addItemInput(<item:contenttweaker:electricity_meter>)
         .addItemOutput(<item:contenttweaker:electricity_data>)
         .build();
