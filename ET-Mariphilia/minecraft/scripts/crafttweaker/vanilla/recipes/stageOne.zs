@@ -386,6 +386,16 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     <minecraft:clay> : [
         [<minecraft:clay_ball>,<minecraft:clay_ball>],
         [<minecraft:clay_ball>,<minecraft:clay_ball>]
+    ],
+    <minecraft:diamond_block> : [
+        [<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>],
+        [<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>],
+        [<minecraft:diamond>,<minecraft:diamond>,<minecraft:diamond>]
+    ],
+    <minecraft:emerald_block> : [
+        [<minecraft:emerald>,<minecraft:emerald>,<minecraft:emerald>],
+        [<minecraft:emerald>,<minecraft:emerald>,<minecraft:emerald>],
+        [<minecraft:emerald>,<minecraft:emerald>,<minecraft:emerald>]
     ]
 };
 
@@ -512,7 +522,11 @@ static shapelessRecipes as IIngredient[][IItemStack] = {
 
     <embers:dust_ember> : [<embers:shard_ember>,<embers:tinker_hammer>.reuse()],
 
-    <minecraft:clay_ball>*4 : [<minecraft:clay>]
+    <minecraft:clay_ball>*4 : [<minecraft:clay>],
+
+    <minecraft:diamond>*9 : [<ore:blockDiamond>],
+
+    <minecraft:emerald>*9 : [<ore:blockEmerald>]
 };
 
 //添加配方
