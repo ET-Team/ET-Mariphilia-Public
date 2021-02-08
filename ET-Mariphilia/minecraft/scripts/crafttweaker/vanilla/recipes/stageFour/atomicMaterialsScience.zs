@@ -9,6 +9,11 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
 //非超频配方
     //有序合成
     static shapedRecipes as IIngredient[][][IItemStack] = {
+        <contenttweaker:sub_block_holder_0> : [
+            [<contenttweaker:material_part:80>,<contenttweaker:material_part:80>,<contenttweaker:material_part:80>],
+            [<contenttweaker:material_part:80>,<contenttweaker:material_part:80>,<contenttweaker:material_part:80>],
+            [<contenttweaker:material_part:80>,<contenttweaker:material_part:80>,<contenttweaker:material_part:80>]
+        ]
         
     };
 
@@ -19,7 +24,7 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
 
     //无序合成
     static shapelessRecipes as IIngredient[][IItemStack] = {
-        
+        <contenttweaker:material_part:80>*9 :[<contenttweaker:sub_block_holder_0>]
     };
 //超频配方
     //有序合成
