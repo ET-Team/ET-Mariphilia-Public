@@ -130,6 +130,16 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<embers:archaic_brick>,<embers:archaic_brick>,<embers:archaic_brick>],
         [<embers:archaic_brick>,<embers:glimmer_lamp>,<embers:archaic_brick>],
         [<embers:archaic_brick>,<embers:archaic_brick>,<embers:archaic_brick>]
+    ],
+    <modularmachinery:blockenergyinputhatch:4> : [
+        [<contenttweaker:material_part:66>,<mekanism:energycube>,<contenttweaker:material_part:66>],
+        [<mekanism:controlcircuit:2>,<modularmachinery:blockenergyinputhatch:3>,<mekanism:controlcircuit:2>],
+        [<contenttweaker:material_part:66>,<contenttweaker:material_part:115>,<contenttweaker:material_part:66>]
+    ],
+    <modularmachinery:blockenergyinputhatch:5> : [
+        [<contenttweaker:material_part:66>,<mekanism:energycube>,<contenttweaker:material_part:66>],
+        [<mekanism:controlcircuit:3>,<modularmachinery:blockenergyinputhatch:4>,<mekanism:controlcircuit:3>],
+        [<contenttweaker:material_part:66>,<contenttweaker:material_part:122>,<contenttweaker:material_part:66>]
     ]
 };
 

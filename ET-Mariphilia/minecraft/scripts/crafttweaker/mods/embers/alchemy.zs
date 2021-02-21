@@ -264,7 +264,6 @@ function addRecipes(){
             "silver" : 12 to 84,
             "lead" : 52 to 96,
             "dawnstone" : 63 to 96,
-            "gold" : 65 to 78,
             "iron" : 18 to 42
         });
         //}

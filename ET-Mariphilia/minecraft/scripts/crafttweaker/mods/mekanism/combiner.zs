@@ -31,6 +31,9 @@ static recipes as IIngredient[IIngredient][IItemStack] = {
     },
     <ore:ingotZeroAshMetal>.firstItem : {
         <ore:ingotCompressedAshMetal> : <ore:ingotMithril>
+    },
+    <bigreactors:ingotblutonium>*2 : {
+        <bigreactors:dustcyanite>*2 : <contenttweaker:material_part:115>
     }
 
 };

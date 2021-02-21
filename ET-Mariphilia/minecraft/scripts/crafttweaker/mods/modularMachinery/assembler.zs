@@ -505,7 +505,7 @@ static recipes as IItemStack[][int][int][IItemStack] = {
     },
     <bigreactors:reactorcoolantport> : {
         100 : {
-            60 : [<mekanism:controlcircuit:3>*2,<contenttweaker:advanced_transmission>,<bigreactors:reactorcasing>*4,<mekanism:transmitter:2>*4,<bigreactors:ingotcyanite>*2]
+            60 : [<mekanism:controlcircuit:3>*2,<contenttweaker:advanced_transmission>,<bigreactors:reactorcasing>*4,<mekanism:transmitter:2>*4,<bigreactors:ingotblutonium>*2]
         }
     },
     <bigreactors:turbinehousing> : {
@@ -520,7 +520,7 @@ static recipes as IItemStack[][int][int][IItemStack] = {
     },
     <bigreactors:turbinehousingcores>*4 : {
         100 : {
-            60 : [<contenttweaker:material_part:78>*6,<contenttweaker:material_part:99>*2,<bigreactors:ingotcyanite>*4]
+            60 : [<contenttweaker:material_part:78>*6,<contenttweaker:material_part:99>*2,<bigreactors:ingotblutonium>*4]
         }
     },
     <bigreactors:turbinebearing> : {
@@ -530,7 +530,7 @@ static recipes as IItemStack[][int][int][IItemStack] = {
     },
     <bigreactors:turbinecontroller> : {
         600 : {
-            300 : [<appliedenergistics2:part:180>,<bigreactors:turbinehousing>*4,<mekanism:controlcircuit:3>*6,<bigreactors:ingotcyanite>*4,<contenttweaker:basic_sensor>*6]
+            300 : [<appliedenergistics2:part:180>,<bigreactors:turbinehousing>*4,<mekanism:controlcircuit:3>*6,<bigreactors:ingotblutonium>*4,<contenttweaker:basic_sensor>*6]
         }
     },
     <bigreactors:turbinepowertaprf> : {

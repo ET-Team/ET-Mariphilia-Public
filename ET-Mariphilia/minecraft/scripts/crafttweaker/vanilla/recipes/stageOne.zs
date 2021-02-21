@@ -396,6 +396,11 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<minecraft:emerald>,<minecraft:emerald>,<minecraft:emerald>],
         [<minecraft:emerald>,<minecraft:emerald>,<minecraft:emerald>],
         [<minecraft:emerald>,<minecraft:emerald>,<minecraft:emerald>]
+    ],
+    <minecraft:stained_glass_pane:15>*8 : [
+        [<minecraft:glass_pane>,<minecraft:glass_pane>,<minecraft:glass_pane>],
+        [<minecraft:glass_pane>,<minecraft:dye>,<minecraft:glass_pane>],
+        [<minecraft:glass_pane>,<minecraft:glass_pane>,<minecraft:glass_pane>]
     ]
 };
 
