@@ -34,7 +34,11 @@ static recipes as IIngredient[IIngredient][IItemStack] = {
     },
     <bigreactors:ingotblutonium>*2 : {
         <bigreactors:dustcyanite>*2 : <contenttweaker:material_part:115>
+    },
+    <avaritia:resource:1> : {
+        <ore:ingotPureNeptunium>.firstItem : <ore:ingotZeroAshMetal>.firstItem
     }
+
 
 };
 
