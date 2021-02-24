@@ -37,6 +37,9 @@ static recipes as IIngredient[IIngredient][IItemStack] = {
     },
     <avaritia:resource:1> : {
         <ore:ingotPureNeptunium>.firstItem : <ore:ingotZeroAshMetal>.firstItem
+    },
+    <avaritia:resource:6> : {
+        <contenttweaker:material_part:108> : <avaritia:resource:5>
     }
 
 

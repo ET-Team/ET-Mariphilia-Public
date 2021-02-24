@@ -266,6 +266,20 @@ function addRecipes(){
             "dawnstone" : 63 to 96,
             "iron" : 18 to 42
         });
+    Alchemy.add(<avaritia:resource:5>,
+        [
+            <aquaculture:fish:11>,
+            <ore:ingotCrystalMatrix>,
+            <ore:ingotSuperconductium>,
+            <bigreactors:ingotblutonium>,
+            <woot:shard:6>
+        ],
+        {
+            "silver" : 800 to 900,
+            "lead" : 800 to 900,
+            "dawnstone" : 900 to 963,
+            "iron" : 400 to 600
+        });
         //}
     //}
 }
