@@ -582,6 +582,21 @@ static recipes as IItemStack[][int][int][IItemStack] = {
         60 : {
             200 : [<contenttweaker:basic_transmission>,<mekanism:basicblock:8>,<minecraft:bucket>,<mekanism:controlcircuit:1>*2,<aquaculture:loot:1>*4]
         }
+    },
+    <appliedenergistics2:spatial_storage_cell_2_cubed> : {
+        100 : {
+            500 : [<appliedenergistics2:material:32>,<contenttweaker:ember_triode>,<appliedenergistics2:material:39>]
+        }
+    },
+    <appliedenergistics2:spatial_storage_cell_16_cubed> : {
+        100 : {
+            500 : [<appliedenergistics2:material:33>,<contenttweaker:ember_triode>,<appliedenergistics2:material:39>]
+        }
+    },
+    <appliedenergistics2:spatial_storage_cell_128_cubed> : {
+        100 : {
+            500 : [<appliedenergistics2:material:34>,<contenttweaker:ember_triode>,<appliedenergistics2:material:39>]
+        }
     }
 
 };

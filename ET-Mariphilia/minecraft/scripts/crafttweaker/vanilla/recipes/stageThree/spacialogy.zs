@@ -13,11 +13,6 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<ore:alloyAdvanced>,<ore:circuitElite>,<ore:alloyAdvanced>],
             [<ore:ingotDimensionalMetal>,<ore:ingotDimensionalMetal>,<ore:ingotDimensionalMetal>]
         ],
-        <appliedenergistics2:spatial_storage_cell_2_cubed> : [
-            [<ore:nuggetDimensionalMetal>,<ore:ingotOsmium>,<ore:nuggetDimensionalMetal>],
-            [<ore:ingotOsmium>,<appliedenergistics2:material:35>,<ore:ingotOsmium>],
-            [<ore:nuggetDimensionalMetal>,<ore:ingotOsmium>,<ore:nuggetDimensionalMetal>]
-        ],
         <mekanism:basicblock:7>*2 : [
             [<ore:plateBiopolymerMaterial>,<ore:ingotDimensionalMetal>,<ore:plateBiopolymerMaterial>],
             [<ore:ingotDimensionalMetal>,<mekanism:basicblock:4>,<ore:ingotDimensionalMetal>],
@@ -32,6 +27,11 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<ore:nuggetDimensionalMetal>,<ore:nuggetDimensionalMetal>,<ore:nuggetDimensionalMetal>],
             [<ore:nuggetDimensionalMetal>,<mekanism:portableteleporter>,<ore:nuggetDimensionalMetal>],
             [<ore:nuggetDimensionalMetal>,<ore:nuggetDimensionalMetal>,<ore:nuggetDimensionalMetal>]
+        ],
+        <appliedenergistics2:material:32> : [
+            [<contenttweaker:material_part:92>,<contenttweaker:material_part:122>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:122>,<appliedenergistics2:material:9>,<contenttweaker:material_part:122>],
+            [<contenttweaker:material_part:92>,<contenttweaker:material_part:122>,<contenttweaker:material_part:92>]
         ]
     };
 
@@ -47,20 +47,20 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
 //超频配方
     //有序合成
     static shapedRecipesOverclocked as IIngredient[][][IItemStack] = {
-        <appliedenergistics2:spatial_storage_cell_16_cubed> : [
-            [<ore:nuggetDimensionalMetal>,<ore:ingotOsmium>,<ore:nuggetDimensionalMetal>],
-            [<ore:ingotOsmium>,<appliedenergistics2:material:37>,<ore:ingotOsmium>],
-            [<ore:nuggetDimensionalMetal>,<ore:ingotOsmium>,<ore:nuggetDimensionalMetal>]
-        ],
-        <appliedenergistics2:spatial_storage_cell_128_cubed> : [
-            [<ore:ingotDimensionalMetal>,<ore:ingotOsmium>,<ore:ingotDimensionalMetal>],
-            [<ore:ingotOsmium>,<appliedenergistics2:material:38>,<ore:ingotOsmium>],
-            [<ore:ingotDimensionalMetal>,<ore:ingotOsmium>,<ore:ingotDimensionalMetal>]
-        ],
         <mekanism:machineblock3> : [
             [<item:mekanism:teleportationcore>,<ore:circuitUltimate>,<item:mekanism:teleportationcore>],
             [<ore:plateCompressedAshMetal>,<mekanism:basicblock:7>,<ore:plateCompressedAshMetal>],
             [<item:mekanism:teleportationcore>,<ore:circuitUltimate>,<item:mekanism:teleportationcore>]
+        ],
+        <appliedenergistics2:material:33> : [
+            [<contenttweaker:material_part:120>,<appliedenergistics2:material:32>,<contenttweaker:material_part:120>],
+            [<appliedenergistics2:material:32>,<appliedenergistics2:material:24>,<appliedenergistics2:material:32>],
+            [<contenttweaker:material_part:120>,<appliedenergistics2:material:32>,<contenttweaker:material_part:120>]
+        ],
+        <appliedenergistics2:material:34> : [
+            [<contenttweaker:material_part:120>,<appliedenergistics2:material:33>,<contenttweaker:material_part:120>],
+            [<appliedenergistics2:material:33>,<appliedenergistics2:material:24>,<appliedenergistics2:material:33>],
+            [<contenttweaker:material_part:120>,<appliedenergistics2:material:33>,<contenttweaker:material_part:120>]
         ]
     };
 
