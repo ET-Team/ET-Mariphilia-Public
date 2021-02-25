@@ -1,9 +1,14 @@
 {
 	x: 5.0d,
 	y: 0.0d,
+	shape: "rsquare",
+	text: [
+		"恭喜，大师，您已成功到达了灰烬之舟的尽头，请允许我，代表ET-Team，向您致以崇高的敬意"
+	],
 	dependencies: [
 		"8e52e4c3"
 	],
+	size: 2.0d,
 	tasks: [{
 		uid: "712cbf32",
 		type: "item",

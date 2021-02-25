@@ -7,5 +7,5 @@ function init(){
     this.atomicMaterialsScience.init();
     this.quarkMaterialsScience.init();
     this.HighEnergyPhysics.init();
-    
+    this.philosophy.init();
 }
