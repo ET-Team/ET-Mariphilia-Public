@@ -10,5 +10,8 @@ setAsDefaultWorldType()
 layerGeneratorExample = registerPreset("灰烬之舟", "images/ship", "天降一叶扁舟于斯人，君当何处？")
 layerGeneratorExample.registerDimension(0, "examples/Layer_Generator")
 
+layerExample = registerPreset("灰烬之舟(大型)", "images/big_ship", "升级版的初始船舶,为希望跳过钓鱼时间的急性子玩家准备")
+layerExample.registerDimension(0, "examples/Layer_Generator_1")
+
 layerGeneratorExample = registerPreset("Ship Of The Ashes", "images/ship", "天降一叶扁舟于斯人，君当何处？")
 layerGeneratorExample.registerDimension(0, "examples/Layer_Generator")
