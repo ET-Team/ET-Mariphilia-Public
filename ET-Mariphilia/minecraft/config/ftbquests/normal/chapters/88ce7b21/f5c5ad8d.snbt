@@ -1,10 +1,10 @@
 {
 	title: "电磁实验装置",
-	x: 45.0d,
-	y: 7.5d,
+	x: 44.96428571428572d,
+	y: 7.535714285714285d,
 	shape: "square",
 	dependencies: [
-		"97613a89"
+		"ec573f7e"
 	],
 	size: 2.0d,
 	tasks: [{
