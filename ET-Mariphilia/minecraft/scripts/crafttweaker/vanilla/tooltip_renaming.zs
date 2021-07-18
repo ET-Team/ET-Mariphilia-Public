@@ -3,6 +3,7 @@
 import crafttweaker.item.IIngredient;
 
 static toAdd as string[IIngredient] = {
+    <item:contenttweaker:rekindled_ash> : "右键可生火",
     <modulardiversity:blockemberinputhatch:0> : "余烬能量缓存：100",
     <modulardiversity:blockemberinputhatch:1> : "余烬能量缓存：800",
     <modulardiversity:blockemberinputhatch:2> : "余烬能量缓存：4000",
