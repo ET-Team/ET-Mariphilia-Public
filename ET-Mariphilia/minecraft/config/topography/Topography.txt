@@ -7,7 +7,7 @@ printDocumentation(false)
 setAsDefaultWorldType()
 
 //Registers a preset. First argument is name, second is the image name, third is a description, fourth is WorldType, fifth is generator options Json.
-layerGeneratorExample = registerPreset("灰烬之舟", "images/ship", "天降一叶扁舟于斯人，君当何处？")
+layerGeneratorExample = registerPreset("灰烬之舟", "images/ship", "天降一叶扁舟于斯人，君当何处？\n注：初始能量有限，请尽量以熔炉为第一目标游玩，切勿浪费灰烬。")
 layerGeneratorExample.registerDimension(0, "examples/Layer_Generator")
 
 layerExample = registerPreset("灰烬之舟(大型)", "images/big_ship", "升级版的初始船舶,为希望跳过钓鱼时间的急性子玩家准备")
