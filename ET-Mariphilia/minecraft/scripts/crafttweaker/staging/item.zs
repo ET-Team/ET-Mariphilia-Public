@@ -66,8 +66,6 @@ global stagedItemMap as IItemStack[][string] = {
         <inspirations:redstone_torch_lever>,
         <inspirations:collector>,
         <contenttweaker:ember_diode>,
-        <embers:ember_gauge>,
-        <embers:fluid_gauge>,
         <embers:ember_detector>,
         <embers:field_chart>
     ],

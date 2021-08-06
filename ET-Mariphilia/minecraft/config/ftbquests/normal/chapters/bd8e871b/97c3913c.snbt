@@ -1,0 +1,25 @@
+{
+	x: 21.5d,
+	y: 7.5d,
+	text: [
+		"制作灰烬能量计量表",
+		"",
+		"将它贴在机器上，来查看内部的能量缓存"
+	],
+	dependencies: [
+		"5a94dd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "33260233",
+		type: "item",
+		items: [{
+			item: "embers:ember_gauge"
+		}]
+	}],
+	rewards: [{
+		uid: "63ed731c",
+		type: "item",
+		item: "embers:crystal_ember"
+	}]
+}

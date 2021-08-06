@@ -1,0 +1,25 @@
+{
+	x: 20.0d,
+	y: 9.0d,
+	text: [
+		"制作流体计量表",
+		"",
+		"将它贴在流体容器上，来查看内部的容量缓存"
+	],
+	dependencies: [
+		"5a94dd10"
+	],
+	hide: true,
+	tasks: [{
+		uid: "3af7d190",
+		type: "item",
+		items: [{
+			item: "embers:fluid_gauge"
+		}]
+	}],
+	rewards: [{
+		uid: "1fb3b844",
+		type: "item",
+		item: "embers:crystal_ember"
+	}]
+}
