@@ -19,7 +19,16 @@ static recipes as IIngredient[][IItemStack] = {
     <contenttweaker:material_part:120> : [<contenttweaker:material_part:122>,null],
     <ore:plateAshenMetal>.firstItem : [<ore:ingotAshenMetal>, null],
     <contenttweaker:material_part:78> : [<contenttweaker:material_part:80>,null],
-    <contenttweaker:material_part:99> : [<contenttweaker:material_part:101>,null]
+    <contenttweaker:material_part:99> : [<contenttweaker:material_part:101>,null],
+    <item:aquaculture:loot:1>*2 : [<item:aquaculture:neptunium_axe>,null],
+    <item:aquaculture:loot:1>*3 : [<item:aquaculture:neptunium_boots>,null],
+    <item:aquaculture:loot:1>*1 : [<item:aquaculture:neptunium_hoe>,null],
+    <item:aquaculture:loot:1>*2 : [<item:aquaculture:neptunium_pickaxe>,null],
+    <item:aquaculture:loot:1>*2 : [<item:aquaculture:neptunium_sword>,null],
+    <item:aquaculture:loot:1>*1 : [<item:aquaculture:neptunium_shovel>,null],
+    <item:aquaculture:loot:1>*5 : [<item:aquaculture:neptunium_chestplate>,null],
+    <item:aquaculture:loot:1>*3 : [<item:aquaculture:neptunium_helmet>,null],
+    <item:aquaculture:loot:1>*4 : [<item:aquaculture:neptunium_leggings>,null]
 };
 
 static breakDownRecipeRemoval as IIngredient[] = [
