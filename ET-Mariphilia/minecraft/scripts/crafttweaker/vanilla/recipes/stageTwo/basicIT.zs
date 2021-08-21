@@ -29,16 +29,6 @@ static stageName as string = "基础信号学";
         [<minecraft:redstone_torch>,<contenttweaker:ember_diode>,<minecraft:redstone_torch>],
         [<ore:stone>,<ore:stone>,<ore:stone>]
     ],
-    <embers:fluid_gauge> : [
-        [<minecraft:compass>],
-        [<ore:plateIron>],
-        [<contenttweaker:ember_diode>]
-    ],
-    <embers:ember_gauge> : [
-        [<minecraft:compass>],
-        [<ore:plateCopper>],
-        [<contenttweaker:ember_diode>]
-    ],
     <minecraft:redstone_torch> : [
         [<minecraft:redstone>],
         [<ore:stickWood>]
@@ -76,11 +66,6 @@ static stageName as string = "基础信号学";
         [<ore:blockCopper>,<embers:crystal_ember>,<ore:blockCopper>],
         [<contenttweaker:ember_diode>,<ore:blockGlass>,<contenttweaker:ember_diode>],
         [<ore:blockCopper>,<embers:crystal_ember>,<ore:blockCopper>]
-    ],
-    <embers:ember_gauge> : [
-        [null,<embers:crystal_ember>,null],
-        [<ore:nuggetAshenMetal>,<minecraft:compass>,<ore:nuggetAshenMetal>],
-        [null,<contenttweaker:ember_diode>,null]
     ],
     <embers:ember_detector> : [
         [<ore:ingotDawnstone>,<embers:ember_gauge>,<ore:ingotDawnstone>]

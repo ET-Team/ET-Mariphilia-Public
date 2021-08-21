@@ -62,6 +62,26 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<contenttweaker:material_part:71>,<contenttweaker:material_part:71>,null],
             [<mekanism:ingot:4>,<mekanism:ingot:4>,<contenttweaker:material_part:71>],
             [<contenttweaker:material_part:71>,<contenttweaker:material_part:71>,null]
+        ],
+        <stevescarts:cartmodule:22> : [
+            [<contenttweaker:material_part:92>,<contenttweaker:basic_sensor>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<contenttweaker:biodata_self>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<appliedenergistics2:material:23>,<contenttweaker:material_part:92>]
+        ],
+        <stevescarts:cartmodule:24> : [
+            [<contenttweaker:material_part:92>,<contenttweaker:basic_sensor>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<contenttweaker:biodata_zombie>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<appliedenergistics2:material:23>,<contenttweaker:material_part:92>]
+        ],
+        <stevescarts:cartmodule:21> : [
+            [<contenttweaker:material_part:92>,<contenttweaker:basic_sensor>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<minecraft:porkchop>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<appliedenergistics2:material:23>,<contenttweaker:material_part:92>]
+        ],
+        <stevescarts:cartmodule:23> : [
+            [<contenttweaker:material_part:92>,<contenttweaker:basic_sensor>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<minecraft:emerald>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<appliedenergistics2:material:23>,<contenttweaker:material_part:92>]
         ]
     };
 
@@ -72,6 +92,15 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<ore:ingotAshenMetal>,<embers:glimmer_shard>,<appliedenergistics2:quartz_glass>],
             [null,<contenttweaker:ember_diode>,<appliedenergistics2:quartz_glass>]
 
+        ],
+         <stevescarts:cartmodule:25> : [
+            [<ore:plankWood>,null,null],
+            [<ore:plankWood>,null,null],
+            [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]
+        ],
+        <stevescarts:cartmodule:26> : [
+            [<embers:crystal_ember>],
+            [<contenttweaker:material_part:95>]
         ]
 
     };

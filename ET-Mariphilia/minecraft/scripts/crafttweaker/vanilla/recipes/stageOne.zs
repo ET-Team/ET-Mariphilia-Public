@@ -401,6 +401,16 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
         [<minecraft:glass_pane>,<minecraft:glass_pane>,<minecraft:glass_pane>],
         [<minecraft:glass_pane>,<minecraft:dye>,<minecraft:glass_pane>],
         [<minecraft:glass_pane>,<minecraft:glass_pane>,<minecraft:glass_pane>]
+    ],
+    <embers:ember_gauge> : [
+        [null,<ore:plateCopper>,null],
+        [<ore:plateCopper>,<embers:crystal_ember>,<ore:plateCopper>],
+        [null,<ore:plateCopper>,null]
+    ],
+    <embers:fluid_gauge> : [
+        [null,<embers:plate_iron>,null],
+        [<embers:plate_iron>,<embers:crystal_ember>,<embers:plate_iron>],
+        [null,<embers:plate_iron>,null]
     ]
 };
 
