@@ -201,6 +201,17 @@ function addRecipes(){
         {
             "silver" : 3 to 7
         });
+    Alchemy.add(<ore:gemLapis>.firstItem,
+        [
+            <ore:gemDiamond>,
+            <minecraft:water_bucket>,
+            <contenttweaker:bottled_ash>,
+            <minecraft:dye:15>,
+            <ore:gunpowder>
+        ],
+        {
+            "silver" : 3 to 7
+        });
     Alchemy.add(<item:minecraft:fish:3>*4,
         [
             <item:trapexpansion:spike_trap>,
