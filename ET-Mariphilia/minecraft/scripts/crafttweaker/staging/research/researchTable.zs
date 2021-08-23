@@ -24,7 +24,7 @@ function init(){
         .build();
 
     ResearchTable.builder("基础材料学", c)
-        .setRequiredStages("超频时间","灰烬学").setIcons(<ore:ingotAshenMetal>.firstItem)
+        .setRequiredStages("灰烬学").setIcons(<ore:ingotAshenMetal>.firstItem)
         .setTitle("etm.research.basic_materials_science.title")
         .setDescription("etm.research.basic_materials_science.description")
         .addCondition(
@@ -44,7 +44,7 @@ function init(){
         .build();
 
     ResearchTable.builder("基础信号学", c)
-        .setRequiredStages("超频时间","基础材料学").setIcons(<item:minecraft:redstone_torch>)
+        .setRequiredStages("基础材料学").setIcons(<item:minecraft:redstone_torch>)
         .setTitle("etm.research.basic_IT.title")
         .setDescription("etm.research.basic_IT.description")
         .addCondition(
@@ -58,7 +58,7 @@ function init(){
         .build();
 
     ResearchTable.builder("进阶信号学", c)
-        .setRequiredStages("超频时间","基础信号学").setIcons(<contenttweaker:basic_sensor>)
+        .setRequiredStages("基础信号学").setIcons(<contenttweaker:basic_sensor>)
         .setTitle("etm.research.advanced_IT.title")
         .setDescription("etm.research.advanced_IT.description")
         .addCondition(
@@ -73,7 +73,7 @@ function init(){
         .build();
 
     ResearchTable.builder("基础物流学", c)
-        .setRequiredStages("超频时间","基础材料学").setIcons(<wopper:wopper>)
+        .setRequiredStages("基础材料学").setIcons(<wopper:wopper>)
         .setTitle("etm.research.basic_logistics.title")
         .setDescription("etm.research.basic_logistics.description")
         .addCondition(
@@ -88,7 +88,7 @@ function init(){
         .build();
 
     ResearchTable.builder("进阶物流学", c)
-        .setRequiredStages("超频时间","基础物流学","基础信号学").setIcons(<embers:item_transfer>)
+        .setRequiredStages("基础物流学","基础信号学").setIcons(<embers:item_transfer>)
         .setTitle("etm.research.advanced_logistics.title")
         .setDescription("etm.research.advanced_logistics.description")
         .addCondition(
@@ -104,7 +104,7 @@ function init(){
         .build();
 
     ResearchTable.builder("生物学", c)
-        .setRequiredStages("超频时间","基础材料学").setIcons(<ore:cropWheat>.firstItem)
+        .setRequiredStages("基础材料学").setIcons(<ore:cropWheat>.firstItem)
         .setTitle("etm.research.biology.title")
         .setDescription("etm.research.biology.description")
         .addCondition(
@@ -120,7 +120,7 @@ function init(){
         .build();
 
     ResearchTable.builder("植物学", c)
-        .setRequiredStages("超频时间","生物学").setIcons(<ore:cropCarrot>.firstItem)
+        .setRequiredStages("生物学").setIcons(<ore:cropCarrot>.firstItem)
         .setTitle("etm.research.botany.title")
         .setDescription("etm.research.botany.description")
         .addCondition(
@@ -135,7 +135,7 @@ function init(){
         .build();
 
     ResearchTable.builder("基础怪物学", c)
-        .setRequiredStages("超频时间","生物学").setIcons(<item:minecraft:rotten_flesh>)
+        .setRequiredStages("生物学").setIcons(<item:minecraft:rotten_flesh>)
         .setTitle("etm.research.basic_mobiology.title")
         .setDescription("etm.research.basic_mobiology.description")
         .addCondition(
@@ -150,7 +150,7 @@ function init(){
         .build();
 
     ResearchTable.builder("动物学", c)
-        .setRequiredStages("超频时间","植物学").setIcons(<minecraft:beef>)
+        .setRequiredStages("植物学").setIcons(<minecraft:beef>)
         .setTitle("etm.research.zoology.title")
         .setDescription("etm.research.zoology.description")
         .addCondition(
