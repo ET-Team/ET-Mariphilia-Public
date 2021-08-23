@@ -168,7 +168,7 @@ function init(){
     //第三章
 
     ResearchTable.builder("进阶材料学", c)
-        .setRequiredStages("超频时间","进阶物流学","基础怪物学").setIcons(<ore:ingotCompressedAshMetal>.firstItem)
+        .setRequiredStages("进阶物流学","基础怪物学").setIcons(<ore:ingotCompressedAshMetal>.firstItem)
         .setTitle("etm.research.advanced_materials_science.title")
         .setDescription("etm.research.advanced_materials_science.description")
         .addCondition(
