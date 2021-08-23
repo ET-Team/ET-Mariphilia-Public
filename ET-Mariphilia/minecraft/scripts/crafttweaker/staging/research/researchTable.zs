@@ -188,7 +188,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-灰烬能量真空压缩机", c)
-        .setRequiredStages("超频时间","进阶材料学").setIcons(<item:modularmachinery:itemblueprint>)
+        .setRequiredStages("进阶材料学").setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.compressor.title")
         .setDescription("etm.research.compressor.description")
         .addCondition(
@@ -201,7 +201,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-医药实验室", c)
-        .setRequiredStages("超频时间","进阶材料学").setIcons(<item:modularmachinery:itemblueprint>)
+        .setRequiredStages("进阶材料学").setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.med_lab.title")
         .setDescription("etm.research.med_lab.description")
         .addCondition(
@@ -239,7 +239,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-灰烬能量涡轮", c)
-        .setRequiredStages("超频时间","基础电学")
+        .setRequiredStages("基础电学")
         .setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.turbo.title")
         .setDescription("etm.research.turbo.description")
@@ -258,7 +258,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-大型离心机", c)
-        .setRequiredStages("超频时间","基础电学")
+        .setRequiredStages("基础电学")
         .setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.centrifuge.title")
         .setDescription("etm.research.centrifuge.description")
@@ -274,7 +274,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-装配机", c)
-        .setRequiredStages("超频时间","基础电学")
+        .setRequiredStages("基础电学")
         .setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.assembler.title")
         .setDescription("etm.research.assembler.description")
@@ -290,7 +290,7 @@ function init(){
         .build();
 
     ResearchTable.builder("物流信号学", c)
-        .setRequiredStages("超频时间","基础电学")
+        .setRequiredStages("基础电学")
         .setIcons(<item:appliedenergistics2:controller>)
         .setTitle("etm.research.logistic_IT.title")
         .setDescription("etm.research.logistic_IT.description")
@@ -307,7 +307,7 @@ function init(){
         .build();
 
     ResearchTable.builder("进阶电学", c)
-        .setRequiredStages("超频时间","基础电学")
+        .setRequiredStages("基础电学")
         .setIcons(<mekanism:machineblock3>)
         .setTitle("etm.research.advanced_electricity.title")
         .setDescription("etm.research.advanced_electricity.description")
@@ -324,7 +324,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-深海物质聚集器", c)
-        .setRequiredStages("超频时间","进阶电学")
+        .setRequiredStages("进阶电学")
         .setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.aggregator.title")
         .setDescription("etm.research.aggregator.description")
@@ -339,7 +339,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-电磁实验装置", c)
-        .setRequiredStages("超频时间","进阶电学")
+        .setRequiredStages("进阶电学")
         .setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.electric_coil.title")
         .setDescription("etm.research.electric_coil.description")
@@ -354,7 +354,7 @@ function init(){
         .build();
 
     ResearchTable.builder("空间学", c)
-        .setRequiredStages("超频时间","进阶电学")
+        .setRequiredStages("进阶电学")
         .setIcons(<mekanism:machineblock3>)
         .setTitle("etm.research.spacialogy.title")
         .setDescription("etm.research.spacialogy.description")
@@ -370,7 +370,7 @@ function init(){
         .build();
 
     ResearchTable.builder("自动化", c)
-        .setRequiredStages("超频时间","物流信号学")
+        .setRequiredStages("物流信号学")
         .setIcons(<appliedenergistics2:encoded_pattern>)
         .setTitle("etm.research.automation.title")
         .setDescription("etm.research.automation.description")
