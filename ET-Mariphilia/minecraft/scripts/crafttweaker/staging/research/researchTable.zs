@@ -188,7 +188,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-灰烬能量真空压缩机", c)
-        .setRequiredStages("超频时间","进阶材料学").setIcons(<item:modularmachinery:itemblueprint>)
+        .setRequiredStages("进阶材料学").setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.compressor.title")
         .setDescription("etm.research.compressor.description")
         .addCondition(
@@ -201,7 +201,7 @@ function init(){
         .build();
 
     ResearchTable.builder("机械-医药实验室", c)
-        .setRequiredStages("超频时间","进阶材料学").setIcons(<item:modularmachinery:itemblueprint>)
+        .setRequiredStages("进阶材料学").setIcons(<item:modularmachinery:itemblueprint>)
         .setTitle("etm.research.med_lab.title")
         .setDescription("etm.research.med_lab.description")
         .addCondition(
