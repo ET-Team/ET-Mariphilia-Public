@@ -597,7 +597,34 @@ static recipes as IItemStack[][int][int][IItemStack] = {
         100 : {
             500 : [<appliedenergistics2:material:34>,<contenttweaker:ember_triode>,<appliedenergistics2:material:39>]
         }
+    },
+    <stevescarts:cartmodule:27> : {
+        100 : {
+            100 : [<appliedenergistics2:part:180>,<stevescarts:cartmodule:26>,<contenttweaker:basic_sensor>*4,<appliedenergistics2:material:23>*2,<appliedenergistics2:material:22>*2]
+        }
+    },
+    <stevescarts:cartmodule:85> : {
+        100 : {
+            100 : [<stevescarts:modulecomponents:83>*4,<contenttweaker:advanced_transmission>]
+        }
+    },
+    <stevescarts:cartmodule:29> : {
+        100 : {
+            100 : [<contenttweaker:material_part:94>*4,<contenttweaker:advanced_transmission>,<minecraft:dispenser>,<appliedenergistics2:material:22>*2]
+        }
+    },
+    <stevescarts:cartmodule:12> : {
+        100 : {
+            100 : [<openblocks:builder_guide>,<embers:intelligent_apparatus>,<contenttweaker:basic_sensor>*6,<mekanism:controlcircuit>*5]
+        }
+    },
+    <stevescarts:cartmodule:11> : {
+        100 : {
+            100 : [<minecraft:rail>*6,<embers:intelligent_apparatus>,<contenttweaker:basic_sensor>*6,<mekanism:controlcircuit>*5]
+        }
     }
+
+
 
 };
 

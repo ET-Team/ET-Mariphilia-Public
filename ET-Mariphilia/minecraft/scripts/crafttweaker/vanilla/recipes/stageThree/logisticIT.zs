@@ -82,6 +82,17 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
             [<contenttweaker:material_part:92>,<contenttweaker:basic_sensor>,<contenttweaker:material_part:92>],
             [<contenttweaker:material_part:92>,<minecraft:emerald>,<contenttweaker:material_part:92>],
             [<contenttweaker:material_part:92>,<appliedenergistics2:material:23>,<contenttweaker:material_part:92>]
+        ],
+        <stevescarts:modulecomponents:83>*2 : [
+            [null,<ore:plateAshenMetal>,null],
+            [<ore:plateAshenMetal>,<ore:plateAshenMetal>,<ore:plateAshenMetal>],
+            [<ore:plateAshenMetal>,<ore:plateAshenMetal>,<ore:plateAshenMetal>]
+        ],
+        <stevescarts:cartmodule:95> : [
+            [<contenttweaker:material_part:92>,<stevescarts:cartmodule:63>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<contenttweaker:life_essence>,<contenttweaker:material_part:92>],
+            [<contenttweaker:material_part:92>,<stevescarts:cartmodule:63>,<contenttweaker:material_part:92>],
+
         ]
     };
 
