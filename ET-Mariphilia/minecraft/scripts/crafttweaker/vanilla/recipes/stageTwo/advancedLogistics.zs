@@ -8,6 +8,17 @@ static stageName as string = "进阶物流学";
 
 //有序合成
 static shapedRecipes as IIngredient[][][IItemStack] = {
+    
+    <bdsandm:metal_crate> : [
+        [<ore:ingotIron>,<ore:plateLead>,<ore:ingotIron>],
+        [<ore:plateLead>,<bdsandm:wood_crate>,<ore:plateLead>],
+        [<ore:ingotIron>,<ore:plateLead>,<ore:ingotIron>]
+    ],
+    <bdsandm:wood_crate> : [
+        [<ore:logWood>,<ore:plankWood>,<ore:logWood>],
+        [<ore:plankWood>,<ore:chestWood>,<ore:plankWood>],
+        [<ore:logWood>,<ore:plankWood>,<ore:logWood>]
+    ],
     <item:bdsandm:metal_crate>*4 : [
         [<ore:ingotAshenMetal>,<bdsandm:wood_crate>,<ore:ingotAshenMetal>],
         [<bdsandm:wood_crate>,<ore:ingotAshenMetal>,<bdsandm:wood_crate>],

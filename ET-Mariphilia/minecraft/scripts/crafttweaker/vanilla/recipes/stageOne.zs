@@ -35,12 +35,6 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
 
     <contenttweaker:compact_ash> : recipeCompactAsh,
 
-    <bdsandm:wood_crate> : [
-        [<ore:logWood>,<ore:plankWood>,<ore:logWood>],
-        [<ore:plankWood>,<ore:chestWood>,<ore:plankWood>],
-        [<ore:logWood>,<ore:plankWood>,<ore:logWood>]
-    ],
-
     <contenttweaker:fiber_string>.withAmount(paramStringAmountFromFiber) : [[<contenttweaker:plant_fiber>,<contenttweaker:plant_fiber>,<contenttweaker:plant_fiber>]],
 
     <minecraft:tnt>.withAmount(paramTNTAmountFromAsh) : [
@@ -309,11 +303,6 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     <item:minecraft:iron_bars>*6 : [
         [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>],
         [<ore:ingotIron>,<ore:ingotIron>,<ore:ingotIron>]
-    ],
-    <bdsandm:metal_crate> : [
-        [<ore:ingotIron>,<ore:plateLead>,<ore:ingotIron>],
-        [<ore:plateLead>,<bdsandm:wood_crate>,<ore:plateLead>],
-        [<ore:ingotIron>,<ore:plateLead>,<ore:ingotIron>]
     ],
     <embers:block_tank> : [
         [<embers:brick_caminite>,null,<embers:brick_caminite>],
