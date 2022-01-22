@@ -96,7 +96,7 @@ static shapedRecipes as IIngredient[][][IItemStack] = {
     <minecraft:wooden_pressure_plate> : [
         [<ore:plankWood>,<ore:plankWood>],
     ],
-    <minecraft:trapdoor> : [
+    <minecraft:trapdoor>*2 : [
         [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
         [<ore:plankWood>,<ore:plankWood>,<ore:plankWood>],
     ],
