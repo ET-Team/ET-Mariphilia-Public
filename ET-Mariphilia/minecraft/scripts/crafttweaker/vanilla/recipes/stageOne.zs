@@ -493,6 +493,16 @@ static mirroredRecipes as IIngredient[][][IItemStack] = {
     <minecraft:flint_and_steel> : [
         [null,<ore:plateIron>],
         [<minecraft:flint>,null]
+    ],
+    <waterstrainer:strainer_survivalist_solid> : [
+        [<contenttweaker:ash_ingot>,<embers:ingot_lead>,<contenttweaker:ash_ingot>],
+        [<embers:ingot_lead>,<waterstrainer:net>,<embers:ingot_lead>],
+        [<contenttweaker:ash_ingot>,<embers:ingot_lead>,<contenttweaker:ash_ingot>]
+    ],
+    <waterstrainer:strainer_survivalist_dense_solid> : [
+        [<contenttweaker:ash_ingot>,<embers:ingot_lead>,<contenttweaker:ash_ingot>],
+        [<embers:ingot_lead>,<waterstrainer:net:1>,<embers:ingot_lead>],
+        [<contenttweaker:ash_ingot>,<embers:ingot_lead>,<contenttweaker:ash_ingot>]
     ]
 
 
