@@ -37,7 +37,16 @@ static recipes as ILiquidStack[IItemStack] = {
     <contenttweaker:obsidian_ash> : <fluid:obsidian>*12,
     <ore:ingotAshenMetal>.firstItem : <fluid:ashen_metal>*144,
     <ore:plateAshenMetal>.firstItem : <fluid:ashen_metal>*144,
-    <minecraft:ender_pearl> : <fluid:resonant_ender>*200
+    <minecraft:ender_pearl> : <fluid:resonant_ender>*200,
+    <aquaculture:neptunium_helmet> : <fluid:neptunium>*432,
+    <aquaculture:neptunium_chestplate> : <fluid:neptunium>*576,
+    <aquaculture:neptunium_leggings> : <fluid:neptunium>*576,
+    <aquaculture:neptunium_boots> : <fluid:neptunium>*432,
+    <aquaculture:neptunium_pickaxe> : <fluid:neptunium>*288,
+    <aquaculture:neptunium_shovel> : <fluid:neptunium>*144,
+    <aquaculture:neptunium_axe> : <fluid:neptunium>*432,
+    <aquaculture:neptunium_hoe> : <fluid:neptunium>*288,
+    <aquaculture:neptunium_sword> : <fluid:neptunium>*144
 };
 
 function addMelterRecipe(liquid as ILiquidStack, item as IItemStack){
