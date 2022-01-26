@@ -49,5 +49,10 @@
 		uid: "f3af9a14",
 		type: "item",
 		item: "embers:axe_clockwork"
+	},
+	{
+		uid: "d7be17c9",
+		type: "item",
+		item: "minecraft:writable_book"
 	}]
 }
