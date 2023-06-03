@@ -112,7 +112,13 @@ static stageNameOverclocked as string = stagingUtil.getOverclockStage(stageName)
         <stevescarts:cartmodule:26> : [
             [<embers:crystal_ember>],
             [<contenttweaker:material_part:95>]
+        ],
+         <stevescarts:upgrade:11> : [
+            [<minecraft:crafting_table>],
+            [<mekanism:controlcircuit:1>],
+            [<contenttweaker:basic_transmission>]
         ]
+
 
     };
 
