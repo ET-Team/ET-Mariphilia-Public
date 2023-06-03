@@ -28,6 +28,32 @@ function buildPlainItem(name as string){
 	buildItem(name, 64, "COMMON", false);
 }
 
+val stageNotes = {
+	"灰烬学" : "note_stage_1",
+	"基础材料学" : "note_stage_2",
+	"基础信号学" : "note_stage_3",
+	"进阶信号学" : "note_stage_4",
+	"基础物流学" : "note_stage_5",
+	"进阶物流学" : "note_stage_6",
+	"生物学" : "note_stage_7",
+	"植物学" : "note_stage_8",
+	"基础怪物学" : "note_stage_9",
+	"动物学" : "note_stage_10",
+	"进阶材料学" : "note_stage_11",
+	"基础电学" : "note_stage_12",
+	"物流信号学" : "note_stage_13",
+	"进阶电学" : "note_stage_14",
+	"空间学" : "note_stage_15",
+	"自动化" : "note_stage_16",
+	"进阶怪物学" : "note_stage_17",
+	"分子材料学" : "note_stage_18",
+	"高能物理学" : "note_stage_19",
+	"标准灰烬学" : "note_stage_20",
+	"标准怪物学" : "note_stage_21",
+	"夸克材料学" : "note_stage_22",
+	"哲学" : "note_stage_23",
+} as string[string]
+
 static plainItemList as string[] = [
 	"solidified_ash",
 	"ash_string",
@@ -75,7 +101,8 @@ static plainItemList as string[] = [
 	"biodata_golem",
 	"biodata_wither",
 	"electricity_meter",
-	"heart_of_atum"
+	"heart_of_atum",
+
 ];
 
 
@@ -91,4 +118,9 @@ function init(){
 		buildPlainItem(item);
 	}
 	buildStamps();
+
+	for key, value in stageNotes{
+		buildItem(value, 1, "UNCOMMON", false);
+	}
 }
+
