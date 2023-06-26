@@ -28,7 +28,7 @@ function buildPlainItem(name as string){
 	buildItem(name, 64, "COMMON", false);
 }
 
-val stageNotes = {
+static stageNotes as string[string] = {
 	"灰烬学" : "note_stage_1",
 	"基础材料学" : "note_stage_2",
 	"基础信号学" : "note_stage_3",
@@ -52,7 +52,7 @@ val stageNotes = {
 	"标准怪物学" : "note_stage_21",
 	"夸克材料学" : "note_stage_22",
 	"哲学" : "note_stage_23",
-} as string[string]
+};
 
 static plainItemList as string[] = [
 	"solidified_ash",

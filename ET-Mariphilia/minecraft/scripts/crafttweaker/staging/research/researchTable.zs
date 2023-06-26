@@ -1,9 +1,36 @@
 #priority -700
 import mods.ResearchTable;
+import crafttweaker.item.IItemStack;
 
 static fireworks_big as string = "summon fireworks_rocket ~ ~2 ~ {LifeTime:30,FireworksItem:{id:fireworks,Count:2,tag:{Fireworks:{Flight:2,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532,2437522,8073150,14188952,4312372,14602026,15435844,15790320],FadeColors:[I;5320730,14188952,15435844,15790320]},{Type:2,Flicker:1,Trail:1,Colors:[I;6719955],FadeColors:[I;2651799]}]}}}}";
 static sound as  string = "playsound minecraft:ui.toast.challenge_complete player @s";
 static fireworks_small as string = "summon fireworks_rocket ~ ~2 ~ {LifeTime:30,FireworksItem:{id:fireworks,Count:1,tag:{Fireworks:{Flight:1,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;11743532,3887386,2437522,8073150,4408131,14188952,4312372,14602026,15435844,15790320],FadeColors:[I;2437522,14188952,4312372,14602026]}]}}}}";
+
+static stageNotes as IItemStack[string] = {
+	"灰烬学" : <contenttweaker:note_stage_1>,
+	"基础材料学" : <contenttweaker:note_stage_2>,
+	"基础信号学" : <contenttweaker:note_stage_3>,
+	"进阶信号学" : <contenttweaker:note_stage_4>,
+	"基础物流学" : <contenttweaker:note_stage_5>,
+	"进阶物流学" : <contenttweaker:note_stage_6>,
+	"生物学" : <contenttweaker:note_stage_7>,
+	"植物学" : <contenttweaker:note_stage_8>,
+	"基础怪物学" : <contenttweaker:note_stage_9>,
+	"动物学" : <contenttweaker:note_stage_10>,
+	"进阶材料学" : <contenttweaker:note_stage_11>,
+	"基础电学" : <contenttweaker:note_stage_12>,
+	"物流信号学" : <contenttweaker:note_stage_13>,
+	"进阶电学" : <contenttweaker:note_stage_14>,
+	"空间学" : <contenttweaker:note_stage_15>,
+	"自动化" : <contenttweaker:note_stage_16>,
+	"进阶怪物学" : <contenttweaker:note_stage_17>,
+	"分子材料学" : <contenttweaker:note_stage_18>,
+	"高能物理学" : <contenttweaker:note_stage_19>,
+	"标准灰烬学" : <contenttweaker:note_stage_20>,
+	"标准怪物学" : <contenttweaker:note_stage_21>,
+	"夸克材料学" : <contenttweaker:note_stage_22>,
+	"哲学" : <contenttweaker:note_stage_23>,
+};
 
 function title(stage as string){
     return "title @s title {\"text\":\"恭喜，您已解锁 "+stage+" ！\"}";
@@ -543,30 +570,4 @@ function init(){
         
 }
 
-
-val stageNotes = {
-	"灰烬学" : <contenttweaker:note_stage_1>,
-	"基础材料学" : <contenttweaker:note_stage_2>,
-	"基础信号学" : <contenttweaker:note_stage_3>,
-	"进阶信号学" : <contenttweaker:note_stage_4>,
-	"基础物流学" : <contenttweaker:note_stage_5>,
-	"进阶物流学" : <contenttweaker:note_stage_6>,
-	"生物学" : <contenttweaker:note_stage_7>,
-	"植物学" : <contenttweaker:note_stage_8>,
-	"基础怪物学" : <contenttweaker:note_stage_9>,
-	"动物学" : <contenttweaker:note_stage_10>,
-	"进阶材料学" : <contenttweaker:note_stage_11>,
-	"基础电学" : <contenttweaker:note_stage_12>,
-	"物流信号学" : <contenttweaker:note_stage_13>,
-	"进阶电学" : <contenttweaker:note_stage_14>,
-	"空间学" : <contenttweaker:note_stage_15>,
-	"自动化" : <contenttweaker:note_stage_16>,
-	"进阶怪物学" : <contenttweaker:note_stage_17>,
-	"分子材料学" : <contenttweaker:note_stage_18>,
-	"高能物理学" : <contenttweaker:note_stage_19>,
-	"标准灰烬学" : <contenttweaker:note_stage_20>,
-	"标准怪物学" : <contenttweaker:note_stage_21>,
-	"夸克材料学" : <contenttweaker:note_stage_22>,
-	"哲学" : <contenttweaker:note_stage_23>,
-} as IItemStack[string]
 
